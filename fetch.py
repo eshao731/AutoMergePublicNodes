@@ -929,11 +929,26 @@ def find_clash_executable() -> Optional[str]:
 
     return None
 
-def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, test_url: str = "http://www.gstatic.com/generate_204") -> Dict[int, Node]:
+def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, test_urls: Optional[List[str]] = None, max_retries: int = 2) -> Dict[int, Node]:
     """
     使用Clash API测试节点延迟
     这是最准确的测试方法，会实际通过代理发送请求
+
+    参数:
+        nodes_dict: 节点字典
+        max_delay: 最大延迟（毫秒）
+        test_urls: 测试URL列表，会依次尝试直到成功
+        max_retries: 每个URL的最大重试次数
     """
+    # 默认使用多个测试URL，提高测试成功率
+    if test_urls is None:
+        test_urls = [
+            "http://www.gstatic.com/generate_204",
+            "http://cp.cloudflare.com/generate_204",
+            "http://www.apple.com/library/test/success.html",
+            "http://captive.apple.com/hotspot-detect.html"
+        ]
+
     clash_bin = find_clash_executable()
     if not clash_bin:
         print("=" * 60)
@@ -958,6 +973,7 @@ def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, te
                 proxies.append(node.clash_data)
                 node_names[node.data['name']] = (hash_id, node)
 
+        # 完善的Clash配置，包含DNS设置
         config = {
             'port': 17890,
             'socks-port': 17891,
@@ -965,6 +981,21 @@ def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, te
             'mode': 'global',
             'log-level': 'silent',
             'external-controller': '127.0.0.1:19090',
+            'dns': {
+                'enable': True,
+                'listen': '0.0.0.0:1053',
+                'enhanced-mode': 'fake-ip',
+                'nameserver': [
+                    '223.5.5.5',
+                    '119.29.29.29',
+                    '8.8.8.8',
+                    '1.1.1.1'
+                ],
+                'fallback': [
+                    'https://1.1.1.1/dns-query',
+                    'https://dns.google/dns-query'
+                ]
+            },
             'proxies': proxies
         }
 
@@ -981,8 +1012,8 @@ def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, te
 
         # 等待Clash启动并检查API是否可用
         api_base = 'http://127.0.0.1:19090'
-        max_retries = 10
-        for i in range(max_retries):
+        startup_retries = 15
+        for i in range(startup_retries):
             try:
                 response = requests.get(f"{api_base}/version", timeout=1)
                 if response.status_code == 200:
@@ -999,37 +1030,79 @@ def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, te
         total = len(node_names)
         tested = 0
         valid = 0
+        error_stats: Dict[str, int] = {}
 
-        print(f"开始测试 {total} 个节点的延迟（超时时间: {max_delay}ms，测试URL: {test_url}）...")
+        print(f"开始测试 {total} 个节点的延迟")
+        print(f"  - 超时时间: {max_delay}ms")
+        print(f"  - 测试URL: {len(test_urls)}个备选")
+        print(f"  - 重试次数: {max_retries}次")
+        print("-" * 60)
 
         for name, (hash_id, node) in node_names.items():
             tested += 1
-            try:
-                # URL编码节点名称
-                from urllib.parse import quote as url_quote
-                encoded_name = url_quote(name)
-                url = f"{api_base}/proxies/{encoded_name}/delay?timeout={max_delay}&url={test_url}"
+            node_valid = False
+            best_delay = None
+            last_error = None
 
-                response = requests.get(url, timeout=max_delay/1000.0 + 5)
+            # URL编码节点名称
+            from urllib.parse import quote as url_quote
+            encoded_name = url_quote(name)
 
-                if response.status_code == 200:
-                    data = response.json()
-                    delay = data.get('delay', 0)
-                    if delay > 0 and delay <= max_delay:
-                        valid += 1
-                        valid_nodes[hash_id] = node
-                        print(f"[{tested}/{total}] ✓ {name[:40]} - {delay}ms", flush=True)
-                    else:
-                        print(f"[{tested}/{total}] ✗ {name[:40]} - 超时或延迟过高", flush=True)
-                else:
-                    error_msg = response.json().get('message', 'API错误') if response.text else 'API错误'
-                    print(f"[{tested}/{total}] ✗ {name[:40]} - {error_msg}", flush=True)
-            except requests.exceptions.Timeout:
-                print(f"[{tested}/{total}] ✗ {name[:40]} - 请求超时", flush=True)
-            except Exception as e:
-                print(f"[{tested}/{total}] ✗ {name[:40]} - {str(e)[:30]}", flush=True)
+            # 尝试多个测试URL
+            for test_url in test_urls:
+                if node_valid:
+                    break
 
-        print(f"\nClash延迟测试完成！有效节点: {valid}/{total} ({valid*100//total if total > 0 else 0}%)")
+                # 对每个URL进行重试
+                for retry in range(max_retries):
+                    try:
+                        url = f"{api_base}/proxies/{encoded_name}/delay?timeout={max_delay}&url={test_url}"
+                        response = requests.get(url, timeout=max_delay/1000.0 + 10)
+
+                        if response.status_code == 200:
+                            data = response.json()
+                            delay = data.get('delay', 0)
+                            if delay > 0 and delay <= max_delay:
+                                valid += 1
+                                valid_nodes[hash_id] = node
+                                node_valid = True
+                                best_delay = delay
+                                print(f"[{tested}/{total}] ✓ {name[:40]} - {delay}ms", flush=True)
+                                break
+                            else:
+                                last_error = f"延迟过高({delay}ms)"
+                        else:
+                            try:
+                                error_data = response.json()
+                                last_error = error_data.get('message', f'HTTP {response.status_code}')
+                            except:
+                                last_error = f'HTTP {response.status_code}'
+
+                    except requests.exceptions.Timeout:
+                        last_error = "请求超时"
+                    except requests.exceptions.ConnectionError:
+                        last_error = "连接错误"
+                    except Exception as e:
+                        last_error = str(e)[:50]
+
+                    # 如果不是最后一次重试，稍微等待一下
+                    if not node_valid and retry < max_retries - 1:
+                        time.sleep(0.3)
+
+            # 如果所有URL都失败，输出错误信息
+            if not node_valid:
+                error_key = last_error if last_error else "未知错误"
+                error_stats[error_key] = error_stats.get(error_key, 0) + 1
+                print(f"[{tested}/{total}] ✗ {name[:40]} - {last_error}", flush=True)
+
+        print("-" * 60)
+        print(f"Clash延迟测试完成！有效节点: {valid}/{total} ({valid*100//total if total > 0 else 0}%)")
+
+        # 输出错误统计
+        if error_stats:
+            print("\n错误统计:")
+            for error, count in sorted(error_stats.items(), key=lambda x: x[1], reverse=True):
+                print(f"  - {error}: {count}次")
 
         return valid_nodes
 
@@ -1085,14 +1158,19 @@ def filter_nodes_by_delay_tcp(nodes_dict: Dict[int, Node], max_delay: float = 1.
     print(f"\nTCP连通性测试完成！有效节点: {valid}/{total}")
     return valid_nodes
 
-def filter_nodes_by_delay(nodes_dict: Dict[int, Node], max_delay: float = 1.0, max_workers: int = 50, use_clash: bool = True) -> Dict[int, Node]:
+def filter_nodes_by_delay(nodes_dict: Dict[int, Node], max_delay: float = 1.0, max_workers: int = 50, use_clash: bool = True, test_urls: Optional[List[str]] = None) -> Dict[int, Node]:
     """
     测试节点延迟并过滤
-    use_clash=True: 使用Clash API测试（推荐）
-    use_clash=False: 使用TCP连接测试
+
+    参数:
+        nodes_dict: 节点字典
+        max_delay: 最大延迟（秒），对于Clash测试会转换为毫秒
+        max_workers: TCP测试的并发数
+        use_clash: True=使用Clash API测试（推荐），False=使用TCP连接测试
+        test_urls: Clash测试使用的URL列表
     """
     if use_clash:
-        return test_nodes_with_clash(nodes_dict, max_delay=int(max_delay*1000))
+        return test_nodes_with_clash(nodes_dict, max_delay=int(max_delay*1000), test_urls=test_urls)
     else:
         return filter_nodes_by_delay_tcp(nodes_dict, max_delay=max_delay, max_workers=max_workers)
 
@@ -1293,7 +1371,9 @@ def main():
     # 测试节点延迟并过滤无效节点
     if merged and not STOP:
         print("\n" + "="*60)
-        merged = filter_nodes_by_delay(merged, max_delay=1.0, max_workers=50)
+        # 增加超时时间到2秒，提高测试成功率
+        # 使用多个测试URL，适应不同网络环境
+        merged = filter_nodes_by_delay(merged, max_delay=2.0, max_workers=50)
         print("="*60)
 
     print("\n正在写出 V2Ray 订阅...")
