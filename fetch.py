@@ -23,6 +23,12 @@ import threading
 import sys
 import os
 import copy
+import socket
+import time
+import subprocess
+import tempfile
+import shutil
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from types import FunctionType as function
 from typing import Set, List, Dict, Tuple, Union, Callable, Any, Optional, no_type_check
 
@@ -865,6 +871,231 @@ def raw2fastly(url: str) -> str:
         return "https://ghproxy.cn/"+url
     return url
 
+def test_node_delay(node: Node, timeout: float = 1.0) -> Optional[float]:
+    """
+    测试节点的TCP连接延迟
+    返回延迟时间（秒），失败返回None
+    """
+    try:
+        server = node.data.get('server')
+        port = node.data.get('port')
+
+        if not server or not port:
+            return None
+
+        # 尝试将端口转换为整数
+        try:
+            port = int(port)
+        except (ValueError, TypeError):
+            return None
+
+        # 测试TCP连接
+        start_time = time.time()
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.settimeout(timeout)
+
+        try:
+            sock.connect((server, port))
+            delay = time.time() - start_time
+            sock.close()
+            return delay
+        except (socket.timeout, socket.error, OSError):
+            return None
+        finally:
+            try:
+                sock.close()
+            except:
+                pass
+    except Exception:
+        return None
+
+def find_clash_executable() -> Optional[str]:
+    """
+    查找系统中的Clash可执行文件
+    优先使用环境变量CLASH_BINARY指定的路径
+    """
+    # 优先使用环境变量指定的路径
+    clash_binary = os.environ.get('CLASH_BINARY')
+    if clash_binary and os.path.isfile(clash_binary) and os.access(clash_binary, os.X_OK):
+        return clash_binary
+
+    # 在PATH中查找
+    possible_names = ['mihomo', 'clash-meta', 'clash.meta', 'clash']
+
+    for name in possible_names:
+        path = shutil.which(name)
+        if path:
+            return path
+
+    return None
+
+def test_nodes_with_clash(nodes_dict: Dict[int, Node], max_delay: int = 1000, test_url: str = "http://www.gstatic.com/generate_204") -> Dict[int, Node]:
+    """
+    使用Clash API测试节点延迟
+    这是最准确的测试方法，会实际通过代理发送请求
+    """
+    clash_bin = find_clash_executable()
+    if not clash_bin:
+        print("=" * 60)
+        print("警告：未找到Clash可执行文件")
+        print("将使用TCP连接测试（不如Clash API测试准确）")
+        print("提示：在GitHub Actions中会自动下载mihomo进行测试")
+        print("=" * 60)
+        return filter_nodes_by_delay_tcp(nodes_dict, max_delay=max_delay/1000.0)
+
+    print(f"使用 {os.path.basename(clash_bin)} 测试节点延迟（这可能需要几分钟）...")
+
+    # 创建临时目录和配置文件
+    temp_dir = tempfile.mkdtemp(prefix='clash_test_')
+    config_path = os.path.join(temp_dir, 'config.yaml')
+
+    try:
+        # 生成Clash配置
+        proxies = []
+        node_names = {}
+        for hash_id, node in nodes_dict.items():
+            if node.supports_meta():
+                proxies.append(node.clash_data)
+                node_names[node.data['name']] = (hash_id, node)
+
+        config = {
+            'port': 17890,
+            'socks-port': 17891,
+            'allow-lan': False,
+            'mode': 'global',
+            'log-level': 'silent',
+            'external-controller': '127.0.0.1:19090',
+            'proxies': proxies
+        }
+
+        with open(config_path, 'w', encoding='utf-8') as f:
+            yaml.dump(config, f, allow_unicode=True)
+
+        # 启动Clash进程
+        print(f"启动Clash进程...")
+        process = subprocess.Popen(
+            [clash_bin, '-d', temp_dir, '-f', config_path],
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE
+        )
+
+        # 等待Clash启动并检查API是否可用
+        api_base = 'http://127.0.0.1:19090'
+        max_retries = 10
+        for i in range(max_retries):
+            try:
+                response = requests.get(f"{api_base}/version", timeout=1)
+                if response.status_code == 200:
+                    print(f"Clash已启动，版本: {response.json().get('version', 'unknown')}")
+                    break
+            except:
+                pass
+            time.sleep(0.5)
+        else:
+            print("警告：Clash启动超时，但仍尝试测试节点...")
+
+        # 测试节点
+        valid_nodes: Dict[int, Node] = {}
+        total = len(node_names)
+        tested = 0
+        valid = 0
+
+        print(f"开始测试 {total} 个节点的延迟（超时时间: {max_delay}ms，测试URL: {test_url}）...")
+
+        for name, (hash_id, node) in node_names.items():
+            tested += 1
+            try:
+                # URL编码节点名称
+                from urllib.parse import quote as url_quote
+                encoded_name = url_quote(name)
+                url = f"{api_base}/proxies/{encoded_name}/delay?timeout={max_delay}&url={test_url}"
+
+                response = requests.get(url, timeout=max_delay/1000.0 + 5)
+
+                if response.status_code == 200:
+                    data = response.json()
+                    delay = data.get('delay', 0)
+                    if delay > 0 and delay <= max_delay:
+                        valid += 1
+                        valid_nodes[hash_id] = node
+                        print(f"[{tested}/{total}] ✓ {name[:40]} - {delay}ms", flush=True)
+                    else:
+                        print(f"[{tested}/{total}] ✗ {name[:40]} - 超时或延迟过高", flush=True)
+                else:
+                    error_msg = response.json().get('message', 'API错误') if response.text else 'API错误'
+                    print(f"[{tested}/{total}] ✗ {name[:40]} - {error_msg}", flush=True)
+            except requests.exceptions.Timeout:
+                print(f"[{tested}/{total}] ✗ {name[:40]} - 请求超时", flush=True)
+            except Exception as e:
+                print(f"[{tested}/{total}] ✗ {name[:40]} - {str(e)[:30]}", flush=True)
+
+        print(f"\nClash延迟测试完成！有效节点: {valid}/{total} ({valid*100//total if total > 0 else 0}%)")
+
+        return valid_nodes
+
+    finally:
+        # 清理
+        try:
+            process.terminate()
+            process.wait(timeout=5)
+        except:
+            try:
+                process.kill()
+            except:
+                pass
+
+        try:
+            shutil.rmtree(temp_dir)
+        except:
+            pass
+
+def filter_nodes_by_delay_tcp(nodes_dict: Dict[int, Node], max_delay: float = 1.0, max_workers: int = 50) -> Dict[int, Node]:
+    """
+    使用TCP连接测试节点延迟（备用方案）
+    """
+    valid_nodes: Dict[int, Node] = {}
+    total = len(nodes_dict)
+    tested = 0
+    valid = 0
+
+    print(f"开始测试 {total} 个节点的TCP连通性（超时时间: {max_delay}秒）...")
+
+    def test_single_node(item: Tuple[int, Node]) -> Tuple[int, Node, Optional[float]]:
+        hash_id, node = item
+        delay = test_node_delay(node, timeout=max_delay)
+        return hash_id, node, delay
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(test_single_node, item): item for item in nodes_dict.items()}
+
+        for future in as_completed(futures):
+            tested += 1
+            try:
+                hash_id, node, delay = future.result()
+
+                if delay is not None:
+                    valid += 1
+                    valid_nodes[hash_id] = node
+                    print(f"[{tested}/{total}] ✓ {node.data['name'][:30]} - {int(delay*1000)}ms", flush=True)
+                else:
+                    print(f"[{tested}/{total}] ✗ {node.data['name'][:30]} - 连接失败", flush=True)
+            except Exception as e:
+                print(f"[{tested}/{total}] ✗ 测试出错: {e}", flush=True)
+
+    print(f"\nTCP连通性测试完成！有效节点: {valid}/{total}")
+    return valid_nodes
+
+def filter_nodes_by_delay(nodes_dict: Dict[int, Node], max_delay: float = 1.0, max_workers: int = 50, use_clash: bool = True) -> Dict[int, Node]:
+    """
+    测试节点延迟并过滤
+    use_clash=True: 使用Clash API测试（推荐）
+    use_clash=False: 使用TCP连接测试
+    """
+    if use_clash:
+        return test_nodes_with_clash(nodes_dict, max_delay=int(max_delay*1000))
+    else:
+        return filter_nodes_by_delay_tcp(nodes_dict, max_delay=max_delay, max_workers=max_workers)
+
 def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
     print("正在解析 Adblock 列表... ", end='', flush=True)
     blocked: Set[str] = set()
@@ -1058,6 +1289,12 @@ def main():
         merged = {}
         for nid, nd in enumerate(STOP_FAKE_NODES.splitlines()):
             merged[nid] = Node(nd)
+
+    # 测试节点延迟并过滤无效节点
+    if merged and not STOP:
+        print("\n" + "="*60)
+        merged = filter_nodes_by_delay(merged, max_delay=1.0, max_workers=50)
+        print("="*60)
 
     print("\n正在写出 V2Ray 订阅...")
     txt = ""
@@ -1270,7 +1507,4 @@ def main():
 
 if __name__ == '__main__':
     from dynamic import AUTOURLS, AUTOFETCH # type: ignore
-    AUTOFUNTYPE = Callable[[], Union[str, List[str], Tuple[str], Set[str], None]]
-    AUTOURL: List[AUTOFUNTYPE]
-    AUTOFETCH: List[AUTOFUNTYPE]
     main()

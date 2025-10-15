@@ -29,6 +29,16 @@ jobs:
         cache: 'pip'
     - name: 安装依赖
       run: pip install -r requirements.txt
+    - name: 下载 Mihomo (Clash Meta)
+      run: |
+        echo "下载 Mihomo 用于节点延迟测试..."
+        MIHOMO_VERSION="v1.18.10"
+        MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+        wget -q "${MIHOMO_URL}" -O mihomo.gz
+        gunzip mihomo.gz
+        chmod +x mihomo
+        ./mihomo -v
+        echo "CLASH_BINARY=$(pwd)/mihomo" >> $GITHUB_ENV
     - name: 执行任务
       run: python ./fetch.py
       
