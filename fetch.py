@@ -1271,6 +1271,44 @@ def merge_adblock(adblock_name: str, rules: Dict[str, str]) -> None:
 
     print(f"共有 {len(rules)} 条规则")
 
+def load_previous_nodes() -> List[str]:
+    """
+    从之前生成的结果文件中加载节点
+    返回节点URL列表
+    """
+    previous_nodes: List[str] = []
+
+    # 尝试从 list.meta.yml 读取节点
+    try:
+        print("正在读取之前的节点结果 (list.meta.yml)... ", end='', flush=True)
+        with open("list.meta.yml", encoding="utf-8") as f:
+            content = f.read()
+            # 跳过第一行的时间戳注释
+            if content.startswith('#'):
+                content = '\n'.join(content.split('\n')[1:])
+            config = yaml.full_load(content)
+            if config and 'proxies' in config:
+                proxies = config['proxies']
+                print(f"找到 {len(proxies)} 个节点")
+                # 将 Clash 格式的节点转换回 Node 对象
+                for proxy in proxies:
+                    try:
+                        node = Node(proxy)
+                        previous_nodes.append(node.url)
+                    except Exception as e:
+                        # 忽略无法转换的节点
+                        pass
+                print(f"成功加载 {len(previous_nodes)} 个之前的节点")
+            else:
+                print("文件为空或格式不正确")
+    except FileNotFoundError:
+        print("未找到之前的结果文件")
+    except Exception as e:
+        print(f"读取失败: {e}")
+        traceback.print_exc()
+
+    return previous_nodes
+
 def main():
     global exc_queue, merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
@@ -1282,6 +1320,14 @@ def main():
         # !!! JUST FOR DEBUGING !!!
         print("!!! 警告：您已选择不抓取动态节点 !!!")
         AUTOURLS = AUTOFETCH = []
+
+    # 加载之前的节点结果
+    previous_nodes = load_previous_nodes()
+    if previous_nodes:
+        print(f"将重新测试 {len(previous_nodes)} 个之前的节点")
+        # 将之前的节点添加到源列表中（作为内存中的源）
+        # 这样它们会和新采集的节点一起被处理
+
     print("正在生成动态链接...")
     for auto_fun in AUTOURLS:
         print("正在生成 '"+auto_fun.__name__+"'... ", end='', flush=True)
@@ -1382,6 +1428,31 @@ def main():
             break
         while exc_queue:
             print(exc_queue.pop(0), file=sys.stderr, flush=True)
+
+    # 合并之前的节点（直接处理，不需要通过Source对象）
+    if previous_nodes:
+        print(f"\n正在合并之前的 {len(previous_nodes)} 个节点... ", end='', flush=True)
+        # 直接遍历之前的节点URL并合并
+        previous_count = 0
+        for node_url in previous_nodes:
+            try:
+                n = Node(node_url)
+                n.format_name()
+                Node.names.add(n.data['name'])
+                hashn = hash(n)
+                if hashn not in merged:
+                    # 只有当节点不存在时才添加（新采集的节点优先）
+                    merged[hashn] = n
+                    previous_count += 1
+                    # 记录这个节点来自"之前的结果"（使用特殊的sourceId=-1）
+                    if hashn not in used:
+                        used[hashn] = {}
+                    used[hashn][-1] = n.name
+                # else: 节点已存在（新采集的源中也有这个节点），保留新的，不做任何操作
+            except Exception as e:
+                # 忽略无法解析的节点
+                pass
+        print(f"完成！新增 {previous_count} 个之前的节点（去重后）")
 
     if STOP:
         merged = {}
