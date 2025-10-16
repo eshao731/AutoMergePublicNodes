@@ -1,10 +1,4 @@
 proxies:
-- name: '0,4,15|SG_speednode_0020 | uu6.top #2'
-  password: installshield
-  port: 8443
-  server: 38.180.106.124
-  skip-cert-verify: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: '1|🇸🇬 新加坡3 | uu6.top #1'
@@ -17,6 +11,12 @@ proxies:
   server: 5.44.249.43
   tfo: false
   type: ss
+- name: '4,15|SG_speednode_0020 | uu6.top #1'
+  password: installshield
+  port: 8443
+  server: 38.180.106.124
+  skip-cert-verify: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 42|🇸🇬 SG 025 | ⬇️ 2.59 | uu6.top
   password: X2UQXuTGxwxE1ZMaTQwtxS
@@ -24,7 +24,7 @@ proxies:
   server: 174.138.29.1
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 49|SG_f05ca_0010 | uu6.top
+  name: 49|SG_7ba39_0010 | uu6.top
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:

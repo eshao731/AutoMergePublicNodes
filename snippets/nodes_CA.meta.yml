@@ -26,3 +26,36 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 50|🇨🇦 加拿大 07 | uu6.top
+  password: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+  port: 13805
+  server: 40.233.75.30
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 50|🇨🇦 加拿大 01 | uu6.top
+  password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  port: 45979
+  server: 40.233.96.158
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 50|🇨🇦 加拿大 02 | uu6.top
+  network: tcp
+  port: 26113
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+  server: 40.233.96.158
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+  ws-opts:
+    headers:
+      Host: www.yahoo.com
+    path: '%2F'
