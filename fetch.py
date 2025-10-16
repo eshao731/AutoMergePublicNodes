@@ -236,7 +236,11 @@ class Node:
                 if key in VMESS2CLASH:
                     self.data[VMESS2CLASH[key]] = val
             self.data['tls'] = (v['tls'] == 'tls')
-            self.data['alterId'] = int(self.data['alterId'])
+            # 安全地转换 alterId，处理无效值
+            try:
+                self.data['alterId'] = int(self.data['alterId'])
+            except (ValueError, KeyError):
+                self.data['alterId'] = 0  # 默认值为 0
             if v['net'] == 'ws':
                 opts = {}
                 if 'path' in v:
@@ -271,11 +275,11 @@ class Node:
             if not ':' in info:
                 info = b64decodes_safe(info)
             if ':' in info:
-                cipher, passwd = info.split(':')
+                cipher, passwd = info.split(':', 1)  # 使用 maxsplit=1 来处理密码中包含 : 的情况
             else:
                 cipher = info
                 passwd = ''
-            self.data = {'name': unquote(name), 'server': server, 
+            self.data = {'name': unquote(name), 'server': server,
                     'port': port, 'type': 'ss', 'password': passwd, 'cipher': cipher}
 
         elif self.type == 'ssr':
@@ -341,7 +345,9 @@ class Node:
             self.data['tls'] = False
             if parsed.query:
                 for kv in parsed.query.split('&'):
-                    k,v = kv.split('=')
+                    if '=' not in kv:
+                        continue
+                    k, v = kv.split('=', 1)  # 使用 maxsplit=1 来处理值中包含 = 的情况
                     if k in ('allowInsecure', 'insecure'):
                         self.data['skip-cert-verify'] = (v != '0')
                     elif k == 'sni': self.data['servername'] = v
@@ -399,7 +405,7 @@ class Node:
                 k = v = ''
                 for kv in parsed.query.split('&'):
                     if '=' in kv:
-                        k,v = kv.split('=')
+                        k, v = kv.split('=', 1)  # 使用 maxsplit=1 来处理值中包含 = 的情况
                     else:
                         v += '&' + kv
                     if k == 'insecure':
@@ -758,7 +764,12 @@ class Source():
                     sub = text.strip().splitlines()
                 else:
                     # V2Ray Sub
-                    sub = b64decodes(text.strip()).strip().splitlines()
+                    try:
+                        sub = b64decodes(text.strip()).strip().splitlines()
+                    except (UnicodeDecodeError, binascii.Error) as e:
+                        exc_queue.append(f"base64 解码失败: {type(e).__name__}")
+                        self.sub = []
+                        return
             else: sub = text # 动态节点抓取后直接传入列表
 
             if 'max' in self.cfg and len(sub) > self.cfg['max']:
@@ -846,7 +857,13 @@ def merge(source_obj: Source, sourceId=-1) -> None:
             if len(e.args) == 1:
                 print(f"不支持的类型：{e}")
             unknown.add(p) # type: ignore
-        except: traceback.print_exc()
+        except Exception as e:
+            # 打印错误类型和简短信息
+            error_type = type(e).__name__
+            error_msg = str(e)
+            # 打印解析失败的数据（截取前100个字符）
+            data_preview = str(p)[:100] if isinstance(p, str) else str(p)[:100]
+            print(f"解析节点失败 ({error_type}: {error_msg}) - 数据: {data_preview}", flush=True)
         else:
             n.format_name()
             Node.names.add(n.data['name'])
