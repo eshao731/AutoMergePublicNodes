@@ -1,19 +1,7 @@
 proxies:
-- client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
-- client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: 39|US | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 54.82.229.122
+  type: ss
