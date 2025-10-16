@@ -423,21 +423,51 @@ class Node:
 
         self.data['name'] = self.name
 
-        # 1. 去除节点名称中的广告（括号内包含域名的内容）
-        # 匹配各种括号内包含域名的广告
+        # 1. 去除节点名称中的广告
+
+        # 1.1 去除括号内包含域名的广告
         ad_patterns = [
-            r'\([^)]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^)]*\)',  # 英文括号
-            r'（[^）]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^）]*）',  # 中文括号
-            r'\[[^\]]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^\]]*\]',  # 方括号
-            r'【[^】]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^】]*】',  # 中文方括号
+            r'\([^)]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work|to)[^)]*\)',  # 英文括号
+            r'（[^）]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work|to)[^）]*）',  # 中文括号
+            r'\[[^\]]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work|to)[^\]]*\]',  # 方括号
+            r'【[^】]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work|to)[^】]*】',  # 中文方括号
         ]
 
         for pattern in ad_patterns:
             self.data['name'] = re.sub(pattern, '', self.data['name'], flags=re.IGNORECASE)
 
-        # 清理多余的空格和特殊字符
+        # 1.2 去除直接包含的网址（如：官网❶https://kelayu 或 官网❷https://99z.to）
+        # 匹配 http:// 或 https:// 开头的网址，以及前面可能的文字
+        url_patterns = [
+            r'@\w+',
+            r'机场',
+            r'机场推荐',
+            r'https?://[^\s]+',  # 匹配完整的URL
+            r'官网[❶❷❸❹❺❻❼❽❾❿⓵⓶⓷⓸⓹⓺⓻⓼⓽⓾①②③④⑤⑥⑦⑧⑨⑩\d]*[^\s]*',  # 匹配"官网"及其后面的内容
+            r'[^\s]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work|to)/?[^\s]*',  # 匹配域名
+        ]
+
+        for pattern in url_patterns:
+            self.data['name'] = re.sub(pattern, '', self.data['name'], flags=re.IGNORECASE)
+
+        # 1.3 去除恶意文字和不良内容
+        # 只删除恶意词汇本身，不删除整个词组
+        offensive_words = [
+            r'只.*?不.*?买.*?的.*',  # "只...不买的..."句式（放在最前面，优先匹配）
+            r'白嫖[^\s]*',  # 白嫖及其后续
+            r'死.*?家',  # 死全家等
+            r'傻[逼比]',  # 脏话
+            r'[操草][你泥][妈吗马]',  # 脏话
+            r'滚蛋',  # 不礼貌词汇
+            r'不买的.*',  # "不买的..."
+        ]
+
+        for pattern in offensive_words:
+            self.data['name'] = re.sub(pattern, '', self.data['name'], flags=re.IGNORECASE)
+
+        # 清理多余的空格和特殊字符（包括常见的广告emoji）
         self.data['name'] = ' '.join(self.data['name'].split())
-        self.data['name'] = self.data['name'].strip(' -_|')
+        self.data['name'] = self.data['name'].strip(' -_|👖🎁🎉🎊💎⭐🌟✨')
 
         # 2. 使用原有的 BANNED_WORDS 过滤
         for word in BANNED_WORDS:
