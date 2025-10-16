@@ -13,32 +13,6 @@ proxies:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
 - alterId: 2
   cipher: auto
-  name: 3|香港 电讯盈科有限公司 | uu6.top
-  network: ws
-  port: 80
-  server: 9def5c5d-t398g0-tdnzz0-1qtp7.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '3|香港 电讯盈科有限公司 | uu6.top #2'
-  network: ws
-  port: 80
-  server: be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: '3|香港 电讯盈科有限公司 | uu6.top #1'
   network: ws
   port: 30807
@@ -50,6 +24,19 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 3|香港 电讯盈科有限公司 | uu6.top
+  network: ws
+  port: 80
+  server: 9def5c5d-t398g0-tdnzz0-1qtp7.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: '5,7,9,25|HK香港 | uu6.top #75'
   network: tcp
   port: 46822
@@ -88,10 +75,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #82'
+- name: '5,9,25|HK香港 | uu6.top #80'
   network: ws
-  port: 12457
-  server: 223.16.138.113
+  port: 26398
+  server: 60.249.114.181
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -99,7 +86,19 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '5,9,25|HK香港 | uu6.top #83'
+  network: ws
+  port: 26666
+  server: 43.154.124.136
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
 - name: '5,9,25|HK香港 | uu6.top #85'
   network: ws
   port: 443
@@ -148,13 +147,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '5,7,9,25|HK香港 | uu6.top #89'
-  network: tcp
-  port: 29495
-  server: 89.44.242.222
-  tls: false
-  type: vless
-  uuid: 4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b
 - name: '5,9,25|HK香港 | uu6.top #90'
   network: ws
   port: 7000
@@ -179,6 +171,13 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '5,7,9,25|HK香港 | uu6.top #89'
+  network: tcp
+  port: 29495
+  server: 89.44.242.222
+  tls: false
+  type: vless
+  uuid: 4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b
 - name: '5,9,25|HK香港 | uu6.top #92'
   network: ws
   port: 48130
@@ -251,18 +250,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #98'
-  network: ws
-  port: 443
-  server: 47.57.13.107
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9,25|HK香港 | uu6.top #100'
   network: ws
   port: 443
@@ -275,18 +262,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9,25|HK香港 | uu6.top #99'
-  network: ws
-  port: 30011
-  server: 156.254.114.120
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9,25|HK香港 | uu6.top #101'
   network: ws
   port: 35951
@@ -299,6 +274,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '5,9,25|HK香港 | uu6.top #102'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
 - name: '5,9,25|HK香港 | uu6.top #103'
   network: ws
   port: 12355
@@ -323,18 +310,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '5,9,25|HK香港 | uu6.top #102'
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
 - name: '5,9,25|HK香港 | uu6.top #106'
   network: ws
   port: 2096
@@ -347,34 +322,18 @@ proxies:
     headers:
       Host: vless.muzheng.top
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- alterId: 2
-  cipher: auto
-  name: '34,37,43|🇭🇰 香港 电讯盈科有限公司 | uu6.top #3'
+- name: '5,9,25|HK香港 | uu6.top #107'
   network: ws
-  port: '80'
-  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  port: 25435
+  server: 8.222.220.81
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: '2'
-  cipher: auto
-  name: 37|🇭🇰 香港_2 | uu6.top
-  network: ws
-  port: '80'
-  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - alterId: 2
   cipher: auto
   name: '41,42,43|🇭🇰 香港 电讯盈科有限公司 | uu6.top #1'
@@ -390,6 +349,45 @@ proxies:
     headers:
       Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 43|🇭🇰 香港 电讯盈科有限公司 | uu6.top
+  network: ws
+  port: '80'
+  server: 54d2d7fc-t3kcg0-tdnzz0-1qtp7.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 43,48|HK_7ba39_0004 | uu6.top
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 48|HK_7ba39_0005 | uu6.top
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
 - name: 49|🇭🇰 香港家宽 50 | uu6.top
   password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
   port: 443
@@ -398,32 +396,10 @@ proxies:
   sni: 4c9f6972-t46kg0-t9uin7-19ord.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 51 | uu6.top
-  password: 715a2574-9c25-11eb-8673-f23c9164ca5d
-  port: 443
-  server: 03cc5bf5-t46kg0-t50m4g-xu74.hk2.hyhuawei.com
-  skip-cert-verify: false
-  sni: 03cc5bf5-t46kg0-t50m4g-xu74.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
 - name: 49|🇭🇰 香港家宽 43 | uu6.top
   password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c
   port: 443
   server: 768160b7-t4c4g0-t4qa9y-g43g.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 15 | uu6.top
-  password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
-  port: 443
-  server: 18b3d1b8-t4c4g0-taksay-1tcuf.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 45 | uu6.top
-  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
-  port: 443
-  server: 09cd806d-t4c4g0-tlm64c-xm0q.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -451,10 +427,17 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 27 | uu6.top
-  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
+- name: 49|🇭🇰 香港家宽 15 | uu6.top
+  password: 3952a514-eaa7-11ef-97da-f23c91cfbbc9
   port: 443
-  server: 3c26e40f-t4c4g0-tdh9w7-ahsb.hk2.hyhuawei.com
+  server: 18b3d1b8-t4c4g0-taksay-1tcuf.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 45 | uu6.top
+  password: 3437f34e-1b77-11eb-8684-f23c913c8d2b
+  port: 443
+  server: 09cd806d-t4c4g0-tlm64c-xm0q.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -472,11 +455,12 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 48 | uu6.top
-  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+- name: 49|🇭🇰 香港家宽 51 | uu6.top
+  password: 715a2574-9c25-11eb-8673-f23c9164ca5d
   port: 443
-  server: aa5feab8-t46kg0-t4ixjm-1hhyy.hk2.hyhuawei.com
+  server: 03cc5bf5-t46kg0-t50m4g-xu74.hk2.hyhuawei.com
   skip-cert-verify: false
+  sni: 03cc5bf5-t46kg0-t50m4g-xu74.hk2.hyhuawei.com
   tls: false
   type: hysteria2
 - name: 49|🇭🇰 香港家宽 11 | uu6.top
@@ -486,24 +470,17 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 12 | uu6.top
-  password: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
+- name: 49|🇭🇰 香港家宽 27 | uu6.top
+  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
   port: 443
-  server: a89e178b-t4c4g0-tk4rx8-1n7d9.hk2.hyhuawei.com
+  server: 3c26e40f-t4c4g0-tdh9w7-ahsb.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 34 | uu6.top
-  password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+- name: 49|🇭🇰 香港家宽 48 | uu6.top
+  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
   port: 443
-  server: 01d8c180-t4c4g0-tc0fos-8skf.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 02 | uu6.top
-  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
-  port: 443
-  server: 3d3bd19a-t4c4g0-tkka1f-1k25p.hk2.hyhuawei.com
+  server: aa5feab8-t46kg0-t4ixjm-1hhyy.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -514,10 +491,38 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 06 | uu6.top
-  password: 6e313598-a088-11ea-a22e-f23c91cfbbc9
+- name: 49|🇭🇰 香港家宽 12 | uu6.top
+  password: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
   port: 443
-  server: 4aeb3d55-t4c4g0-t6g8gl-ch5c.hk2.hyhuawei.com
+  server: a89e178b-t4c4g0-tk4rx8-1n7d9.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 17 | uu6.top
+  password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: a4a02c48-t4c4g0-tiqsce-t6fv.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 34 | uu6.top
+  password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  server: 01d8c180-t4c4g0-tc0fos-8skf.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 35 | uu6.top
+  password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  port: 443
+  server: 9fcf0f98-t4c4g0-t4ixjm-1hhyy.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 02 | uu6.top
+  password: 6e8482fb-1f9b-11ed-af5f-f23c91cfbbc9
+  port: 443
+  server: 3d3bd19a-t4c4g0-tkka1f-1k25p.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -528,6 +533,20 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 49|🇭🇰 香港家宽 46 | uu6.top
+  password: f7d95364-607b-11ee-93af-f23c91369f2d
+  port: 443
+  server: 6bbea878-t4a9s0-t9p7yj-1ijh5.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 06 | uu6.top
+  password: 6e313598-a088-11ea-a22e-f23c91cfbbc9
+  port: 443
+  server: 4aeb3d55-t4c4g0-t6g8gl-ch5c.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: 49|🇭🇰 香港家宽 21 | uu6.top
   password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
   port: 443
@@ -535,10 +554,10 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 05 | uu6.top
-  password: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
+- name: 49|🇭🇰 香港家宽 28 | uu6.top
+  password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
   port: 443
-  server: 2d823eb9-t4c4g0-tb36ag-1jfq7.hk2.hyhuawei.com
+  server: 40e3e2be-t4c4g0-tc67m2-1tjc4.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -550,6 +569,13 @@ proxies:
   sni: 7a3efa1b-t46kg0-t4f48b-1slop.hk2.hyhuawei.com
   tls: false
   type: hysteria2
+- name: 49|🇭🇰 香港家宽 05 | uu6.top
+  password: baa46fd6-63c1-11ed-8ea9-f23c913c8d2b
+  port: 443
+  server: 2d823eb9-t4c4g0-tb36ag-1jfq7.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: 49|🇭🇰 香港家宽 22 | uu6.top
   password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
   port: 443
@@ -557,55 +583,10 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 28 | uu6.top
-  password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
-  port: 443
-  server: 40e3e2be-t4c4g0-tc67m2-1tjc4.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 24 | uu6.top
-  password: 40d572ec-7f67-11ed-bf1f-f23c913c8d2b
-  port: 443
-  server: 28f63b0f-t4c4g0-t7x08i-1i87l.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 04 | uu6.top
-  password: 715a2574-9c25-11eb-8673-f23c9164ca5d
-  port: 443
-  server: 5326c154-t4c4g0-t50m4g-xu74.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 49|🇭🇰 香港 04 | uu6.top
-  network: tcp
-  port: 11648
-  reality-opts:
-    public-key: yHonIAdN6vFOc2iJYla5ICMfgJx537AA9GPG7EEI93w
-    short-id: ae4d6be4
-  server: 192.238.204.48
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 46092c5c-0f13-4242-8eb0-7d794d33e818
-  ws-opts:
-    headers:
-      Host: apple.com
-    path: '%2F'
 - name: 49|🇭🇰 香港家宽 37 | uu6.top
   password: 94614d84-9986-11ee-be7f-f23c9164ca5d
   port: 443
   server: 8032ae6b-t4c4g0-t7fl9b-1q16i.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 20 | uu6.top
-  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
-  port: 443
-  server: a4907b48-t4c4g0-t5j6xt-1fqef.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -621,17 +602,10 @@ proxies:
     headers:
       Host: freedom.pusytroller.cf
     path: '%2F'
-- name: 49|🇭🇰 香港家宽 18 | uu6.top
-  password: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
+- name: 49|🇭🇰 香港家宽 20 | uu6.top
+  password: 1239028c-a825-11ed-a0ca-f23c9164ca5d
   port: 443
-  server: 87091865-t4c4g0-t8tsp0-1szmi.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 40 | uu6.top
-  password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
-  port: 443
-  server: 4b42c147-t4c4g0-toa9ad-4w8.hk2.hyhuawei.com
+  server: a4907b48-t4c4g0-t5j6xt-1fqef.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -642,17 +616,10 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 01 | uu6.top
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+- name: 49|🇭🇰 香港家宽 18 | uu6.top
+  password: ba151628-b3a2-11ef-bdb9-f23c91cfbbc9
   port: 443
-  server: e9a65030-t4c4g0-t4cy3j-1qkeg.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 08 | uu6.top
-  password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-  port: 443
-  server: a8a1567a-t4c4g0-taklwz-12bd.hk1.hyhuawei.com
+  server: 87091865-t4c4g0-t8tsp0-1szmi.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -663,10 +630,10 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 19 | uu6.top
-  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+- name: 49|🇭🇰 香港家宽 08 | uu6.top
+  password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
   port: 443
-  server: 8b9e51f0-t4c4g0-t9uin7-19ord.hk2.hyhuawei.com
+  server: a8a1567a-t4c4g0-taklwz-12bd.hk1.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -677,10 +644,24 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 09 | uu6.top
-  password: 87b31a02-172e-11ee-a11f-f23c913c8d2b
+- name: 49|🇭🇰 香港家宽 40 | uu6.top
+  password: ba7a37e3-033a-e1ab-06f6-9027aa4630f5
   port: 443
-  server: fcdc0798-t4c4g0-thvc3p-1o4kv.hk2.hyhuawei.com
+  server: 4b42c147-t4c4g0-toa9ad-4w8.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 01 | uu6.top
+  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
+  port: 443
+  server: e9a65030-t4c4g0-t4cy3j-1qkeg.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 19 | uu6.top
+  password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: 8b9e51f0-t4c4g0-t9uin7-19ord.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -691,31 +672,10 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 39 | uu6.top
-  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+- name: 49|🇭🇰 香港家宽 09 | uu6.top
+  password: 87b31a02-172e-11ee-a11f-f23c913c8d2b
   port: 443
-  server: 6961a1d6-t4c4g0-t72h4q-1spnr.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 25 | uu6.top
-  password: f7d95364-607b-11ee-93af-f23c91369f2d
-  port: 443
-  server: e725c2c0-t4c4g0-t9p7yj-1ijh5.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港 09 | uu6.top
-  password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
-  port: 443
-  server: 73d02353-t4a9s0-t7uinf-i8ie.hk1.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 31 | uu6.top
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  server: 15d42d03-t4c4g0-t4v3jz-1k8ga.hk2.hyhuawei.com
+  server: fcdc0798-t4c4g0-thvc3p-1o4kv.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -726,7 +686,35 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|50|🇭🇰 香港 02 | uu6.top
+- name: 49|🇭🇰 香港家宽 39 | uu6.top
+  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  port: 443
+  server: 6961a1d6-t4c4g0-t72h4q-1spnr.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港 09 | uu6.top
+  password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
+  port: 443
+  server: 73d02353-t4a9s0-t7uinf-i8ie.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 25 | uu6.top
+  password: f7d95364-607b-11ee-93af-f23c91369f2d
+  port: 443
+  server: e725c2c0-t4c4g0-t9p7yj-1ijh5.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 31 | uu6.top
+  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
+  port: 443
+  server: 15d42d03-t4c4g0-t4v3jz-1k8ga.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: -1|49|🇭🇰 香港 02 | uu6.top
   network: ws
   port: 2095
   server: namemc.com
@@ -737,43 +725,35 @@ proxies:
     headers:
       Host: freedom.pusytroller.cf
     path: '%2Ffp=randomized'
-- name: '-1|1|1|1|1|50|🇭🇰 香港家宽 0 | uu6.top #1'
+- name: -1|1|1|1|1|1|50|🇭🇰 香港家宽 | uu6.top
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 443
   server: 52e09ed6-t4c4g0-t6570q-1q3dm.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|50|🇭🇰 香港 83 | uu6.top
-  password: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
-  port: 443
-  server: d54e3f58-t46kg0-t4vbi4-1lkbs.hk2.hyhuawei.com
-  skip-cert-verify: false
-  sni: d54e3f58-t46kg0-t4vbi4-1lkbs.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|50|🇭🇰 香港家宽 1 | uu6.top
-  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  port: 443
-  server: c3fe0eb7-t4c4g0-tbc0ig-1ssud.hk1.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|50|🇭🇰 香港家宽 0 | uu6.top
-  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  port: 443
-  server: ce526033-t4c4g0-t4i2d4-luwe.hk1.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|50|🇭🇰 香港 29 | uu6.top
+- name: -1|1|1|1|1|1|50|🇭🇰 香港 2 | uu6.top
   password: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
   port: 443
   server: bf034991-t4c4g0-tds6bp-1hzyr.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|50|🇭🇰 香港家宽 1 | uu6.top #1'
+- name: '-1|1|1|1|1|1|50|🇭🇰 香港家宽 | uu6.top #2'
+  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  port: 443
+  server: ce526033-t4c4g0-t4i2d4-luwe.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '-1|1|1|1|1|1|50|🇭🇰 香港家宽 | uu6.top #1'
+  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+  port: 443
+  server: c3fe0eb7-t4c4g0-tbc0ig-1ssud.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '-1|1|1|1|1|1|50|🇭🇰 香港家宽 | uu6.top #3'
   password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
   port: 443
   server: 320725f5-t4c4g0-t7pmvm-17xo8.hk1.hyhuawei.com
