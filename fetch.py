@@ -419,11 +419,45 @@ class Node:
         else: raise UnsupportedType(self.type)
 
     def format_name(self, max_len=30) -> None:
+        import re
+
         self.data['name'] = self.name
+
+        # 1. 去除节点名称中的广告（括号内包含域名的内容）
+        # 匹配各种括号内包含域名的广告
+        ad_patterns = [
+            r'\([^)]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^)]*\)',  # 英文括号
+            r'（[^）]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^）]*）',  # 中文括号
+            r'\[[^\]]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^\]]*\]',  # 方括号
+            r'【[^】]*\.(com|cn|net|top|xyz|org|cc|me|io|co|info|biz|vip|club|online|site|tech|store|fun|icu|link|pro|live|wang|work)[^】]*】',  # 中文方括号
+        ]
+
+        for pattern in ad_patterns:
+            self.data['name'] = re.sub(pattern, '', self.data['name'], flags=re.IGNORECASE)
+
+        # 清理多余的空格和特殊字符
+        self.data['name'] = ' '.join(self.data['name'].split())
+        self.data['name'] = self.data['name'].strip(' -_|')
+
+        # 2. 使用原有的 BANNED_WORDS 过滤
         for word in BANNED_WORDS:
             self.data['name'] = self.data['name'].replace(word, '*'*len(word))
-        if len(self.data['name']) > max_len:
-            self.data['name'] = self.data['name'][:max_len]+'...'
+
+        # 3. 添加品牌标识 uu6.top
+        # 使用后缀方式，不影响地区关键词识别
+        brand = "uu6.top"
+        # 计算添加品牌后的长度，确保不超过限制
+        if self.data['name']:
+            # 如果名称太短，直接添加；如果太长，先截断再添加
+            available_len = max_len - len(f" | {brand}")
+            if len(self.data['name']) > available_len:
+                self.data['name'] = self.data['name'][:available_len].rstrip()
+            self.data['name'] = f"{self.data['name']} | {brand}"
+        else:
+            # 如果名称为空，使用默认名称
+            self.data['name'] = f"未命名 | {brand}"
+
+        # 4. 处理重名
         if self.data['name'] in Node.names:
             i = 0
             new: str = self.data['name']
