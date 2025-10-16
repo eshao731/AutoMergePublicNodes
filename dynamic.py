@@ -75,10 +75,71 @@ def w1770946466():
 def peasoft():
     return session.get("https://gist.githubusercontent.com/peasoft/8a0613b7a2be881d1b793a6bb7536281/raw/").text
 
-AUTOURLS = []
+def mibei77():
+    """
+    从 mibei77.com 获取最新的节点订阅源
+    1. 访问首页获取最新文章链接
+    2. 访问文章页面获取订阅源链接
+    """
+    try:
+        # 第一步：访问首页获取最新文章链接
+        print("正在访问 mibei77.com 首页...", end='', flush=True)
+        res = session.get("https://www.mibei77.com/", timeout=10)
+        if res.status_code != 200:
+            print(f"失败 (HTTP {res.status_code})")
+            return None
+
+        # 使用正则匹配第一个文章链接
+        # 匹配类似：https://www.mibei77.com/2025/10/20251016268-1080p4k-v2rayclash-vpn.html
+        pattern = r'https://www\.mibei77\.com/\d{4}/\d{2}/\d+-.*?\.html'
+        match = re.search(pattern, res.text)
+
+        if not match:
+            print("未找到文章链接")
+            return None
+
+        article_url = match.group(0)
+        print(f"找到文章: {article_url}")
+
+        # 第二步：访问文章页面获取订阅源链接
+        print("正在获取订阅源链接...", end='', flush=True)
+        res = session.get(article_url, timeout=10)
+        if res.status_code != 200:
+            print(f"失败 (HTTP {res.status_code})")
+            return None
+
+        # 匹配订阅源链接
+        # 例如：https://mm.mibei77.com/202510/10.1664basgr.txt
+        #      https://mm.mibei77.com/202510/10.16Clashilz.yaml
+        pattern = r'https://mm\.mibei77\.com/\d+/[\w\.-]+\.(txt|yaml)'
+        matches = re.findall(pattern, res.text)
+
+        if not matches:
+            print("未找到订阅源链接")
+            return None
+
+        # 提取完整的URL（matches返回的是元组，需要重新匹配获取完整URL）
+        urls: Set[str] = set()
+        for match in re.finditer(pattern, res.text):
+            urls.add(match.group(0))
+
+        print(f"找到 {len(urls)} 个订阅源")
+        return list(urls)
+
+    except requests.exceptions.RequestException as e:
+        print(f"网络请求失败: {e}")
+        return None
+    except Exception as e:
+        print(f"发生错误: {e}")
+        import traceback
+        traceback.print_exc()
+        return None
+
+AUTOURLS = [mibei77]
 AUTOFETCH = [peasoft]
 
 if __name__ == '__main__':
+    mibei77()
     print("URL 抓取："+', '.join([_.__name__ for _ in AUTOURLS]))
     print("内容抓取："+', '.join([_.__name__ for _ in AUTOFETCH]))
     import code
