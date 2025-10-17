@@ -1,9 +1,9 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '3|香港 电讯盈科有限公司 | uu6.top #2'
+  name: 3,34,43|🇭🇰 香港 电讯盈科有限公司 | uu6.top
   network: ws
-  port: 80
+  port: '80'
   server: be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com
   tls: false
   type: vmess
@@ -12,8 +12,23 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: '2'
+  cipher: auto
+  name: 37|🇭🇰 香港_2 | uu6.top
+  network: ws
+  port: '80'
+  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
-  name: '40,41,46,47|香港4 | uu6.top #4'
+  name: '39,40,43,45,46|香港4 | uu6.top #4'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
@@ -23,7 +38,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 42,43,44,50|🇭🇰 香港家宽 182 | uu6.top
+  name: 41,42,49|🇭🇰 香港家宽 182 | uu6.top
   network: ws
   port: '80'
   server: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
@@ -36,3 +51,44 @@ proxies:
     headers:
       Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 48|HK_63f4b_0005 | uu6.top
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+- alterId: 2
+  cipher: auto
+  name: 48|HK_63f4b_0004 | uu6.top
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 48|HK_63f4b_0006 | uu6.top
+  network: http
+  port: 31212
+  server: 47.242.90.210
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
