@@ -1,4 +1,22 @@
 proxies:
+- auth: 30c075af-9555-4671-b70e-43e3cfb2e707
+  name: '0,4,36,39,40|🇩🇪 | uu6.top #6'
+  password: 30c075af-9555-4671-b70e-43e3cfb2e707
+  port: 7009
+  server: 31.57.241.25
+  skip-cert-verify: true
+  sni: d.eans.top
+  tls: false
+  type: hysteria2
+- auth: 30c075af-9555-4671-b70e-43e3cfb2e707
+  name: '0,4,36,39,40|🇩🇪 #1 | uu6.top #3'
+  password: 30c075af-9555-4671-b70e-43e3cfb2e707
+  port: 7009
+  server: d.eans.top
+  skip-cert-verify: true
+  sni: d.eans.top
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: '0,4,40,48,50|DE_speednode_0002 | uu6.top #3'
   port: 6666
@@ -12,7 +30,7 @@ proxies:
   type: vless
   udp: true
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: '5,9,25|DE德国 | uu6.top #6'
+- name: '5,9,25|DE德国 | uu6.top #7'
   network: ws
   port: 443
   server: 154.16.10.177
@@ -24,7 +42,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|DE德国 | uu6.top #7'
+- name: '5,9,25|DE德国 | uu6.top #9'
   network: ws
   port: 8080
   server: 85.208.104.34
@@ -74,6 +92,12 @@ proxies:
   sni: hsdg.huasuan666.top
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 38,41|🇩🇪 _DE_德国 | uu6.top
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.193
+  type: ss
 - name: 49|🇩🇪 德国 07 | uu6.top
   network: tcp
   port: 52289

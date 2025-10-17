@@ -1,5 +1,5 @@
 proxies:
-- name: '5,9,25|HK香港 | uu6.top #74'
+- name: '5,9,25|HK香港 | uu6.top #76'
   network: ws
   port: 2096
   server: 45.192.224.253
@@ -24,45 +24,34 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '5,7,9,25|HK香港 | uu6.top #75'
+- name: '5,7,9,25|HK香港 | uu6.top #86'
   network: tcp
   port: 46822
   server: 89.44.242.222
   tls: false
   type: vless
   uuid: 44aded6c-a012-452b-8e13-04d5f15a659f
-- name: '5,7,9,25|HK香港 | uu6.top #76'
+- alterId: 2
+  cipher: auto
+  name: '3|香港 电讯盈科有限公司 | uu6.top #2'
+  network: ws
+  port: 80
+  server: be4fe2f9-t3gn40-tdnzz0-1qtp7.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: '5,7,9|HK香港 | uu6.top #39'
   network: tcp
   port: 29500
   server: 89.44.242.222
   tls: false
   type: vless
   uuid: 888a20e2-fc3f-4f52-973c-36a6386225b8
-- name: '5,9,25|HK香港 | uu6.top #78'
-  network: ws
-  port: 443
-  server: 8.212.27.131
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #79'
-  network: ws
-  port: 81
-  server: 210.61.97.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #82'
+- name: '5,9|HK香港 | uu6.top #45'
   network: ws
   port: 12457
   server: 223.16.138.113
@@ -74,7 +63,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #85'
+- name: '5,9|HK香港 | uu6.top #48'
   network: ws
   port: 443
   server: 8.219.155.21
@@ -86,19 +75,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #87'
+- name: '5,9|HK香港 | uu6.top #49'
   network: ws
-  port: 12131
-  server: 43.156.107.236
-  servername: gaosir.unfeeling.sbs
+  port: 443
+  server: 202.85.53.74
+  servername: vless.pengjiajin.sbs
   tls: true
   type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
   ws-opts:
     headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #88'
+      Host: vless.pengjiajin.sbs
+    path: '%2Ffreecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '5,9|HK香港 | uu6.top #51'
   network: ws
   port: 33405
   server: 43.133.10.236
@@ -110,14 +99,26 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '5,7,9,25|HK香港 | uu6.top #89'
+- name: '5,9|HK香港 | uu6.top #50'
+  network: ws
+  port: 12131
+  server: 43.156.107.236
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '5,7,9|HK香港 | uu6.top #52'
   network: tcp
   port: 29495
   server: 89.44.242.222
   tls: false
   type: vless
   uuid: 4a0e3cf3-4a10-4a38-bba4-b17b592a0d2b
-- name: '5,9,25|HK香港 | uu6.top #90'
+- name: '5,9,25|US美国 | uu6.top #256'
   network: ws
   port: 7000
   server: 216.250.97.62
@@ -129,7 +130,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9,25|HK香港 | uu6.top #91'
+- name: '5,9,25|AU澳大利亚 | uu6.top #36'
   network: ws
   port: 443
   server: 43.134.164.53
@@ -141,19 +142,7 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #92'
-  network: ws
-  port: 48130
-  server: 8.219.59.132
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #94'
+- name: '5,9|HK香港 | uu6.top #57'
   network: ws
   port: 7000
   server: 175.29.23.5
@@ -165,7 +154,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9,25|HK香港 | uu6.top #93'
+- name: '5,9,25|US美国 | uu6.top #252'
   network: ws
   port: 443
   server: 160.22.79.166
@@ -177,10 +166,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #98'
+- name: '5,9,25|US美国 | uu6.top #240'
   network: ws
   port: 443
-  server: 47.57.13.107
+  server: 47.242.133.182
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -189,10 +178,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #99'
+- name: '5,9|HK香港 | uu6.top #58'
   network: ws
-  port: 30011
-  server: 156.254.114.120
+  port: 57537
+  server: 221.125.10.8
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -201,7 +190,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #100'
+- name: '5,9,25|HK香港 | uu6.top #80'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '5,9,25|US美国 | uu6.top #262'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -213,10 +214,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9,25|HK香港 | uu6.top #103'
+- name: '5,9|HK香港 | uu6.top #61'
   network: ws
-  port: 12355
-  server: 18.162.156.23
+  port: 443
+  server: 47.57.13.107
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -224,8 +225,20 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #102'
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '5,9,25|US美国 | uu6.top #276'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '5,9,25|US美国 | uu6.top #267'
   network: ws
   port: 35951
   server: 36.50.90.241
@@ -237,7 +250,31 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '5,9,25|HK香港 | uu6.top #106'
+- name: '5,9|HK香港 | uu6.top #66'
+  network: ws
+  port: 12355
+  server: 18.162.156.23
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '5,9,25|HK香港 | uu6.top #88'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '5,9,25|HK香港 | uu6.top #87'
   network: ws
   port: 2096
   server: 154.197.64.253
@@ -249,7 +286,7 @@ proxies:
     headers:
       Host: vless.muzheng.top
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9,25|HK香港 | uu6.top #107'
+- name: '5,9,25|US美国 | uu6.top #268'
   network: ws
   port: 25435
   server: 8.222.220.81
@@ -261,19 +298,90 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- alterId: 2
-  cipher: auto
-  name: '34|香港 电讯盈科有限公司 | uu6.top #3'
+- name: '25|HK香港 | uu6.top #74'
   network: ws
-  port: 80
-  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  port: 55007
+  server: 64.110.101.90
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #75'
+  network: ws
+  port: 54584
+  server: 168.138.192.16
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #77'
+  network: ws
+  port: 7000
+  server: 216.250.97.62
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '25|HK香港 | uu6.top #79'
+  network: ws
+  port: 12902
+  server: 8.210.96.197
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #82'
+  network: ws
+  port: 12457
+  server: 223.16.138.113
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #85'
+  network: ws
+  port: 12457
+  server: 223.16.138.113
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #89'
+  network: ws
+  port: 443
+  server: 64.110.106.47
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - alterId: '2'
   cipher: auto
   name: 37|🇭🇰 香港_2 | uu6.top
@@ -289,23 +397,15 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
-  cipher: none
-  client-fingerprint: chrome
-  name: '40,45,46|香港3 | uu6.top #4'
-  network: ws
-  port: '41199'
-  server: 38.55.106.62
-  servername: hk-vmiss-n4.nebulacloud.win
+- client-fingerprint: chrome
+  name: '39,40,45,46|香港4 | uu6.top #4'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 58.152.30.87
   skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e18650e9-264b-4bf7-bbce-d846642dcf26
-  ws-opts:
-    headers:
-      Host: hk-vmiss-n4.nebulacloud.win
-    path: /hk-vmiss-n4/getData
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 2
   cipher: auto
   name: 41,42,43,49|🇭🇰 香港家宽 182 | uu6.top
@@ -321,41 +421,6 @@ proxies:
     headers:
       Host: eb362f92-svukg0-t12cnj-1ol97.hk.p5pv.com
     path: /
-- client-fingerprint: chrome
-  name: '40,45,46|香港4 | uu6.top #4'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 443
-  server: 58.152.30.87
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 43,48|HK_63f4b_0004 | uu6.top
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 48|HK_63f4b_0005 | uu6.top
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
 - alterId: 2
   cipher: auto
   name: 43|🇭🇰 香港 电讯盈科有限公司 | uu6.top
@@ -369,6 +434,17 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: 48|HK_63f4b_0005 | uu6.top
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
 - name: 49|🇭🇰 香港 52 | uu6.top
   password: 602e99aa-718d-11eb-b77b-f23c913c8d2b
   port: 443
@@ -376,10 +452,10 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 159 | uu6.top
-  password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+- name: 49|🇭🇰 香港家宽 048 | uu6.top
+  password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
   port: 443
-  server: 28fdc740-t4a9s0-t7pmvm-17xo8.hk1.hyhuawei.com
+  server: 12b30af1-t4c4g0-t5nm0m-17z95.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -390,10 +466,17 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 162 | uu6.top
-  password: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+- name: 49|🇭🇰 香港家宽 159 | uu6.top
+  password: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
   port: 443
-  server: 5c4b36ce-t4a9s0-tbc0ig-1ssud.hk1.hyhuawei.com
+  server: 28fdc740-t4a9s0-t7pmvm-17xo8.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港家宽 027 | uu6.top
+  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  port: 443
+  server: 0640a94d-t4c4g0-t6eg6k-1pckg.hk1.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -405,31 +488,10 @@ proxies:
   sni: f9fd3c17-t46kg0-t7scm6-1o20w.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港 41 | uu6.top
-  password: b58095f0-52dc-11ef-bc74-f23c91cfbbc9
-  port: 443
-  server: cc6409a6-t4c4g0-tmynyz-1s3mx.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 027 | uu6.top
-  password: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  port: 443
-  server: 0640a94d-t4c4g0-t6eg6k-1pckg.hk1.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: 49|🇭🇰 香港家宽 022 | uu6.top
   password: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
   port: 443
   server: fb742e9c-t4c4g0-tcop2n-tl32.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 49|🇭🇰 香港家宽 084 | uu6.top
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  port: 443
-  server: c9f7bd80-t4c4g0-tfi5fd-1imi4.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -461,13 +523,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港家宽 168 | uu6.top
-  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-  port: 443
-  server: 7f0ce72b-t4a9s0-t72h4q-1spnr.hk1.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: 49|🇭🇰 香港家宽 176 | uu6.top
   password: 0a335fd6-be0b-11ec-8dfa-f23c91cfbbc9
   port: 443
@@ -482,10 +537,24 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 49|🇭🇰 香港家宽 168 | uu6.top
+  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  port: 443
+  server: 7f0ce72b-t4a9s0-t72h4q-1spnr.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: 49|🇭🇰 香港家宽 157 | uu6.top
   password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
   port: 443
   server: 6f27fed2-t4a9s0-thv9l4-1jbj0.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港 12 | uu6.top
+  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
+  port: 443
+  server: 178f53eb-t4c4g0-thv9l4-1jbj0.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -503,14 +572,35 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 49|🇭🇰 香港 60 | uu6.top
-  password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- name: 49|🇭🇰 香港 78 | uu6.top
+  password: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
   port: 443
-  server: e03327b3-t4c4g0-tee612-2r82.hk2.hyhuawei.com
+  server: 35384ca4-t46kg0-tb6yrr-1tfcw.hk2.hyhuawei.com
+  skip-cert-verify: false
+  sni: 35384ca4-t46kg0-tb6yrr-1tfcw.hk2.hyhuawei.com
+  tls: false
+  type: hysteria2
+- name: 49|🇭🇰 香港 27 | uu6.top
+  password: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+  port: 443
+  server: cdeb89c5-t4c4g0-taklwz-12bd.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 50 | uu6.top
+- alterId: 2
+  cipher: auto
+  name: '-1|34|香港 电讯盈科有限公司 | #3 | uu6.top'
+  network: ws
+  port: 80
+  server: 697dc551-t1i9s0-tm53cm-1ol97.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: -1|1|49|🇭🇰 香港家宽 50 | uu6.top
   password: dcdb1278-4b7d-11ed-bb74-f23c9164ca5d
   port: 443
   server: 4c9f6972-t46kg0-t9uin7-19ord.hk2.hyhuawei.com
@@ -518,67 +608,38 @@ proxies:
   sni: 4c9f6972-t46kg0-t9uin7-19ord.hk2.hyhuawei.com
   tls: false
   type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 10 | uu6.top
+- name: -1|1|49|🇭🇰 香港家宽 10 | uu6.top
   password: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
   port: 443
   server: 9a54b629-t4c4g0-t9eu8q-tlhh.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 17 | uu6.top
+- name: -1|1|49|🇭🇰 香港家宽 17 | uu6.top
   password: af7ddbb2-3567-11ec-bd7c-f23c913c8d2b
   port: 443
   server: a4a02c48-t4c4g0-tiqsce-t6fv.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 51 | uu6.top
-  password: 715a2574-9c25-11eb-8673-f23c9164ca5d
-  port: 443
-  server: 03cc5bf5-t46kg0-t50m4g-xu74.hk2.hyhuawei.com
-  skip-cert-verify: false
-  sni: 03cc5bf5-t46kg0-t50m4g-xu74.hk2.hyhuawei.com
-  tls: false
-  type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 34 | uu6.top
+- name: -1|1|49|🇭🇰 香港家宽 34 | uu6.top
   password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
   port: 443
   server: 01d8c180-t4c4g0-tc0fos-8skf.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 30 | uu6.top
-  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
-  port: 443
-  server: e0ebd39a-t4c4g0-t7scm6-1o20w.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 35 | uu6.top
+- name: -1|1|49|🇭🇰 香港家宽 35 | uu6.top
   password: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
   port: 443
   server: 9fcf0f98-t4c4g0-t4ixjm-1hhyy.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 21 | uu6.top
-  password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5dee2d91-t4c4g0-tfeciy-1iddy.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 44 | uu6.top
+- name: -1|1|49|🇭🇰 香港家宽 44 | uu6.top
   password: 9141f048-0b70-11ef-9eb1-f23c91cfbbc9
   port: 443
   server: 11b72742-t4c4g0-t6k7h7-1rcxl.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|49|🇭🇰 香港家宽 01 | uu6.top
-  password: a305ac08-d136-11ee-b6db-f23c91cfbbc9
-  port: 443
-  server: e9a65030-t4c4g0-t4cy3j-1qkeg.hk2.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2

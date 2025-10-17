@@ -1,5 +1,5 @@
 proxies:
-- name: '5,9,25|RU俄罗斯 | uu6.top #8'
+- name: '5,9|RU俄罗斯 | uu6.top #4'
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -13,18 +13,6 @@ proxies:
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
 - name: '5,9,25|RU俄罗斯 | uu6.top #9'
   network: ws
-  port: 8443
-  server: 2.56.91.89
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|RU俄罗斯 | uu6.top #10'
-  network: ws
   port: 2053
   server: 31.192.238.71
   servername: gaosir.unfeeling.sbs
@@ -35,7 +23,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,25|RU俄罗斯 | uu6.top #11'
+- name: '5,9,25|US美国 | uu6.top #238'
   network: ws
   port: 2053
   server: 194.36.179.5
@@ -60,6 +48,54 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /TelegramU0001F1E8U0001F1F3 @WangCai2 /?ed=2560fp=chrome
+- name: '25|RU俄罗斯 | uu6.top #8'
+  network: ws
+  port: 2053
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '25|RU俄罗斯 | uu6.top #10'
+  network: ws
+  port: 8443
+  server: 31.192.238.71
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '25|RU俄罗斯 | uu6.top #11'
+  network: ws
+  port: 2053
+  server: 194.36.179.5
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '25|RU俄罗斯 | uu6.top #13'
+  network: ws
+  port: 2053
+  server: 194.36.179.17
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - cipher: aes-256-cfb
   name: 38|🇺_RU | uu6.top
   password: SBM7R883jBmnqe6C
