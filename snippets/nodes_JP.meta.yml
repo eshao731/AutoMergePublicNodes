@@ -11,6 +11,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '5,9,25|JP日本 | uu6.top #24'
+  network: ws
+  port: 57517
+  server: 219.117.2.190
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9,25|JP日本 | uu6.top #25'
   network: ws
   port: 443
@@ -71,18 +83,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '5,9,25|JP日本 | uu6.top #30'
-  network: ws
-  port: 443
-  server: 13.230.34.30
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '5,9,25|JP日本 | uu6.top #31'
   network: ws
   port: 32954
@@ -107,6 +107,25 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- alterId: 0
+  cipher: auto
+  client-fingerprint: random
+  flow: ''
+  name: 33|🇯🇵 | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-blr1.258526.xyz
+  skip-cert-verify: true
+  sni: do-blr1.258526.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: do-blr1.258526.xyz
+    path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: random
@@ -144,25 +163,6 @@ proxies:
   ws-opts:
     headers:
       Host: do-sgp1.258526.xyz
-    path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 33|🇯🇵 | uu6.top
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: do-blr1.258526.xyz
-  skip-cert-verify: true
-  sni: do-blr1.258526.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
-  ws-opts:
-    headers:
-      Host: do-blr1.258526.xyz
     path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
@@ -221,6 +221,15 @@ proxies:
     headers:
       Host: oracle-kr-chuncheon.258526.xyz
     path: /freev2.net?ed=2048
+- name: 33,48,50|TW_speednode_0011 | uu6.top
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 0
   cipher: auto
   client-fingerprint: random
@@ -240,24 +249,24 @@ proxies:
     headers:
       Host: oracle-id-batam.258526.xyz
     path: /freev2.net?ed=2048
-- name: 33,48,50|TW_speednode_0011 | uu6.top
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
-  name: 49|🇯🇵 日本 02 | uu6.top
+- client-fingerprint: chrome
+  name: '40,45,46|日本2 | uu6.top #4'
   network: tcp
-  port: '23211'
-  server: tls.20.node-for-bigairport.win
-  tls: false
-  type: vmess
-  uuid: c69374da-2208-4cbd-b81e-cdf88b5e7f53
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 316
+  server: 160.16.106.144
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '40,45,46|日本3 | uu6.top #4'
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1331
+  server: 160.16.106.144
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
 - client-fingerprint: random
   name: '-1|33|🇯🇵 | #1 | uu6.top'
   network: ws
@@ -287,18 +296,18 @@ proxies:
       Host: do-sgp1.258526.xyz
     path: /freev2.net?ed=2048flow=-udp443
 - client-fingerprint: random
-  name: -1|33|🇯🇵解锁TikTok | uu6.top
+  name: -1|33|🇯🇵最高200元终身无限流量 | uu6.top
   network: ws
   port: 443
   server: www.visa.com.hk
-  servername: oracle-jp-osaka.258526.xyz
+  servername: do-fra1.258526.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
   ws-opts:
     headers:
-      Host: oracle-jp-osaka.258526.xyz
+      Host: do-fra1.258526.xyz
     path: /freev2.net?ed=2048flow=-udp443
 - client-fingerprint: random
   name: -1|33|🇯🇵 | uu6.top
@@ -315,6 +324,20 @@ proxies:
       Host: do-blr1.258526.xyz
     path: /freev2.net?ed=2048flow=-udp443
 - client-fingerprint: random
+  name: -1|33|🇯🇵解锁TikTok | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: oracle-jp-osaka.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: oracle-jp-osaka.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443
+- client-fingerprint: random
   name: -1|33|🇯🇵新疆西藏福建都能用 | uu6.top
   network: ws
   port: 443
@@ -327,20 +350,6 @@ proxies:
   ws-opts:
     headers:
       Host: oracle-kr-chuncheon.258526.xyz
-    path: /freev2.net?ed=2048flow=-udp443
-- client-fingerprint: random
-  name: -1|33|🇯🇵最高200元终身无限流量 | uu6.top
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: do-fra1.258526.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
-  ws-opts:
-    headers:
-      Host: do-fra1.258526.xyz
     path: /freev2.net?ed=2048flow=-udp443
 - client-fingerprint: random
   name: -1|33|🇯🇵解锁Ins | uu6.top
@@ -356,3 +365,94 @@ proxies:
     headers:
       Host: oracle-id-batam.258526.xyz
     path: /freev2.net?ed=2048flow=-udp443
+- name: '-1|1|33|🇯🇵 | #1 | uu6.top'
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-tor1.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: do-tor1.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- name: -1|1|33|🇯🇵最低2块钱1000G流量 | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-sgp1.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: do-sgp1.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- name: -1|1|33|🇯🇵解锁TikTok | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: oracle-jp-osaka.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: oracle-jp-osaka.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- name: -1|1|33|🇯🇵最高200元终身无限流量 | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-fra1.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: do-fra1.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- name: -1|1|33|🇯🇵新疆西藏福建都能用 | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: oracle-kr-chuncheon.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: oracle-kr-chuncheon.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- name: -1|1|33|🇯🇵解锁Ins | uu6.top
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: oracle-id-batam.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: oracle-id-batam.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- name: -1|1|33|🇯🇵 | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-blr1.258526.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: b94d272f-791f-498e-8165-c6b5717ff4a8
+  ws-opts:
+    headers:
+      Host: do-blr1.258526.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
