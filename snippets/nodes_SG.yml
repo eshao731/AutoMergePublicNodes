@@ -1,13 +1,7 @@
 proxies:
-- name: 15|SG_speednode_0020 | uu6.top
-  password: installshield
-  port: 8443
-  server: 38.180.106.124
-  skip-cert-verify: true
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 40,46,49|SG_7a669_0040 | uu6.top
+  name: 12,40,46,49|SG_7a669_0040 | uu6.top
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -21,7 +15,19 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '40,46|🇸🇬 新加坡5 | uu6.top #1'
+  name: '12,40,46|🇸🇬 新加坡4 | uu6.top #6'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: d4cbbb2:42774
+    mode: tls
+  port: 2377
+  server: 5.44.249.42
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '12,40,46|🇸🇬 新加坡5 | uu6.top #2'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -33,14 +39,10 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '40,46|🇸🇬 新加坡4 | uu6.top #7'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: d4cbbb2:42774
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
+  name: '12,40,46|🇸🇬 新加坡6 | uu6.top #5'
+  password: X2UQXuTGxwxE1ZMaTQwtxS
+  port: 60523
+  server: 174.138.29.1
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -55,3 +57,9 @@ proxies:
   server: 5.44.249.42
   type: ss
   udp: true
+- name: -1|15|SG_speednode_0020 | uu6.top
+  password: installshield
+  port: 8443
+  server: 38.180.106.124
+  skip-cert-verify: true
+  type: trojan
