@@ -5,8 +5,16 @@ proxies:
   server: 38.180.106.124
   skip-cert-verify: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '40,42,46|🇸🇬 新加坡6 | uu6.top #3'
+  password: X2UQXuTGxwxE1ZMaTQwtxS
+  port: 60523
+  server: 174.138.29.1
+  tfo: false
+  type: ss
 - client-fingerprint: chrome
-  name: '39,40,43,45,46|新加坡 | uu6.top #5'
+  name: '40,41,44,46,47|新加坡 | uu6.top #5'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5041
@@ -15,7 +23,7 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - client-fingerprint: chrome
-  name: '39,40,43,45,46|新加坡2 | uu6.top #4'
+  name: '40,41,44,46,47|新加坡2 | uu6.top #4'
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
   port: 5321
@@ -25,7 +33,7 @@ proxies:
   type: trojan
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '39,45|🇸🇬 新加坡5 | uu6.top #1'
+  name: '40,46|🇸🇬 新加坡5 | uu6.top #1'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -37,7 +45,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '39,45|🇸🇬 新加坡3 | uu6.top #7'
+  name: '40,46|🇸🇬 新加坡3 | uu6.top #7'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -49,7 +57,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '39,45|🇸🇬 新加坡4 | uu6.top #7'
+  name: '40,46|🇸🇬 新加坡4 | uu6.top #7'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -60,7 +68,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 48|SG_893eb_0010 | uu6.top
+  name: 49|SG_893eb_0010 | uu6.top
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -73,7 +81,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 49|🇸🇬 新加坡 04 | uu6.top
+  name: 50|🇸🇬 新加坡 04 | uu6.top
   network: http
   port: '22525'
   server: 47.245.106.193
