@@ -1,4 +1,15 @@
 proxies:
+- auth: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  name: '0,4,15,37,40,41|🇸🇪 - SE - #2 | uu6.top'
+  obfs: salamander
+  obfs-password: U1wBrYQyFm
+  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  port: 20335
+  server: 70.34.215.221
+  skip-cert-verify: true
+  sni: drhystuichdfy.samanidempire.org
+  tls: false
+  type: hysteria2
 - name: 5|瑞典 | uu6.top
   network: ws
   port: 37914
@@ -23,18 +34,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5|瑞典 | uu6.top #2'
-  network: ws
-  port: 443
-  server: 217.142.130.109
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5|瑞典 | uu6.top #3'
   network: ws
   port: 443
@@ -47,3 +46,12 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- alterId: 0
+  cipher: auto
+  name: 35,44|🇸🇪 瑞典 | uu6.top
+  network: tcp
+  port: '10100'
+  server: 157.180.123.212
+  tls: false
+  type: vmess
+  uuid: 14fd5c56-2d55-44a5-9876-6ce27d3aec44
