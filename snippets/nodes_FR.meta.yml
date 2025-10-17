@@ -1,16 +1,4 @@
 proxies:
-- name: '5,9,25|FR法国 | uu6.top #17'
-  network: ws
-  port: 12082
-  server: 141.11.149.195
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9|FR法国 | uu6.top #11'
   network: ws
   port: 8080
@@ -23,15 +11,16 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|FR法国 | uu6.top #12'
+- alterId: 0
+  cipher: auto
+  name: 44|🇫🇷 | uu6.top
   network: ws
-  port: 8080
-  server: 141.11.77.248
-  servername: gaosir.unfeeling.sbs
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
   tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
