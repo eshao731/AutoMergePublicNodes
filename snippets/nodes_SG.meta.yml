@@ -1,13 +1,42 @@
 proxies:
-- auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  name: '0,4,15,37,40,41|Channel id: 🇸🇬 | uu6.top #3'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2060
-  server: xjp2.mangshe.xyz
-  skip-cert-verify: true
-  sni: xjp2.mangshe.xyz
-  tls: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 1,12,40,46,49|SG_94469_0040 | uu6.top
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4a81070:6193
+    mode: tls
+    tls: false
+  port: 2377
+  server: 5.44.249.42
+  tfo: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '1,12,40,46|🇸🇬 新加坡4 | uu6.top #6'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: d4cbbb2:42774
+    mode: tls
+  port: 2377
+  server: 5.44.249.42
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: '1,12,40,46|🇸🇬 新加坡5 | uu6.top #5'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 874b20d:48331
+    mode: tls
+  port: 2377
+  server: 5.44.249.42
+  tfo: false
+  type: ss
 - name: '5,9,25|SG新加坡 | uu6.top #51'
   network: ws
   port: 443
@@ -68,6 +97,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '5,9,25|SG新加坡 | uu6.top #56'
+  network: ws
+  port: 41528
+  server: 8.218.245.116
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '5,9,25|HK香港 | uu6.top #44'
   network: ws
   port: 48130
@@ -332,6 +373,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,25|SG新加坡 | uu6.top #47'
+  network: ws
+  port: 443
+  server: 172.104.180.43
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '9,25|SG新加坡 | uu6.top #58'
   network: ws
   port: 48130
@@ -356,18 +409,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,25|SG新加坡 | uu6.top #47'
-  network: ws
-  port: 443
-  server: 172.104.180.43
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '9,25|SG新加坡 | uu6.top #53'
   network: ws
   port: 443
@@ -405,44 +446,6 @@ proxies:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 12,40,46,49|SG_94469_0040 | uu6.top
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4a81070:6193
-    mode: tls
-    tls: false
-  port: 2377
-  server: 5.44.249.42
-  tfo: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '12,40,46|🇸🇬 新加坡4 | uu6.top #6'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: d4cbbb2:42774
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: '12,40,46|🇸🇬 新加坡5 | uu6.top #3'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 874b20d:48331
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 49|SG_94469_0041 | uu6.top
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
@@ -454,7 +457,7 @@ proxies:
   server: 5.44.249.42
   type: ss
   udp: true
-- name: -1|1|1|1|15|SG_speednod | uu6.top
+- name: -1|1|1|1|1|15|SG_speedn | uu6.top
   password: installshield
   port: 8443
   server: 38.180.106.124
