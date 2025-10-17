@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,4,41,49,51|DE_speednode_0002 | uu6.top #3'
+  name: '0,4,40,48,50|DE_speednode_0002 | uu6.top #3'
   port: 6666
   reality-opts:
     public-key: S_2bepGaT7EHeH5DdyEgio421RTgrAvvOOQiaq8zV0g
@@ -12,7 +12,19 @@ proxies:
   type: vless
   udp: true
   uuid: 0abf9050-c7be-464d-80af-24094c2b97de
-- name: '5,9,26|DE德国 | uu6.top #9'
+- name: '5,9,25|DE德国 | uu6.top #7'
+  network: ws
+  port: 443
+  server: 154.16.10.177
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '5,9,25|DE德国 | uu6.top #9'
   network: ws
   port: 8080
   server: 85.208.104.34
@@ -24,7 +36,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9,26|DE德国 | uu6.top #8'
+- name: '5,9,25|DE德国 | uu6.top #8'
   network: ws
   port: 8080
   server: 154.16.10.34
@@ -63,12 +75,12 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 39,42|🇩🇪 _DE_德国 | uu6.top
+  name: 38,41|🇩🇪 _DE_德国 | uu6.top
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.193
   type: ss
-- name: 50|🇩🇪 德国 07 | uu6.top
+- name: 49|🇩🇪 德国 07 | uu6.top
   network: tcp
   port: 52289
   server: 193.24.209.127
