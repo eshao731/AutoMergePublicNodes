@@ -1,6 +1,6 @@
 proxies:
 - auth: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  name: '0,4,15,37,40,41|Channel id: 🇺🇸 | uu6.top #4'
+  name: '0,4,15,36,39,40|Channel id: 🇺🇸 | uu6.top #4'
   password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
   port: 2056
   server: lsj3.mangshe.xyz
@@ -9,7 +9,7 @@ proxies:
   tls: false
   type: hysteria2
 - auth: c232f411-96b5-4b07-b2f7-66a434725ffb
-  name: '0,4,15,37,40,41|🔐 🇺🇸 推荐 #2 | uu6.top #3'
+  name: '0,4,15,36,39,40|🔐 🇺🇸 推荐 #2 | uu6.top #3'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23891
   server: 108.165.213.197
@@ -17,7 +17,7 @@ proxies:
   sni: fus01.mistea.top
   tls: false
   type: hysteria2
-- name: '0,4,40,41,49,51|US_speednode_0054 | uu6.top #3'
+- name: '0,4,39,40,48,50|US_speednode_0054 | uu6.top #3'
   network: ws
   password: d0728e94-82c2-456b-b5d4-eeab540599df
   port: 443
@@ -30,7 +30,7 @@ proxies:
     headers:
       Host: joss.krikkrik.xyz
     path: /Free-VPN-CF-Geo-Project/AE5
-- name: '5,13,17,19,21,26|NL荷兰 | uu6.top #4'
+- name: '5,13,17,19,21,25|NL荷兰 | uu6.top #4'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -114,6 +114,20 @@ proxies:
     headers:
       Host: cb93136c-7ed8-136d-45b5-5254c891e290.huangshang.site
     path: '%2F0SCvfqSaeeB74kgXZ'
+- alterId: 0
+  cipher: auto
+  name: '5,13,14,17,18,19,20,21,22,43|🇺🇸 美国 | uu6.top #6'
+  network: ws
+  port: '443'
+  server: 172.67.160.44
+  servername: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+  tls: true
+  type: vmess
+  uuid: 086c655d-0c12-47dd-9d5a-2670089201ee
+  ws-opts:
+    headers:
+      Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+    path: /ri9mOOVJuAimB74kgXZ
 - name: '5,9|美国 | uu6.top #99'
   network: ws
   port: 443
@@ -126,20 +140,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- alterId: 0
-  cipher: auto
-  name: '5,13,14,17,18,19,20,21,22,44|🇺🇸 美国 | uu6.top #6'
-  network: ws
-  port: '443'
-  server: 172.67.160.44
-  servername: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
-  tls: true
-  type: vmess
-  uuid: 086c655d-0c12-47dd-9d5a-2670089201ee
-  ws-opts:
-    headers:
-      Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
-    path: /ri9mOOVJuAimB74kgXZ
 - name: '5,13,17,19,21|美国 | uu6.top #294'
   network: ws
   port: 443
@@ -152,10 +152,22 @@ proxies:
     headers:
       Host: 8dbc269c-38ed-0d38-7a26-970a14604a96.huangshang.site
     path: '%2F0SCvfqSaeeB74kgXZ'
-- name: '5|US美国 | uu6.top #12'
+- name: '5|US美国 | uu6.top #13'
+  network: ws
+  port: 2053
+  server: 45.38.42.198
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '5|US美国 | uu6.top #15'
   network: ws
   port: 443
-  server: 152.70.240.1
+  server: 134.185.114.52
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -168,18 +180,6 @@ proxies:
   network: ws
   port: 443
   server: 134.185.110.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5|US美国 | uu6.top #15'
-  network: ws
-  port: 443
-  server: 134.185.114.52
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -224,30 +224,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #69'
-  network: ws
-  port: 8080
-  server: 45.39.198.43
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #115'
-  network: ws
-  port: 443
-  server: 38.180.94.205
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,13,17,19,21|美国 | uu6.top #310'
   network: ws
   port: 443
@@ -260,6 +236,18 @@ proxies:
     headers:
       Host: profit.fullmargintraders.com
     path: '%2Fwsv%2F6f6e8f09-c1b3-48fd-ab00-18f921d875ef'
+- name: '5,9|美国 | uu6.top #69'
+  network: ws
+  port: 8080
+  server: 45.39.198.43
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5|US美国 | uu6.top #33'
   network: ws
   port: 2053
@@ -308,10 +296,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '5|US美国 | uu6.top #42'
+- name: '5|US美国 | uu6.top #41'
   network: ws
   port: 443
-  server: 206.237.10.69
+  server: 139.177.185.88
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -320,10 +308,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5|US美国 | uu6.top #41'
+- name: '5|US美国 | uu6.top #42'
   network: ws
   port: 443
-  server: 139.177.185.88
+  server: 206.237.10.69
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -344,18 +332,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5|US美国 | uu6.top #45'
-  network: ws
-  port: 443
-  server: 18.167.172.112
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9|美国 | uu6.top #106'
   network: ws
   port: 2053
@@ -368,6 +344,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '5|US美国 | uu6.top #45'
+  network: ws
+  port: 443
+  server: 18.167.172.112
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5|US美国 | uu6.top #46'
   network: ws
   port: 12355
@@ -488,18 +476,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #67'
-  network: ws
-  port: 443
-  server: 161.33.151.160
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9|美国 | uu6.top #75'
   network: ws
   port: 443
@@ -512,7 +488,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9,26|US美国 | uu6.top #93'
+- name: '5,9,25|US美国 | uu6.top #93'
   network: ws
   port: 443
   server: 131.186.38.123
@@ -548,18 +524,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #53'
-  network: ws
-  port: 2053
-  server: 143.198.196.196
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9|美国 | uu6.top #57'
   network: ws
   port: 443
@@ -572,6 +536,30 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '5,9|美国 | uu6.top #53'
+  network: ws
+  port: 2053
+  server: 143.198.196.196
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '5,9|美国 | uu6.top #40'
+  network: ws
+  port: 45137
+  server: 146.235.18.248
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9|美国 | uu6.top #27'
   network: ws
   port: 2053
@@ -608,10 +596,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5|US美国 | uu6.top #78'
+- name: '5,9|美国 | uu6.top #43'
   network: ws
-  port: 8443
-  server: 152.42.236.151
+  port: 1443
+  server: 47.245.95.160
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -620,10 +608,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #43'
+- name: '5|US美国 | uu6.top #78'
   network: ws
-  port: 1443
-  server: 47.245.95.160
+  port: 8443
+  server: 152.42.236.151
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -644,10 +632,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #34'
+- name: '5,9|美国 | uu6.top #48'
   network: ws
-  port: 17465
-  server: 138.2.95.33
+  port: 587
+  server: 129.150.35.29
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -656,10 +644,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|美国 | uu6.top #48'
+- name: '5,9|美国 | uu6.top #34'
   network: ws
-  port: 587
-  server: 129.150.35.29
+  port: 17465
+  server: 138.2.95.33
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -710,10 +698,10 @@ proxies:
   port: 443
   server: 13.39.112.103
   type: ss
-- name: '9|美国 | uu6.top #3'
+- name: '9|美国 | uu6.top #2'
   network: ws
   port: 443
-  server: 155.248.181.189
+  server: 141.147.147.180
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -722,10 +710,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|美国 | uu6.top #2'
+- name: '9|美国 | uu6.top #3'
   network: ws
   port: 443
-  server: 141.147.147.180
+  server: 155.248.181.189
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -758,10 +746,10 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #9'
+- name: '9|美国 | uu6.top #8'
   network: ws
-  port: 587
-  server: 217.142.250.195
+  port: 54584
+  server: 168.138.192.16
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -770,10 +758,10 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #8'
+- name: '9|美国 | uu6.top #9'
   network: ws
-  port: 54584
-  server: 168.138.192.16
+  port: 587
+  server: 217.142.250.195
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -842,30 +830,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,26|RU俄罗斯 | uu6.top #8'
-  network: ws
-  port: 2053
-  server: 31.192.238.71
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #30'
-  network: ws
-  port: 2053
-  server: 152.42.236.151
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #29'
   network: ws
   port: 443
@@ -878,6 +842,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9|美国 | uu6.top #30'
+  network: ws
+  port: 2053
+  server: 152.42.236.151
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #36'
   network: ws
   port: 28983
@@ -902,18 +878,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|美国 | uu6.top #39'
-  network: ws
-  port: 8443
-  server: 129.150.56.234
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #44'
   network: ws
   port: 443
@@ -926,10 +890,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|美国 | uu6.top #45'
+- name: '9|美国 | uu6.top #39'
   network: ws
   port: 8443
-  server: 152.42.241.71
+  server: 129.150.56.234
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -938,10 +902,10 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #55'
+- name: '9|美国 | uu6.top #45'
   network: ws
-  port: 443
-  server: 134.185.93.231
+  port: 8443
+  server: 152.42.241.71
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -962,18 +926,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #56'
-  network: ws
-  port: 8443
-  server: 47.237.149.38
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #58'
   network: ws
   port: 443
@@ -986,10 +938,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|美国 | uu6.top #62'
+- name: '9|美国 | uu6.top #55'
   network: ws
-  port: 8443
-  server: 143.198.196.196
+  port: 443
+  server: 134.185.93.231
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -1010,6 +962,18 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '9|美国 | uu6.top #62'
+  network: ws
+  port: 8443
+  server: 143.198.196.196
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #64'
   network: ws
   port: 443
@@ -1022,10 +986,10 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #68'
+- name: '9|美国 | uu6.top #65'
   network: ws
   port: 443
-  server: 158.178.229.178
+  server: 161.33.148.147
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -1046,6 +1010,18 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '9|美国 | uu6.top #68'
+  network: ws
+  port: 443
+  server: 158.178.229.178
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #72'
   network: ws
   port: 443
@@ -1058,18 +1034,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #73'
-  network: ws
-  port: 1111
-  server: 138.2.95.61
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #80'
   network: ws
   port: 8443
@@ -1166,18 +1130,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #102'
-  network: ws
-  port: 443
-  server: 47.79.35.191
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #100'
   network: ws
   port: 443
@@ -1190,6 +1142,30 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '9|美国 | uu6.top #96'
+  network: ws
+  port: 49153
+  server: 47.79.90.37
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9|美国 | uu6.top #102'
+  network: ws
+  port: 443
+  server: 47.79.35.191
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #101'
   network: ws
   port: 443
@@ -1202,7 +1178,7 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,26|US美国 | uu6.top #102'
+- name: '9,25|US美国 | uu6.top #102'
   network: ws
   port: 443
   server: 160.22.79.155
@@ -1226,30 +1202,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #96'
-  network: ws
-  port: 49153
-  server: 47.79.90.37
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: '9|美国 | uu6.top #109'
-  network: ws
-  port: 443
-  server: 38.180.94.205
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #114'
   network: ws
   port: 7000
@@ -1322,30 +1274,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,26|KR韩国 | uu6.top #212'
-  network: ws
-  port: 12696
-  server: 115.40.244.240
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '9,26|KR韩国 | uu6.top #224'
-  network: ws
-  port: 12290
-  server: 220.118.236.239
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '9|美国 | uu6.top #142'
   network: ws
   port: 8443
@@ -1358,54 +1286,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #148'
-  network: ws
-  port: 443
-  server: 141.147.185.63
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|美国 | uu6.top #143'
-  network: ws
-  port: 587
-  server: 152.70.89.135
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9|美国 | uu6.top #147'
-  network: ws
-  port: 443
-  server: 141.147.168.141
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|美国 | uu6.top #144'
-  network: ws
-  port: 443
-  server: 47.76.218.163
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '9|美国 | uu6.top #145'
   network: ws
   port: 21415
@@ -1418,6 +1298,54 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '9|美国 | uu6.top #143'
+  network: ws
+  port: 587
+  server: 152.70.89.135
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,25|KR韩国 | uu6.top #216'
+  network: ws
+  port: 23023
+  server: 115.40.244.240
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '9|美国 | uu6.top #147'
+  network: ws
+  port: 443
+  server: 141.147.168.141
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9|美国 | uu6.top #148'
+  network: ws
+  port: 443
+  server: 141.147.185.63
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '9|美国 | uu6.top #149'
   network: ws
   port: 55007
@@ -1444,6 +1372,17 @@ proxies:
     headers:
       host: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
     path: /0SCvfqSaeeB74kgXZ
+- name: 10|美国_9 | uu6.top
+  network: ws
+  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
+  port: 443
+  server: 104.21.14.54
+  skip-cert-verify: true
+  sni: 6666YHjU.777159.xYz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /dilyfCPEmLvYr5hYXD
 - name: '13,17,19,21|美国 | uu6.top #292'
   network: ws
   port: 443
@@ -1502,16 +1441,6 @@ proxies:
   port: 8080
   server: 151.242.251.152
   type: ss
-- name: '13,17,19,21|美国 | uu6.top #309'
-  network: ws
-  port: 443
-  server: net2026cd.zanddynastyofpersia.org
-  servername: net2026cd.zanddynastyofpersia.org
-  tls: true
-  type: vless
-  uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-  ws-opts:
-    path: '%2FeJsVXFVZ6iavNx1EFxOyH861WH'
 - name: '13,17,19,21|美国 | uu6.top #302'
   network: ws
   port: 443
@@ -1525,20 +1454,7 @@ proxies:
       Host: abc.vpneee.top
     path: '%2FYnqGMcAt%2F'
 - encryption: none
-  name: '14,18,20,22|美国_15 | uu6.top #3'
-  network: ws
-  port: 443
-  server: time.is
-  servername: a.azadnet002.ddns-ip.net
-  tls: true
-  type: vless
-  uuid: d0298536-d670-4045-bbb1-ddd5ea68683e
-  ws-opts:
-    headers:
-      Host: a.azadnet002.ddns-ip.net
-    path: /
-- encryption: none
-  name: '14,18,20,22,49,51|RU_speednode_0032 | uu6.top #3'
+  name: '14,18,20,22,48,50|RU_speednode_0032 | uu6.top #3'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -1553,7 +1469,7 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /Telegram@freecodes/?ed=2560
 - encryption: none
-  name: '14,18,20,22,49,51|RU_speednode_0034 | uu6.top #3'
+  name: '14,18,20,22,48,50|RU_speednode_0034 | uu6.top #3'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -1581,7 +1497,7 @@ proxies:
       Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
     path: //
 - encryption: none
-  name: '14,18,20,22,49,51|RU_speednode_0039 | uu6.top #3'
+  name: '14,18,20,22,48,50|RU_speednode_0039 | uu6.top #3'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -1595,21 +1511,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /
-- encryption: none
-  name: '14,18,20,22,49,51|RU_speednode_0036 | uu6.top #3'
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
 - encryption: none
   name: '14,18,20,22|美国_17 | uu6.top #3'
   network: ws
@@ -1637,6 +1538,21 @@ proxies:
       Host: cb93136c-7ed8-136d-45b5-5254c891e290.huangshang.site
     path: /0SCvfqSaeeB74kgXZ
 - encryption: none
+  name: '14,18,20,22,48,50|RU_speednode_0036 | uu6.top #3'
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- encryption: none
   name: '14,18,20,22|美国_22 | uu6.top #3'
   network: ws
   port: 443
@@ -1650,30 +1566,6 @@ proxies:
       Host: swus.zyk.biz.id
     path: /
 - encryption: none
-  name: '14,18,20,22|美国_32 | uu6.top #3'
-  network: ws
-  port: 443
-  server: net2026cd.zanddynastyofpersia.org
-  servername: net2026cd.zanddynastyofpersia.org
-  tls: true
-  type: vless
-  uuid: 0ec8c120-33fa-4658-9bed-3a51cb04c55c
-  ws-opts:
-    path: /eJsVXFVZ6iavNx1EFxOyH861WH
-- encryption: none
-  name: '14,18,20,22|美国_33 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 104.21.36.57
-  servername: profit.fullmargintraders.com
-  tls: true
-  type: vless
-  uuid: 6f6e8f09-c1b3-48fd-ab00-18f921d875ef
-  ws-opts:
-    headers:
-      Host: profit.fullmargintraders.com
-    path: /wsv/6f6e8f09-c1b3-48fd-ab00-18f921d875ef
-- encryption: none
   name: '14,18,20,22|美国_25 | uu6.top #3'
   network: ws
   port: 443
@@ -1686,7 +1578,7 @@ proxies:
     headers:
       Host: abc.vpneee.top
     path: /YnqGMcAt/
-- name: '26|US美国 | uu6.top #100'
+- name: '25|US美国 | uu6.top #100'
   network: ws
   port: 443
   server: 160.22.79.155
@@ -1698,7 +1590,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '26|US美国 | uu6.top #104'
+- name: '25|US美国 | uu6.top #104'
   network: ws
   port: 443
   server: 160.22.79.155
@@ -1710,7 +1602,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '26|US美国 | uu6.top #108'
+- name: '25|US美国 | uu6.top #108'
   network: ws
   port: 443
   server: 152.69.228.177
@@ -1722,7 +1614,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #111'
+- name: '25|US美国 | uu6.top #111'
   network: ws
   port: 2096
   server: 150.230.196.57
@@ -1734,7 +1626,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '26|US美国 | uu6.top #113'
+- name: '25|US美国 | uu6.top #113'
   network: ws
   port: 10001
   server: 64.176.42.125
@@ -1746,7 +1638,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '26|US美国 | uu6.top #114'
+- name: '25|US美国 | uu6.top #114'
   network: ws
   port: 7000
   server: 175.29.23.5
@@ -1760,46 +1652,18 @@ proxies:
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: 35,42,43|vmess-AU | uu6.top
+  name: 34|美国 RF Engineering | uu6.top
   network: ws
-  port: '443'
-  server: sy4.620720.xyz
-  servername: ''
-  skip-cert-verify: true
-  tfo: false
+  port: 8443
+  server: ebc.zoom.us
   tls: true
   type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  uuid: 44e57485-eccc-46ef-808f-cd17ac810018
   ws-opts:
     headers:
-      Host: sy4.620720.xyz
-    path: /
-- client-fingerprint: chrome
-  name: '46,47|美国 | uu6.top #321'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 153.121.41.97
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '46,47|美国2 | uu6.top #4'
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2467
-  server: 153.121.41.97
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- name: 50|🇺🇸 美国 065 | uu6.top
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  port: 443
-  server: 034a6150-t4dz40-tcq5zn-19qpt.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 095 | uu6.top
+      Host: node4.rtxconfigz.com
+    path: /@Malinda6104
+- name: 49|🇺🇸 美国 095 | uu6.top
   password: 4e95c8d4-6916-4571-b846-c90df766f8e0
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -1807,7 +1671,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 135 | uu6.top
+- name: 49|🇺🇸 美国 135 | uu6.top
   password: 22569b14-ad94-4a9c-82f1-3f4e3cf6af77
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -1815,17 +1679,42 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 008 | uu6.top
+- name: 49|🇺🇸 美国 138 | uu6.top
+  password: 5148373c-be18-4778-b200-39d8ad39bcc9
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 130 | uu6.top
+  password: ed90cd3d-82da-41b2-aa5b-e89ab46276fa
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 164 | uu6.top
+  password: 6b902cba-6591-41df-94e8-88df86052810
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 171 | uu6.top
+  password: a32458d1-4bd3-416a-bdfb-73178e36eb38
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 008 | uu6.top
   password: 419f0c40-2738-4139-a286-a6ef5583f432
   port: 8443
   server: tj.cpddx.club
   skip-cert-verify: true
   sni: tj.cpddx.club
   type: trojan
-- name: -1|1|1|1|1|1|1|1|1|50|🇺 | uu6.top
-  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  port: 443
-  server: 34b0cb0e-t4dz40-t5rf4m-81nv.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
