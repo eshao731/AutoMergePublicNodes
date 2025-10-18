@@ -1,7 +1,7 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 1,12,40,46,49|SG_950cb_0040 | uu6.top
+  name: 1,12,38,44,47|SG_950cb_0040 | uu6.top
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -15,7 +15,7 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '1,12,40,46|🇸🇬 新加坡4 | uu6.top #6'
+  name: '1,12,38,44|🇸🇬 新加坡4 | uu6.top #6'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -27,7 +27,7 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: '1,12,40,46|🇸🇬 新加坡5 | uu6.top #5'
+  name: '1,12,38,44|🇸🇬 新加坡5 | uu6.top #5'
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -37,10 +37,10 @@ proxies:
   server: 5.44.249.42
   tfo: false
   type: ss
-- name: '5|SG新加坡 | uu6.top #1'
+- name: '5,9|新加坡 | uu6.top #23'
   network: ws
   port: 443
-  server: 172.104.188.73
+  server: 172.104.180.5
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -49,10 +49,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,9|新加坡 | uu6.top #23'
+- name: '5|SG新加坡 | uu6.top #1'
   network: ws
   port: 443
-  server: 172.104.180.5
+  server: 172.104.188.73
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -73,7 +73,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: 5,9,50|🇸🇬 新加坡 052 | uu6.top
+- name: 5,9,48|🇸🇬 新加坡 052 | uu6.top
   network: ws
   port: 443
   server: 172.104.188.163
@@ -145,7 +145,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '5,25|SG新加坡 | uu6.top #26'
+- name: '5|SG新加坡 | uu6.top #16'
   network: ws
   port: 2096
   server: 185.18.184.253
@@ -157,18 +157,6 @@ proxies:
     headers:
       Host: vless.muzheng.top
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '5,9|新加坡 | uu6.top #15'
-  network: ws
-  port: 443
-  server: 178.128.119.65
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '5,9|新加坡 | uu6.top #9'
   network: ws
   port: 443
@@ -181,18 +169,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: 5,9|德国 | uu6.top
-  network: ws
-  port: 24467
-  server: 194.127.193.124
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: freecodes%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '5,9|新加坡 | uu6.top #14'
   network: ws
   port: 443
@@ -205,7 +181,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: 5,9,50|🇸🇬 新加坡 053 | uu6.top
+- name: 5,9,48|🇸🇬 新加坡 053 | uu6.top
   network: ws
   port: 443
   server: 139.180.154.158
@@ -409,6 +385,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9|新加坡 | uu6.top #28'
+  network: ws
+  port: 443
+  server: 172.104.180.5
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|新加坡 | uu6.top #29'
   network: ws
   port: 443
@@ -446,7 +434,7 @@ proxies:
       Host: vless.pengjiajin.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - cipher: chacha20-ietf-poly1305
-  name: 49|SG_950cb_0041 | uu6.top
+  name: 47|SG_950cb_0041 | uu6.top
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -457,7 +445,7 @@ proxies:
   server: 5.44.249.42
   type: ss
   udp: true
-- name: 51|SG_speednode_0058 | uu6.top
+- name: 49|SG_speednode_0058 | uu6.top
   network: ws
   port: 443
   server: 141.11.43.124
