@@ -25,23 +25,6 @@ proxies:
     headers:
       Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
     path: /ri9mOOVJuAimB74kgXZ
-- cipher: aes-256-cfb
-  name: 8|US | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 13.39.112.103
-  type: ss
-- name: 10|美国_9 | uu6.top
-  network: ws
-  password: e4cbe8b8-37db-4aaa-8469-b84f34c51ebc
-  port: 443
-  server: 104.21.14.54
-  skip-cert-verify: true
-  sni: 6666YHjU.777159.xYz
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /dilyfCPEmLvYr5hYXD
 - cipher: chacha20-ietf-poly1305
   name: '14,18,20,22|美国_10 | uu6.top #4'
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -54,34 +37,19 @@ proxies:
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
-- name: 40,49|US_a580b_0100 | uu6.top
-  network: ws
-  password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  skip-cert-verify: false
-  sni: azadnet-f03.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: azadnet-f03.pages.dev
-    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 42,43|美国 806 | uu6.top
+  name: 35|美国 CloudFlare节点 | uu6.top
   network: ws
-  port: '443'
-  server: 73E42019-c820-A66a-011E-f11937232ec1.89890604.XYz
-  servername: ''
-  skip-cert-verify: true
-  tls: true
+  port: 8880
+  server: s1.db-link03.top
+  tls: false
   type: vmess
-  uuid: c2633560-5acb-4dd3-9c22-9a6c2fd212e2
+  uuid: 25fbcec6-e45a-3a86-977a-12c40bf649ba
   ws-opts:
     headers:
-      Host: 73e42019-C820-A66A-011E-f11937232EC1.89890604.xYZ
-    path: /2uRsM4Z4Y8O5OsbJkA
+      Host: 4e43bd24150af811e255fc226bef0a46.s1.db-link03.top
+    path: /dabai.in?=4e43bd24150af811e255fc226bef0a46
 - alterId: 0
   cipher: auto
   name: 44|🇺🇸 美国 CloudFlare节点 | uu6.top
@@ -109,16 +77,9 @@ proxies:
   skip-cert-verify: true
   sni: tj.cpddx.club
   type: trojan
-- name: -1|1|1|49|🇺🇸 美国 008 | uu6.top
-  password: 419f0c40-2738-4139-a286-a6ef5583f432
-  port: 8443
-  server: tj.cpddx.club
-  skip-cert-verify: true
-  sni: tj.cpddx.club
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|44|🇺🇸 美国 CloudFlar | uu6.top
+  name: -1|1|1|44|🇺🇸 美国 CloudFl | uu6.top
   network: ws
   port: '80'
   server: s1.db-link03.top
@@ -129,9 +90,16 @@ proxies:
     headers:
       Host: f7f48a0f7685b208efdf4956ae5eb0a0.s1.db-link03.top
     path: /dabai.in?=f7f48a0f7685b208efdf4956ae5eb0a0
+- name: -1|1|1|1|49|🇺🇸 美国 008 | uu6.top
+  password: 419f0c40-2738-4139-a286-a6ef5583f432
+  port: 8443
+  server: tj.cpddx.club
+  skip-cert-verify: true
+  sni: tj.cpddx.club
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|35|美国 CloudFlare节点 | uu6.top
+  name: -1|1|1|35|美国 CloudFlare | uu6.top
   network: ws
   port: 2086
   server: s1.db-link03.top
