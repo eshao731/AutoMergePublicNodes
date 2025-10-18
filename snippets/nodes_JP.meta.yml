@@ -1,4 +1,40 @@
 proxies:
+- name: '9,26|JP日本 | uu6.top #32'
+  network: ws
+  port: 19999
+  server: 202.84.53.85
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,26|JP日本 | uu6.top #23'
+  network: ws
+  port: 443
+  server: 158.101.80.84
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '9,26|JP日本 | uu6.top #27'
+  network: ws
+  port: 443
+  server: 158.101.145.82
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '9,26|JP日本 | uu6.top #28'
   network: ws
   port: 443
@@ -11,6 +47,30 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,26|JP日本 | uu6.top #29'
+  network: ws
+  port: 443
+  server: 160.16.203.210
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,26|JP日本 | uu6.top #30'
+  network: ws
+  port: 19842
+  server: 121.85.55.59
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '9,26|JP日本 | uu6.top #37'
   network: ws
   port: 19999
@@ -67,6 +127,24 @@ proxies:
     path: /Telegram🇨🇳@WangCai2/?ed=2560
 - alterId: 0
   cipher: auto
+  flow: ''
+  name: 34|🇯🇵新疆可以用 | uu6.top
+  network: ws
+  port: 2096
+  server: 104.19.50.238
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  sni: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /telegram🇨🇳@wangcai2/?ed=2560
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   flow: ''
   name: 34|🇯🇵西藏可以用 | uu6.top
@@ -84,24 +162,6 @@ proxies:
     headers:
       Host: bycf.lzjnb.shop
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  flow: ''
-  name: 34|🇯🇵新疆可以用 | uu6.top
-  network: ws
-  port: 2096
-  server: 104.19.50.238
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram🇨🇳@wangcai2/?ed=2560
 - alpn:
   - h2%2Chttp%2F1.1
   alterId: 0
@@ -123,7 +183,25 @@ proxies:
     headers:
       Host: amIR-ebR.pAGeS.Dev
     path: /2IBbZjAugSH41qc5?ed
-- name: -1|33|🇯🇵 | uu6.top
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 34|🇯🇵福建可以用 | uu6.top
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+    short-id: f8c64c7a
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  sni: nspk.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+- name: -1|34|🇯🇵 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -136,7 +214,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /flow=-udp443
-- name: -1|33|🇯🇵最低2块钱1000G流量 | uu6.top
+- name: -1|34|🇯🇵最低2块钱1000G流量 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -149,7 +227,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560flow=-udp443
-- name: -1|33|🇯🇵新疆可以用 | uu6.top
+- name: -1|34|🇯🇵新疆可以用 | uu6.top
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -164,7 +242,7 @@ proxies:
     path: /telegram🇨🇳@wangcai2/?ed=2560flow=-udp443
 - alpn:
   - h2%2Chttp%2F1.1
-  name: '-1|33|🇯🇵 | #1 | uu6.top'
+  name: '-1|34|🇯🇵 | #1 | uu6.top'
   network: ws
   port: 443
   server: www.speedtest.net
