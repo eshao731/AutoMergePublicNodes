@@ -1,4 +1,22 @@
 proxies:
+- auth: 30c075af-9555-4671-b70e-43e3cfb2e707
+  name: '0,4,15,37,40,41|🇩🇪 | uu6.top #6'
+  password: 30c075af-9555-4671-b70e-43e3cfb2e707
+  port: 7009
+  server: 31.57.241.25
+  skip-cert-verify: true
+  sni: d.eans.top
+  tls: false
+  type: hysteria2
+- auth: 30c075af-9555-4671-b70e-43e3cfb2e707
+  name: '0,4,15,37,40,41|🇩🇪 #1 | uu6.top #3'
+  password: 30c075af-9555-4671-b70e-43e3cfb2e707
+  port: 7009
+  server: d.eans.top
+  skip-cert-verify: true
+  sni: d.eans.top
+  tls: false
+  type: hysteria2
 - name: 7|🇩🇪_DE_德国 | uu6.top
   network: ws
   port: 443
@@ -11,16 +29,16 @@ proxies:
       Host: 49.13.29.218
     path: /linkws?ed
 - cipher: chacha20-ietf-poly1305
-  name: '14,18,20,22|德国_2 | uu6.top #3'
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 45.87.175.174
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: '14,18,20,22|德国_1 | uu6.top #3'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 45.87.175.155
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '14,18,20,22|德国_2 | uu6.top #3'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '14,18,20,22|德国_3 | uu6.top #3'
@@ -58,7 +76,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|50|🇩🇪 德国 113 | uu6.top
+- name: -1|1|1|1|1|1|50|🇩🇪 德国 1 | uu6.top
   password: 3d59c624-f7bf-4a94-8bea-7e2618ba8c59
   port: 54265
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
@@ -66,7 +84,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|50|🇩🇪 德国 068 | uu6.top
+- name: -1|1|1|1|1|1|50|🇩🇪 德国 0 | uu6.top
   password: d5b5b4e1-08f5-4b7b-93b3-4a5c988f23e7
   port: 54265
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
@@ -74,7 +92,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|49|DE_a580b_ | uu6.top
+- name: -1|1|1|1|1|1|49|DE_a580 | uu6.top
   network: ws
   port: 443
   server: 49.13.29.218
@@ -87,7 +105,7 @@ proxies:
     headers:
       Host: 49.13.29.218
     path: /linkws
-- name: -1|1|1|1|1|50|🇩🇪 德国 067 | uu6.top
+- name: '-1|1|1|1|1|1|50|🇩🇪 德国 0 | uu6.top #1'
   password: 4e95c8d4-6916-4571-b846-c90df766f8e0
   port: 54265
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
@@ -95,7 +113,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|50|🇩🇪 德国 044 | uu6.top
+- name: '-1|1|1|1|1|1|50|🇩🇪 德国 0 | uu6.top #2'
   password: 8ba50f29-0c61-47af-ba44-7fef8922ac29
   port: 54265
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
@@ -103,7 +121,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|50|🇩🇪 德国 053 | uu6.top
+- name: '-1|1|1|1|1|1|50|🇩🇪 德国 0 | uu6.top #3'
   password: 8727de34-435d-4d00-8e88-ca2a6232ea93
   port: 54265
   server: banmabanmabanmabanmabanmabanma2.wanlidag.top
@@ -111,19 +129,19 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|50|🇩🇪 德国 101 | uu6.top
-  password: c689428b-ee4f-4cd7-a8d1-13adc99e0163
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma2.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|50|🇩🇪 德国 119 | uu6.top
+- name: '-1|1|1|1|1|1|50|🇩🇪 德国 1 | uu6.top #2'
   password: e92f8938-a107-44b3-a410-1b015099170b
   port: 57300
   server: sfjxjp.sufujia.top
   skip-cert-verify: true
   sni: sfjxjp.sufujia.top
+  tls: false
+  type: hysteria2
+- name: '-1|1|1|1|1|1|50|🇩🇪 德国 1 | uu6.top #1'
+  password: c689428b-ee4f-4cd7-a8d1-13adc99e0163
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma2.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma2.wanlidag.top
   tls: false
   type: hysteria2
