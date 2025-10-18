@@ -1,15 +1,17 @@
 proxies:
-- name: '49,51|TW_speednode_0035 | uu6.top #1'
-  network: ws
-  port: 443
-  server: 167.179.27.92
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 49|🇹🇼 台湾 37 | uu6.top
+  network: tcp
+  port: 20006
+  reality-opts:
+    public-key: mSMsSffmzvBDOLYt_pX3lV1dxfvD2_5QH11GKcgXcxM
+  server: ntw01.619101.xyz
+  servername: v1-dy.ixigua.com
   tls: true
   type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: bab6cb7c-73a0-4619-9114-eba436b68184
   ws-opts:
     headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
+      Host: v1-dy.ixigua.com
+    path: '%2F'
