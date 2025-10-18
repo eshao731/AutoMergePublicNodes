@@ -1,5 +1,17 @@
 proxies:
-- name: '9,26|JP日本 | uu6.top #32'
+- name: '9,25|JP日本 | uu6.top #40'
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,25|JP日本 | uu6.top #32'
   network: ws
   port: 19999
   server: 202.84.53.85
@@ -11,7 +23,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,26|JP日本 | uu6.top #23'
+- name: '9,25|JP日本 | uu6.top #23'
   network: ws
   port: 443
   server: 158.101.80.84
@@ -23,7 +35,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,26|JP日本 | uu6.top #27'
+- name: '9,25|JP日本 | uu6.top #38'
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '9,25|JP日本 | uu6.top #27'
   network: ws
   port: 443
   server: 158.101.145.82
@@ -35,7 +59,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,26|JP日本 | uu6.top #28'
+- name: '9,25|JP日本 | uu6.top #28'
   network: ws
   port: 443
   server: 153.121.45.101
@@ -47,31 +71,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|JP日本 | uu6.top #29'
-  network: ws
-  port: 443
-  server: 160.16.203.210
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|JP日本 | uu6.top #30'
-  network: ws
-  port: 19842
-  server: 121.85.55.59
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,26|JP日本 | uu6.top #37'
+- name: '9,25|JP日本 | uu6.top #37'
   network: ws
   port: 19999
   server: 202.84.53.85
@@ -83,7 +83,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,26|JP日本 | uu6.top #39'
+- name: '9,25|JP日本 | uu6.top #39'
   network: ws
   port: 443
   server: 158.101.80.84
@@ -95,7 +95,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '9,26|JP日本 | uu6.top #41'
+- name: '9,25|JP日本 | uu6.top #41'
   network: ws
   port: 443
   server: 153.121.45.101
@@ -125,43 +125,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  flow: ''
-  name: 34|🇯🇵新疆可以用 | uu6.top
-  network: ws
-  port: 2096
-  server: 104.19.50.238
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram🇨🇳@wangcai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  flow: ''
-  name: 34|🇯🇵西藏可以用 | uu6.top
-  network: ws
-  port: 8443
-  server: 104.20.2.221
-  servername: bycf.lzjnb.shop
-  skip-cert-verify: true
-  sni: bycf.lzjnb.shop
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
-  ws-opts:
-    headers:
-      Host: bycf.lzjnb.shop
-    path: /?ed=2560
 - alpn:
   - h2%2Chttp%2F1.1
   alterId: 0
@@ -183,6 +146,43 @@ proxies:
     headers:
       Host: amIR-ebR.pAGeS.Dev
     path: /2IBbZjAugSH41qc5?ed
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: ''
+  name: 34|🇯🇵西藏可以用 | uu6.top
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  sni: bycf.lzjnb.shop
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    headers:
+      Host: bycf.lzjnb.shop
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: 34|🇯🇵新疆可以用 | uu6.top
+  network: ws
+  port: 2096
+  server: 104.19.50.238
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  sni: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /telegram🇨🇳@wangcai2/?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
