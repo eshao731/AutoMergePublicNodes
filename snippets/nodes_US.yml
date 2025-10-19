@@ -20,27 +20,42 @@ proxies:
   server: 151.242.251.152
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '14,18,20,22|美国_12 | uu6.top #3'
+  name: '14,18,20,22|美国_12 | uu6.top #4'
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
-- name: -1|1|50|🇺🇸 美国 195 | uu6.top
+- alterId: 0
+  cipher: auto
+  name: 42,43|美国 806 | uu6.top
+  network: ws
+  port: '443'
+  server: 73E42019-c820-A66a-011E-f11937232ec1.89890604.XYz
+  servername: ''
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: c2633560-5acb-4dd3-9c22-9a6c2fd212e2
+  ws-opts:
+    headers:
+      Host: 73e42019-C820-A66A-011E-f11937232EC1.89890604.xYZ
+    path: /2uRsM4Z4Y8O5OsbJkA
+- name: '-1|1|1|1|1|1|1|1|1|50|🇺 | uu6.top #1'
+  password: 5d8c0aa1-dfeb-4f6c-83a7-1e64e5a31a4e
+  port: 8443
+  server: tj.cpddx.club
+  skip-cert-verify: true
+  sni: tj.cpddx.club
+  type: trojan
+- name: -1|1|1|50|🇺🇸 美国 195 | uu6.top
   password: 6d0e0c02-8982-4f74-a115-50ad7756e2fc
   port: 8443
   server: tj.cpddx.club
   skip-cert-verify: true
   sni: tj.cpddx.club
   type: trojan
-- name: -1|1|1|1|1|1|1|1|50|🇺🇸 | uu6.top
+- name: -1|1|1|1|1|1|1|1|1|50|🇺 | uu6.top
   password: 327a36bc-e09c-4bb6-92bd-896bc148381b
-  port: 8443
-  server: tj.cpddx.club
-  skip-cert-verify: true
-  sni: tj.cpddx.club
-  type: trojan
-- name: '-1|1|1|1|1|1|1|1|50|🇺🇸 | uu6.top #1'
-  password: 5d8c0aa1-dfeb-4f6c-83a7-1e64e5a31a4e
   port: 8443
   server: tj.cpddx.club
   skip-cert-verify: true
