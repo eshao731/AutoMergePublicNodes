@@ -1,16 +1,4 @@
 proxies:
-- name: '9,26|HK香港 | uu6.top #8'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
 - name: '9,26|HK香港 | uu6.top #9'
   network: ws
   port: 57537
@@ -23,10 +11,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,26|HK香港 | uu6.top #11'
+- name: '9,26|HK香港 | uu6.top #10'
   network: ws
-  port: 81
-  server: 210.61.97.241
+  port: 443
+  server: 202.85.53.74
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -34,7 +22,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '9,26|HK香港 | uu6.top #13'
   network: ws
   port: 35951
@@ -47,32 +35,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #15'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '49,51|HK_speednode_0007 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
 - name: '49,51|HK_speednode_0008 | uu6.top #3'
   network: ws
   port: 443
@@ -87,6 +49,20 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: '49,51|HK_speednode_0007 | uu6.top #3'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
 - name: '49,51|HK_speednode_0009 | uu6.top #3'
   network: ws
   port: 443
@@ -110,7 +86,7 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: -1|1|1|1|35|香港 电讯盈科有限公司 | uu6.top
+  name: -1|1|1|1|1|35|香港 电讯盈科有限 | uu6.top
   network: ws
   port: 80
   server: 54102936-swkhs0-sxwsos-g3b3.hk.p5pv.com
