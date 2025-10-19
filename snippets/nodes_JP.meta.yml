@@ -1,8 +1,20 @@
 proxies:
-- name: '9,24|JP日本 | uu6.top #33'
+- name: '9|JP日本 | uu6.top #2'
   network: ws
   port: 443
-  server: 158.101.145.82
+  server: 158.101.80.84
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '24|JP日本 | uu6.top #26'
+  network: ws
+  port: 443
+  server: 160.16.203.210
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -14,7 +26,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 32|🇯🇵最低2块钱1000G流量 | uu6.top
+  name: 33|🇯🇵最低2块钱1000G流量 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -29,32 +41,11 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/?ed=2560
-- alpn:
-  - h2%2Chttp%2F1.1
-  alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  flow: ''
-  name: '32|🇯🇵 | uu6.top #1'
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: amIR-ebR.pAGeS.Dev
-  skip-cert-verify: true
-  sni: amIR-ebR.pAGeS.Dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 256b56b5-9079-4266-8777-c39fdcd87cd9
-  ws-opts:
-    headers:
-      Host: amIR-ebR.pAGeS.Dev
-    path: /2IBbZjAugSH41qc5?ed
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   flow: ''
-  name: 32|🇯🇵西藏可以用 | uu6.top
+  name: 33|🇯🇵西藏可以用 | uu6.top
   network: ws
   port: 8443
   server: 104.20.2.221
@@ -72,7 +63,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 32|🇯🇵新疆可以用 | uu6.top
+  name: 33|🇯🇵新疆可以用 | uu6.top
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -87,11 +78,93 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram🇨🇳@wangcai2/?ed=2560
+- alpn:
+  - h2%2Chttp%2F1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: ''
+  name: '33|🇯🇵 | uu6.top #1'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: amIR-ebR.pAGeS.Dev
+  skip-cert-verify: true
+  sni: amIR-ebR.pAGeS.Dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 256b56b5-9079-4266-8777-c39fdcd87cd9
+  ws-opts:
+    headers:
+      Host: amIR-ebR.pAGeS.Dev
+    path: /2IBbZjAugSH41qc5?ed
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: ''
+  name: 33|🇯🇵解锁ChatGPT | uu6.top
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  sni: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      Host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: ''
+  name: 33|🇯🇵解锁TikTok | uu6.top
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      Host: join-raiv2mmr-telegram.koyeb.app
+    path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
+- alpn:
+  - '%5B%22h3%22%2C%22h2%22%2C%22http%2F1.1%22%5D'
+  alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  flow: ''
+  name: 33|🇯🇵解锁ins | uu6.top
+  network: ws
+  port: 443
+  server: join-raiv2mmr-telegram.koyeb.app
+  servername: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  skip-cert-verify: true
+  sni: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c9b6087-f955-4506-9c1d-67a5aae44bc9
+  ws-opts:
+    headers:
+      Host: JOIN-RAIV2MMR-TELEGRAM.koyeb.app
+    path: /@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr-@Raiv2mmr
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 32|🇯🇵福建可以用 | uu6.top
+  name: 33|🇯🇵福建可以用 | uu6.top
   network: tcp
   port: 443
   reality-opts:
@@ -105,20 +178,7 @@ proxies:
   type: vless
   udp: true
   uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
-- name: -1|33|🇯🇵最低2块钱1000G流量 | uu6.top
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560flow=-udp443
-- name: -1|33|🇯🇵 | uu6.top
+- name: -1|32|🇯🇵 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -133,7 +193,7 @@ proxies:
     path: /flow=-udp443
 - alpn:
   - h2%2Chttp%2F1.1
-  name: '-1|33|🇯🇵 | #1 | uu6.top'
+  name: '-1|32|🇯🇵 | #1 | uu6.top'
   network: ws
   port: 443
   server: www.speedtest.net
@@ -146,7 +206,20 @@ proxies:
     headers:
       Host: amIR-ebR.pAGeS.Dev
     path: /2IBbZjAugSH41qc5?edflow=-udp443
-- name: -1|33|🇯🇵新疆可以用 | uu6.top
+- name: -1|32|🇯🇵最低2块钱1000G流量 | uu6.top
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560flow=-udp443
+- name: -1|32|🇯🇵新疆可以用 | uu6.top
   network: ws
   port: 2096
   server: 104.19.50.238
