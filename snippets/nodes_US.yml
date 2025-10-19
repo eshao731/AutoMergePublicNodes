@@ -27,19 +27,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 34|美国 CloudFlare节点 | uu6.top
-  network: ws
-  port: 443
-  server: 172.67.204.19
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
   name: 41,42|美国 806 | uu6.top
   network: ws
   port: '443'
@@ -67,23 +54,22 @@ proxies:
   skip-cert-verify: true
   sni: tj.cpddx.club
   type: trojan
-- name: -1|1|1|1|1|1|1|1|1|50|🇺 | uu6.top
-  password: 894b1c0e-9e8a-42d1-b780-f7894c173043
-  port: 8443
-  server: tj.cpddx.club
-  skip-cert-verify: true
-  sni: tj.cpddx.club
-  type: trojan
-- name: '-1|1|1|1|1|1|1|1|1|50|🇺 | uu6.top #1'
-  password: c4f3520c-471f-49ac-96d9-60882c8c62ff
-  port: 8443
-  server: tj.cpddx.club
-  skip-cert-verify: true
-  sni: tj.cpddx.club
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|1|35|美国 RF Enginee | uu6.top
+  name: -1|34|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: 443
+  server: 172.67.204.19
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|35|美国 RF Engin | uu6.top
   network: ws
   port: 8443
   server: ebc.zoom.us
