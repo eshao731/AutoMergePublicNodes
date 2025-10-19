@@ -1,6 +1,6 @@
 proxies:
 - auth: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  name: '0,4,15,37,40,41|🇨🇦 | uu6.top #3'
+  name: '0,4,15,36,39,40|🇨🇦 | uu6.top #3'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 129.153.59.26
@@ -10,7 +10,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 16,49,51|CA_speednode_0001 | uu6.top
+  name: 16,48,50|CA_speednode_0001 | uu6.top
   network: tcp
   port: 443
   reality-opts:
@@ -26,7 +26,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 38|🇨🇦 加拿大 | uu6.top
+  name: 37|🇨🇦 加拿大 | uu6.top
   password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   port: '52434'
   reduce-rtt: false
@@ -37,22 +37,9 @@ proxies:
   type: tuic
   uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   version: '5'
-- alterId: 0
-  cipher: auto
-  name: 44|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
-  network: ws
-  port: '80'
-  server: 51.79.102.253
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /IOebhLMhl1CTbFHbL95myfRX2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 50|🇨🇦 加拿大 59 | uu6.top
+  name: 49|🇨🇦 加拿大 59 | uu6.top
   network: tcp
   port: 26113
   reality-opts:
