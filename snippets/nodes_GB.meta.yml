@@ -1,17 +1,5 @@
 proxies:
-- name: '9,25|GB英国 | uu6.top #1'
-  network: ws
-  port: 443
-  server: 141.11.43.124
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '25|GB英国 | uu6.top #2'
+- name: '26|GB英国 | uu6.top #2'
   network: ws
   port: 443
   server: 141.11.43.124
@@ -23,9 +11,23 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '41,49,51|GB_speednode_0010 | uu6.top #1'
+  port: 33333
+  reality-opts:
+    public-key: 46NdCm_LhhtVYBQyHrz5ZQ8Db7dKTxXd_d4H5NjxVlo
+    short-id: 21066f082effb5
+  server: 80.75.218.223
+  servername: www.amazon.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a6b7d2-6909-4bda-8bd3-49b478a4e058
 - alterId: 0
   cipher: auto
-  name: 43|🇬🇧 | uu6.top
+  name: 44|🇬🇧 | uu6.top
   network: ws
   port: '443'
   server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
