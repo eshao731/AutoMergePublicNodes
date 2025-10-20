@@ -1,4 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 3|香港 电讯盈科有限公司 | uu6.top
+  network: ws
+  port: 80
+  server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 3|香港 阿里云 | uu6.top
@@ -27,19 +40,6 @@ proxies:
     path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: 3|香港 电讯盈科有限公司 | uu6.top
-  network: ws
-  port: 80
-  server: 0613ae96-sv2sg0-svim0o-1slop.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 520b9126-9870-11ef-81b0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
   name: 50|🇭🇰 香港家宽 16 | uu6.top
   network: ws
   port: '80'
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '-1|35|香港 阿里云 | #3 | uu6.top'
+  name: '-1|1|35|香港 阿里云 | #3 | uu6.top'
   network: ws
   port: 34348
   server: 8.210.212.196
@@ -66,7 +66,7 @@ proxies:
     path: /arki?ed=2048
 - alterId: 2
   cipher: auto
-  name: -1|44|🇭🇰 香港 电讯盈科有限公司 | | uu6.top
+  name: -1|1|44|🇭🇰 香港 电讯盈科有限公司 | uu6.top
   network: ws
   port: '80'
   server: e4fac854-sum4g0-sx1cxx-1tfjk.hk.p5pv.com
