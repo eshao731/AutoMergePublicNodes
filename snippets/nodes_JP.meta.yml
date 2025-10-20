@@ -11,34 +11,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,26|JP日本 | uu6.top #29'
+- name: '9|JP日本 | uu6.top #12'
   network: ws
-  port: 19842
-  server: 121.85.55.59
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,26|JP日本 | uu6.top #18'
-  network: ws
-  port: 12553
-  server: 113.37.149.36
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '26|JP日本 | uu6.top #15'
-  network: ws
-  port: 12553
-  server: 113.37.149.36
+  port: 443
+  server: 158.101.145.82
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -47,10 +23,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '26|JP日本 | uu6.top #22'
+- name: '26|JP日本 | uu6.top #26'
   network: ws
-  port: 12553
-  server: 113.37.149.36
+  port: 443
+  server: 160.16.203.210
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -97,23 +73,6 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇯🇵解锁P站 | uu6.top
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: null
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /
-- alterId: 0
-  cipher: auto
-  flow: ''
   name: 34|🇯🇵解锁TikTok | uu6.top
   network: ws
   port: 2096
@@ -130,40 +89,21 @@ proxies:
     path: /Telegram🇨🇳@WangCai2/?ed=2560
 - alterId: 0
   cipher: auto
-  client-fingerprint: random
   flow: ''
-  name: 34|🇯🇵最低2块钱1000G流量 | uu6.top
+  name: 34|🇯🇵解锁P站 | uu6.top
   network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-sgp1.008883.xyz
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: null
-  sni: do-sgp1.008883.xyz
+  sni: gaosir.unfeeling.sbs
   tls: true
   type: vless
-  uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: do-sgp1.008883.xyz
-    path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 34|🇯🇵西藏可以用 | uu6.top
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: oracle-jp-osaka.008883.xyz
-  skip-cert-verify: null
-  sni: oracle-jp-osaka.008883.xyz
-  tls: true
-  type: vless
-  uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50
-  ws-opts:
-    headers:
-      Host: oracle-jp-osaka.008883.xyz
-    path: /freev2.net?ed=2048
+      Host: gaosir.unfeeling.sbs
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: random
@@ -185,10 +125,10 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇯🇵解锁奈飞 | uu6.top
+  name: 34|🇯🇵解锁X | uu6.top
   network: ws
-  port: 30051
-  server: 175.201.95.5
+  port: 50000
+  server: 118.46.37.203
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: null
   sni: gaosir.unfeeling.sbs
@@ -198,40 +138,39 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: Telegram@freecodes/?ed=2560
+    path: /telegram @freecodes /?ed=2560
 - alterId: 0
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇯🇵 | uu6.top
+  name: 34|🇯🇵西藏可以用 | uu6.top
   network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: do-blr1.008883.xyz
+  server: freev2.cloudflare.182682.xyz
+  servername: oracle-jp-osaka.008883.xyz
   skip-cert-verify: null
-  sni: do-blr1.008883.xyz
+  sni: oracle-jp-osaka.008883.xyz
   tls: true
   type: vless
   uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50
   ws-opts:
     headers:
-      Host: do-blr1.008883.xyz
+      Host: oracle-jp-osaka.008883.xyz
     path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
-  client-fingerprint: random
   flow: ''
-  name: 34|🇯🇵新疆可以用 | uu6.top
+  name: 34|🇯🇵解锁ins | uu6.top
   network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: oracle-id-batam.008883.xyz
+  port: 12312
+  server: 211.48.77.114
+  servername: gaosir.unfeeling.sbs
   skip-cert-verify: null
-  sni: oracle-id-batam.008883.xyz
+  sni: gaosir.unfeeling.sbs
   tls: true
   type: vless
-  uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: oracle-id-batam.008883.xyz
-    path: /freev2.net?ed=2048
+      Host: gaosir.unfeeling.sbs
+    path: /x @节点狂魔
