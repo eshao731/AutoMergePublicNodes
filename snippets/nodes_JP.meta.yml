@@ -1,5 +1,41 @@
 proxies:
-- name: '9,25|JP日本 | uu6.top #25'
+- name: '9,26|JP日本 | uu6.top #17'
+  network: ws
+  port: 443
+  server: 160.16.203.210
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,26|JP日本 | uu6.top #20'
+  network: ws
+  port: 443
+  server: 160.16.203.210
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40freecodes%2F%3Fed%3D2560'
+- name: '9,26|JP日本 | uu6.top #30'
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,26|JP日本 | uu6.top #25'
   network: ws
   port: 443
   server: 153.121.45.101
@@ -11,10 +47,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9|JP日本 | uu6.top #12'
+- name: '9,26|JP日本 | uu6.top #16'
   network: ws
   port: 443
-  server: 158.101.145.82
+  server: 160.16.203.210
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -23,7 +59,31 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '25|JP日本 | uu6.top #27'
+- name: '9,26|JP日本 | uu6.top #24'
+  network: ws
+  port: 443
+  server: 153.121.45.101
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '26|JP日本 | uu6.top #19'
+  network: ws
+  port: 81
+  server: 210.61.97.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '26|JP日本 | uu6.top #27'
   network: ws
   port: 443
   server: 153.121.45.101
@@ -39,25 +99,7 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 33|🇯🇵最低2块钱1000G流量 | uu6.top
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-sgp1.008883.xyz
-  skip-cert-verify: null
-  sni: do-sgp1.008883.xyz
-  tls: true
-  type: vless
-  uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50
-  ws-opts:
-    headers:
-      Host: do-sgp1.008883.xyz
-    path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: '33|🇯🇵 | uu6.top #1'
+  name: '34|🇯🇵 | uu6.top #1'
   network: ws
   port: 443
   server: freev2.cloudflare.182682.xyz
@@ -73,26 +115,9 @@ proxies:
     path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
-  flow: ''
-  name: 33|🇯🇵福建可以用 | uu6.top
-  network: ws
-  port: 2096
-  server: 188.42.145.253
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: null
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /freecodes@节点狂魔/?ed=2560
-- alterId: 0
-  cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 33|🇯🇵 | uu6.top
+  name: 34|🇯🇵 | uu6.top
   network: ws
   port: 443
   server: ct.877774.xyz
@@ -109,7 +134,24 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 33|🇯🇵解锁P站 | uu6.top
+  name: 34|🇯🇵福建可以用 | uu6.top
+  network: ws
+  port: 2096
+  server: 188.42.145.253
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: null
+  sni: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /freecodes@节点狂魔/?ed=2560
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: 34|🇯🇵解锁P站 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -126,7 +168,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 33|🇯🇵解锁TikTok | uu6.top
+  name: 34|🇯🇵解锁TikTok | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -144,7 +186,25 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 33|🇯🇵西藏可以用 | uu6.top
+  name: 34|🇯🇵最低2块钱1000G流量 | uu6.top
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: do-sgp1.008883.xyz
+  skip-cert-verify: null
+  sni: do-sgp1.008883.xyz
+  tls: true
+  type: vless
+  uuid: 2b3fe95b-70b4-4aeb-99bb-e8591413bd50
+  ws-opts:
+    headers:
+      Host: do-sgp1.008883.xyz
+    path: /freev2.net?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: random
+  flow: ''
+  name: 34|🇯🇵西藏可以用 | uu6.top
   network: ws
   port: 443
   server: freev2.cloudflare.182682.xyz
@@ -162,7 +222,7 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 33|🇯🇵最高200元终身无限流量 | uu6.top
+  name: 34|🇯🇵最高200元终身无限流量 | uu6.top
   network: ws
   port: 443
   server: freev2.cloudflare.182682.xyz
@@ -180,7 +240,7 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 33|🇯🇵新疆可以用 | uu6.top
+  name: 34|🇯🇵新疆可以用 | uu6.top
   network: ws
   port: 443
   server: www.visa.com.hk
@@ -194,41 +254,7 @@ proxies:
     headers:
       Host: oracle-id-batam.008883.xyz
     path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  flow: ''
-  name: 33|🇯🇵解锁X | uu6.top
-  network: ws
-  port: 50000
-  server: 118.46.37.203
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: null
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /telegram @freecodes /?ed=2560
-- alterId: 0
-  cipher: auto
-  flow: ''
-  name: 33|🇯🇵解锁ins | uu6.top
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: null
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
-- name: '42|日本 | uu6.top #1'
+- name: 43|日本 | uu6.top
   network: ws
   port: 8443
   server: 217.60.38.191
