@@ -12,7 +12,20 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- name: '9,26|HK香港 | uu6.top #17'
+- alterId: 0
+  cipher: auto
+  name: 3|香港 阿里云 | uu6.top
+  network: ws
+  port: 57172
+  server: 8.210.212.196
+  tls: false
+  type: vmess
+  uuid: e7b8c1e9-40f6-4e31-91c7-e36d0cb68406
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- name: '9,25|HK香港 | uu6.top #17'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -24,7 +37,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: '9,17,19,21,26|HK香港 | uu6.top #19'
+- name: '9,17,19,21,25|HK香港 | uu6.top #19'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -36,7 +49,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,17,19,21,26|HK香港 | uu6.top #28'
+- name: '9,17,19,21,25|HK香港 | uu6.top #28'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -48,7 +61,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #25'
+- name: '9,25|HK香港 | uu6.top #25'
   network: ws
   port: 57537
   server: 221.125.10.8
@@ -60,7 +73,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,26|HK香港 | uu6.top #22'
+- name: '9,25|HK香港 | uu6.top #26'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #22'
   network: ws
   port: 10004
   server: 114.34.202.224
@@ -72,19 +97,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|HK香港 | uu6.top #9'
-  network: ws
-  port: 10201
-  server: 223.16.138.113
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '9,17,19,21,26|HK香港 | uu6.top #27'
+- name: '9,17,19,21,25|HK香港 | uu6.top #27'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -96,19 +109,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,17,19,21,26|HK香港 | uu6.top #14'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40freecodes%2F%3Fed%3D2560'
-- name: '17,19,21,26|HK香港 | uu6.top #18'
+- name: '17,19,21,25|HK香港 | uu6.top #18'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -120,21 +121,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- encryption: none
-  name: 18,20,22,49|HK_d6377_0012 | uu6.top
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
 - encryption: none
   name: '18,20,22|香港_2 | uu6.top #2'
   network: ws
@@ -187,7 +173,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/
-- name: '26|HK香港 | uu6.top #16'
+- name: '25|HK香港 | uu6.top #16'
   network: ws
   port: 10002
   server: 223.16.138.113
@@ -199,10 +185,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '26|HK香港 | uu6.top #21'
+- name: '25|HK香港 | uu6.top #24'
   network: ws
-  port: 10201
-  server: 223.16.138.113
+  port: 443
+  server: 202.85.53.74
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -210,11 +196,11 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: X%40freecodes%2F%3Fed%3D2560
+    path: '%2Ffreecodes%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰最低2块钱1000G流量 | uu6.top
+  name: 33|🇭🇰最低2块钱1000G流量 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -231,7 +217,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰福建可用 | uu6.top
+  name: 33|🇭🇰福建可用 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -248,7 +234,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰西藏可用 | uu6.top
+  name: 33|🇭🇰西藏可用 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -266,7 +252,7 @@ proxies:
   cipher: auto
   client-fingerprint: randomized
   flow: ''
-  name: 34|🇭🇰电信可用 | uu6.top
+  name: 33|🇭🇰电信可用 | uu6.top
   network: ws
   port: 2095
   server: cf.090227.xyz
@@ -281,7 +267,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰最高200元终身无限流量 | uu6.top
+  name: 33|🇭🇰最高200元终身无限流量 | uu6.top
   network: ws
   port: 12312
   server: 211.48.77.114
@@ -297,45 +283,9 @@ proxies:
     path: /x @节点狂魔
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  flow: ''
-  name: 34|🇭🇰可bt下载 | uu6.top
-  network: ws
-  port: 50001
-  server: 211.184.133.123
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: null
-  sni: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
   client-fingerprint: random
   flow: ''
-  name: '34|🇭🇰 | uu6.top #1'
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: oracle-jp-osaka.008883.xyz
-  skip-cert-verify: null
-  sni: oracle-jp-osaka.008883.xyz
-  tls: true
-  type: vless
-  uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001
-  ws-opts:
-    headers:
-      Host: oracle-jp-osaka.008883.xyz
-    path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 34|🇭🇰 | uu6.top
+  name: 33|🇭🇰 | uu6.top
   network: ws
   port: 443
   server: ct.877774.xyz
@@ -351,11 +301,29 @@ proxies:
     path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
+  client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰解锁奈飞 | uu6.top
+  name: '33|🇭🇰 | uu6.top #1'
   network: ws
-  port: 12147
-  server: 182.31.70.92
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: oracle-jp-osaka.008883.xyz
+  skip-cert-verify: null
+  sni: oracle-jp-osaka.008883.xyz
+  tls: true
+  type: vless
+  uuid: 940205cb-a3d0-4942-8f4b-aed8b74b8001
+  ws-opts:
+    headers:
+      Host: oracle-jp-osaka.008883.xyz
+    path: /freev2.net?ed=2048
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: 33|🇭🇰解锁YouTube | uu6.top
+  network: ws
+  port: 50001
+  server: 218.146.200.8
   servername: gaosir.unfeeling.sbs
   skip-cert-verify: null
   sni: gaosir.unfeeling.sbs
@@ -367,7 +335,7 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: Telegram🇨🇳 @WangCai2 /?ed=2560
 - client-fingerprint: chrome
-  name: '40,41,44,46,47|香港4 | uu6.top #2'
+  name: '39,40,43,45,46|香港4 | uu6.top #2'
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -375,10 +343,19 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 50|🇭🇰 香港 01 | uu6.top
+- alterId: 0
+  cipher: auto
+  name: 49|🇭🇰 香港 46 | uu6.top
+  network: http
+  port: '31212'
+  server: 47.242.90.210
+  tls: false
+  type: vmess
+  uuid: 3a4271fb-2718-4489-da78-80a8e7701aa5
+- name: 49|🇭🇰 香港 06 | uu6.top
   network: ws
-  port: 443
-  server: 47.76.218.163
+  port: 21415
+  server: 43.132.244.52
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -386,7 +363,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+    path: telegram%40freecodes%2F%3Fed%3D2560
 - client-fingerprint: randomized
   name: -1|34|🇭🇰电信可用 | uu6.top
   network: ws
