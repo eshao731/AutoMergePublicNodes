@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国_3 | uu6.top
+  network: ws
+  port: 443
+  server: 172.67.160.44
+  servername: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+  tls: true
+  type: vmess
+  uuid: 086c655d-0c12-47dd-9d5a-2670089201ee
+  ws-opts:
+    headers:
+      Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+    path: /ri9mOOVJuAimB74kgXZ
 - cipher: chacha20-ietf-poly1305
   name: 14|美国_10 | uu6.top
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -22,20 +36,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|50|🇺🇸 美国 035 | uu6.top
-  network: ws
-  port: '8881'
-  server: 156.229.162.206
-  tls: false
-  type: vmess
-  uuid: dc39ed85-1ec2-4889-b0cd-691f075f1198
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12122
-- alterId: 0
-  cipher: auto
-  name: -1|1|50|🇺🇸 美国 012 | uu6.top
+  name: -1|1|1|50|🇺🇸 美国 012 | uu6.top
   network: ws
   port: '8881'
   server: 156.229.162.206
@@ -48,7 +49,20 @@ proxies:
     path: /wada12122
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|35|美 | uu6.top
+  name: -1|1|1|50|🇺🇸 美国 035 | uu6.top
+  network: ws
+  port: '8881'
+  server: 156.229.162.206
+  tls: false
+  type: vmess
+  uuid: dc39ed85-1ec2-4889-b0cd-691f075f1198
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /wada12122
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|1|35 | uu6.top
   network: ws
   port: 8443
   server: t1.620720.xyz
