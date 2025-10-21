@@ -1,85 +1,43 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13,14|美国_3 | uu6.top
+  network: ws
+  port: 443
+  server: 172.67.160.44
+  servername: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+  tls: true
+  type: vmess
+  uuid: 086c655d-0c12-47dd-9d5a-2670089201ee
+  ws-opts:
+    headers:
+      Host: 7c681e58-53be-8513-d3ea-bd425436e356.huangshang.site
+    path: /ri9mOOVJuAimB74kgXZ
 - cipher: chacha20-ietf-poly1305
   name: 14|美国_10 | uu6.top
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 151.242.251.152
   type: ss
-- name: '13|美国 | uu6.top #41'
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 141.94.68.216
-  sni: nodes.830901.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- name: '13|美国 | uu6.top #42'
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  sni: nodes.830901.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- name: '13|美国 | uu6.top #39'
-  network: ws
-  password: iwangjie
-  port: 443
-  server: 138.124.118.34
-  sni: nodes.830901.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2Fproxyip%3Dproxyip.fxxk.dedyn.io'
 - cipher: chacha20-ietf-poly1305
   name: 14|美国_12 | uu6.top
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
-- name: 14|美国_40 | uu6.top
+- alterId: 0
+  cipher: auto
+  name: 35|美国 CloudFlare节点 | uu6.top
   network: ws
-  password: iwangjie
-  port: 2053
-  server: 141.94.68.216
-  sni: nodes.830901.xyz
+  port: 8443
+  server: t1.620720.xyz
   tls: true
-  type: trojan
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
   ws-opts:
     headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: 14|美国_41 | uu6.top
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
-  sni: nodes.830901.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: 14|美国_38 | uu6.top
-  network: ws
-  password: iwangjie
-  port: 443
-  server: 138.124.118.34
-  sni: nodes.830901.xyz
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /proxyip=proxyip.fxxk.dedyn.io
+      Host: t1.620720.xyz
+    path: /
 - cipher: aes-256-cfb
   name: 39|US_国_1 | uu6.top
   password: amazonskr05
@@ -87,16 +45,7 @@ proxies:
   server: 13.38.44.116
   type: ss
 - client-fingerprint: chrome
-  name: '41,46,47|美国 | uu6.top #144'
-  network: tcp
-  password: ea39fa94f1ee00999337ea1fd3318e69
-  port: 2467
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  name: '41,46,47|美国2 | uu6.top #4'
+  name: '40,41,46,47|美国2 | uu6.top #4'
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 2381
