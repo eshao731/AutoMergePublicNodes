@@ -9,7 +9,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 34,43|🇭🇰 香港 电讯盈科有限公司 | uu6.top
+  name: 35,44|🇭🇰 香港 电讯盈科有限公司 | uu6.top
   network: ws
   port: '80'
   server: 7bdf5f2f-sv2sg0-t2p691-1s4hc.hk3.p5pv.com
@@ -20,8 +20,21 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 2
+  cipher: auto
+  name: '35|香港 电讯盈科有限公司 | uu6.top #2'
+  network: ws
+  port: 80
+  server: 8058f442-sv6hs0-t2p691-1s4hc.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - client-fingerprint: chrome
-  name: '39,40,43,45,46|香港4 | uu6.top #3'
+  name: '40,41,44,46,47|香港4 | uu6.top #3'
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
