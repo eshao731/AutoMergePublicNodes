@@ -1,13 +1,15 @@
 proxies:
-- name: '9,25|TW台湾 | uu6.top #5'
+- name: 49,51|TW_speednode_0025 | uu6.top
   network: ws
-  port: 10004
-  server: 114.34.202.224
+  port: 443
+  server: 167.179.27.92
   servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
