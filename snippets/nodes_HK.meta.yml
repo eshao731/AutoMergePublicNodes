@@ -19,18 +19,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,13,17,19,21|香港 | uu6.top #21'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
 - name: '9|HK香港 | uu6.top #7'
   network: ws
   port: 10201
@@ -43,18 +31,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40freecodes%2F%3Fed%3D2560
-- name: '9,25|HK香港 | uu6.top #17'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Ffreecodes%2F%3Fed%3D2560'
 - name: '9,25|HK香港 | uu6.top #29'
   network: ws
   port: 57537
@@ -67,52 +43,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,25|HK香港 | uu6.top #20'
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- encryption: none
-  name: 14,18,20,22,49|HK_d9713_0006 | uu6.top
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- encryption: none
-  name: '14,18,20,22,49,51|HK_speednode_0006 | uu6.top #1'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@freecodes/?ed=2560
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰 | uu6.top
+  name: 33|🇭🇰 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -130,7 +64,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: '34|🇭🇰 | uu6.top #1'
+  name: '33|🇭🇰 | uu6.top #1'
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -148,7 +82,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰最低2块钱1000G流量 | uu6.top
+  name: 33|🇭🇰最低2块钱1000G流量 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -166,7 +100,7 @@ proxies:
 - alterId: 0
   cipher: auto
   flow: ''
-  name: 34|🇭🇰最高200元终身无限流量 | uu6.top
+  name: 33|🇭🇰最高200元终身无限流量 | uu6.top
   network: ws
   port: 2096
   server: 188.42.145.253
@@ -185,7 +119,7 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰解锁奈飞 | uu6.top
+  name: 33|🇭🇰解锁奈飞 | uu6.top
   network: ws
   port: 443
   server: www.visa.com.hk
@@ -204,45 +138,7 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰解锁TikTok | uu6.top
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: do-blr1.862400.xyz
-  skip-cert-verify: true
-  sni: do-blr1.862400.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-blr1.862400.xyz
-    path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 34|🇭🇰西藏可用 | uu6.top
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-lon1.862400.xyz
-  skip-cert-verify: true
-  sni: do-lon1.862400.xyz
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-lon1.862400.xyz
-    path: /freev2.net?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: random
-  flow: ''
-  name: 34|🇭🇰解锁P站 | uu6.top
+  name: 33|🇭🇰解锁P站 | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -261,26 +157,26 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰解锁X（推特） | uu6.top
+  name: 33|🇭🇰西藏可用 | uu6.top
   network: ws
   port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sgp1.862400.xyz
+  server: ct.877774.xyz
+  servername: do-lon1.862400.xyz
   skip-cert-verify: true
-  sni: do-sgp1.862400.xyz
+  sni: do-lon1.862400.xyz
   tfo: false
   tls: true
   type: vless
   uuid: 81933241-8240-4826-8e93-734500a2d1ad
   ws-opts:
     headers:
-      Host: do-sgp1.862400.xyz
+      Host: do-lon1.862400.xyz
     path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰新疆可用 | uu6.top
+  name: 33|🇭🇰新疆可用 | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -299,26 +195,45 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰福建可用 | uu6.top
+  name: 33|🇭🇰解锁TikTok | uu6.top
   network: ws
   port: 443
-  server: ct.877774.xyz
-  servername: do-syd1.862400.xyz
+  server: www.visa.com.hk
+  servername: do-blr1.862400.xyz
   skip-cert-verify: true
-  sni: do-syd1.862400.xyz
+  sni: do-blr1.862400.xyz
   tfo: false
   tls: true
   type: vless
   uuid: 81933241-8240-4826-8e93-734500a2d1ad
   ws-opts:
     headers:
-      Host: do-syd1.862400.xyz
+      Host: do-blr1.862400.xyz
     path: /freev2.net?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰解锁ins | uu6.top
+  name: 33|🇭🇰解锁X（推特） | uu6.top
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: do-sgp1.862400.xyz
+  skip-cert-verify: true
+  sni: do-sgp1.862400.xyz
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-sgp1.862400.xyz
+    path: /freev2.net?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: random
+  flow: ''
+  name: 33|🇭🇰解锁ins | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -337,7 +252,26 @@ proxies:
   cipher: auto
   client-fingerprint: random
   flow: ''
-  name: 34|🇭🇰解锁ChatGPT | uu6.top
+  name: 33|🇭🇰福建可用 | uu6.top
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: do-syd1.862400.xyz
+  skip-cert-verify: true
+  sni: do-syd1.862400.xyz
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-syd1.862400.xyz
+    path: /freev2.net?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: random
+  flow: ''
+  name: 33|🇭🇰解锁ChatGPT | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -353,7 +287,7 @@ proxies:
       Host: oracle-id-batam.862400.xyz
     path: /freev2.net?ed=2048
 - client-fingerprint: chrome
-  name: '40,41,44,46,47|香港4 | uu6.top #3'
+  name: '39,40,43,45,46|香港4 | uu6.top #3'
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -361,21 +295,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '49,51|HK_speednode_0008 | uu6.top #1'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔
-- name: 50|🇭🇰 香港 03 | uu6.top
+- name: 49|🇭🇰 香港 03 | uu6.top
   network: ws
   port: 21415
   server: 43.132.244.52
@@ -388,49 +308,7 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: telegram%40freecodes%2F%3Fed%3D2560
 - client-fingerprint: random
-  name: -1|33|🇭🇰解锁TikTok | uu6.top
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: do-blr1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-blr1.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443
-- client-fingerprint: random
-  name: -1|33|🇭🇰新疆可用 | uu6.top
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sfo3.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-sfo3.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443
-- client-fingerprint: random
-  name: -1|33|🇭🇰西藏可用 | uu6.top
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-lon1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-lon1.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443
-- client-fingerprint: random
-  name: -1|33|🇭🇰解锁奈飞 | uu6.top
+  name: -1|34|🇭🇰解锁奈飞 | uu6.top
   network: ws
   port: 443
   server: www.visa.com.hk
@@ -444,7 +322,63 @@ proxies:
       Host: do-fra1.862400.xyz
     path: /freev2.net?ed=2048flow=-udp443
 - client-fingerprint: random
-  name: -1|33|🇭🇰解锁X（推特） | uu6.top
+  name: -1|34|🇭🇰解锁P站 | uu6.top
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: do-tor1.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-tor1.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443
+- client-fingerprint: random
+  name: -1|34|🇭🇰解锁TikTok | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-blr1.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-blr1.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443
+- client-fingerprint: random
+  name: -1|34|🇭🇰西藏可用 | uu6.top
+  network: ws
+  port: 443
+  server: ct.877774.xyz
+  servername: do-lon1.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-lon1.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443
+- client-fingerprint: random
+  name: -1|34|🇭🇰新疆可用 | uu6.top
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: do-sfo3.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-sfo3.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443
+- client-fingerprint: random
+  name: -1|34|🇭🇰解锁X（推特） | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -458,32 +392,19 @@ proxies:
       Host: do-sgp1.862400.xyz
     path: /freev2.net?ed=2048flow=-udp443
 - client-fingerprint: random
-  name: -1|33|🇭🇰福建可用 | uu6.top
-  network: ws
-  port: 443
-  server: ct.877774.xyz
-  servername: do-syd1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-syd1.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443
-- name: -1|1|33|🇭🇰解锁P站 | uu6.top
+  name: -1|34|🇭🇰解锁ins | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
-  servername: do-tor1.862400.xyz
+  servername: oracle-kr-chuncheon.862400.xyz
   skip-cert-verify: true
   tls: true
   type: vless
   uuid: 81933241-8240-4826-8e93-734500a2d1ad
   ws-opts:
     headers:
-      Host: do-tor1.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443fp=random
+      Host: oracle-kr-chuncheon.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443
 - name: -1|1|33|🇭🇰新疆可用 | uu6.top
   network: ws
   port: 443
@@ -496,6 +417,33 @@ proxies:
   ws-opts:
     headers:
       Host: do-sfo3.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443fp=random
+- client-fingerprint: random
+  name: -1|34|🇭🇰解锁ChatGPT | uu6.top
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: oracle-id-batam.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: oracle-id-batam.862400.xyz
+    path: /freev2.net?ed=2048flow=-udp443
+- name: -1|1|33|🇭🇰解锁TikTok | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.com.hk
+  servername: do-blr1.862400.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 81933241-8240-4826-8e93-734500a2d1ad
+  ws-opts:
+    headers:
+      Host: do-blr1.862400.xyz
     path: /freev2.net?ed=2048flow=-udp443fp=random
 - name: -1|1|33|🇭🇰西藏可用 | uu6.top
   network: ws
@@ -536,21 +484,7 @@ proxies:
     headers:
       Host: do-sgp1.862400.xyz
     path: /freev2.net?ed=2048flow=-udp443fp=random
-- name: -1|1|33|🇭🇰解锁TikTok | uu6.top
-  network: ws
-  port: 443
-  server: www.visa.com.hk
-  servername: do-blr1.862400.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 81933241-8240-4826-8e93-734500a2d1ad
-  ws-opts:
-    headers:
-      Host: do-blr1.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443fp=random
-- client-fingerprint: random
-  name: -1|33|🇭🇰解锁ins | uu6.top
+- name: -1|1|33|🇭🇰解锁ins | uu6.top
   network: ws
   port: 443
   server: freeyx.cloudflare88.eu.org
@@ -562,4 +496,4 @@ proxies:
   ws-opts:
     headers:
       Host: oracle-kr-chuncheon.862400.xyz
-    path: /freev2.net?ed=2048flow=-udp443
+    path: /freev2.net?ed=2048flow=-udp443fp=random

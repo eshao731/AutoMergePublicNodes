@@ -1,6 +1,14 @@
 proxies:
+- name: '0,4,15|Channel id: 🇺🇸 | uu6.top #2'
+  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
+  port: 2056
+  server: lsj3.mangshe.xyz
+  skip-cert-verify: true
+  sni: lsj3.mangshe.xyz
+  tls: false
+  type: hysteria2
 - auth: c232f411-96b5-4b07-b2f7-66a434725ffb
-  name: '0,4,15,37,40,41|🔐 🇺🇸 推荐 #2 | uu6.top #3'
+  name: '0,4,15,36,39,40|🔐 🇺🇸 推荐 #2 | uu6.top #3'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23891
   server: 108.165.213.197
@@ -8,7 +16,7 @@ proxies:
   sni: fus01.mistea.top
   tls: false
   type: hysteria2
-- name: '0,4,15,40,49,51|US_speednode_0031 | uu6.top #2'
+- name: '0,4,15,48,50|US_speednode_0031 | uu6.top #2'
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -40,10 +48,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FXU0001F1E8U0001F1F3%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560fp%3Dchrome'
-- name: '9,25|US美国 | uu6.top #45'
+- name: '9,25|US美国 | uu6.top #60'
   network: ws
-  port: 10004
-  server: 114.34.202.224
+  port: 35951
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -51,22 +59,68 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+    path: Telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,13,17,19,21|美国 | uu6.top #107'
+  network: ws
+  port: 49153
+  server: 47.79.90.37
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9,25|US美国 | uu6.top #43'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,25|US美国 | uu6.top #48'
+  network: ws
+  port: 47790
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,25|US美国 | uu6.top #57'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40freecodes%2F'
 - encryption: none
-  name: '14,18,20,22,49,51|HK_speednode_0007 | uu6.top #1'
+  name: '14,18,20,22|美国_16 | uu6.top #4'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 18622
+  server: 210.6.207.42
   servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/?ed=2560
+    path: /X@节点狂魔/?ed=2560
 - encryption: none
   name: '14,18,20,22|美国_22 | uu6.top #3'
   network: ws
@@ -117,7 +171,7 @@ proxies:
     headers:
       Host: 3344.xmma.top
     path: '%2Fproxyip%3Dproxyip.fxxk.dedyn.io%3A443'
-- name: 25,50|🇺🇸 美国 026 | uu6.top
+- name: 25,49|🇺🇸 美国 026 | uu6.top
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -129,33 +183,154 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
-- name: '43|美国 | uu6.top #132'
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2fX%40freecodes%2f'
+- client-fingerprint: chrome
+  name: '39,40,43,45,46|美国 | uu6.top #134'
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 2467
+  server: 160.16.81.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- auth: d5b5b4e1-08f5-4b7b-93b3-4a5c988f23e7
+  name: 47|🇺🇸 美国 | USA | uu6.top
+  password: d5b5b4e1-08f5-4b7b-93b3-4a5c988f23e7
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  type: hysteria2
+  udp: true
+- auth: 3ecff5aa-f9af-4671-bd71-3f3680066258
+  name: 47|🇺🇸 美国 | USA 4 | uu6.top
+  password: 3ecff5aa-f9af-4671-bd71-3f3680066258
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  type: hysteria2
+  udp: true
+- auth: 1f1711e8-d2c0-4870-996a-0e8e2f333d85
+  name: 47|🇺🇸 美国 | USA 11 | uu6.top
+  password: 1f1711e8-d2c0-4870-996a-0e8e2f333d85
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  type: hysteria2
+  udp: true
+- auth: 485afce0-5a36-4531-9972-b299b616c5ac
+  name: 47|🇺🇸 美国 | USA 5 | uu6.top
+  password: 485afce0-5a36-4531-9972-b299b616c5ac
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  type: hysteria2
+  udp: true
+- auth: 2e7be649-c907-483d-8ec5-30a7c2027c3a
+  name: 47|🇺🇸 美国 | USA 14 | uu6.top
+  password: 2e7be649-c907-483d-8ec5-30a7c2027c3a
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  type: hysteria2
+  udp: true
+- auth: 8c227ff4-fda2-44a5-aa19-ed49cf7bc3a7
+  name: 47|🇺🇸 美国 | USA 12 | uu6.top
+  password: 8c227ff4-fda2-44a5-aa19-ed49cf7bc3a7
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  type: hysteria2
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 49|US_d9713_0033 | uu6.top
+  name: 48|US_d9713_0033 | uu6.top
   password: W4ULRoPY8DvUhnbfKnjSWD
   port: 20199
   server: 206.206.125.53
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 49|US_d9713_0034 | uu6.top
-  password: 94rUxNcHIct9OGdF0DTAPX
-  port: 38666
-  server: 172.238.21.207
-  type: ss
-  udp: true
-- name: 51|US_speednode_0032 | uu6.top
+- name: 49|🇺🇸 美国 116 | uu6.top
+  password: 68591e3f-d28e-4f28-928a-092ba4343285
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 078 | uu6.top
+  password: cfcf03a2-054e-4a91-9858-4dc457931e88
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 074 | uu6.top
+  password: f4326e2b-703b-4066-811c-bd57c8353414
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 089 | uu6.top
+  password: 57bd699f-1a16-4c8f-a9c6-481c47a6421e
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 156 | uu6.top
+  password: 2d4ad024-958b-44ea-80b3-8d712a6d05b5
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 143 | uu6.top
+  password: 77b1ecdc-6a88-4773-804f-7d64d9f1d3e3
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 171 | uu6.top
+  password: 0ce9fbb9-705b-4ecf-8b4b-8255557d7f53
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 103 | uu6.top
+  password: fd690df6-6f5e-4268-9e6c-c7f095042675
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 49|🇺🇸 美国 172 | uu6.top
+  network: ws
+  port: '10346'
+  server: 15.204.9.102.yixianled.com
+  tls: false
+  type: vmess
+  uuid: 6578c489-28d2-4f12-8c2f-9f2d8789626d
+  ws-opts:
+    headers:
+      Host: 15.204.9.102.yixianled.com
+    path: /
+- name: 50|US_speednode_0032 | uu6.top
   network: ws
   port: 2096
   server: 195.13.45.253
