@@ -13,10 +13,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /security=tls
-- name: '9,13,17,19,21|美国 | uu6.top #125'
+- name: '9,26|RU俄罗斯 | uu6.top #14'
   network: ws
-  port: 2053
-  server: 31.192.238.71
+  port: 8443
+  server: 46.8.226.39
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -24,11 +24,11 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: X%40freecodes%2F%3Fed%3D2560
-- name: '25|RU俄罗斯 | uu6.top #12'
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '9,26|RU俄罗斯 | uu6.top #13'
   network: ws
-  port: 2053
-  server: 31.192.238.71
+  port: 8443
+  server: 46.8.226.39
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -36,7 +36,19 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '26|RU俄罗斯 | uu6.top #23'
+  network: ws
+  port: 2053
+  server: 46.8.226.39
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '49,51|RU_speednode_0017 | uu6.top #3'
   network: ws
   port: 2096

@@ -7,19 +7,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '35|香港 电讯盈科有限公司 | uu6.top #1'
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - client-fingerprint: chrome
   name: '40,41,44,46,47|香港4 | uu6.top #3'
   network: tcp
@@ -31,13 +18,13 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '-1|35|香港 电讯盈科有限公司 | #2 | uu6.top'
+  name: '-1|35|香港 电讯盈科有限公司 | #1 | uu6.top'
   network: ws
   port: 80
-  server: 8058f442-sv6hs0-t2p691-1s4hc.hk.p5pv.com
+  server: hkt.gotochinatown.net
   tls: false
   type: vmess
-  uuid: aafedc64-9c23-11ef-a79f-f23c91cfbbc9
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
