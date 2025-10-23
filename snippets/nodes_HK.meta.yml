@@ -9,7 +9,31 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: '9,25|HK香港 | uu6.top #24'
+- name: '9,26|HK香港 | uu6.top #36'
+  network: ws
+  port: 10004
+  server: 114.34.202.224
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '9,26|HK香港 | uu6.top #29'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ffreecodes%2F%3Fed%3D2560'
+- name: '9,26|HK香港 | uu6.top #24'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -21,42 +45,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,25|HK香港 | uu6.top #26'
-  network: ws
-  port: 10002
-  server: 223.16.138.113
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,25|HK香港 | uu6.top #46'
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,25|HK香港 | uu6.top #21'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|HK香港 | uu6.top #6'
   network: ws
   port: 10004
@@ -69,10 +57,22 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9,13,17,19,21|香港 | uu6.top #19'
+- name: '9,13,17,19,21,26|HK香港 | uu6.top #32'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 18622
+  server: 210.6.207.42
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,13,17,19,21,26|HK香港 | uu6.top #22'
+  network: ws
+  port: 18622
+  server: 210.6.207.42
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -93,7 +93,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '13,17,19,21,25|HK香港 | uu6.top #38'
+- name: '9,13,17,19,21,26|HK香港 | uu6.top #30'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '13,17,19,21,26|HK香港 | uu6.top #38'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -105,21 +117,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- encryption: none
-  name: 14,18,20,22,49|HK_bbe1a_0006 | uu6.top
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@freecodes/?ed=2560
 - encryption: none
   name: '14,18,20,22|香港_1 | uu6.top #3'
   network: ws
@@ -134,6 +131,19 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560
 - encryption: none
+  name: '14,18,20,22|香港_2 | uu6.top #3'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@freecodes/?ed=2560
+- encryption: none
   name: '14,18,20,22|香港_3 | uu6.top #3'
   network: ws
   port: 18622
@@ -147,15 +157,13 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /X@freecodes/?ed=2560
 - encryption: none
-  name: 14,18,20,22,49|HK_bbe1a_0005 | uu6.top
+  name: '14,18,20,22|香港_4 | uu6.top #3'
   network: ws
   port: 443
   server: 202.85.53.74
   servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
@@ -181,66 +189,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '25|HK香港 | uu6.top #37'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '25|HK香港 | uu6.top #39'
-  network: ws
-  port: 10041
-  server: 211.197.161.123
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '25|HK香港 | uu6.top #41'
-  network: ws
-  port: 12228
-  server: 218.148.100.87
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '25|HK香港 | uu6.top #42'
-  network: ws
-  port: 10283
-  server: 222.113.18.214
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '25|HK香港 | uu6.top #44'
-  network: ws
-  port: 16038
-  server: 218.148.100.87
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - client-fingerprint: chrome
   name: '35,40,41,44,46,47|香港4 | uu6.top #4'
   network: tcp
@@ -250,21 +198,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 49|HK_bbe1a_0008 | uu6.top
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔
-- name: '51|HK_speednode_0005 | uu6.top #3'
+- name: '49,51|HK_speednode_0005 | uu6.top #3'
   network: ws
   port: 18622
   server: 210.6.207.42
