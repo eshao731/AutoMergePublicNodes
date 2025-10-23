@@ -1,5 +1,5 @@
 proxies:
-- name: '9,25|RU俄罗斯 | uu6.top #16'
+- name: '9,13,17,19,21,26|RU俄罗斯 | uu6.top #14'
   network: ws
   port: 2053
   server: 31.192.238.71
@@ -10,8 +10,44 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '25|RU俄罗斯 | uu6.top #12'
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,26|RU俄罗斯 | uu6.top #18'
+  network: ws
+  port: 2053
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: freecodes%2F%3Fed%3D2560
+- name: '9,13,17,19,21,26|RU俄罗斯 | uu6.top #21'
+  network: ws
+  port: 2053
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9,13,17,19,21,26|RU俄罗斯 | uu6.top #15'
+  network: ws
+  port: 2053
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '26|RU俄罗斯 | uu6.top #12'
   network: ws
   port: 2096
   server: 195.13.45.253
@@ -23,10 +59,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '25|RU俄罗斯 | uu6.top #19'
+- name: '26|RU俄罗斯 | uu6.top #30'
   network: ws
-  port: 50001
-  server: 222.114.57.191
+  port: 50004
+  server: 121.145.201.24
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -34,8 +70,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '25|RU俄罗斯 | uu6.top #31'
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '26|RU俄罗斯 | uu6.top #31'
   network: ws
   port: 2096
   server: 195.13.45.253
