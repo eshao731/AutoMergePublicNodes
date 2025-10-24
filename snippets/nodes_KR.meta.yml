@@ -1,8 +1,20 @@
 proxies:
-- name: '9,26|KR韩国 | uu6.top #173'
+- name: '9,26|KR韩国 | uu6.top #134'
   network: ws
-  port: 35951
-  server: 36.50.90.241
+  port: 12221
+  server: 49.246.69.204
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9|KR韩国 | uu6.top #55'
+  network: ws
+  port: 10041
+  server: 211.197.161.123
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -11,10 +23,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9|KR韩国 | uu6.top #75'
+- name: '26|KR韩国 | uu6.top #140'
   network: ws
-  port: 12576
-  server: 183.101.243.99
+  port: 50001
+  server: 222.114.57.191
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -23,12 +35,29 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: 49|KR_9df02_0009 | uu6.top
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- name: '26|KR韩国 | uu6.top #156'
+  network: ws
+  port: 10026
+  server: 220.80.75.163
+  servername: gaosir.unfeeling.sbs
   tls: true
-  type: http
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '51|KR_speednode_0012 | uu6.top #4'
+  network: ws
+  port: 50001
+  server: 118.40.126.7
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  username: test
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
