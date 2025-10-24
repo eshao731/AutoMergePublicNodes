@@ -9,19 +9,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
   udp: true
-- name: '9,26|HK香港 | uu6.top #49'
-  network: ws
-  port: 12312
-  server: 211.48.77.114
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #37'
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #37'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -33,7 +21,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40freecodes%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #43'
+- name: '9,25|HK香港 | uu6.top #43'
   network: ws
   port: 10002
   server: 223.16.138.113
@@ -45,10 +33,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,26|HK香港 | uu6.top #57'
+- name: '9,25|HK香港 | uu6.top #56'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 35951
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -56,8 +44,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Ffreecodes%2F%3Fed%3D2560'
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #53'
+    path: x%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #53'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -69,7 +57,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #65'
+- name: 9,13,17,19,21,25,49|🇭🇰 香港 154 | uu6.top
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #65'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -81,10 +81,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #59'
+- name: '9,25|HK香港 | uu6.top #52'
   network: ws
-  port: 60001
-  server: 119.65.139.101
+  port: 443
+  server: 202.85.53.74
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -92,8 +92,32 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Ftelegram%40freecodes%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #54'
+    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #62'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9,25|US美国 | uu6.top #55'
+  network: ws
+  port: 10026
+  server: 220.80.75.163
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: telegram%40freecodes%2F%3Fed%3D2560
+- name: '9,25|HK香港 | uu6.top #54'
   network: ws
   port: 35951
   server: 36.50.90.241
@@ -105,6 +129,31 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '13,17,19,21,25|HK香港 | uu6.top #61'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40freecodes%2F%3Fed%3D2560'
+- encryption: none
+  name: '14,18,20,22|香港_1 | uu6.top #4'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
 - encryption: none
   name: '14,18,20,22|香港_2 | uu6.top #4'
   network: ws
@@ -132,6 +181,19 @@ proxies:
       Host: gaosir.unfeeling.sbs
     path: /X@freecodes/?ed=2560
 - encryption: none
+  name: '14,18,20,22|香港_4 | uu6.top #4'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram@freecodes/?ed=2560
+- encryption: none
   name: '14,18,20,22|香港_5 | uu6.top #3'
   network: ws
   port: 443
@@ -144,7 +206,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/
-- name: '26|HK香港 | uu6.top #34'
+- name: '25|HK香港 | uu6.top #34'
   network: ws
   port: 35951
   server: 36.50.90.241
@@ -156,10 +218,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ffreecodes%2F'
-- name: '26|HK香港 | uu6.top #66'
+- name: '25|HK香港 | uu6.top #44'
   network: ws
-  port: 12553
-  server: 113.37.149.36
+  port: 14443
+  server: 222.113.18.211
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -167,9 +229,21 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+    path: x%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #60'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - client-fingerprint: chrome
-  name: '35,40,41,44,46,47|香港4 | uu6.top #4'
+  name: '39,40,43,45,46|香港4 | uu6.top #4'
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -177,7 +251,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 50|🇭🇰 香港 053 | uu6.top
+- name: 49|🇭🇰 香港 053 | uu6.top
   password: 8bc3f4b2-4249-4eb4-b1c2-d12a7bcb91b9
   port: 7009
   server: cn.eans.top
@@ -185,11 +259,70 @@ proxies:
   sni: h.eans.top
   tls: false
   type: hysteria2
-- name: 50|🇭🇰 香港 008 | uu6.top
-  password: 30585750-f3e8-4de8-af72-3a9d642cbb02
+- name: 49|🇭🇰 香港 041 | uu6.top
+  password: 6c4f8e36-35e9-4c04-905c-335ce0848e9f
   port: 7009
   server: cn.eans.top
   skip-cert-verify: true
   sni: h.eans.top
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 49|🇭🇰 香港 160 | uu6.top
+  network: tcp
+  port: 11648
+  reality-opts:
+    public-key: yHonIAdN6vFOc2iJYla5ICMfgJx537AA9GPG7EEI93w
+    short-id: ae4d6be4
+  server: 192.238.204.48
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 46092c5c-0f13-4242-8eb0-7d794d33e818
+  ws-opts:
+    headers:
+      Host: apple.com
+    path: '%2F'
+- name: 49|🇭🇰 香港 010 | uu6.top
+  password: 9f9d99d6-8a8e-4626-8f06-19d6a2ed0256
+  port: 7009
+  server: cn.eans.top
+  skip-cert-verify: true
+  sni: h.eans.top
+  tls: false
+  type: hysteria2
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 49|🇭🇰 香港 123 | uu6.top
+  network: tcp
+  port: 7008
+  reality-opts:
+    public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs
+    short-id: 806ba558
+  server: cn.eans.top
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: 183b6750-2b10-4fbd-a0bd-f63b1dbe41c6
+  ws-opts:
+    headers:
+      Host: addons.mozilla.org
+    path: '%2F'
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 49|🇭🇰 香港 112 | uu6.top
+  network: tcp
+  port: 7008
+  reality-opts:
+    public-key: Oj8-fhTWXtsuOkPJxRra_9gK3K_Jnxi-Ybek148Iixs
+    short-id: 806ba558
+  server: cn.eans.top
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  uuid: df493f46-964b-4793-8f63-db05836b3aac
+  ws-opts:
+    headers:
+      Host: addons.mozilla.org
+    path: '%2F'
