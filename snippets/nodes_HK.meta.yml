@@ -35,42 +35,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,26|HK香港 | uu6.top #53'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #56'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,26|HK香港 | uu6.top #55'
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '9,13,17,19,21,26|HK香港 | uu6.top #66'
   network: ws
   port: 18622
@@ -83,64 +47,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- encryption: none
-  name: '14,18,20,22,49,51|HK_speednode_0010 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@freecodes/?ed=2560
-- encryption: none
-  name: '14,18,20,22,49,51|HK_speednode_0009 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- encryption: none
-  name: '14,18,20,22|香港_3 | uu6.top #3'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@freecodes/?ed=2560
-- encryption: none
-  name: '14,18,20,22,49,51|HK_speednode_0011 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram@freecodes/?ed=2560
 - client-fingerprint: chrome
   name: '41,44,46,47|香港4 | uu6.top #4'
   network: tcp
@@ -164,49 +70,3 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /telegram@freecodes/?ed=2560
-- name: '49,51|HK_speednode_0007 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: 50|🇭🇰 香港 109 | uu6.top
-  password: df6b28a6-1806-4420-be48-3e8221244d54
-  port: 7009
-  server: cn.eans.top
-  skip-cert-verify: true
-  sni: h.eans.top
-  tls: false
-  type: hysteria2
-- name: 50|🇭🇰 香港 149 | uu6.top
-  password: 8bc3f4b2-4249-4eb4-b1c2-d12a7bcb91b9
-  port: 7009
-  server: cn.eans.top
-  skip-cert-verify: true
-  sni: h.eans.top
-  tls: false
-  type: hysteria2
-- name: 50|🇭🇰 香港 108 | uu6.top
-  password: 24d3cacb-b624-4ad7-b40a-c79773f92f32
-  port: 7009
-  server: cn.eans.top
-  skip-cert-verify: true
-  sni: h.eans.top
-  tls: false
-  type: hysteria2
-- name: 50|🇭🇰 香港 114 | uu6.top
-  password: 01b1a160-a32c-4e1e-a0ec-7b8cc02ac8b7
-  port: 7009
-  server: cn.eans.top
-  skip-cert-verify: true
-  sni: h.eans.top
-  tls: false
-  type: hysteria2
