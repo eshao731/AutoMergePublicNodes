@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 44|🇫🇷 | uu6.top
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - client-fingerprint: randomized
   name: 50|🇫🇷 法国 03 | uu6.top
   network: ws
@@ -12,3 +25,15 @@ proxies:
     headers:
       Host: ayanamirei.11160321.xyz
     path: '%2Fhttp%3A%2F%2F37.187.124.25%3A8187%2F'
+- name: -1|50|🇫🇷 法国 03 | uu6.top
+  network: ws
+  port: 443
+  server: 172.64.144.20
+  servername: ayanamirei.11160321.xyz
+  tls: true
+  type: vless
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  ws-opts:
+    headers:
+      Host: ayanamirei.11160321.xyz
+    path: '%2Fhttp%3A%2F%2F37.187.124.25%3A8187%2Ffp=randomized'
