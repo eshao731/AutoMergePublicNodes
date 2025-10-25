@@ -1,5 +1,5 @@
 proxies:
-- name: '0,4,15,35,41,49,51|US_speednode_0042 | uu6.top #2'
+- name: '0,3,4,15,34,40,48,50|US_speednode_0042 | uu6.top #3'
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
@@ -23,18 +23,14 @@ proxies:
     headers:
       Host: NOp-55q.pAgEs.dEv
     path: '%2FtrGPZDfetEwuO25SAs'
-- alterId: 0
-  cipher: auto
-  name: '7|美国 | uu6.top #7'
-  network: tcp
-  port: '443'
-  server: 140.238.2.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+- cipher: aes-256-cfb
+  name: 8|US__1 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 13.38.44.116
+  type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '10,27|US美国 | uu6.top #209'
+  name: '10,26|US美国 | uu6.top #209'
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
@@ -42,7 +38,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 42,49|US_6ba31_0040 | uu6.top
+  name: 41,48|US_6ba31_0040 | uu6.top
   port: 444
   server: salamdash.bedonemarz.site
   skip-cert-verify: false
@@ -50,4 +46,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
+  uuid: 89de8c17-9b41-4632-9a0b-440f850548fd
+- alterId: 0
+  cipher: auto
+  name: '42|US | uu6.top #2'
+  network: tcp
+  port: '444'
+  server: salamdash.bedonemarz.site
+  servername: ''
+  tls: false
+  type: vmess
   uuid: 89de8c17-9b41-4632-9a0b-440f850548fd
