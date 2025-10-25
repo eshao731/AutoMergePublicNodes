@@ -1,16 +1,4 @@
 proxies:
-- name: '7,9,13,17,19,21,26|HK香港 | uu6.top #54'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '7,9,26|HK香港 | uu6.top #58'
   network: ws
   port: 443
@@ -23,10 +11,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ffreecodes%2F%3Fed%3D2560'
-- name: '7,9,26|HK香港 | uu6.top #61'
+- name: '7,9,26|TW台湾 | uu6.top #12'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 10004
+  server: 114.34.202.224
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -34,7 +22,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '7,9,13,17,19,21,26|HK香港 | uu6.top #62'
   network: ws
   port: 443
@@ -47,7 +35,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40freecodes%2F%3Fed%3D2560'
-- name: '7,9,26|TW台湾 | uu6.top #13'
+- name: '7,9,26|TW台湾 | uu6.top #10'
   network: ws
   port: 10004
   server: 114.34.202.224
@@ -58,7 +46,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '7,9,13,17,19,21,26|HK香港 | uu6.top #63'
   network: ws
   port: 443
