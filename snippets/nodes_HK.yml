@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,3,4,11,12,39,40,41,42,48,50|HK_speednode_0012 | uu6.top #3'
+  name: '0,1,3,4,11,12,40,41,42,43,49,51|HK_speednode_0012 | uu6.top #3'
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -11,10 +11,19 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '39,40,43,45,46|香港5 | uu6.top #2'
+  name: '40,41,44,46,47|香港5 | uu6.top #2'
   network: tcp
   password: BxceQaOe
   port: 443
   server: 58.152.46.98
   skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  name: '40,41,44,46,47|香港4 | uu6.top #2'
+  network: tcp
+  password: ea39fa94f1ee00999337ea1fd3318e69
+  port: 443
+  server: 58.152.53.136
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
