@@ -1,8 +1,8 @@
 proxies:
-- name: 43|韩国_8 | uu6.top
+- name: '9,25|HK香港 | uu6.top #23'
   network: ws
-  port: 50003
-  server: 175.215.175.175
+  port: 60001
+  server: 119.65.139.101
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -10,4 +10,28 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2fX%40freecodes%2f%3fed%3d2560'
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '25|KR韩国 | uu6.top #26'
+  network: ws
+  port: 10090
+  server: 222.113.18.207
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '25|KR韩国 | uu6.top #32'
+  network: ws
+  port: 32773
+  server: 222.113.18.207
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ffreecodes%2F%3Ded%3D2560'
