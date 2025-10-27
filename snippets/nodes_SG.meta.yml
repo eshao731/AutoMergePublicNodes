@@ -11,42 +11,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ffreecodes%2F'
-- name: '13,17,19,21|新加坡 | uu6.top #23'
-  network: ws
-  port: 2053
-  server: 31.192.238.71
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '13,17,19,21|新加坡 | uu6.top #25'
-  network: ws
-  port: 2053
-  server: 31.192.238.71
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '13,17,19,21|新加坡 | uu6.top #26'
-  network: ws
-  port: 8443
-  server: 31.192.238.71
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '43|新加坡 | uu6.top #28'
   network: ws
   port: 443
@@ -59,6 +23,15 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2ffreecodes%2f'
+- alterId: 0
+  cipher: auto
+  name: 48|🇸🇬 新加坡 | SGP | uu6.top
+  port: 10091
+  server: node3.mangging.com
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 28f966d8-403e-4966-93ec-26ee82456f49
 - client-fingerprint: chrome
   name: 48|🇸🇬 新加坡 | SGP 3 | uu6.top
   network: ws
@@ -87,15 +60,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 48|🇸🇬 新加坡 | SGP | uu6.top
-  port: 10091
-  server: node3.mangging.com
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 28f966d8-403e-4966-93ec-26ee82456f49
 - name: 48|🇸🇬 新加坡 | SGP 2 | uu6.top
   network: ws
   port: 40029
@@ -109,6 +73,13 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳@WangCai2/
+- cipher: aes-256-gcm
+  name: 48|🇸🇬 新加坡 | SGP 7 | uu6.top
+  password: 84ad4f35-c929-45bf-9ad4-300d8a181728
+  port: 10060
+  server: node1.mangging.com
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: 48|🇸🇬 新加坡 | SGP 9 | uu6.top
   network: ws
@@ -137,6 +108,34 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+- name: '49,51|SG_speednode_0030 | uu6.top #3'
+  network: ws
+  port: 443
+  server: 185.114.78.230
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
+- name: '49,51|SG_speednode_0031 | uu6.top #3'
+  network: ws
+  port: 443
+  server: 185.114.78.230
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
 - alterId: 0
   cipher: auto
   name: -1|48|🇸🇬 新加坡 | SGP | uu6.top
