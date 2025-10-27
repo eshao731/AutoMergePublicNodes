@@ -7,14 +7,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: '0,1,3,4,11,12,40,41,44,46,47|香港5 | uu6.top #3'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
 - name: '0,4,15|HK_speednode_0012 | uu6.top #2'
   password: ea39fa94f1ee00999337ea1fd3318e69
   port: 443
@@ -24,7 +16,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '7,16,44|🇭🇰 HK | uu6.top #1'
+  name: '7,16,43|🇭🇰 HK | uu6.top #1'
   network: tcp
   port: '11507'
   server: 189.1.226.65
@@ -55,7 +47,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '40,46|🇭🇰 香港7 | uu6.top #3'
+  name: '39,45|🇭🇰 香港7 | uu6.top #3'
   port: 10055
   server: node2.mangging.com
   skip-cert-verify: false
@@ -65,7 +57,7 @@ proxies:
   uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
 - alterId: 0
   cipher: auto
-  name: '41,44,47|香港7 | uu6.top #1'
+  name: '40,43,46|香港7 | uu6.top #1'
   network: tcp
   port: '10055'
   server: node2.mangging.com
@@ -73,16 +65,3 @@ proxies:
   tls: true
   type: vmess
   uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
-- alterId: 2
-  cipher: auto
-  name: -1|44|🇭🇰 香港 电讯盈科有限公司 | uu6.top
-  network: ws
-  port: '80'
-  server: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: fd224a6c-addc-11ed-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 580abbb4-suvds0-sv5llu-1ldl3.hk3.p5pv.com
-    path: /

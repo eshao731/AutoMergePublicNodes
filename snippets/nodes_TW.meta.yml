@@ -35,6 +35,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,25|TW台湾 | uu6.top #14'
+  network: ws
+  port: 10004
+  server: 114.34.202.224
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ffreecodes%2F'
 - name: '9,13,17,19,21|台湾 | uu6.top #15'
   network: ws
   port: 18622
@@ -47,7 +59,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,25|TW台湾 | uu6.top #17'
+- name: '42|台湾 | uu6.top #20'
   network: ws
   port: 10004
   server: 114.34.202.224
@@ -58,15 +70,17 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: '43|台湾 | uu6.top #20'
+- name: '48,50|TW_speednode_0033 | uu6.top #1'
   network: ws
-  port: 10004
-  server: 114.34.202.224
+  port: 443
+  server: 167.179.27.92
   servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
