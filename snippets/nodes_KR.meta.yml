@@ -1,41 +1,5 @@
 proxies:
-- name: '9,24|KR韩国 | uu6.top #21'
-  network: ws
-  port: 12221
-  server: 49.246.69.204
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,24|KR韩国 | uu6.top #29'
-  network: ws
-  port: 12221
-  server: 49.246.69.204
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,24|KR韩国 | uu6.top #37'
-  network: ws
-  port: 12151
-  server: 218.151.91.131
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,24|HK香港 | uu6.top #66'
+- name: '9,25|HK香港 | uu6.top #66'
   network: ws
   port: 443
   server: 202.85.53.74
@@ -47,10 +11,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,24|KR韩国 | uu6.top #30'
+- name: '25|KR韩国 | uu6.top #39'
   network: ws
-  port: 50003
-  server: 175.211.35.161
+  port: 50001
+  server: 220.90.247.28
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -58,8 +22,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '48,50|KR_speednode_0017 | uu6.top #4'
+    path: telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Ded%3D2560
+- name: 49|KR_299fe_0017 | uu6.top
   network: ws
   port: 12312
   server: 211.48.77.114
@@ -73,12 +37,12 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /X@节点狂魔/?ed=2560
-- name: '48,50|KR_speednode_0018 | uu6.top #4'
+- name: 49,51|KR_speednode_0016 | uu6.top
   network: ws
-  port: 12312
-  server: 211.48.77.114
+  port: 443
+  server: 147.75.225.105
   servername: gaosir.unfeeling.sbs
-  skip-cert-verify: true
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -86,4 +50,4 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: /x @节点狂魔
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
