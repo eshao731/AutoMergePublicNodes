@@ -10,7 +10,7 @@ proxies:
   tfo: false
   type: trojan
 - client-fingerprint: chrome
-  name: '0,1,3,4,11,12,40,41,44,46,47|香港5 | uu6.top #3'
+  name: '0,1,3,4,11,12,35,40,41,44,46,47|香港5 | uu6.top #3'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -24,6 +24,20 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '0,4,15,40,41,49,51|HK_speednode_0010 | uu6.top #1'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔security=tls
 - alterId: '0'
   cipher: auto
   name: 7,16|HK_2 | uu6.top
@@ -34,18 +48,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 5941c7a8-5f82-4a98-c06d-3c3f2003ef50
-- name: '9,25|HK香港 | uu6.top #38'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%40freecodes%2F%3Fed%3D2560
 - name: '9|HK香港 | uu6.top #1'
   network: ws
   port: 18622
@@ -58,10 +60,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,25|HK香港 | uu6.top #93'
+- name: '9,25|HK香港 | uu6.top #77'
   network: ws
-  port: 10004
-  server: 114.34.202.224
+  port: 2053
+  server: 185.18.222.208
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -69,7 +71,19 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+    path: '%2Ftelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9|HK香港 | uu6.top #5'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40freecodes%2F%3Fed%3D2560'
 - name: '9|HK香港 | uu6.top #6'
   network: ws
   port: 10002
@@ -82,6 +96,42 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #103'
+  network: ws
+  port: 18622
+  server: 210.6.207.42
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9,13,17,19,21,25|US美国 | uu6.top #165'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,25|HK香港 | uu6.top #49'
+  network: ws
+  port: 443
+  server: 202.85.53.74
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '9,13,17,19,21,25|HK香港 | uu6.top #28'
   network: ws
   port: 18622
@@ -118,6 +168,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #56'
+  network: ws
+  port: 18622
+  server: 210.6.207.42
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|HK香港 | uu6.top #20'
   network: ws
   port: 10201
@@ -130,18 +192,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,25|HK香港 | uu6.top #84'
-  network: ws
-  port: 443
-  server: 130.162.130.105
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '25|HK香港 | uu6.top #26'
   network: tcp
   port: 20155
@@ -219,7 +269,31 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '25|HK香港 | uu6.top #79'
+- name: '25|HK香港 | uu6.top #68'
+  network: ws
+  port: 8443
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #89'
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '25|HK香港 | uu6.top #90'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -230,7 +304,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: x%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+    path: '%2FX%40freecodes%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: '26|HK香港 | uu6.top #106'
@@ -262,6 +336,18 @@ proxies:
   tls: true
   type: vmess
   uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
+- name: '43|HK | uu6.top #2'
+  network: ws
+  port: 47790
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2fTelegram%40freecodes%2f%3fed%3d2560'
 - alterId: 2
   cipher: auto
   name: 44|🇭🇰 香港 电讯盈科有限公司 | uu6.top
