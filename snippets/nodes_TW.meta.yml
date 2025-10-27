@@ -1,4 +1,49 @@
 proxies:
+- auth: 308d37dc-cfe1-4d81-a095-d576f90cf581
+  name: '0,4,40,41|Channel id: 🇹🇼 | uu6.top #2'
+  password: 308d37dc-cfe1-4d81-a095-d576f90cf581
+  port: 29854
+  server: 85.237.206.207
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: 9|TW台湾 | uu6.top
+  network: ws
+  port: 10004
+  server: 114.34.202.224
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: freecodes%2F%3Fed%3D2560
+- name: '9,13,17,19,21,25|TW台湾 | uu6.top #26'
+  network: ws
+  port: 10004
+  server: 114.34.202.224
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,25|HK香港 | uu6.top #65'
+  network: ws
+  port: 10004
+  server: 114.34.202.224
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: '9,25|TW台湾 | uu6.top #14'
   network: ws
   port: 10004
@@ -11,3 +56,31 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ffreecodes%2F'
+- name: '49,51|TW_speednode_0033 | uu6.top #1'
+  network: ws
+  port: 443
+  server: 167.179.27.92
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
+- name: '49,51|TW_speednode_0032 | uu6.top #1'
+  network: ws
+  port: 443
+  server: 167.179.27.92
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/?ed=2560
