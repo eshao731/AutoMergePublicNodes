@@ -1,5 +1,20 @@
 proxies:
-- name: '9,26|HK香港 | uu6.top #142'
+- client-fingerprint: chrome
+  name: '0,1,3,4,11,12,15,34,39,40,43,45,46|香港5 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  type: trojan
+- name: '9,25,42|美国 | uu6.top #212'
+  network: tcp
+  port: 20155
+  server: 178.160.211.182
+  tls: false
+  type: vless
+  uuid: dc28e2d3-7c69-47c6-b5b0-f76914454294
+- name: '9,25|HK香港 | uu6.top #142'
   network: ws
   port: 8443
   server: 5.42.220.253
@@ -11,14 +26,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: telegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560
-- name: '9,26,43|美国 | uu6.top #212'
-  network: tcp
-  port: 20155
-  server: 178.160.211.182
-  tls: false
-  type: vless
-  uuid: dc28e2d3-7c69-47c6-b5b0-f76914454294
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #121'
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #121'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -30,18 +38,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #119'
-  network: ws
-  port: 18622
-  server: 210.6.207.42
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '9|HK香港 | uu6.top #8'
   network: ws
   port: 8443
@@ -54,19 +50,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #139'
-  network: ws
-  port: 8443
-  server: 5.42.220.253
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #143'
+- name: '9,25|HK香港 | uu6.top #143'
   network: ws
   port: 8443
   server: 5.42.220.253
@@ -78,10 +62,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- name: '9|HK香港 | uu6.top #9'
+- name: '9,25|HK香港 | uu6.top #139'
   network: ws
-  port: 10004
-  server: 114.34.202.224
+  port: 8443
+  server: 5.42.220.253
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -89,8 +73,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Ftelegram%40freecodes%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #89'
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #89'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -102,7 +86,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '9,13,17,19,21,26|HK香港 | uu6.top #125'
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #125'
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -114,7 +98,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #126'
+- name: '9,25|HK香港 | uu6.top #126'
   network: ws
   port: 2096
   server: 104.19.50.238
@@ -126,17 +110,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ftelegram%40wangcai2%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: 9,44|🇭🇰 HK香港 | uu6.top
-  network: tcp
-  port: '10055'
-  server: node2.mangging.com
-  servername: node2.mangging.com
-  tls: true
-  type: vmess
-  uuid: c37d64e0-da4d-4bb6-8a48-82a592d5b96a
-- name: '9,26|HK香港 | uu6.top #140'
+- name: '9,25|HK香港 | uu6.top #140'
   network: ws
   port: 8443
   server: 5.42.220.253
@@ -148,10 +122,20 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94'
-- name: '9,26|HK香港 | uu6.top #85'
+- alterId: 0
+  cipher: auto
+  name: 9,43|🇭🇰 HK香港 | uu6.top
+  network: tcp
+  port: '10055'
+  server: node2.mangging.com
+  servername: node2.mangging.com
+  tls: true
+  type: vmess
+  uuid: c37d64e0-da4d-4bb6-8a48-82a592d5b96a
+- name: '9,13,17,19,21,25|HK香港 | uu6.top #130'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 47790
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -159,8 +143,8 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #111'
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #111'
   network: ws
   port: 2096
   server: wangcai252.cloudflare.182682.xyz
@@ -172,7 +156,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #107'
+- name: '9,25|HK香港 | uu6.top #107'
   network: ws
   port: 2096
   server: wangcai254.cloudflare.182682.xyz
@@ -184,7 +168,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #101'
+- name: '9,25|HK香港 | uu6.top #101'
   network: ws
   port: 2096
   server: wangcai250.cloudflare.182682.xyz
@@ -196,7 +180,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,26|HK香港 | uu6.top #104'
+- name: '9,25|HK香港 | uu6.top #104'
   network: ws
   port: 10004
   server: 114.34.202.224
@@ -208,10 +192,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
-- name: '9,26|HK香港 | uu6.top #120'
+- name: '9,13,17,19,21,25|US美国 | uu6.top #215'
   network: ws
   port: 443
-  server: 202.85.53.74
+  server: 47.76.218.163
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -219,8 +203,56 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '9,13,17,19,21|香港 | uu6.top #20'
+    path: '%2Ffreecodes%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #102'
+  network: ws
+  port: 2053
+  server: 185.18.222.208
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ftelegram%40freecodes%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #88'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: x%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9,25|HK香港 | uu6.top #98'
+  network: ws
+  port: 443
+  server: 130.162.130.105
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: '9,25|HK香港 | uu6.top #103'
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '9,25|HK香港 | uu6.top #84'
   network: ws
   port: 18622
   server: 210.6.207.42
@@ -231,7 +263,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+    path: '%2FX%40freecodes%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: '10|HK香港 | uu6.top #83'
@@ -242,7 +274,19 @@ proxies:
   type: vmess
   udp: true
   uuid: c37d64e0-da4d-4bb6-8a48-82a592d5b96a
-- name: '26|HK香港 | uu6.top #106'
+- name: '25|HK香港 | uu6.top #93'
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40freecodes%2F%3Fed%3D2560
+- name: '25|HK香港 | uu6.top #106'
   network: ws
   port: 12457
   server: 223.16.138.113
@@ -254,7 +298,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: Telegram%40freecodes%2F%3Fed%3D2560
-- name: '26|HK香港 | uu6.top #116'
+- name: '25|HK香港 | uu6.top #116'
   network: ws
   port: 36619
   server: 118.141.64.192
@@ -266,10 +310,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Ded%3D2560'
-- name: '26|HK香港 | uu6.top #127'
+- name: '25|HK香港 | uu6.top #128'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 47790
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -277,11 +321,11 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: '26|HK香港 | uu6.top #133'
+    path: '%2Ffreecodes%2F%3Fed%3D2560'
+- name: '25|HK香港 | uu6.top #131'
   network: ws
-  port: 443
-  server: 202.85.53.74
+  port: 47790
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -289,72 +333,27 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+    path: Telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '42|HK | uu6.top #2'
+  network: ws
+  port: 47790
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
 - alterId: 0
   cipher: auto
-  name: 48|🇭🇰 香港 | HKG 3 | uu6.top
+  name: 47|🇭🇰 香港 | HKG 3 | uu6.top
   port: 10055
   server: node2.mangging.com
   tls: true
   type: vmess
   udp: true
   uuid: 77ae5062-c062-453e-ba65-9b549e06fbbb
-- name: '49,51|HK_speednode_0007 | uu6.top #4'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@freecodes/?ed=2560
-- name: '49,51|HK_speednode_0009 | uu6.top #4'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /TelegramU0001F1E8U0001F1F3@WangCai2/?ed=2560
-- name: '49,51|HK_speednode_0008 | uu6.top #4'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔/?ed=2560
-- name: '49,51|HK_speednode_0011 | uu6.top #4'
-  network: ws
-  port: 443
-  server: 202.85.53.74
-  servername: gaosir.unfeeling.sbs
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /X@节点狂魔
 - alterId: 0
   cipher: auto
   name: -1|48|🇭🇰 香港 | HKG 3 | uu6.top
