@@ -1,8 +1,22 @@
 proxies:
-- name: 50|🇰🇷 韩国 29 | uu6.top
+- name: '49,51|KR_speednode_0014 | uu6.top #3'
   network: ws
-  port: 22577
-  server: 49.174.170.115
+  port: 50003
+  server: 175.211.35.161
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
+- name: 50|🇰🇷 韩国 30 | uu6.top
+  network: ws
+  port: 50001
+  server: 61.74.149.202
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
