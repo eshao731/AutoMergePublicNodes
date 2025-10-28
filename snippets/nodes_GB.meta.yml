@@ -10,17 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - auth: YwuvGJk36B
-  name: '0,4,15,37,40,41|🇬🇧 - GB - #4 | uu6.top #3'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: kotlet.arshiacomplus.dpdns.org
-  tls: false
-  type: hysteria2
-- auth: YwuvGJk36B
   name: '0,4,15,37,40,41|🇬🇧 - GB - #5 | uu6.top #3'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
@@ -31,6 +20,30 @@ proxies:
   sni: 'kotlet.arshiacomplus.dpdns.org@V2rayNGVPN '
   tls: false
   type: hysteria2
+- auth: YwuvGJk36B
+  name: '0,4,15,37,40,41|🇬🇧 - GB - #4 | uu6.top #3'
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
+  sni: kotlet.arshiacomplus.dpdns.org
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 35|英国 | uu6.top
+  network: ws
+  port: 42719
+  server: 89.213.156.225
+  tls: false
+  type: vmess
+  uuid: 1ea5b565-c2c9-4315-b34f-29c958b3968d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - alterId: 0
   cipher: auto
   name: 44|🇬🇧 | uu6.top
