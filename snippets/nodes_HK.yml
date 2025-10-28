@@ -9,7 +9,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '0,4,11,41,44,47|香港7 | uu6.top #3'
+  name: '0,4,11,41,44|🇭🇰 香港7 | uu6.top #7'
   network: tcp
   port: '10055'
   server: node2.mangging.com
@@ -20,7 +20,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '1,12,40,46|🇭🇰 香港7 | uu6.top #8'
+  name: 1,12,40|[VMess] 🇭🇰 香港7| 2 | uu6.top
   port: 10055
   server: node2.mangging.com
   skip-cert-verify: false
@@ -28,19 +28,9 @@ proxies:
   tls: true
   type: vmess
   uuid: 353d4c13-a756-46dd-ba6f-3dfecfeb37fc
-- alterId: '0'
-  cipher: auto
-  name: 7,16|HK_2 | uu6.top
-  network: tcp
-  port: '11507'
-  server: 189.1.226.65
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5941c7a8-5f82-4a98-c06d-3c3f2003ef50
 - alterId: 0
   cipher: auto
-  name: '9,26|HK香港 | uu6.top #107'
+  name: '9|HK香港 | uu6.top #23'
   network: tcp
   port: '10055'
   server: node2.mangging.com
@@ -50,7 +40,7 @@ proxies:
   uuid: c37d64e0-da4d-4bb6-8a48-82a592d5b96a
 - alterId: 0
   cipher: auto
-  name: '10,27|HK香港 | uu6.top #167'
+  name: '10|HK香港 | uu6.top #83'
   port: 10055
   server: node2.mangging.com
   skip-cert-verify: true
@@ -60,10 +50,14 @@ proxies:
   uuid: c37d64e0-da4d-4bb6-8a48-82a592d5b96a
 - alterId: 2
   cipher: auto
-  name: 48|🇭🇰 香港 | HKG | uu6.top
+  client-fingerprint: chrome
+  name: 46,47,48|🇭🇰 香港 | HKG | uu6.top
   network: ws
   port: 80
   server: 9438890c-t4whs0-t6blpv-1ldl3.hk.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   udp: true
