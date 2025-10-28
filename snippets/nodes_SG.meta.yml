@@ -33,6 +33,15 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  name: '46,47|新加坡 | uu6.top #29'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 2283
+  server: 160.16.204.136
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- client-fingerprint: chrome
   name: 48|🇸🇬 新加坡 | SGP 3 | uu6.top
   network: ws
   port: 2096
@@ -74,19 +83,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- name: 48|🇸🇬 新加坡 | SGP 2 | uu6.top
-  network: ws
-  port: 40029
-  server: 43.128.95.110
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳@WangCai2/
 - client-fingerprint: chrome
   name: 48|🇸🇬 新加坡 | SGP 9 | uu6.top
   network: ws
@@ -101,15 +97,19 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 48|🇸🇬 新加坡 | SGP | uu6.top
-  port: 10091
-  server: node3.mangging.com
+- name: 48|🇸🇬 新加坡 | SGP 2 | uu6.top
+  network: ws
+  port: 40029
+  server: 43.128.95.110
+  servername: gaosir.unfeeling.sbs
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 28f966d8-403e-4966-93ec-26ee82456f49
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳@WangCai2/
 - name: 50|🇸🇬 新加坡 43 | uu6.top
   network: ws
   port: 12131
@@ -124,7 +124,7 @@ proxies:
     path: '%2Fx%20%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%20%2F'
 - alterId: 0
   cipher: auto
-  name: -1|1|48|🇸🇬 新加坡 | SGP | uu6.top
+  name: -1|48|🇸🇬 新加坡 | SGP | uu6.top
   network: tcp
   port: 10091
   server: node3.mangging.com
