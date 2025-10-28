@@ -1,16 +1,4 @@
 proxies:
-- name: '9,13,17,19,21,26|KR韩国 | uu6.top #28'
-  network: ws
-  port: 10041
-  server: 211.197.161.123
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Ffreecodes%2F'
 - name: 48|🇰🇷 韩国 | KOR 2 | uu6.top
   network: ws
   port: 12176
@@ -24,3 +12,17 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: x@节点狂魔/?ed=2560
+- name: '48,49,51|KR_speednode_0014 | uu6.top #3'
+  network: ws
+  port: 50003
+  server: 175.211.35.161
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /X@节点狂魔/?ed=2560
