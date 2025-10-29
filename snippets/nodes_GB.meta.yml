@@ -31,6 +31,18 @@ proxies:
   sni: 'kotlet.arshiacomplus.dpdns.org@V2rayNGVPN '
   tls: false
   type: hysteria2
+- name: 26|GB英国 | uu6.top
+  network: ws
+  port: 8080
+  server: 141.11.148.60
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
   name: 42|🇬🇧 GB🇬🇧 | uu6.top
   password: c40641c1f89e7acb
@@ -52,7 +64,7 @@ proxies:
     path: /azumase.ren
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|35|英 | uu6.top
+  name: -1|1|1|1|1|1|1|1|1|1|35 | uu6.top
   network: ws
   port: 42719
   server: 89.213.156.225
