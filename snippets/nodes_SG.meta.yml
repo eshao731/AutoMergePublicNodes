@@ -28,6 +28,18 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
+- name: '9,26|SG新加坡 | uu6.top #7'
+  network: ws
+  port: 81
+  server: 5.34.176.119
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2FTelegram%40freecodes%2F'
 - name: '13|新加坡 | uu6.top #3'
   network: ws
   port: 8443
@@ -64,6 +76,30 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: freecodes%2F%3Fed%3D2560
+- name: '13|新加坡 | uu6.top #6'
+  network: ws
+  port: 2053
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '13|新加坡 | uu6.top #7'
+  network: ws
+  port: 8443
+  server: 31.192.238.71
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - client-fingerprint: chrome
   name: 50|🇸🇬 新加坡 63 | uu6.top
   network: ws
