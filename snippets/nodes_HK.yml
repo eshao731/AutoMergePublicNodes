@@ -1,29 +1,9 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 35|香港 电讯盈科有限公司 | uu6.top
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
-  tls: false
-  type: vmess
-  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: 49|HK_a82e8_0003 | uu6.top
-  network: http
-  port: 54804
-  server: 43.247.135.64
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
+- client-fingerprint: chrome
+  name: '0,1,4,11,12,15,35,40,41,44,46,47|香港5 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.3
+  skip-cert-verify: true
+  type: trojan
