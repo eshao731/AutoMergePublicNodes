@@ -1,24 +1,4 @@
 proxies:
-- name: '0,4,15|🇬🇧 - GB | uu6.top #2'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- auth: YwuvGJk36B
-  name: 0,4,15,35,38,39|🇬🇧 | uu6.top
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  sni: kotlet.arshiacomplus.dpdns.org
-  tls: false
-  type: hysteria2
 - name: '0,4,15|🇬🇧 - GB - #5 | uu6.top #2'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
@@ -27,6 +7,17 @@ proxies:
   server: 81.168.83.89
   skip-cert-verify: true
   sni: 'kotlet.arshiacomplus.dpdns.org@V2rayNGVPN '
+  tls: false
+  type: hysteria2
+- auth: YwuvGJk36B
+  name: 0,4,15,37,40,41|🇬🇧 | uu6.top
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
+  sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
 - name: 9|GB英国 | uu6.top
@@ -41,9 +32,16 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
+- cipher: chacha20-ietf-poly1305
+  name: 27,42|🇬🇧 GB🇬🇧 | uu6.top
+  password: c40641c1f89e7acb
+  port: 57456
+  server: uk.vpnsparta.pro
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '42|🇬🇧 | uu6.top #1'
+  name: '44|🇬🇧 | uu6.top #1'
   network: ws
   port: '443'
   server: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
