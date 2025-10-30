@@ -1,8 +1,8 @@
 proxies:
-- name: '9|JP日本 | uu6.top #4'
+- name: '9|JP日本 | uu6.top #16'
   network: ws
-  port: 443
-  server: 160.16.203.210
+  port: 12553
+  server: 113.37.149.36
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -10,7 +10,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Ffreecodes%2F%3Fed%3D2560'
+    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '9|JP日本 | uu6.top #1'
   network: ws
   port: 12553
@@ -23,6 +23,30 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9|JP日本 | uu6.top #2'
+  network: ws
+  port: 12553
+  server: 113.37.149.36
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
+- name: '9|JP日本 | uu6.top #4'
+  network: ws
+  port: 443
+  server: 160.16.203.210
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ffreecodes%2F%3Fed%3D2560'
 - name: '9|JP日本 | uu6.top #5'
   network: ws
   port: 443
@@ -239,42 +263,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: '9|JP日本 | uu6.top #25'
-  network: ws
-  port: 12553
-  server: 113.37.149.36
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Ffreecodes%2F%3Fed%3D2560'
-- name: '9|JP日本 | uu6.top #26'
-  network: ws
-  port: 443
-  server: 160.16.203.210
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '9|JP日本 | uu6.top #27'
-  network: ws
-  port: 12553
-  server: 113.37.149.36
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '9|JP日本 | uu6.top #28'
   network: ws
   port: 443
@@ -323,6 +311,20 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 41,49|JP_a82e8_0005 | uu6.top
+  port: 51623
+  reality-opts:
+    public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
+    short-id: 6ba85179e30d4fc2
+  server: softbank88.xzcloudnode.sbs
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
 - name: 50|🇯🇵 日本 27 | uu6.top
   network: ws
   port: 443
