@@ -1,19 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '4,41,49,51|JP_speednode_0005 | uu6.top #2'
-  port: 51623
-  reality-opts:
-    public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
-    short-id: 6ba85179e30d4fc2
-  server: softbank88.xzcloudnode.sbs
-  servername: itunes.apple.com
-  skip-cert-verify: false
+- name: '9,25|JP日本 | uu6.top #8'
+  network: ws
+  port: 12345
+  server: 168.138.197.147
+  servername: vless.pengjiajin.sbs
   tls: true
   type: vless
-  udp: true
-  uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
-- name: '9,26|JP日本 | uu6.top #9'
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2FTelegram%40freecodes%2F'
+- name: '9,25|JP日本 | uu6.top #9'
   network: ws
   port: 443
   server: 172.105.208.156
@@ -25,7 +23,7 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
-- name: 9,26,50|🇯🇵 日本 71 | uu6.top
+- name: 9,25,50|🇯🇵 日本 71 | uu6.top
   network: ws
   port: 443
   server: 139.162.108.5
