@@ -12,30 +12,6 @@ proxies:
   type: vless
   udp: true
   uuid: ead2118c-8b60-4805-b264-bb794c8600d0
-- name: '9,26|KR韩国 | uu6.top #5'
-  network: ws
-  port: 24442
-  server: 58.151.107.230
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2FTelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: 13|韩国 | uu6.top
-  network: ws
-  port: 14443
-  server: 222.113.18.211
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Ffreecodes%2F'
 - name: '13|韩国 | uu6.top #1'
   network: ws
   port: 10041
@@ -60,18 +36,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: '13|韩国 | uu6.top #3'
-  network: ws
-  port: 18001
-  server: 222.113.18.207
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: X%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560
 - name: 49,51|KR_speednode_0003 | uu6.top
   password: test.+
   port: 30446
@@ -81,19 +45,6 @@ proxies:
   type: http
   udp: true
   username: test
-- client-fingerprint: chrome
-  name: 50|🇰🇷 韩国 06 | uu6.top
-  network: ws
-  port: 18888
-  server: 115.40.244.240
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
 - name: 50|🇰🇷 韩国 03 | uu6.top
   network: ws
   port: 12312

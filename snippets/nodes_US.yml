@@ -1,11 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '9,26|US美国 | uu6.top #73'
+  name: '9,26|US美国 | uu6.top #96'
   network: ws
   port: '443'
   server: 104.21.46.90
-  servername: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+  servername: ''
   tls: true
   type: vmess
   uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
@@ -13,20 +13,44 @@ proxies:
     headers:
       Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
     path: /ri9mOOVJuAimB74kgXZ
+- name: '9|US美国 | uu6.top #21'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 135.125.232.253
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
+- name: '9|US美国 | uu6.top #27'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
-  name: '10,27|US美国 2 | uu6.top #1'
+  name: '10,27|US美国 20 | uu6.top #1'
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '10,14,27|US美国 24 | uu6.top #1'
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
+- name: '17,19,21|🇺🇸_US_美国 | uu6.top #48'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
 - name: '17,19,21|🇺🇸_US_美国 | uu6.top #60'
   network: ws
   password: er668
@@ -35,6 +59,18 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
+- name: '18,20,22|🇺🇸_US_美国_7 | uu6.top #2'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /
 - name: '18,20,22|🇺🇸_US_美国 | uu6.top #65'
   network: ws
   password: trojan
@@ -45,29 +81,32 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 35|美国 CloudFlare节点 | uu6.top
+- name: '18,20,22|🇺🇸_US_美国_11 | uu6.top #2'
   network: ws
-  port: 8443
-  server: c7.620720.xyz
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
   tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  type: trojan
   ws-opts:
     headers:
-      Host: c7.620720.xyz
-    path: /
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|3|美国 CloudFlar | uu6.top
+  name: '35,42,43,44|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
   network: ws
-  port: 443
-  server: cdns.doon.eu.org
-  tls: true
+  port: '80'
+  server: 104.18.240.238
+  servername: ''
+  skip-cert-verify: true
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 270eac45-11c4-426d-af58-52e2043ceb51
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
   ws-opts:
     headers:
-      Host: proportion-recovery-motels-jones.trycloudflare.com
-    path: /vmess-argo
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
