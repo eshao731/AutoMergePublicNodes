@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,41,49,51|RU_speednode_0004 | uu6.top #3'
+  name: 0,4,41,49|RU_7d63a_0004 | uu6.top
   port: 443
   reality-opts:
     public-key: s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY
@@ -13,3 +13,22 @@ proxies:
   type: vless
   udp: true
   uuid: 87eff1bd-d55f-4df2-a5ad-863368a16cb7
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 8,16,50|🇺🇸 美国 202 | uu6.top
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 9tpeVTkuJ5il6GaLG9YqMn99OK8AFlzgEFtoD1_MkyI
+    short-id: f8c64c7a
+  server: 212.18.104.19
+  servername: nspk.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
+  ws-opts:
+    headers:
+      Host: nspk.ru
+    path: '%2F'
