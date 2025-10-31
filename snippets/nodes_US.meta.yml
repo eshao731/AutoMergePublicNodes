@@ -1,20 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,41,49,51|US_speednode_0009 | uu6.top #3'
-  port: 443
-  reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: usa102.unlockspace.org
-  servername: www.utexas.edu
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c9f0284-a8da-40f0-9bca-da9a98049fb0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '0,4,17,19,21,41,49,51|US_speednode_0006 | uu6.top #3'
+  name: '0,4,17,19,21,40,48,50|US_speednode_0006 | uu6.top #3'
   network: tcp
   port: 25599
   reality-opts:
@@ -36,21 +23,16 @@ proxies:
   uuid: b754b53a-aaf5-475c-eeed-46806c2aa63f
   ws-opts:
     path: '%2F'
-- name: '9,26|US美国 | uu6.top #100'
-  network: ws
-  port: 15821
-  server: 138.2.32.76
-  servername: vless.pengjiajin.sbs
-  tls: true
+- name: '9|US美国 | uu6.top #8'
+  network: tcp
+  port: 36987
+  server: 216.133.148.215
+  tls: false
   type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2FTelegram%40freecodes%2F'
+  uuid: 0f4f3a75-ae36-4992-8cb5-6638f45afcb2
 - alterId: 0
   cipher: auto
-  name: '9,26|US美国 | uu6.top #96'
+  name: '9,25|US美国 | uu6.top #96'
   network: ws
   port: '443'
   server: 104.21.46.90
@@ -85,6 +67,17 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
+- name: '9|US美国 | uu6.top #27'
+  network: ws
+  password: iwangjie
+  port: 2053
+  server: 141.94.68.216
+  sni: nodes.830901.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: '%2F%3Fed%3D2560'
 - name: '9|US美国 | uu6.top #34'
   network: ws
   port: 443
@@ -97,18 +90,7 @@ proxies:
     headers:
       Host: nuclear.us.kg
     path: '%2Ffree%2F103.101.153.32%3A443'
-- name: '9|US美国 | uu6.top #27'
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 141.94.68.216
-  sni: nodes.830901.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: '%2F%3Fed%3D2560'
-- name: '9,26|US美国 | uu6.top #90'
+- name: '9,25|US美国 | uu6.top #90'
   network: ws
   port: 443
   server: acxxrp.460110.xyz
@@ -120,7 +102,7 @@ proxies:
     headers:
       Host: vless.ghp.cloudns.biz
     path: '%2F'
-- name: '9,26|US美国 | uu6.top #82'
+- name: '9,25|US美国 | uu6.top #82'
   network: ws
   port: 443
   server: acxxrp.460110.xyz
@@ -156,7 +138,7 @@ proxies:
     headers:
       Host: vless.ghp.cloudns.biz
     path: '%2F'
-- name: '9,26|US美国 | uu6.top #74'
+- name: '9,25|US美国 | uu6.top #74'
   network: ws
   port: 8443
   server: 152.42.241.71
@@ -169,24 +151,12 @@ proxies:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
 - cipher: chacha20-ietf-poly1305
-  name: '10,27|US美国 20 | uu6.top #1'
+  name: '10,26|US美国 20 | uu6.top #1'
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
   udp: true
-- name: '13|美国 | uu6.top #2'
-  network: ws
-  port: 81
-  server: 210.61.97.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
 - name: '13|美国 | uu6.top #4'
   network: ws
   port: 14443
@@ -211,18 +181,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
-- name: 13,50|🇭🇰 香港 48 | uu6.top
-  network: ws
-  port: 47790
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2Ftelegram%40freecodes%2F%3Fed%3D2560'
 - name: '13|美国 | uu6.top #13'
   network: ws
   port: 2096
@@ -271,18 +229,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%40freecodes%2F%3Fed%3D2560'
-- name: 13,50|🇭🇰 香港 45 | uu6.top
-  network: ws
-  port: 35951
-  server: 36.50.90.241
-  servername: gaosir.unfeeling.sbs
-  tls: true
-  type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '13|美国 | uu6.top #17'
   network: ws
   port: 8443
@@ -295,6 +241,18 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F%3Fed%3D2560'
+- name: 13,49|🇭🇰 香港 45 | uu6.top
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2FX%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '13|美国 | uu6.top #18'
   network: ws
   port: 47790
@@ -319,10 +277,10 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Fx%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
-- name: '13|美国 | uu6.top #30'
+- name: '13|美国 | uu6.top #20'
   network: ws
-  port: 2096
-  server: 5.182.85.253
+  port: 35951
+  server: 36.50.90.241
   servername: gaosir.unfeeling.sbs
   tls: true
   type: vless
@@ -330,7 +288,7 @@ proxies:
   ws-opts:
     headers:
       Host: gaosir.unfeeling.sbs
-    path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+    path: '%2F%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
 - name: '13|美国 | uu6.top #21'
   network: ws
   port: 2053
@@ -343,6 +301,26 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
+- name: '13|美国 | uu6.top #30'
+  network: ws
+  port: 2096
+  server: 5.182.85.253
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ftelegram%40%E8%8A%82%E7%82%B9%E7%8B%82%E9%AD%94%2F'
+- name: '15|🔐 🇺🇸 推荐 #1 | uu6.top'
+  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
+  port: 63979
+  server: 113.192.61.19
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '13|美国 | uu6.top #22'
   network: ws
   port: 8443
@@ -355,14 +333,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560'
-- name: '15|🔐 🇺🇸 推荐 #1 | uu6.top'
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - name: '13|美国 | uu6.top #29'
   network: ws
   port: 443
@@ -396,6 +366,17 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2560'
+- name: '17,19,21|🇺🇸_US_美国 | uu6.top #50'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: '%2F'
 - alpn:
   - h2
   - http/1.1
@@ -412,20 +393,21 @@ proxies:
     headers:
       Host: anjir.soft98-ir-download-ir-cdn-ir-irancell-ir-mci-ir.site
     path: /
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #47'
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
-  port: 1743
-  server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 17,19,21,50|🇺🇸 美国 161 | uu6.top
+- name: 17,19,21,49|🇺🇸 美国 161 | uu6.top
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
   server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: '17,19,21|🇺🇸_US_美国 | uu6.top #60'
+  network: ws
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
 - client-fingerprint: chrome
   name: '17,19,21|🇺🇸_US_美国 | uu6.top #59'
   network: ws
@@ -439,39 +421,45 @@ proxies:
     headers:
       Host: conFiG-VOrteX55-AR5.pagES.deV
     path: '%2Fedrlz7qvRheKjll8%2FMTQ0LjI0LjkwLjEwNw%3D%3D%3Fed%3D2560fp%3Drandomized'
-- name: 17,19,21,50|🇺🇸 美国 167 | uu6.top
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 1743
-  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 17,19,21,50|🇺🇸 美国 039 | uu6.top
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #60'
-  network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
-- name: 17,19,21,50|🇺🇸 美国 025 | uu6.top
+- name: 17,19,21,49|🇺🇸 美国 025 | uu6.top
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 17,19,21,50|🇺🇸 美国 165 | uu6.top
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+- name: 17,19,21,49|🇺🇸 美国 167 | uu6.top
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 1743
-  server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 17,19,21,49|🇺🇸 美国 039 | uu6.top
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '17,19,21|🇺🇸_US_美国 | uu6.top #47'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 17,19,21,49|🇺🇸 美国 168 | uu6.top
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  port: 1743
+  server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '17,19,21|🇺🇸_US_美国 | uu6.top #57'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -487,13 +475,23 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
-- name: 17,19,21,50|🇺🇸 美国 168 | uu6.top
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+- name: 17,19,21,49|🇺🇸 美国 166 | uu6.top
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 1743
-  server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: '18,20,22|🇺🇸_US_美国_5 | uu6.top #2'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
 - name: '18,20,22|🇺🇸_US_美国 | uu6.top #65'
   network: ws
   password: trojan
@@ -504,10 +502,17 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #57'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+- name: 17,19,21,49|🇺🇸 美国 165 | uu6.top
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
-  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+  server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 17,19,21,49|🇺🇸 美国 038 | uu6.top
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 1743
+  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -523,33 +528,7 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-- name: 17,19,21,50|🇺🇸 美国 166 | uu6.top
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 17,19,21,50|🇺🇸 美国 038 | uu6.top
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '26|US美国 | uu6.top #59'
-  network: ws
-  port: 587
-  server: 217.142.250.195
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%40freecodes%2F'
-- name: '26|US美国 | uu6.top #57'
+- name: '25|US美国 | uu6.top #57'
   network: ws
   port: 443
   server: ipw.gfdv54cvghhgfhgj-njhgj64.info
@@ -561,58 +540,10 @@ proxies:
     headers:
       Host: gb-42123.shenzogmbh.com
     path: '%2Fapi%2Fv1'
-- name: '26|US美国 | uu6.top #80'
+- name: '25|US美国 | uu6.top #58'
   network: ws
-  port: 2096
-  server: wangcai255.cloudflare.182682.xyz
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%40wangcai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #88'
-  network: ws
-  port: 2096
-  server: wangcai255.cloudflare.182682.xyz
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #79'
-  network: ws
-  port: 2096
-  server: wangcai254.cloudflare.182682.xyz
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%40wangcai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #84'
-  network: ws
-  port: 2096
-  server: wangcai254.cloudflare.182682.xyz
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #76'
-  network: ws
-  port: 8443
-  server: 152.42.241.71
+  port: 12345
+  server: 168.138.197.147
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -621,10 +552,46 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2Ftelegram%40freecodes%2F'
-- name: '26|US美国 | uu6.top #89'
+- name: '25|US美国 | uu6.top #59'
+  network: ws
+  port: 587
+  server: 217.142.250.195
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%40freecodes%2F'
+- name: '25|US美国 | uu6.top #60'
+  network: ws
+  port: 22558
+  server: 152.69.229.175
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%40freecodes%2F'
+- name: '25|US美国 | uu6.top #79'
   network: ws
   port: 2096
-  server: wangcai252.cloudflare.182682.xyz
+  server: wangcai254.cloudflare.182682.xyz
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%40wangcai2%2F%3Fed%3D2560'
+- name: '25|US美国 | uu6.top #88'
+  network: ws
+  port: 2096
+  server: wangcai255.cloudflare.182682.xyz
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -633,7 +600,31 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #112'
+- name: '25|US美国 | uu6.top #80'
+  network: ws
+  port: 2096
+  server: wangcai255.cloudflare.182682.xyz
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%40wangcai2%2F%3Fed%3D2560'
+- name: '25|US美国 | uu6.top #84'
+  network: ws
+  port: 2096
+  server: wangcai254.cloudflare.182682.xyz
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
+- name: '25|US美国 | uu6.top #112'
   network: ws
   port: 443
   server: wwwopensignalcom-goodspeed-8xx.pages.dev.
@@ -645,22 +636,10 @@ proxies:
     headers:
       Host: WwW.OPENSIgnaL.cOm.NaynaY09.dynv6.nET
     path: '%2F%2F'
-- name: '26|US美国 | uu6.top #81'
-  network: ws
-  port: 21273
-  server: 8.209.220.50
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%40freecodes%2F'
-- name: '26|US美国 | uu6.top #86'
+- name: '25|US美国 | uu6.top #89'
   network: ws
   port: 2096
-  server: wangcai250.cloudflare.182682.xyz
+  server: wangcai252.cloudflare.182682.xyz
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -669,43 +648,7 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #85'
-  network: ws
-  port: 10016
-  server: 45.66.128.117
-  servername: snippet.danfeng.site
-  tls: true
-  type: vless
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: '%2F'
-- name: '26|US美国 | uu6.top #94'
-  network: ws
-  port: 13118
-  server: 140.83.57.20
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2Ftelegram%40freecodes%2F'
-- name: '26|US美国 | uu6.top #109'
-  network: ws
-  port: 2053
-  server: 104.18.36.24
-  servername: om2.omidsuccess.uk
-  tls: true
-  type: vless
-  uuid: 17e31214-700b-4f76-8088-df2b0cbe8d39
-  ws-opts:
-    headers:
-      Host: om2.omidsuccess.uk
-    path: '%2Fcontainers%2Fde'
-- name: '26|US美国 | uu6.top #83'
+- name: '25|US美国 | uu6.top #83'
   network: ws
   port: 10016
   server: 45.66.128.117
@@ -717,10 +660,10 @@ proxies:
     headers:
       Host: snippet.danfeng.site
     path: '%2F%3Fed%3D2560'
-- name: '26|US美国 | uu6.top #98'
+- name: '25|US美国 | uu6.top #76'
   network: ws
-  port: 15821
-  server: 138.2.32.76
+  port: 8443
+  server: 152.42.241.71
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -729,10 +672,22 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2Ftelegram%40freecodes%2F'
-- name: '26|US美国 | uu6.top #106'
+- name: '25|US美国 | uu6.top #85'
   network: ws
-  port: 443
-  server: 139.162.108.5
+  port: 10016
+  server: 45.66.128.117
+  servername: snippet.danfeng.site
+  tls: true
+  type: vless
+  uuid: b5544203-55e3-426e-92f1-0684c93f9829
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.site
+    path: '%2F'
+- name: '25|US美国 | uu6.top #77'
+  network: ws
+  port: 81
+  server: 5.34.176.119
   servername: vless.pengjiajin.sbs
   tls: true
   type: vless
@@ -741,7 +696,19 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2Ftelegram%40freecodes%2F'
-- name: '26|US美国 | uu6.top #101'
+- name: '25|US美国 | uu6.top #94'
+  network: ws
+  port: 13118
+  server: 140.83.57.20
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%40freecodes%2F'
+- name: '25|US美国 | uu6.top #101'
   network: ws
   port: 22735
   server: 140.83.57.183
@@ -753,32 +720,31 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2Ftelegram%40freecodes%2F'
-- alterId: 0
-  cipher: auto
-  name: '35,42,43,44|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+- name: '25|US美国 | uu6.top #106'
   network: ws
-  port: '80'
-  server: 104.18.240.238
-  servername: ''
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  port: 443
+  server: 139.162.108.5
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- name: 50|🇺🇸 美国 072 | uu6.top
-  password: 7fb2c6d9-e8f1-48ee-b1f0-cf3734503f65
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 149 | uu6.top
+      Host: vless.pengjiajin.sbs
+    path: '%2Ftelegram%40freecodes%2F'
+- name: '25|US美国 | uu6.top #109'
+  network: ws
+  port: 2053
+  server: 104.18.36.24
+  servername: om2.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: 17e31214-700b-4f76-8088-df2b0cbe8d39
+  ws-opts:
+    headers:
+      Host: om2.omidsuccess.uk
+    path: '%2Fcontainers%2Fde'
+- name: 49|🇺🇸 美国 149 | uu6.top
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
   ports: 20000-50000
@@ -786,31 +752,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 037 | uu6.top
-  password: a16d62f6-048d-11f0-af5a-f23c93136cb3
-  port: 1743
-  ports: 20000-50000
-  server: 6b102553-t4whs0-t4zd6a-d6ar.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 151 | uu6.top
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 061 | uu6.top
-  password: d14c6979-ca3b-4c0c-ada1-e45ec6f814bf
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 058 | uu6.top
+- name: 49|🇺🇸 美国 058 | uu6.top
   password: 3a68480d-d6c9-466b-84e7-1cb3f4024b7c
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -818,7 +760,15 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 067 | uu6.top
+- name: 49|🇺🇸 美国 151 | uu6.top
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 1743
+  ports: 20000-50000
+  server: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 067 | uu6.top
   password: f4326e2b-703b-4066-811c-bd57c8353414
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -826,7 +776,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 054 | uu6.top
+- name: 49|🇺🇸 美国 054 | uu6.top
   password: cfcf03a2-054e-4a91-9858-4dc457931e88
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -834,7 +784,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 099 | uu6.top
+- name: 49|🇺🇸 美国 099 | uu6.top
   password: 22569b14-ad94-4a9c-82f1-3f4e3cf6af77
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -842,23 +792,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 042 | uu6.top
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  ports: 20000-50000
-  server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 150 | uu6.top
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
-  port: 1743
-  ports: 20000-50000
-  server: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 052 | uu6.top
+- name: 49|🇺🇸 美国 052 | uu6.top
   password: aaf48778-bd61-4f71-a867-398171377d5b
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -866,8 +800,16 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
+- name: 49|🇺🇸 美国 042 | uu6.top
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: bb441d0e-t4x400-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 50|🇺🇸 美国 291 | uu6.top
+  name: 49|🇺🇸 美国 291 | uu6.top
   network: ws
   port: 2096
   server: wangcai131.cloudflare.182682.xyz
@@ -879,7 +821,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
-- name: 50|🇺🇸 美国 106 | uu6.top
+- name: 49|🇺🇸 美国 106 | uu6.top
   password: 8727de34-435d-4d00-8e88-ca2a6232ea93
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -887,8 +829,40 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
+- name: 49|🇺🇸 美国 150 | uu6.top
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  ports: 20000-50000
+  server: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 074 | uu6.top
+  password: 68591e3f-d28e-4f28-928a-092ba4343285
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 100 | uu6.top
+  password: e6c931d0-1b38-4316-855e-2bfe752208bc
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 104 | uu6.top
+  password: d5b5b4e1-08f5-4b7b-93b3-4a5c988f23e7
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: 50|🇺🇸 美国 177 | uu6.top
+  name: 49|🇺🇸 美国 177 | uu6.top
   network: ws
   port: 2096
   server: wangcai26.cloudflare.182682.xyz
@@ -900,15 +874,7 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F%3Fed%3D2560'
-- name: 50|🇺🇸 美国 100 | uu6.top
-  password: e6c931d0-1b38-4316-855e-2bfe752208bc
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  tls: false
-  type: hysteria2
-- name: 50|🇺🇸 美国 109 | uu6.top
+- name: 49|🇺🇸 美国 109 | uu6.top
   password: 92e45ed7-f1b3-42f8-8aab-cfc454125bda
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -916,7 +882,15 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 084 | uu6.top
+- name: 49|🇺🇸 美国 077 | uu6.top
+  password: 4ccf4e58-267e-4a8d-a295-5feb5fd74a3a
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 084 | uu6.top
   password: c689428b-ee4f-4cd7-a8d1-13adc99e0163
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -924,7 +898,15 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 50|🇺🇸 美国 146 | uu6.top
+- name: 49|🇺🇸 美国 091 | uu6.top
+  password: 2e7be649-c907-483d-8ec5-30a7c2027c3a
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 49|🇺🇸 美国 146 | uu6.top
   password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
   port: 1743
   ports: 20000-50000
