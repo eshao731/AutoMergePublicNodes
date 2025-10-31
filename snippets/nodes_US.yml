@@ -22,7 +22,7 @@ proxies:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
-  name: '10,27|US美国 20 | uu6.top #1'
+  name: '10,26|US美国 20 | uu6.top #1'
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
@@ -56,6 +56,16 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
+- name: '18,20,22|🇺🇸_US_美国_5 | uu6.top #2'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
 - name: '18,20,22|🇺🇸_US_美国 | uu6.top #65'
   network: ws
   password: trojan
@@ -66,21 +76,26 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '18,20,22|🇺🇸_US_美国_11 | uu6.top #2'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - alterId: 0
   cipher: auto
-  name: '44|🇺🇸 美国 | uu6.top #5'
+  name: '41,42,43|🇺🇸 美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: 104.18.240.238
+  servername: ''
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '43|🇺🇸 美国 | uu6.top #5'
   network: tcp
   port: '443'
   server: 140.238.2.250
