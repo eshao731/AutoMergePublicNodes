@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,41,49,51|JP_speednode_0005 | uu6.top #2'
+  name: '4,41,49,51|JP_speednode_0005 | uu6.top #2'
   port: 51623
   reality-opts:
     public-key: ln4RiHk9_Ea_EyeI2GpZfzilPyrqKYDBqis09esVECo
@@ -13,18 +13,6 @@ proxies:
   type: vless
   udp: true
   uuid: 8129a335-37d4-4932-8dca-ac4358ce60b7
-- name: '9,26|JP日本 | uu6.top #8'
-  network: ws
-  port: 12345
-  server: 168.138.197.147
-  servername: vless.pengjiajin.sbs
-  tls: true
-  type: vless
-  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
-  ws-opts:
-    headers:
-      Host: vless.pengjiajin.sbs
-    path: '%2FTelegram%40freecodes%2F'
 - name: '9,26|JP日本 | uu6.top #9'
   network: ws
   port: 443
@@ -49,29 +37,3 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
-- alterId: 0
-  cipher: auto
-  name: 35|日本 东京Choopa数据中心 | uu6.top
-  network: ws
-  port: 443
-  server: cg1c11.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c11.waimaojd.com
-    path: /api/v1/graphql
-- alterId: 0
-  cipher: auto
-  name: 35|日本 东京Vultr数据中心 | uu6.top
-  network: ws
-  port: 443
-  server: cg1c10.waimaojd.com
-  tls: true
-  type: vmess
-  uuid: 6fc84fd2-0442-405f-baa7-6daf66b81a10
-  ws-opts:
-    headers:
-      Host: cg1c10.waimaojd.com
-    path: /api/v1/graphql
