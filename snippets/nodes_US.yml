@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '9,26|US美国 | uu6.top #96'
+  name: '9,25,43|🇺🇸 US美国 | uu6.top #6'
   network: ws
   port: '443'
   server: 104.21.46.90
@@ -24,16 +24,6 @@ proxies:
     headers:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: '9,26|US美国 | uu6.top #104'
-  network: tcp
-  port: '35218'
-  server: 165.154.197.225
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1a237dd2-851c-47e1-cf7e-e447a363830a
 - name: '9|US美国 | uu6.top #27'
   network: ws
   password: iwangjie
@@ -46,33 +36,12 @@ proxies:
       Host: nodes.830901.xyz
     path: '%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
-  name: '10,27|US美国 20 | uu6.top #1'
+  name: '10,26|US美国 20 | uu6.top #1'
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '10,27|US美国 15 | uu6.top #1'
-  port: 35218
-  server: 165.154.197.225
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1a237dd2-851c-47e1-cf7e-e447a363830a
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #50'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.26.12.31
-  sni: fofang.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: '%2F'
 - name: '17,19,21|🇺🇸_US_美国 | uu6.top #48'
   network: ws
   password: trojan
@@ -100,18 +69,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2560
-- name: '18,20,22|🇺🇸_US_美国_7 | uu6.top #2'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.26.12.31
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /
 - name: '18,20,22|🇺🇸_US_美国 | uu6.top #65'
   network: ws
   password: trojan
@@ -122,15 +79,12 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '18,20,22|🇺🇸_US_美国_11 | uu6.top #2'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
+- alterId: 0
+  cipher: auto
+  name: '43|🇺🇸 美国 | uu6.top #5'
+  network: tcp
+  port: '443'
+  server: 140.238.2.250
+  tls: false
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
