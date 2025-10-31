@@ -1,7 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 43|🇫🇷 | uu6.top
+  name: 9,16,44|🇫🇷 FR法国 | uu6.top
+  network: ws
+  port: '33995'
+  server: 154.17.230.67
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.nbee.pp.ua
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 44|🇫🇷 | uu6.top
   network: ws
   port: '443'
   server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
@@ -12,3 +26,12 @@ proxies:
     headers:
       Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
     path: /azumase.ren
+- name: 50|🇫🇷 法国 44 | uu6.top
+  password: 767ed51d-2358-4981-9447-a807c1419e93
+  port: 50000
+  ports: 50000-53000
+  server: 89.168.32.96
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2

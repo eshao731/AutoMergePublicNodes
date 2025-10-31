@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 37|🇨🇦 加拿大 | uu6.top
+  name: 38|🇨🇦 加拿大 | uu6.top
   password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   port: '52434'
   reduce-rtt: false
@@ -13,3 +13,20 @@ proxies:
   type: tuic
   uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   version: '5'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 50|🇨🇦 加拿大 26 | uu6.top
+  network: tcp
+  port: 40106
+  reality-opts:
+    public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
+    short-id: f44fd3dd
+  server: 40.233.115.110
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+  ws-opts:
+    headers:
+      Host: apple.com
+    path: '%2F'
