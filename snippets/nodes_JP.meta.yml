@@ -1,4 +1,16 @@
 proxies:
+- name: '9|JP日本 | uu6.top #1'
+  network: ws
+  port: 12345
+  server: 168.138.197.147
+  servername: vless.pengjiajin.sbs
+  tls: true
+  type: vless
+  uuid: 64bf9c97-212c-4814-ad17-f8539b53a8bd
+  ws-opts:
+    headers:
+      Host: vless.pengjiajin.sbs
+    path: '%2FTelegram%40freecodes%2F'
 - name: '9|JP日本 | uu6.top #2'
   network: ws
   port: 443
@@ -23,6 +35,15 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
+- alterId: 1
+  cipher: auto
+  name: 33|日本 东京Amazon数据中心 | uu6.top
+  network: tcp
+  port: 28783
+  server: a54b5-g01.jp07-sh-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 91f34ad8-b60e-3955-8de4-39da56944866
 - client-fingerprint: chrome
   name: '38,39,42,44,45|日本3 | uu6.top #4'
   network: tcp
