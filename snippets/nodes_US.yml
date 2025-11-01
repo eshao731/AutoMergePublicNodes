@@ -1,16 +1,28 @@
 proxies:
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #106'
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇺🇸 US美国 | uu6.top #12'
   network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  type: trojan
+  port: '443'
+  server: 104.21.46.90
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
   ws-opts:
-    path: '%2F%3Fed%3D2560'
+    headers:
+      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+    path: /ri9mOOVJuAimB74kgXZ
 - cipher: chacha20-ietf-poly1305
   name: 10|US美国 19 | uu6.top
   password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|US美国 18 | uu6.top
+  password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
@@ -33,58 +45,6 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: '%2F'
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #118'
-  network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
-- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
-- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.26.12.31
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /
-- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #123'
-  network: ws
-  password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  sni: pangpi.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: 16|香港_14 | uu6.top
   network: tcp
   password: BxceQaOe
@@ -96,7 +56,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 40,41|美国 CloudFlare节点 | uu6.top
+  name: '33,40,41|美国 CloudFlare节点 | uu6.top #1'
   network: ws
   port: '80'
   server: 104.18.240.238
