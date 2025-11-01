@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '3,39,40|美国 CloudFlare节点 | uu6.top #2'
+  name: '3,40,41|美国 CloudFlare节点 | uu6.top #2'
   network: ws
   port: '80'
   server: 104.18.240.238
@@ -16,15 +16,6 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #106'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: '9|US美国 | uu6.top #40'
@@ -87,6 +78,16 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
+- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #123'
+  network: ws
+  password: trojan
+  port: 8443
+  server: www.visa.com.sg
+  sni: pangpi.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
 - name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -99,19 +100,18 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #123'
-  network: ws
-  password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  sni: pangpi.pages.dev
-  tls: true
+- name: 16|香港_14 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
   type: trojan
-  ws-opts:
-    path: /
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 47|🇺🇸 美国 1079 | uu6.top
+  name: 48|🇺🇸 美国 1079 | uu6.top
   network: ws
   port: '443'
   server: w9.luoli.de
@@ -122,7 +122,7 @@ proxies:
     headers:
       Host: w9.luoli.de
     path: /v2ws
-- name: '-1|1|1|1|1|16|US | #5 | uu6.top'
+- name: '-1|1|1|1|1|1|16|US | #5 | uu6.top'
   network: ws
   password: T@_WvT8Ho@LW%w_,
   port: 2053
