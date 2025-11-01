@@ -1,7 +1,16 @@
 proxies:
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #106'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: '3,39,40|美国 CloudFlare节点 | uu6.top #2'
+  name: '3,33,40,41|美国 CloudFlare节点 | uu6.top #3'
   network: ws
   port: '80'
   server: 104.18.240.238
@@ -55,18 +64,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2560
-- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.26.12.31
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /
 - name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -79,6 +76,18 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
+- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /
 - name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #123'
   network: ws
   password: trojan
