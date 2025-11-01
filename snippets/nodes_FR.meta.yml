@@ -1,14 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 41|🇫🇷 | uu6.top
-  network: ws
-  port: '443'
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|FR_speednode_0013 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: MThDM457eKp5ak4_L_l38GvDoS80fXDqTxqOZb81uEc
+    short-id: 34e2ce36
+  server: 94.131.9.77
+  servername: vk.cc
+  skip-cert-verify: false
   tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
+  type: vless
+  udp: true
+  uuid: 677615f7-87d5-5019-a44d-4fc3ff8d59d7
