@@ -1,5 +1,5 @@
 proxies:
-- name: '9,26|JP日本 | uu6.top #8'
+- name: '9|JP日本 | uu6.top #1'
   network: ws
   port: 12345
   server: 168.138.197.147
@@ -11,7 +11,7 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
-- name: '9,26|JP日本 | uu6.top #9'
+- name: '9|JP日本 | uu6.top #2'
   network: ws
   port: 443
   server: 172.105.208.156
@@ -23,7 +23,7 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
-- name: '9,26|JP日本 | uu6.top #11'
+- name: '9|JP日本 | uu6.top #4'
   network: ws
   port: 443
   server: 139.162.108.5
@@ -36,16 +36,7 @@ proxies:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
 - client-fingerprint: chrome
-  name: '46,47|日本2 | uu6.top #4'
-  network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 4452
-  server: 160.16.236.32
-  skip-cert-verify: true
-  sni: www.baidu.com
-  type: trojan
-- client-fingerprint: chrome
-  name: '46,47|日本3 | uu6.top #4'
+  name: '44,45|日本3 | uu6.top #4'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 3161
@@ -53,7 +44,16 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: 50|🇯🇵 日本 01 | uu6.top
+- client-fingerprint: chrome
+  name: '44,45|日本2 | uu6.top #4'
+  network: tcp
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 4452
+  server: 160.16.236.32
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+- name: 48|🇯🇵 日本 01 | uu6.top
   network: ws
   port: 55007
   server: 64.110.101.90
@@ -65,3 +65,33 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2%20%2F'
+- alterId: 0
+  cipher: auto
+  name: 48|🇯🇵 日本 30 | uu6.top
+  network: ws
+  port: '443'
+  server: w13.luoli.de
+  tls: true
+  type: vmess
+  uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
+  ws-opts:
+    headers:
+      Host: w13.luoli.de
+    path: /v2ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 48|🇯🇵 日本 27 | uu6.top
+  network: tcp
+  port: 40042
+  reality-opts:
+    public-key: WB_B1SPamVRkLeEJkKhq9YEukZpqQPgoNnwetlNBdF8
+    short-id: c5bc3357
+  server: cdn.413918.xyz
+  servername: itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 11db0644-edeb-442c-bd42-e5ea58ea7395
+  ws-opts:
+    headers:
+      Host: itunes.apple.com
+    path: '%2F'
