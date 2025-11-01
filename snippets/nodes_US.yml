@@ -1,35 +1,31 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '3,33,40,41,42|🇺🇸 美国 CloudFlare节点 | uu6.top #2'
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #106'
   network: ws
-  port: '80'
-  server: 104.18.240.238
-  servername: ''
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- cipher: chacha20-ietf-poly1305
+  name: 10|US美国 20 | uu6.top
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+  udp: true
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #108'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: '9|US美国 | uu6.top #40'
-  network: ws
-  port: '443'
-  server: 104.21.46.90
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
-  ws-opts:
-    headers:
-      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
-    path: /ri9mOOVJuAimB74kgXZ
+      Host: fofang.pages.dev
+    path: '%2F'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #118'
   network: ws
   password: er668
@@ -60,3 +56,15 @@ proxies:
   type: trojan
   ws-opts:
     path: /
+- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
