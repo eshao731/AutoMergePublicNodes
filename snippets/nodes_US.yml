@@ -1,13 +1,4 @@
 proxies:
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #106'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
   name: '9|US美国 | uu6.top #40'
@@ -29,17 +20,6 @@ proxies:
   server: pupas-shirting-unsung.freesocks.work
   type: ss
   udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #108'
-  network: ws
-  password: trojan
-  port: 8443
-  server: 104.26.12.31
-  sni: fofang.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: '%2F'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #118'
   network: ws
   password: er668
@@ -58,18 +38,28 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2560
-- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
+- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #123'
   network: ws
   password: trojan
   port: 8443
-  server: 104.26.12.31
-  sni: fofang.pages.dev
+  server: www.visa.com.sg
+  sni: pangpi.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: fofang.pages.dev
-    path: /
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: 16|香港_14 | uu6.top
   network: tcp
   password: BxceQaOe

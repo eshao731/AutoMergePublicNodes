@@ -1,4 +1,13 @@
 proxies:
+- alterId: 1
+  cipher: auto
+  name: '3,33|日本 东京Amazon数据中心 | uu6.top #1'
+  network: tcp
+  port: 449
+  server: zrjfw-g06.jp04-1d-vm0.entry.fr0528.art
+  tls: false
+  type: vmess
+  uuid: 95062dc1-df89-3922-ae56-4ccffc712ed2
 - name: '9|JP日本 | uu6.top #1'
   network: ws
   port: 12345
@@ -35,20 +44,6 @@ proxies:
     headers:
       Host: vless.pengjiajin.sbs
     path: '%2FTelegram%40freecodes%2F'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 48|🇯🇵 日本 83 | uu6.top
-  network: tcp
-  port: 40000
-  server: jp03.333210.xyz
-  servername: 400567.xyz
-  tls: true
-  type: vless
-  uuid: aae0b5f4-cdb1-48b4-a497-d6d0c89d2576
-  ws-opts:
-    headers:
-      Host: jp03.333210.xyz
-    path: '%2F'
 - alterId: 1
   cipher: auto
   name: 48|🇯🇵 日本 62 | uu6.top
