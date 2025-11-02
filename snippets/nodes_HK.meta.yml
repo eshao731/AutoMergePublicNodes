@@ -1,6 +1,15 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,11,12,32,37,38,41,43,44|香港3 | uu6.top #4'
+  name: '0,11,12,33,38,39,42,44,45,47,49|HK_speednode_0009 | uu6.top #2'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '0,11,12,33,38,39,42,44,45|香港3 | uu6.top #4'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 443
@@ -9,15 +18,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '0,11,12,37,38,41,43,44,46,48|HK_speednode_0009 | uu6.top #2'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: '4,15|香港3 | uu6.top #2'
+  name: '1,4,15|香港3 | uu6.top #2'
   password: bca467b8c15211d189008a93c7519d3b
   port: 22581
   server: 221.128.195.9
@@ -40,7 +41,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 47|🇭🇰 香港家宽 053 | uu6.top
+- name: 48|🇭🇰 香港家宽 053 | uu6.top
   password: e03df6fc-97e8-11ee-be7f-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -48,7 +49,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 271 | uu6.top
+- name: 48|🇭🇰 香港家宽 271 | uu6.top
   password: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -56,7 +57,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 408 | uu6.top
+- name: 48|🇭🇰 香港家宽 408 | uu6.top
   password: bd515574-3b10-11ee-ac14-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -64,7 +65,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 133 | uu6.top
+- name: 48|🇭🇰 香港家宽 133 | uu6.top
   password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -72,15 +73,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 162 | uu6.top
-  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: e574df8b-t57ls0-t5wcb1-13x18.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港家宽 351 | uu6.top
+- name: 48|🇭🇰 香港家宽 351 | uu6.top
   password: 448aff24-b2e6-11ef-97e0-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -88,7 +81,15 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 168 | uu6.top
+- name: 48|🇭🇰 香港家宽 162 | uu6.top
+  password: e4499a62-0cfe-11eb-ad8c-f23c9164ca5d
+  port: 443
+  ports: 30000-60000
+  server: e574df8b-t57ls0-t5wcb1-13x18.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇭🇰 香港家宽 168 | uu6.top
   password: bf4ec108-f2b7-11ef-b654-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -96,7 +97,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 099 | uu6.top
+- name: 48|🇭🇰 香港家宽 099 | uu6.top
   password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -104,7 +105,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 141 | uu6.top
+- name: 48|🇭🇰 香港家宽 141 | uu6.top
   password: 28213b50-7ed5-11ee-add6-f23c91369f2d
   port: 443
   ports: 30000-60000
@@ -112,7 +113,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 202 | uu6.top
+- name: 48|🇭🇰 香港家宽 202 | uu6.top
   password: 91365a7a-46d7-11ee-a8b9-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -120,7 +121,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 368 | uu6.top
+- name: 48|🇭🇰 香港家宽 368 | uu6.top
   password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -128,15 +129,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 221 | uu6.top
-  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  port: 443
-  ports: 30000-60000
-  server: 5dd9aace-t53wg0-t5rf4m-81nv.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港家宽 061 | uu6.top
+- name: 48|🇭🇰 香港家宽 061 | uu6.top
   password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -144,7 +137,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 402 | uu6.top
+- name: 48|🇭🇰 香港家宽 402 | uu6.top
   password: 80aa5178-f936-11ed-8ce6-f23c91369f2d
   port: 443
   ports: 30000-60000
@@ -152,7 +145,15 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 324 | uu6.top
+- name: 48|🇭🇰 香港家宽 221 | uu6.top
+  password: 47e91fb6-25b8-df52-bc18-3cdc8548192f
+  port: 443
+  ports: 30000-60000
+  server: 5dd9aace-t53wg0-t5rf4m-81nv.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇭🇰 香港家宽 324 | uu6.top
   password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -160,7 +161,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 024 | uu6.top
+- name: 48|🇭🇰 香港家宽 024 | uu6.top
   password: 0a4d1c88-fb3a-11ef-8c3f-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -168,7 +169,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 228 | uu6.top
+- name: 48|🇭🇰 香港家宽 228 | uu6.top
   password: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -176,7 +177,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 096 | uu6.top
+- name: 48|🇭🇰 香港家宽 096 | uu6.top
   password: 990e8f34-bd4f-11ef-bdb9-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -184,7 +185,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 129 | uu6.top
+- name: 48|🇭🇰 香港家宽 129 | uu6.top
   password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -192,7 +193,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 019 | uu6.top
+- name: 48|🇭🇰 香港家宽 019 | uu6.top
   password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -200,7 +201,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 165 | uu6.top
+- name: 48|🇭🇰 香港家宽 165 | uu6.top
   password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -208,7 +209,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 380 | uu6.top
+- name: 48|🇭🇰 香港家宽 380 | uu6.top
   password: 62f2374c-891b-11ef-a3f6-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -216,7 +217,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港 02 | uu6.top
+- name: 48|🇭🇰 香港 02 | uu6.top
   network: ws
   port: 23989
   server: 43.154.231.72
@@ -225,7 +226,7 @@ proxies:
   uuid: 6082f5df-1038-4f30-9fb0-4f16038dc1e2
   ws-opts:
     path: '%2F'
-- name: 47|🇭🇰 香港家宽 194 | uu6.top
+- name: 48|🇭🇰 香港家宽 194 | uu6.top
   password: 44ee8d70-309d-11eb-a8bf-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -233,7 +234,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 257 | uu6.top
+- name: 48|🇭🇰 香港家宽 257 | uu6.top
   password: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -241,15 +242,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 213 | uu6.top
-  password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 9b99e87a-t57ls0-t6kwk6-1s3lb.hk1.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港家宽 233 | uu6.top
+- name: 48|🇭🇰 香港家宽 233 | uu6.top
   password: 33629870-e57e-11ec-bb74-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -257,7 +250,15 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 055 | uu6.top
+- name: 48|🇭🇰 香港家宽 213 | uu6.top
+  password: fbf91120-50ba-11ef-a203-f23c91cfbbc9
+  port: 443
+  ports: 30000-60000
+  server: 9b99e87a-t57ls0-t6kwk6-1s3lb.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇭🇰 香港家宽 055 | uu6.top
   password: 94614d84-9986-11ee-be7f-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -265,7 +266,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 058 | uu6.top
+- name: 48|🇭🇰 香港家宽 058 | uu6.top
   password: ea93064c-176c-11f0-885d-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -273,7 +274,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 178 | uu6.top
+- name: 48|🇭🇰 香港家宽 178 | uu6.top
   password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -281,7 +282,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 002 | uu6.top
+- name: 48|🇭🇰 香港家宽 002 | uu6.top
   password: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -289,7 +290,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 210 | uu6.top
+- name: 48|🇭🇰 香港家宽 210 | uu6.top
   password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -297,7 +298,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 232 | uu6.top
+- name: 48|🇭🇰 香港家宽 232 | uu6.top
   password: 4f4c6876-fcf6-11ef-94aa-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -305,7 +306,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 403 | uu6.top
+- name: 48|🇭🇰 香港家宽 403 | uu6.top
   password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -313,7 +314,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 243 | uu6.top
+- name: 48|🇭🇰 香港家宽 243 | uu6.top
   password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -321,7 +322,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 212 | uu6.top
+- name: 48|🇭🇰 香港家宽 212 | uu6.top
   password: fac704ae-0304-11f0-a2ef-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -329,23 +330,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港家宽 182 | uu6.top
-  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 03a5ff02-t57ls0-ta64ri-1qzi1.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港家宽 035 | uu6.top
-  password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 2c5f34ef-t57ls0-tasors-1tdqt.hk2.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港家宽 307 | uu6.top
+- name: 48|🇭🇰 香港家宽 307 | uu6.top
   password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
   port: 443
   ports: 30000-60000
@@ -353,9 +338,25 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 48|🇭🇰 香港家宽 035 | uu6.top
+  password: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  port: 443
+  ports: 30000-60000
+  server: 2c5f34ef-t57ls0-tasors-1tdqt.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇭🇰 香港家宽 182 | uu6.top
+  password: 8f99107c-f091-11ee-9935-f23c9164ca5d
+  port: 443
+  ports: 30000-60000
+  server: 03a5ff02-t57ls0-ta64ri-1qzi1.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: -1|1|1|1|1|1|42|🇭🇰 香港 电 | uu6.top
+  name: -1|1|1|1|1|1|1|42|🇭🇰 香港 | uu6.top
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
