@@ -18,9 +18,22 @@ proxies:
     headers:
       Host: www.yahoo.com
     path: '%2F'
+- name: '0,4,39|CA_speednode_0002 | uu6.top #2'
+  network: ws
+  port: 2087
+  server: axe.soyet2j.ir
+  servername: latte.gejeh683bm.ir.
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4cf3c711-58e1-4abb-a628-3b48bdba8052
+  ws-opts:
+    headers:
+      Host: latte.gejeh683bm.ir
+    path: /index.html?ed=2560fp=chrome
 - alterId: 0
   cipher: auto
-  name: '3,42|🇨🇦 加拿大 | uu6.top #2'
+  name: 3|加拿大 | uu6.top
   network: tcp
   port: '35218'
   server: 165.154.197.225

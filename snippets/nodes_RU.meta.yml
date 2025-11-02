@@ -1,6 +1,21 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
+  name: '0,4,16,39,47,49|RU_speednode_0023 | uu6.top #3'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fwyaXZJrcorp1BQM4O2SicK-n15VNO53GWvvFsecbhM
+    short-id: 10f76a02167e9b
+  server: russia22.clearorbitllc.com
+  servername: russia22.clearorbitllc.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c1bc547-6ed3-4234-873e-966d9eef5d27
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '0,4,15,39,47,49|RU_speednode_0025 | uu6.top #3'
   port: 443
   reality-opts:
