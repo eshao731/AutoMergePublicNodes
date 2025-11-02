@@ -20,15 +20,6 @@ proxies:
   server: 38.180.105.12
   type: ss
   udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #74'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #76'
   network: ws
   password: trojan
@@ -40,6 +31,15 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: '%2F'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #74'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #86'
   network: ws
   password: er668
@@ -48,6 +48,18 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
+- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
   network: ws
   password: trojan
@@ -70,18 +82,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2560
-- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: 16|🇭🇰香港_4 | uu6.top
   network: tcp
   password: BxceQaOe
@@ -91,3 +91,16 @@ proxies:
   sni: 58.152.46.98
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 48|🇺🇸 美国 750 | uu6.top
+  network: ws
+  port: '23187'
+  server: 212.192.13.86
+  tls: false
+  type: vmess
+  uuid: 3990ad8f-b8f2-4641-8ebf-3221e0af709b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
