@@ -1,1 +1,92 @@
-proxies: []
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '10|US美国 | uu6.top #18'
+  password: p78naCf2EfOlRSLTX0wFVx
+  port: 443
+  server: pupas-shirting-unsung.freesocks.work
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|US美国 6 | uu6.top
+  password: 7e1dd4c55bf85da5
+  port: 30398
+  server: 212.192.15.59
+  type: ss
+  udp: true
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #74'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2560'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #76'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: '%2F'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #86'
+  network: ws
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
+- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: /
+- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
+- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: 47|US_935aa_0042 | uu6.top
+  network: http
+  port: 32301
+  server: 104.168.94.41
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
