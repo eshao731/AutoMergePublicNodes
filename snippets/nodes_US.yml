@@ -1,16 +1,23 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '9,41|🇺🇸 US美国 | uu6.top #6'
+  network: ws
+  port: '443'
+  server: 104.21.46.90
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
+  ws-opts:
+    headers:
+      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+    path: /ri9mOOVJuAimB74kgXZ
 - cipher: chacha20-ietf-poly1305
   name: '10|US美国 | uu6.top #18'
   password: p78naCf2EfOlRSLTX0wFVx
   port: 443
   server: pupas-shirting-unsung.freesocks.work
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 10|US美国 6 | uu6.top
-  password: 7e1dd4c55bf85da5
-  port: 30398
-  server: 212.192.15.59
   type: ss
   udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #74'
@@ -33,6 +40,13 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: '%2F'
+- cipher: aes-256-gcm
+  name: 10|US美国 6 | uu6.top
+  password: 7e1dd4c55bf85da5
+  port: 30398
+  server: 212.192.15.59
+  type: ss
+  udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #86'
   network: ws
   password: er668
@@ -41,18 +55,16 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
-- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
+- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
   network: ws
   password: trojan
   port: 8443
-  server: 104.26.12.31
+  server: ip.sb
   sni: fofang.pages.dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: fofang.pages.dev
-    path: /
+    path: /?ed=2560
 - name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -65,23 +77,34 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
+- name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
   network: ws
   password: trojan
   port: 8443
-  server: ip.sb
+  server: 104.26.12.31
   sni: fofang.pages.dev
   tls: true
   type: trojan
   ws-opts:
-    path: /?ed=2560
+    headers:
+      Host: fofang.pages.dev
+    path: /
+- name: 16|🇭🇰香港_4 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
   http-opts:
     method: GET
     path:
     - /
-  name: 47|US_935aa_0042 | uu6.top
+  name: 46|US_935aa_0042 | uu6.top
   network: http
   port: 32301
   server: 104.168.94.41
@@ -90,3 +113,16 @@ proxies:
   type: vmess
   udp: true
   uuid: a2235b72-fd9c-404f-be5a-53b2de0cb798
+- alterId: 0
+  cipher: auto
+  name: '41|🇺🇸 美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /

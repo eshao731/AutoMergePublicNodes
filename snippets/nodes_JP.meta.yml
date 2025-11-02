@@ -1,27 +1,28 @@
 proxies:
-- alterId: 1
-  cipher: auto
-  name: 47|JP_935aa_0019 | uu6.top
-  port: 21581
-  server: tb012-g01.jp03-j7-vm0.entry.fr0528.art
-  servername: tb012-g01.jp03-j7-vm0.entry.fr0528.art
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- name: '37,38,46,48|JP_speednode_0020 | uu6.top #1'
+  network: ws
+  password: trojan
+  port: 443
+  server: 103.116.7.1
+  skip-cert-verify: false
+  sni: wahaha.yingyangkuaixian.dpdns.org
+  type: trojan
   udp: true
-  uuid: 1a9f857f-9a07-3a8c-a155-f9ab3c457343
+  ws-opts:
+    headers:
+      Host: wahaha.yingyangkuaixian.dpdns.org
+    path: /
+- name: 47|🇯🇵 日本 060 | uu6.top
+  password: 07502194-d80e-4f7e-92df-e549f1212b85
+  port: 30303
+  server: 62.164.193.47
+  skip-cert-verify: true
+  sni: v3-prime-xg-web-pc.ixigua.com
+  tls: false
+  type: hysteria2
 - alterId: 1
   cipher: auto
-  name: 48|🇯🇵 日本 102 | uu6.top
-  network: tcp
-  port: '21585'
-  server: y2dxs-g05.jp03-j7-vm0.entry.fr0528.art
-  tls: true
-  type: vmess
-  uuid: 8133667f-a211-30d9-8aec-bf1034c6e11e
-- alterId: 1
-  cipher: auto
-  name: 48|🇯🇵 日本 112 | uu6.top
+  name: 47|🇯🇵 日本 112 | uu6.top
   network: tcp
   port: '28787'
   server: syavd-g05.jp07-sh-vm0.entry.fr0528.art
