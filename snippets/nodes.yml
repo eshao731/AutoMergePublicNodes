@@ -1,18 +1,18 @@
 proxies:
-- name: '0,1,3,4,11,12,15,33,38,39,42,44,45|香港5 | uu6.top #1'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  type: trojan
-- name: '0,1,3,4,11,12,15,33,38,39,42,44,45|香港3 | uu6.top #4'
+- name: '0,3,4,11,12,15,38,39,42,44,45|香港3 | uu6.top #4'
   network: tcp
   password: bca467b8c15211d189008a93c7519d3b
   port: 443
   server: 58.152.53.42
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: '0,3,4,11,12,15,33,38,39,42,44,45|香港5 | uu6.top #1'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
   type: trojan
 - name: '0,4,15|JP_speednode_0020 | uu6.top #2'
   network: ws
@@ -42,6 +42,48 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
+  name: '7,8|🇭🇰 HK_213 | uu6.top #1'
+  network: ws
+  port: 80
+  server: a731a8b3-sv2sg0-sy1a0y-1iyov.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 33629870-e57e-11ec-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 7,8,42|🇭🇰 香港 电讯盈科有限公司 | uu6.top
+  network: ws
+  port: '80'
+  server: 4c2c02b9-sv2sg0-sv75lj-1swf9.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '7,8,33|香港 电讯盈科有限公司 | uu6.top #4'
+  network: ws
+  port: 80
+  server: 64309899-t15b40-t2c3sq-1spnr.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
   name: '7,8|🇭🇰 HK_171 | uu6.top #1'
   network: ws
   port: 80
@@ -54,13 +96,27 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  name: '10|US美国 | uu6.top #69'
-  password: tJlEWh2PzDMew8qo9YkPEA
-  port: 443
-  server: 38.180.105.12
+- alterId: 0
+  cipher: auto
+  name: '9|US美国 | uu6.top #20'
+  network: ws
+  port: '443'
+  server: 104.21.46.90
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
+  ws-opts:
+    headers:
+      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+    path: /ri9mOOVJuAimB74kgXZ
+- cipher: aes-256-cfb
+  name: '12,38,44|🇻🇳 越南 | uu6.top #5'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.142
+  tfo: false
   type: ss
-  udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #72'
   network: ws
   password: trojan
@@ -70,6 +126,17 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2560'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #74'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 104.26.12.31
+  sni: fofang.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: fofang.pages.dev
+    path: '%2F'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #84'
   network: ws
   password: er668
@@ -78,6 +145,16 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
+- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
 - name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
   network: ws
   password: trojan
@@ -90,18 +167,6 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
-- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - alterId: 0
   cipher: auto
   http-opts:
@@ -118,46 +183,10 @@ proxies:
   udp: true
   uuid: bb9c3993-a4b9-4dad-aeb9-ac86371ae68b
 - cipher: aes-256-cfb
-  name: '32|未命名 | uu6.top #23'
-  password: amazonskr05
-  port: 443
-  server: 18.132.10.71
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 32,47|US_555fe_0089 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 16.52.153.7
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 32,47|DE_555fe_0003 | uu6.top
   password: amazonskr05
   port: 443
   server: 18.195.93.192
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 32|IPLC深港专线 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 3.148.200.80
-  type: ss
-  udp: true
-- name: 16|香港_12 | uu6.top
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: 32,47|US_555fe_0082 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 18.188.227.100
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -168,10 +197,31 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: '32|未命名 | uu6.top #23'
+  password: amazonskr05
+  port: 443
+  server: 18.132.10.71
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 32|IPLC深港专线 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 3.148.200.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 32|美国盐湖城家宽 | uu6.top
   password: amazonskr05
   port: 443
   server: 18.188.211.45
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 32,47|US_555fe_0082 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 18.188.227.100
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -189,17 +239,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 32|解锁奈飞 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 18.130.249.62
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 32|德国法兰克福商宽 | uu6.top
   password: amazonskr05
   port: 443
   server: 18.158.60.169
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 32|解锁奈飞 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 18.130.249.62
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -209,6 +259,32 @@ proxies:
   server: 3.127.136.134
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 33|美国 阿里云 | uu6.top
+  network: ws
+  port: 55925
+  server: 47.236.25.226
+  tls: false
+  type: vmess
+  uuid: a5121dbb-a1a6-4a92-a65e-19d709eedefb
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '33|香港 阿里云 | uu6.top #2'
+  network: ws
+  port: 36396
+  server: 47.84.90.189
+  tls: false
+  type: vmess
+  uuid: eb32c3fb-dfae-4f74-9d5a-9db6838ba873
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - cipher: aes-256-cfb
   name: 32,47|GB_555fe_0008 | uu6.top
   password: amazonskr05
@@ -216,37 +292,126 @@ proxies:
   server: 18.133.78.96
   type: ss
   udp: true
-- name: 16|香港_11 | uu6.top
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  sni: 58.152.46.98
-  type: trojan
-  udp: true
 - alterId: 2
   cipher: auto
-  name: '33|香港 电讯盈科有限公司 | uu6.top #1'
+  name: '33,42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #18'
   network: ws
-  port: 80
-  server: 83821e8d-sv8cg0-sveyey-44k4.hk3.p5pv.com
+  port: '80'
+  server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com
   tls: false
   type: vmess
-  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  uuid: 88da0d21-b25d-11ec-b9f7-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '33|美国 | uu6.top #3'
+  network: ws
+  port: 443
+  server: xsj043-0.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 996944e2-4223-4d28-8eca-8e4cad7fc3c2
+  ws-opts:
+    headers:
+      Host: xsj043-0.facai2024.com
+    path: /996944e2
+- alterId: 0
+  cipher: auto
+  name: '33|美国 阿里云 | uu6.top #1'
+  network: ws
+  port: 34553
+  server: 47.239.20.252
+  tls: false
+  type: vmess
+  uuid: 5191fb3e-3e98-46b9-bf13-b76cd9f24ddd
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- cipher: aes-256-cfb
+  name: 32,47|US_555fe_0089 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 16.52.153.7
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '33|香港 阿里云 | uu6.top #3'
+  network: ws
+  port: 27075
+  server: 47.84.76.46
+  tls: false
+  type: vmess
+  uuid: 14361d72-6942-4445-af34-7d3a8856a5b7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: '33|香港 电讯盈科有限公司 | uu6.top #3'
+  network: ws
+  port: 80
+  server: 5e392f9d-sv0xs0-svewl8-xu74.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - alterId: 2
   cipher: auto
-  name: '33|香港 电讯盈科有限公司 | uu6.top #3'
+  name: '33|香港 电讯盈科有限公司 | uu6.top #5'
   network: ws
   port: 80
-  server: 3be014a6-sv0xs0-svpmdc-nx3b.hk3.p5pv.com
+  server: 4020d7a1-sv0xs0-swkmdk-1imi4.hk3.p5pv.com
   tls: false
   type: vmess
-  uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '33|香港 电讯盈科有限公司 | uu6.top #1'
+  network: ws
+  port: 80
+  server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '33|香港 阿里云 | uu6.top #1'
+  network: ws
+  port: 60191
+  server: 47.84.76.46
+  tls: false
+  type: vmess
+  uuid: 3c078e73-19ba-491e-a52b-9fd6bff1bc45
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 2
+  cipher: auto
+  name: '33|香港 电讯盈科有限公司 | uu6.top #6'
+  network: ws
+  port: 80
+  server: 9984b70d-sv4n40-sx16xo-1j3zm.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -287,13 +452,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_7 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.5
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_6 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
@@ -301,17 +459,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_7 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.5
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_8 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_9 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.155.81
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_12 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.23
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -329,17 +494,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_12 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.23
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_13 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.201
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_14 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.240
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -357,10 +522,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_19 | uu6.top
+  name: 36|🇻🇳 越南_14 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.155.207
+  server: 103.186.154.240
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -368,13 +533,6 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.153
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_21 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.114
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -392,59 +550,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_21 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.114
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_22 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.30
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_25 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_24 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.224
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_27 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.243
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_26 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_29 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.37
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_30 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.30
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_8 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.66
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -455,10 +571,59 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_31 | uu6.top
+  name: 36|🇻🇳 越南_25 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.155.117
+  server: 103.186.155.233
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_19 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.207
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_24 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.224
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_26 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.140
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_27 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_30 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.30
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_29 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.37
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_28 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.116
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -468,10 +633,24 @@ proxies:
   server: 51.15.17.169
   type: ss
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_31 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.117
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_32 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.144
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_33 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.66
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -496,31 +675,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_28 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_33 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 37|MD_->🇺_RU | uu6.top
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
-  type: ss
-- cipher: aes-256-cfb
-  name: '38,44|🇻🇳 越南 | uu6.top #3'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.142
-  tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: 42|8J-HqPCfh6YgU1NSLeWK | uu6.top
@@ -531,23 +689,6 @@ proxies:
   protocol: origin
   protocol-param: ''
   server: 79.127.233.170
-  type: ssr
-- cipher: chacha20-ietf-poly1305
-  name: 40|🇷🇸 塞尔维亚 | uu6.top
-  password: c40641c1f89e7acb
-  port: 57456
-  server: uk.vpnsparta.pro
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: 42|8J-HuvCfh7ggU1NSLee- | uu6.top
-  obfs: plain
-  obfs-param: ''
-  password: 14fFPrbezE3HDZzsMOr6
-  port: '8080'
-  protocol: origin
-  protocol-param: ''
-  server: 107.151.182.253
   type: ssr
 - alterId: 0
   cipher: auto
@@ -562,6 +703,36 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- cipher: rc4-md5
+  name: 42|8J-HuvCfh7ggU1NSLee- | uu6.top
+  obfs: plain
+  obfs-param: ''
+  password: 14fFPrbezE3HDZzsMOr6
+  port: '8080'
+  protocol: origin
+  protocol-param: ''
+  server: 107.151.182.253
+  type: ssr
+- cipher: chacha20-ietf-poly1305
+  name: 40|🇷🇸 塞尔维亚 | uu6.top
+  password: c40641c1f89e7acb
+  port: 57456
+  server: uk.vpnsparta.pro
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: 0af112c9-sv2sg0-swbdgq-1iddy.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: '42|🇬🇧 | uu6.top #1'
@@ -575,6 +746,19 @@ proxies:
     headers:
       Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
     path: /azumase.ren
+- alterId: 0
+  cipher: auto
+  name: 42|🇫🇷 | uu6.top
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - alterId: 2
   cipher: auto
   name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #24'
@@ -584,45 +768,6 @@ proxies:
   tls: false
   type: vmess
   uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #17'
-  network: ws
-  port: '80'
-  server: d9864c5f-sv6hs0-sv75lj-1swf9.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 2bb1edc8-fa5d-11ef-9dd9-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #5'
-  network: ws
-  port: '80'
-  server: de6cdf0e-sv2sg0-syfj90-1r9dt.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: de003c72-0157-11ef-86da-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #13'
-  network: ws
-  port: '80'
-  server: 0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -642,6 +787,32 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
+  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #13'
+  network: ws
+  port: '80'
+  server: 0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #12'
+  network: ws
+  port: '80'
+  server: f72738d2-sv0xs0-tc2sod-1tizo.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
   name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #15'
   network: ws
   port: '80'
@@ -655,29 +826,22 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #16'
+  name: '42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #26'
   network: ws
   port: '80'
-  server: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com
+  server: 8685e774-sv2sg0-svq7uu-1gevg.hk3.p5pv.com
   tls: false
   type: vmess
-  uuid: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  uuid: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 34013157-sunz40-taz53d-1j0y6.hk3.p5pv.com
+      Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: aes-256-cfb
   name: 47|IS_555fe_0023 | uu6.top
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.235.49.168
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 47|SE_555fe_0029 | uu6.top
-  password: e0AuSSE9kqrZnpK1RgcuPt
-  port: 50589
-  server: 78.40.116.11
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -688,10 +852,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 47|VN_555fe_0103 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.203
+  name: 47|PL_555fe_0027 | uu6.top
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 217.30.10.70
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -699,6 +863,20 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.125
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 47|SE_555fe_0029 | uu6.top
+  password: e0AuSSE9kqrZnpK1RgcuPt
+  port: 50589
+  server: 78.40.116.11
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 47|VN_555fe_0103 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.203
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -709,23 +887,49 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 47|VN_555fe_0107 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.16
-  type: ss
-  udp: true
-- name: '-1|15|香港3 | #2 | uu6.top'
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 22581
-  server: 221.128.195.9
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
   name: 47|VN_555fe_0106 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.215
   type: ss
   udp: true
+- cipher: aes-256-cfb
+  name: 47|VN_555fe_0107 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.16
+  type: ss
+  udp: true
+- name: '-1|1|15|香港3 | #2 | uu6.top'
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 22581
+  server: 221.128.195.9
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '-1|33|香港 电讯盈科有限公司 | #1 | uu6.top'
+  network: ws
+  port: 80
+  server: 83821e8d-sv8cg0-sveyey-44k4.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c5eb2c2c-bc1d-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '-1|33|香港 电讯盈科有限公司 | #3 | uu6.top'
+  network: ws
+  port: 80
+  server: 3be014a6-sv0xs0-svpmdc-nx3b.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 32315324-cf6b-11ed-979b-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
