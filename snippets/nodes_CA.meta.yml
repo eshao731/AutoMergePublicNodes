@@ -1,8 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,39,47,48,49|CA_speednode_0001 | uu6.top #3'
-  network: tcp
+  name: '0,4,39,47,49|CA_speednode_0001 | uu6.top #3'
   port: 42557
   reality-opts:
     public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
@@ -14,10 +13,6 @@ proxies:
   type: vless
   udp: true
   uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  ws-opts:
-    headers:
-      Host: www.yahoo.com
-    path: '%2F'
 - name: '0,4,39|CA_speednode_0002 | uu6.top #2'
   network: ws
   port: 2087
@@ -31,15 +26,6 @@ proxies:
     headers:
       Host: latte.gejeh683bm.ir
     path: /index.html?ed=2560fp=chrome
-- alterId: 0
-  cipher: auto
-  name: 3|加拿大 | uu6.top
-  network: tcp
-  port: '35218'
-  server: 165.154.197.225
-  tls: false
-  type: vmess
-  uuid: 1a237dd2-851c-47e1-cf7e-e447a363830a
 - alpn:
   - h3
   disable-sni: false
