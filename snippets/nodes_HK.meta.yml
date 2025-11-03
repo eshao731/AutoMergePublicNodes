@@ -1,4 +1,14 @@
 proxies:
+- auth: d84e954e-0e96-4cd9-8b23-5b74ddc1b758
+  name: '0,4,34,38,39|Channel id: 🇭🇰 | uu6.top #4'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d84e954e-0e96-4cd9-8b23-5b74ddc1b758
+  port: 31008
+  server: 212.192.13.86
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   name: '0,1,3,4,11,12,15,38,39,42,44,45|香港3 | uu6.top #4'
   network: tcp
@@ -9,27 +19,13 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,15,33,38,39,42,44,45|香港5 | uu6.top #3'
+  name: '0,1,4,11,12,15,38,39,42,44,45|香港5 | uu6.top #3'
   network: tcp
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
   skip-cert-verify: true
   type: trojan
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '0,4,39,47,49|HK_speednode_0011 | uu6.top #3'
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk4.cv1168.com
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '0,4,39,47,49|HK_speednode_0012 | uu6.top #3'
@@ -38,6 +34,20 @@ proxies:
     public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
     short-id: 6da03029
   server: hk3.cv1168.com
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aae56c24-7511-4526-9708-3fcbd804253c
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '0,4,39,47,49|HK_speednode_0011 | uu6.top #3'
+  port: 36666
+  reality-opts:
+    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
+    short-id: 6da03029
+  server: hk4.cv1168.com
   servername: www.python.org
   skip-cert-verify: false
   tls: true
@@ -73,14 +83,14 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: '7,8|🇭🇰 HK_213 | uu6.top #1'
+  name: '7,8|🇭🇰 HK_83 | uu6.top #1'
   network: ws
   port: 80
-  server: a731a8b3-sv2sg0-sy1a0y-1iyov.hk3.p5pv.com
+  server: 64309899-t15b40-t2c3sq-1spnr.hk3.p5pv.com
   servername: broadcastlv.chat.bilibili.com
   tls: false
   type: vmess
-  uuid: 33629870-e57e-11ec-bb74-f23c9164ca5d
+  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -99,34 +109,6 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 2
-  cipher: auto
-  name: '7,8|🇭🇰 HK_83 | uu6.top #1'
-  network: ws
-  port: 80
-  server: 64309899-t15b40-t2c3sq-1spnr.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '7,8|🇭🇰 HK_171 | uu6.top #1'
-  network: ws
-  port: 80
-  server: b8ffcda3-sv2sg0-sv37gm-81nv.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 47e91fb6-25b8-df52-bc18-3cdc8548192f
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - name: 16|香港_11 | uu6.top
   network: tcp
   password: BxceQaOe
@@ -136,7 +118,7 @@ proxies:
   sni: 58.152.46.98
   type: trojan
   udp: true
-- name: 16|香港_12 | uu6.top
+- name: '16,33|香港+电讯盈科有限公司 | uu6.top #1'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -144,30 +126,9 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 32|IPLC深港专线 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 3.148.200.80
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 32|香港原生家宽ip | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 18.132.1.44
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 32,47|US_03c47_0082 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 18.188.227.100
-  type: ss
-  udp: true
 - alterId: 2
   cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #2'
+  name: -1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top
   network: ws
   port: '80'
   server: 80aec38c-sv0xs0-sx16xo-1j3zm.hk3.p5pv.com
@@ -178,74 +139,16 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- name: -1|1|1|1|1|1|1|15|香港3 | | uu6.top
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 22581
+  server: 221.128.195.9
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: -1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top
-  network: ws
-  port: '80'
-  server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #1'
-  network: ws
-  port: '80'
-  server: c5765779-sv2sg0-syu0n5-1hd7v.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #3'
-  network: ws
-  port: '80'
-  server: f72738d2-sv0xs0-tc2sod-1tizo.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #4'
-  network: ws
-  port: '80'
-  server: 0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #5'
-  network: ws
-  port: '80'
-  server: 98e590b8-t0kxs0-t5xs0q-1462e.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #6'
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #6'
   network: ws
   port: '80'
   server: 865c5c01-sv4n40-t65a3e-tqgz.hk3.p5pv.com
@@ -258,7 +161,72 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '-1|42|🇭🇰 香港 电讯盈科有限公司 | | uu6.top #7'
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #3'
+  network: ws
+  port: '80'
+  server: f72738d2-sv0xs0-tc2sod-1tizo.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: bf36227c-0191-11f0-aee1-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #4'
+  network: ws
+  port: '80'
+  server: 0afadb4a-sv4n40-tc61cs-1tja8.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #5'
+  network: ws
+  port: '80'
+  server: 98e590b8-t0kxs0-t5xs0q-1462e.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a6cf58d6-14d1-11eb-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: c5765779-sv2sg0-syu0n5-1hd7v.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 1282cc1a-f426-11ef-9495-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '-1|1|42|🇭🇰 香港 电讯盈科有限公司 | uu6.top #7'
   network: ws
   port: '80'
   server: 8685e774-sv2sg0-svq7uu-1gevg.hk3.p5pv.com
@@ -269,16 +237,9 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: '-1|1|1|1|1|1|15|香港3 | # | uu6.top'
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 22581
-  server: 221.128.195.9
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 2
   cipher: auto
-  name: -1|1|1|1|33|香港 电讯盈科有限公司 | uu6.top
+  name: -1|1|1|1|1|33|香港 电讯盈科有限 | uu6.top
   network: ws
   port: 80
   server: cb884b8d-suvds0-tb6yrr-1tfcw.hk3.p5pv.com
@@ -291,7 +252,7 @@ proxies:
     path: ''
 - alterId: 2
   cipher: auto
-  name: -1|1|1|32|香港 电讯盈科有限公司 | | uu6.top
+  name: -1|1|1|1|32|香港 电讯盈科有限公司 | uu6.top
   network: ws
   port: 80
   server: 6de4b9d4-suk9s0-t8ro7t-1ey07.hk3.p5pv.com
@@ -304,7 +265,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '-1|1|1|1|33|香港 电讯盈科有限公司 | uu6.top #1'
+  name: '-1|1|1|1|1|33|香港 电讯盈科有限 | uu6.top #1'
   network: ws
   port: 80
   server: 5e392f9d-sv0xs0-svewl8-xu74.hk3.p5pv.com
@@ -317,7 +278,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '-1|1|1|1|33|香港 电讯盈科有限公司 | uu6.top #2'
+  name: '-1|1|1|1|1|33|香港 电讯盈科有限 | uu6.top #2'
   network: ws
   port: 80
   server: 9984b70d-sv4n40-sx16xo-1j3zm.hk3.p5pv.com
