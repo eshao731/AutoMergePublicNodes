@@ -58,7 +58,7 @@ proxies:
       Host: azadnet-2f7.pages.dev
     path: /?ed=2560fp=random
 - client-fingerprint: chrome
-  name: '7,9|US美国 | uu6.top #56'
+  name: '8|🇺🇸_US_美国 | uu6.top #1'
   network: ws
   port: 2053
   server: 199.34.230.114
@@ -69,21 +69,7 @@ proxies:
   ws-opts:
     headers:
       Host: om1.omidsuccess.uk
-    path: '%2Fcontainers%2Fde'
-- alterId: 0
-  cipher: auto
-  name: '9|US美国 | uu6.top #4'
-  network: ws
-  port: '443'
-  server: 104.21.46.90
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
-  ws-opts:
-    headers:
-      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
-    path: /ri9mOOVJuAimB74kgXZ
+    path: /containers/de
 - name: '9|US美国 | uu6.top #50'
   network: ws
   port: 2053
@@ -206,6 +192,16 @@ proxies:
   type: trojan
   ws-opts:
     path: /
+- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
 - name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
   network: ws
   password: trojan
@@ -218,16 +214,6 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
-- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /?ed=2560
 - name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -247,20 +233,15 @@ proxies:
   server: 18.188.211.45
   type: ss
   udp: true
-- name: 16|美国_45 | uu6.top
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
+- auth: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+  name: '34,38,39|Channel id: 🇺🇸 #2 | uu6.top'
+  password: c6bccea3-2f03-4f3e-80f4-d6757f1f3f46
+  port: 41951
+  server: 192.3.60.176
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      host: om1.omidsuccess.uk
-    path: /containers/de
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: 38,39|US_speednode_0091 | uu6.top
   network: ws
   port: 15614
@@ -315,15 +296,7 @@ proxies:
     headers:
       Host: snippet.danfeng.site
     path: /
-- name: -1|1|48|🇺🇸 美国 444 | uu6.top
-  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: 1f5619e8-t55r40-t7scm6-1o20w.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|48|🇺🇸 美国 281 | uu6.top
+- name: -1|1|1|48|🇺🇸 美国 281 | uu6.top
   password: 99129cef-f705-11ee-ada6-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -331,9 +304,33 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: -1|1|1|48|🇺🇸 美国 444 | uu6.top
+  password: d70a9508-5477-11ef-bf61-f23c913c8d2b
+  port: 443
+  ports: 30000-60000
+  server: 1f5619e8-t55r40-t7scm6-1o20w.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: -1|1|1|48|🇺🇸 美国 655 | uu6.top
+  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
+  port: 443
+  ports: 30000-60000
+  server: 953587da-t57ls0-t5h7yz-1gevg.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: -1|1|1|48|🇺🇸 美国 327 | uu6.top
+  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  port: 443
+  ports: 30000-60000
+  server: 3094705a-t55r40-tfi5fd-1imi4.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: -1|42|🇺🇸 美国 CloudFlare节 | uu6.top
+  name: -1|1|42|🇺🇸 美国 CloudFlar | uu6.top
   network: ws
   port: '8443'
   server: c7.620720.xyz
@@ -344,19 +341,3 @@ proxies:
     headers:
       Host: c7.620720.xyz
     path: /
-- name: -1|1|48|🇺🇸 美国 655 | uu6.top
-  password: f02ee2b4-d760-11ec-bd7c-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: 953587da-t57ls0-t5h7yz-1gevg.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|48|🇺🇸 美国 327 | uu6.top
-  password: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 3094705a-t55r40-tfi5fd-1imi4.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
