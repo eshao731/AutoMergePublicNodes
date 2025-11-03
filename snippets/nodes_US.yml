@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '9|US美国 | uu6.top #20'
-  network: ws
-  port: '443'
-  server: 104.21.46.90
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
-  ws-opts:
-    headers:
-      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
-    path: /ri9mOOVJuAimB74kgXZ
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #72'
   network: ws
   password: trojan
@@ -41,16 +27,6 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
-- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #89'
-  network: ws
-  password: trojan
-  port: 8443
-  server: www.visa.com.sg
-  sni: pangpi.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
 - name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
   network: ws
   password: trojan
@@ -63,18 +39,6 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
-- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
   network: ws
   password: trojan
@@ -85,6 +49,16 @@ proxies:
   type: trojan
   ws-opts:
     path: /?ed=2560
+- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #89'
+  network: ws
+  password: trojan
+  port: 8443
+  server: www.visa.com.sg
+  sni: pangpi.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   name: 32|美国盐湖城家宽 | uu6.top
   password: amazonskr05
@@ -94,7 +68,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '-1|1|33|美国 | #3 | uu6.top'
+  name: '-1|1|1|33|美国 | #3 | uu6.top'
   network: ws
   port: 443
   server: xsj043-0.facai2024.com
@@ -107,7 +81,7 @@ proxies:
     path: /996944e2
 - alterId: 0
   cipher: auto
-  name: -1|32|美国 CloudFlare节点 | uu6.top
+  name: -1|1|32|美国 CloudFlare节点 | uu6.top
   network: ws
   port: 8443
   server: t1.620720.xyz
