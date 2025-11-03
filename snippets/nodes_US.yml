@@ -48,16 +48,16 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
-- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
+- name: '14,18,20,22|🇺🇸_US_美国 | uu6.top #89'
   network: ws
   password: trojan
   port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
+  server: www.visa.com.sg
+  sni: pangpi.pages.dev
   tls: true
   type: trojan
   ws-opts:
-    path: /?ed=2560
+    path: /
 - name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #3'
   network: ws
   password: trojan
@@ -70,6 +70,16 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
+- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
 - name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -91,7 +101,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '42|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  name: -1|42|🇺🇸 美国 CloudFlare节 | uu6.top
   network: ws
   port: '8443'
   server: c7.620720.xyz
@@ -101,17 +111,4 @@ proxies:
   ws-opts:
     headers:
       Host: c7.620720.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: -1|33|美国 CloudFlare节点 | uu6.top
-  network: ws
-  port: 443
-  server: sy4.620720.xyz
-  tls: true
-  type: vmess
-  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
-  ws-opts:
-    headers:
-      Host: sy4.620720.xyz
     path: /
