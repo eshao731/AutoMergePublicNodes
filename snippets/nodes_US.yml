@@ -35,20 +35,49 @@ proxies:
   server: 78.40.116.11
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '9,42|🇺🇸 US美国 | uu6.top #18'
+- cipher: aes-256-gcm
+  name: '10|US美国 | uu6.top #77'
+  password: 4194ce5b1f36f660
+  port: 10810
+  server: 45.129.2.145
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|US美国 11 | uu6.top
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10|US美国 16 | uu6.top
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
   network: ws
-  port: '80'
-  server: 77.37.33.108
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  password: trojan
+  port: 443
+  server: www.digitalocean.com
+  sni: azadnet-9ya.pages.dev
+  type: trojan
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+      Host: azadnet-9ya.pages.dev
+    path: '%2F%3Fed%3D2560'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
+  network: ws
+  password: trojan
+  port: 443
+  server: ip.sb
+  sni: nixian.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nixian.pages.dev
+    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
 - name: 16|🇭🇰香港_4 | uu6.top
   network: tcp
   password: BxceQaOe
@@ -60,7 +89,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 33,42|🇺🇸 美国 阿里云 | uu6.top
+  name: 42|🇺🇸 美国 阿里云 | uu6.top
   network: ws
   port: '8535'
   server: 47.238.247.69
@@ -71,17 +100,3 @@ proxies:
     headers:
       Host: ''
     path: /arki?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '42|🇺🇸 美国 CloudFlare节点 | uu6.top #10'
-  network: ws
-  port: '80'
-  server: 141.101.121.3
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
