@@ -33,16 +33,18 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: '%2F'
-- name: '14|🇺🇸_US_美国_5 | uu6.top #1'
+- name: 14|🇺🇸_US_美国_11 | uu6.top
   network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: 2087
+  server: 104.25.254.4
+  sni: azadnet-bdr.pages.dev
   tls: true
   type: trojan
   ws-opts:
-    path: /?ed=2560
+    headers:
+      Host: azadnet-bdr.pages.dev
+    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: '17,19,21|🇺🇸_US_美国 | uu6.top #63'
   network: ws
   password: trojan
@@ -54,6 +56,15 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
+- name: 16|🇭🇰香港_4 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
+  type: trojan
+  udp: true
 - name: '17,19,21|🇺🇸_US_美国 | uu6.top #74'
   network: ws
   password: trojan
