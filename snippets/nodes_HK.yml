@@ -1,6 +1,14 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,15,38,39,42,44,45|香港5 | uu6.top #3'
+  name: '0,1,3,4,11,12,15|香港3 | uu6.top #2'
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 443
+  server: 58.152.53.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '0,1,4,11,12,15,33,38,39,42,44,45|香港5 | uu6.top #3'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -32,16 +40,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: 48|🇭🇰 香港家宽 316 | uu6.top
-  network: ws
-  port: '80'
-  server: b0ce8ba0-t59gg0-t66zs1-1pq44.hk3.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
