@@ -1,40 +1,28 @@
 proxies:
 - cipher: aes-256-cfb
-  name: 47|DE_47be5_0003 | uu6.top
+  name: 47|DE_36da5_0003 | uu6.top
   password: amazonskr05
   port: 443
   server: 18.195.93.192
   type: ss
   udp: true
-- name: 48|🇩🇪 德国 19 | uu6.top
-  password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
-  port: 58338
-  server: lsdg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsdg1.lansecs.top
+- name: 48|🇩🇪 德国 29 | uu6.top
+  password: 0e3cdb9a-bb68-48c5-9a1d-6633af7a324f
+  port: 21623
+  ports: 21001-21999
+  server: yue-de.yuetoto.net
+  skip-cert-verify: false
+  sni: yue-de.yuetoto.net
   tls: false
   type: hysteria2
-- name: 48|🇩🇪 德国 11 | uu6.top
-  password: 96a34d43-9f0d-47a5-b548-79e628e19ba5
-  port: 58338
-  server: lsdg1.lansecs.top
+- name: 48|🇩🇪 德国 41 | uu6.top
+  password: 72662a2f-a7d7-47c8-90cf-9fb9316b1d1c
+  port: 22239
+  server: dg1.xiaomifengjc.top
   skip-cert-verify: true
-  sni: lsdg1.lansecs.top
+  sni: dg1.xiaomifengjc.top
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  name: 48|🇩🇪 德国 21 | uu6.top
-  network: ws
-  port: 59467
-  server: 38.59.230.2
-  servername: snippet.danfeng.site
-  tls: true
-  type: vless
-  uuid: b5544203-55e3-426e-92f1-0684c93f9829
-  ws-opts:
-    headers:
-      Host: snippet.danfeng.site
-    path: '%2F%3Fed%3D2560'
 - name: -1|48|🇩🇪 德国 21 | uu6.top
   network: ws
   port: 59467
