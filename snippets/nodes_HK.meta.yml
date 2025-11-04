@@ -18,6 +18,20 @@ proxies:
   type: trojan
 - client-fingerprint: safari
   flow: xtls-rprx-vision
+  name: '0,4,15,39,47,49|HK_speednode_0013 | uu6.top #4'
+  port: 36666
+  reality-opts:
+    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
+    short-id: 6da03029
+  server: hk2.cv1168.com
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aae56c24-7511-4526-9708-3fcbd804253c
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
   name: '0,4,15,39,47,49|HK_speednode_0011 | uu6.top #4'
   port: 36666
   reality-opts:
@@ -46,34 +60,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '0,4,15,39,47,49|HK_speednode_0013 | uu6.top #4'
-  port: 36666
-  reality-opts:
-    public-key: cqCSxloJscJ3ZrNUlkSKkUFZ7SZ6vzQNszGolW_o7HY
-    short-id: 6da03029
-  server: hk2.cv1168.com
-  servername: www.python.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: aae56c24-7511-4526-9708-3fcbd804253c
-- alterId: 0
-  cipher: auto
-  name: '9,42|🇭🇰 HK香港 | uu6.top #1'
-  network: ws
-  port: '80'
-  server: 77.37.33.67
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /
 - name: 48|🇭🇰 香港 021 | uu6.top
   password: cd9aec4d-3343-4808-aab0-d49cbc311a0d
   port: 8080
