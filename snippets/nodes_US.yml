@@ -1,4 +1,18 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 10|US美国 5 | uu6.top
+  password: 9ca2803c16de72cd
+  port: 10081
+  server: 45.135.135.89
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,47|SE_47be5_0029 | uu6.top
+  password: e0AuSSE9kqrZnpK1RgcuPt
+  port: 50589
+  server: 78.40.116.11
+  type: ss
+  udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
   network: ws
   password: trojan
@@ -21,16 +35,16 @@ proxies:
     headers:
       Host: nixian.pages.dev
     path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
-- name: '-1|13|🇺🇸_US_美国 | #14 | uu6.top'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
+- name: 16|🇭🇰香港_4 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.46.98
+  skip-cert-verify: true
+  sni: 58.152.46.98
   type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
-- name: '-1|13|🇺🇸_US_美国 | #16 | uu6.top'
+  udp: true
+- name: '-1|1|13|🇺🇸_US_美国 | #16 | uu6.top'
   network: ws
   password: trojan
   port: 8443

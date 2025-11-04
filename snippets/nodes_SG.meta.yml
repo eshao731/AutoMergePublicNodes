@@ -1,1 +1,32 @@
-proxies: []
+proxies:
+- name: '9|SG新加坡 | uu6.top #3'
+  network: ws
+  port: 443
+  server: us6.candyfans.win
+  servername: us6.candyfans.win
+  tls: true
+  type: vless
+  uuid: 5f60f4be-c6b1-4b07-ae9f-30cdcefe1759
+  ws-opts:
+    headers:
+      Host: us6.candyfans.win
+    path: '%2Fnmzuws'
+- name: '9|SG新加坡 | uu6.top #2'
+  network: ws
+  port: 443
+  server: 103.214.23.121
+  servername: xxy.wzzsl.dynv6.net
+  tls: true
+  type: vless
+  uuid: 90cd4a77-141a-43c9-991b-08263cfe9c10
+  ws-opts:
+    headers:
+      Host: xxy.wzzsl.dynv6.net
+    path: '%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2'
+- cipher: chacha20-ietf-poly1305
+  name: 10,47|RU_47be5_0028 | uu6.top
+  password: pPMNzFdvbgWRPXaFKZmsFW
+  port: 35291
+  server: 80.66.72.11
+  type: ss
+  udp: true

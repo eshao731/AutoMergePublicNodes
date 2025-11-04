@@ -6,6 +6,22 @@ proxies:
   server: 18.195.93.192
   type: ss
   udp: true
+- name: 48|🇩🇪 德国 19 | uu6.top
+  password: 8ef0dd5e-6538-4116-b5bb-a7ef68447313
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 48|🇩🇪 德国 11 | uu6.top
+  password: 96a34d43-9f0d-47a5-b548-79e628e19ba5
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
 - client-fingerprint: random
   name: 48|🇩🇪 德国 21 | uu6.top
   network: ws
@@ -19,7 +35,7 @@ proxies:
     headers:
       Host: snippet.danfeng.site
     path: '%2F%3Fed%3D2560'
-- name: -1|47|🇩🇪 德国 21 | uu6.top
+- name: -1|48|🇩🇪 德国 21 | uu6.top
   network: ws
   port: 59467
   server: 38.59.230.2
