@@ -1,5 +1,5 @@
 proxies:
-- name: '0,4,37,38|US_speednode_0091 | uu6.top #2'
+- name: '0,4,38,39|US_speednode_0091 | uu6.top #2'
   network: ws
   port: 15614
   server: 38.102.235.136
@@ -14,21 +14,7 @@ proxies:
     path: /fp=random
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,16,38,46,48|US_speednode_0100 | uu6.top #3'
-  network: tcp
-  port: 993
-  reality-opts:
-    public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
-  server: 45.159.23.10
-  servername: speed.cloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '0,4,16,38,46,48|US_speednode_0101 | uu6.top #3'
+  name: '0,4,16,39,47,49|US_speednode_0101 | uu6.top #3'
   network: tcp
   port: 443
   reality-opts:
@@ -41,18 +27,19 @@ proxies:
   udp: true
   uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
 - client-fingerprint: chrome
-  name: '7,9|US美国 | uu6.top #5'
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
+  flow: xtls-rprx-vision
+  name: '0,4,16,39,47,49|US_speednode_0100 | uu6.top #3'
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: wcgZB6t2VBnMQf55huXkibGw4RPL6WqXPfcZxhJ8Qms
+  server: 45.159.23.10
+  servername: speed.cloudflare.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      Host: om1.omidsuccess.uk
-    path: '%2Fcontainers%2Fde'
+  udp: true
+  uuid: 40730d97-ffa7-1108-2c53-761516eb5fda
 - name: 7,8|🇺🇸_US_美国_2 | uu6.top
   password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 1743
@@ -64,6 +51,13 @@ proxies:
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
   server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #80'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -86,13 +80,6 @@ proxies:
     headers:
       Host: snippet.danfeng.site
     path: '%2F'
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #80'
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
-  port: 1743
-  server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #91'
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
@@ -100,6 +87,33 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: '7,9|US美国 | uu6.top #5'
+  network: ws
+  port: 2053
+  server: 199.34.230.114
+  servername: om1.omidsuccess.uk
+  tls: true
+  type: vless
+  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
+  ws-opts:
+    headers:
+      Host: om1.omidsuccess.uk
+    path: '%2Fcontainers%2Fde'
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇺🇸 US美国 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: 185.146.173.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - client-fingerprint: chrome
   name: 8|🇺🇸_US_美国_1 | uu6.top
   network: ws
@@ -113,48 +127,6 @@ proxies:
     headers:
       Host: om1.omidsuccess.uk
     path: /containers/de
-- alterId: 0
-  cipher: auto
-  name: '9,32,41|🇺🇸 US美国 | uu6.top #2'
-  network: ws
-  port: '80'
-  server: 185.146.173.16
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: '9,41|🇺🇸 US美国 | uu6.top #3'
-  network: ws
-  port: '443'
-  server: 104.21.46.90
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
-  ws-opts:
-    headers:
-      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
-    path: /ri9mOOVJuAimB74kgXZ
-- alterId: 0
-  cipher: auto
-  name: '9,41|🇺🇸 US美国 | uu6.top #8'
-  network: ws
-  port: '80'
-  server: 77.37.33.67
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - name: '9|US美国 | uu6.top #39'
   network: ws
   port: 15614
@@ -169,7 +141,35 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alterId: 0
   cipher: auto
-  name: '9,41|🇺🇸 US美国 | uu6.top #9'
+  name: '9,42|🇺🇸 US美国 | uu6.top #3'
+  network: ws
+  port: '443'
+  server: 104.21.46.90
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1ae6dcb3-8d05-4eee-b550-32904c88c312
+  ws-opts:
+    headers:
+      Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
+    path: /ri9mOOVJuAimB74kgXZ
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇺🇸 US美国 | uu6.top #8'
+  network: ws
+  port: '80'
+  server: 77.37.33.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇺🇸 US美国 | uu6.top #9'
   network: ws
   port: '80'
   server: 77.37.33.108
@@ -183,7 +183,7 @@ proxies:
     path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - alterId: 0
   cipher: auto
-  name: '9,41|🇷🇺 RU俄罗斯 | uu6.top #1'
+  name: '9,42|🇷🇺 RU俄罗斯 | uu6.top #1'
   network: ws
   port: '80'
   server: 77.37.33.25
@@ -207,29 +207,6 @@ proxies:
     headers:
       Host: feng.ipy29c99.workers.dev
     path: '%2F%3Fed%3D2048'
-- cipher: chacha20-ietf-poly1305
-  name: 10|US美国 8 | uu6.top
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10|US美国 6 | uu6.top
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #81'
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2560'
 - name: '9|US美国 | uu6.top #51'
   network: ws
   port: 53435
@@ -242,6 +219,34 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ffreecodes%2F'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #82'
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  port: 1743
+  server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #84'
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 1743
+  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #88'
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  port: 1743
+  server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #89'
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  port: 1743
+  server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
@@ -258,25 +263,10 @@ proxies:
     headers:
       Host: anjir.soft98-ir-download-ir-cdn-ir-irancell-ir-mci-ir.site
     path: /
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #82'
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #90'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
-  server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #93'
-  network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  type: trojan
-  ws-opts:
-    path: '%2F%3Fed%3D2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN'
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #84'
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 1743
-  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -293,27 +283,6 @@ proxies:
     headers:
       Host: conFiG-VOrteX55-AR5.pagES.deV
     path: '%2Fedrlz7qvRheKjll8%2FMTQ0LjI0LjkwLjEwNw%3D%3D%3Fed%3D2560fp%3Drandomized'
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #88'
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #89'
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #90'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #95'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
@@ -321,6 +290,16 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: '14,18,20,22|🇺🇸_US_美国_5 | uu6.top #4'
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2560
 - name: '14,18,20,22|🇺🇸_US_美国_7 | uu6.top #4'
   network: ws
   password: trojan
@@ -333,18 +312,18 @@ proxies:
     headers:
       Host: fofang.pages.dev
     path: /
-- name: '14,18,20,22|🇺🇸_US_美国_11 | uu6.top #3'
+- name: '14,16,18,20,22|🇺🇸_US_美国 | uu6.top #98'
   network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
+  password: trojan
+  port: 8443
+  server: www.visa.com.sg
+  skip-cert-verify: true
+  sni: pangpi.pages.dev
   tls: true
   type: trojan
+  udp: true
   ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
+    path: /
 - alpn:
   - h2
   - http/1.1
@@ -403,20 +382,6 @@ proxies:
     headers:
       Host: aliakb3435.pages.dev
     path: /fp=chrome
-- name: 16|美国_62 | uu6.top
-  network: ws
-  port: 2053
-  server: 199.34.230.114
-  servername: om1.omidsuccess.uk
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: b27e35a7-51f4-468e-8921-56a4901dd923
-  ws-opts:
-    headers:
-      host: om1.omidsuccess.uk
-    path: /containers/de
 - name: 16|🇭🇰香港_4 | uu6.top
   network: tcp
   password: BxceQaOe
@@ -428,7 +393,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 39,40|美国 CloudFlare节点 | uu6.top
+  name: '33,40,41|美国 CloudFlare节点 | uu6.top #1'
   network: ws
   port: '80'
   server: 104.18.240.238
@@ -443,22 +408,8 @@ proxies:
       Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
     path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
       TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- cipher: aes-256-cfb
-  name: 46|US_9aae3_0089 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 16.52.153.7
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 46|US_9aae3_0082 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 18.188.227.100
-  type: ss
-  udp: true
 - client-fingerprint: random
-  name: '46,48|US_speednode_0091 | uu6.top #3'
+  name: '47,49|US_speednode_0091 | uu6.top #3'
   network: ws
   port: 15614
   server: 38.102.235.136
@@ -472,9 +423,40 @@ proxies:
     headers:
       Host: snippet.danfeng.site
     path: /
+- cipher: aes-256-cfb
+  name: 47|US_9aae3_0082 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 18.188.227.100
+  type: ss
+  udp: true
+- name: 48|🇺🇸 美国 294 | uu6.top
+  password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  port: 443
+  ports: 30000-60000
+  server: 7554787a-t55r40-t5fwlq-tng5.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 352 | uu6.top
+  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
+  port: 443
+  ports: 30000-60000
+  server: 9c536390-t55r40-t94bdb-mrtr.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 102 | uu6.top
+  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
+  port: 443
+  ports: 30000-60000
+  server: 588912bc-t55r40-t6dbrs-lj7z.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 47|🇺🇸 美国 449 | uu6.top
+  name: 48|🇺🇸 美国 449 | uu6.top
   network: ws
   port: '80'
   server: 8cea0dee-006d-d2ab-29f3-3b15aae42c9c.999182.xyz
@@ -485,17 +467,16 @@ proxies:
     headers:
       Host: 8cea0dee-006d-d2ab-29f3-3b15aae42c9c.999182.xyz
     path: /e7JS5ETJeA85VyjPCYXwETL
-- name: 47|🇺🇸 美国 294 | uu6.top
-  password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+- cipher: aes-256-cfb
+  name: 47|US_9aae3_0089 | uu6.top
+  password: amazonskr05
   port: 443
-  ports: 30000-60000
-  server: 7554787a-t55r40-t5fwlq-tng5.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+  server: 16.52.153.7
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: 47|🇺🇸 美国 606 | uu6.top
+  name: 48|🇺🇸 美国 606 | uu6.top
   network: ws
   port: '80'
   server: c2861150-6a96-ed23-9d42-bfda16e38a92.999161.xyz
@@ -506,31 +487,7 @@ proxies:
     headers:
       Host: c2861150-6a96-ed23-9d42-bfda16e38a92.999161.xyz
     path: /e7JS5ETJeA85VyjPCYXwETL
-- name: 47|🇺🇸 美国 352 | uu6.top
-  password: 28a8a4d0-3e02-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 9c536390-t55r40-t94bdb-mrtr.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 102 | uu6.top
-  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: 588912bc-t55r40-t6dbrs-lj7z.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 469 | uu6.top
-  password: af43acdf-ea40-438e-a75f-d3914664b697
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma5.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma5.wanlidag.top
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 400 | uu6.top
+- name: 48|🇺🇸 美国 400 | uu6.top
   password: 32d1a565-a72e-486a-b2f9-e46a045f51b2
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -538,7 +495,7 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 107 | uu6.top
+- name: 48|🇺🇸 美国 107 | uu6.top
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -546,7 +503,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 061 | uu6.top
+- name: 48|🇺🇸 美国 061 | uu6.top
   password: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -554,16 +511,16 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 580 | uu6.top
-  password: a9feb139-7578-49c7-abe7-509dadc71dc3
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+- name: 48|🇺🇸 美国 027 | uu6.top
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - client-fingerprint: randomized
-  name: 47|🇺🇸 美国 607 | uu6.top
+  name: 48|🇺🇸 美国 607 | uu6.top
   network: ws
   port: 2095
   server: www.csgo.net
@@ -574,42 +531,7 @@ proxies:
     headers:
       Host: fuckingfangbinxing.fuckingfangbinxing.workers.dev
     path: '%2F'
-- name: 47|🇺🇸 美国 074 | uu6.top
-  password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 7d06ea84-t57ls0-t72h4q-1spnr.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: e7JS5ETJpptMDLuz8
-  name: 47|🇺🇸 美国 603 | uu6.top
-  network: grpc
-  port: '443'
-  server: c205b24f-53c4-b4b9-d16e-59da0d71ed48.999815.xyz
-  tls: true
-  type: vmess
-  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
-- name: 47|🇺🇸 美国 367 | uu6.top
-  password: 136a72f8-8747-4782-b9a4-7cd7d75ef03d
-  port: 47301
-  server: mg1.dreamlinkc.top
-  skip-cert-verify: true
-  sni: mg1.dreamlinkc.top
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 343 | uu6.top
-  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: d4b56a1c-t57ls0-t67sv3-1snfs.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 425 | uu6.top
+- name: 48|🇺🇸 美国 425 | uu6.top
   password: 618385af-b6f1-4fad-bdf4-02804a619e80
   port: 54265
   server: banmabanmabanmabanmabanmabanma1.wanlidag.top
@@ -617,7 +539,30 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 347 | uu6.top
+- name: 48|🇺🇸 美国 503 | uu6.top
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 343 | uu6.top
+  password: b79d79ae-8bce-11ef-a2b8-f23c9164ca5d
+  port: 443
+  ports: 30000-60000
+  server: d4b56a1c-t57ls0-t67sv3-1snfs.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 197 | uu6.top
+  password: 4e084535-bd62-458b-84a2-a0dc57c957aa
+  port: 13741
+  server: us2083.yydzx.xyz
+  skip-cert-verify: false
+  sni: us2083.yydzx.xyz
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 347 | uu6.top
   password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -625,8 +570,19 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: e7JS5ETJpptMDLuz8
+  name: 48|🇺🇸 美国 603 | uu6.top
+  network: grpc
+  port: '443'
+  server: c205b24f-53c4-b4b9-d16e-59da0d71ed48.999815.xyz
+  tls: true
+  type: vmess
+  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
 - client-fingerprint: randomized
-  name: 47|🇺🇸 美国 534 | uu6.top
+  name: 48|🇺🇸 美国 534 | uu6.top
   network: ws
   port: 2095
   server: www.epicgames.com
@@ -639,7 +595,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: 47|🇺🇸 美国 440 | uu6.top
+  name: 48|🇺🇸 美国 440 | uu6.top
   network: ws
   port: '80'
   server: c64a13ca-00cf-48e0-5487-8a23bf14e240.999165.xyz
@@ -650,17 +606,25 @@ proxies:
     headers:
       Host: c64a13ca-00cf-48e0-5487-8a23bf14e240.999165.xyz
     path: /e7JS5ETJeA85VyjPCYXwETL
-- name: 47|🇺🇸 美国 178 | uu6.top
-  password: f73c64bc-9e8c-11ec-bd7c-f23c913c8d2b
+- name: 48|🇺🇸 美国 100 | uu6.top
+  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
   port: 443
   ports: 30000-60000
-  server: df78502e-t59gg0-t8jzg2-1hd7v.us.hyhuawei.com
+  server: f15fdd3c-t59gg0-t6dbrs-lj7z.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 280 | uu6.top
+  password: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
+  port: 443
+  ports: 30000-60000
+  server: 41f13022-t57ls0-t66zs1-1pq44.us.hyhuawei.com
   skip-cert-verify: false
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: 47|🇺🇸 美国 446 | uu6.top
+  name: 48|🇺🇸 美国 446 | uu6.top
   network: ws
   port: '80'
   server: 71cd091b-9be1-a70c-3616-82c923408c13.999161.xyz
@@ -671,31 +635,7 @@ proxies:
     headers:
       Host: 71cd091b-9be1-a70c-3616-82c923408c13.999161.xyz
     path: /e7JS5ETJeA85VyjPCYXwETL
-- name: 47|🇺🇸 美国 100 | uu6.top
-  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: f15fdd3c-t59gg0-t6dbrs-lj7z.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 280 | uu6.top
-  password: 3f194e88-8eac-11ee-be7f-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 41f13022-t57ls0-t66zs1-1pq44.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 295 | uu6.top
-  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 0d5c4fca-t59gg0-tbicd9-1go3q.us.hyhuawei.com
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 47|🇺🇸 美国 220 | uu6.top
+- name: 48|🇺🇸 美国 220 | uu6.top
   password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
   port: 443
   ports: 30000-60000
@@ -703,7 +643,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 227 | uu6.top
+- name: 48|🇺🇸 美国 227 | uu6.top
   password: 06c625ea-5902-11ee-9e87-f23c9313b177
   port: 1743
   ports: 20000-50000
@@ -711,7 +651,23 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 248 | uu6.top
+- name: 48|🇺🇸 美国 295 | uu6.top
+  password: 19dd9c70-e4a5-11ed-8347-f23c9164ca5d
+  port: 443
+  ports: 30000-60000
+  server: 0d5c4fca-t59gg0-tbicd9-1go3q.us.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 544 | uu6.top
+  password: cbe8b795-ed44-4023-aa4b-51fc57cb7380
+  port: 57300
+  server: sfjmg4.sufujia.top
+  skip-cert-verify: true
+  sni: sfjmg4.sufujia.top
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 248 | uu6.top
   password: 2ec58858-976b-11ea-82ef-f23c9164ca5d
   port: 443
   ports: 30000-60000
@@ -719,8 +675,15 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 48|🇺🇸 美国 590 | uu6.top
+  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+  port: 1743
+  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - client-fingerprint: randomized
-  name: 47|🇺🇸 美国 545 | uu6.top
+  name: 48|🇺🇸 美国 545 | uu6.top
   network: ws
   port: 2095
   server: www.fbi.gov
@@ -731,25 +694,51 @@ proxies:
     headers:
       Host: fuckingfangbinxing.fuckingfangbinxing.workers.dev
     path: '%2F'
-- name: 47|🇺🇸 美国 590 | uu6.top
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  port: 1743
-  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   grpc-opts:
     grpc-service-name: e7JS5ETJpptMDLuz8
-  name: 47|🇺🇸 美国 601 | uu6.top
+  name: 48|🇺🇸 美国 601 | uu6.top
   network: grpc
   port: '443'
   server: 28163157-bcfa-9941-4972-57b94d2b6f71.999815.xyz
   tls: true
   type: vmess
   uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
-- name: -1|16|US_8 | uu6.top
+- name: -1|47|🇺🇸 美国 607 | uu6.top
+  network: ws
+  port: 2095
+  server: www.csgo.net
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.fuckingfangbinxing.workers.dev
+    path: '%2Ffp=randomized'
+- name: -1|47|🇺🇸 美国 534 | uu6.top
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.fuckingfangbinxing.workers.dev
+    path: '%2Ffp=randomized'
+- name: -1|47|🇺🇸 美国 545 | uu6.top
+  network: ws
+  port: 2095
+  server: www.fbi.gov
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.fuckingfangbinxing.workers.dev
+    path: '%2Ffp=randomized'
+- name: -1|1|16|US_8 | uu6.top
   port: 17287
   server: 79.132.136.80
   skip-cert-verify: true
@@ -758,7 +747,7 @@ proxies:
   uuid: 0ce5451d-d771-4c7d-887e-1e51aef6fd2b
 - alterId: 0
   cipher: auto
-  name: '-1|1|33|美国 阿里云 | #2 | uu6.top'
+  name: '-1|1|1|33|美国 阿里云 | #2 | uu6.top'
   network: ws
   port: 48204
   server: 47.239.124.146
