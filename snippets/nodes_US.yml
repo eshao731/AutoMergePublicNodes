@@ -1,36 +1,60 @@
 proxies:
-- name: '9,15,42|🇺🇸 US美国 | uu6.top #2'
-  network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
+- alterId: 0
+  cipher: auto
+  name: '7,8|🇺🇸 美国 454 | uu6.top #1'
+  network: ws
+  port: 80
+  server: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+  servername: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+  tls: false
+  type: vmess
+  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
+  ws-opts:
+    headers:
+      Host: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+    path: /e7JS5ETJeA85VyjPCYXwETL
+- name: '7,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
+  network: ws
+  password: trojan
   port: 443
-  server: 58.152.53.42
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: ip.sb
+  sni: nixian.pages.dev
   type: trojan
+  ws-opts:
+    headers:
+      Host: nixian.pages.dev
+    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
 - cipher: aes-256-gcm
-  name: '10|US美国 | uu6.top #77'
+  name: 10,16|美国 33 | uu6.top
   password: 4194ce5b1f36f660
   port: 10810
   server: 45.129.2.145
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 10|US美国 2 | uu6.top
+  name: 10,16|美国 31 | uu6.top
   password: d989ff3d46a63f63
   port: 10081
   server: 185.22.154.86
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10,47|SE_36da5_0029 | uu6.top
+  name: 10,16,47|SE_2e40b_0029 | uu6.top
   password: e0AuSSE9kqrZnpK1RgcuPt
   port: 50589
   server: 78.40.116.11
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10|US美国 11 | uu6.top
+  name: '10,16|美国 | uu6.top #3'
   password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 27 | uu6.top
+  password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
@@ -46,43 +70,25 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
-- cipher: chacha20-ietf-poly1305
-  name: 10|US美国 16 | uu6.top
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
-  network: ws
-  password: trojan
-  port: 443
-  server: ip.sb
-  sni: nixian.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nixian.pages.dev
-    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
-- name: 16|🇭🇰香港_4 | uu6.top
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  sni: 58.152.46.98
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 42|🇺🇸 美国 阿里云 | uu6.top
+  name: 33|美国 CloudFlare节点 | uu6.top
   network: ws
-  port: '8535'
-  server: 47.238.247.69
-  tls: false
+  port: 443
+  server: 172.67.204.19
+  tls: true
   type: vmess
-  uuid: aca68896-1d4e-41fc-b1ed-e9295c8a5f5e
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
   ws-opts:
     headers:
-      Host: ''
-    path: /arki?ed=2048
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- client-fingerprint: chrome
+  name: '39,44,45|美国2 | uu6.top #4'
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 3777
+  server: 160.16.231.103
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
