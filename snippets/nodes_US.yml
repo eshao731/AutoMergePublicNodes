@@ -1,15 +1,4 @@
 proxies:
-- name: '7,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
-  network: ws
-  password: trojan
-  port: 443
-  server: ip.sb
-  sni: nixian.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: nixian.pages.dev
-    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
 - alterId: 0
   cipher: auto
   name: '7,8,42|🇺🇸 美国 454 | uu6.top #2'
@@ -24,6 +13,17 @@ proxies:
     headers:
       Host: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
     path: /e7JS5ETJeA85VyjPCYXwETL
+- name: '7,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
+  network: ws
+  password: trojan
+  port: 443
+  server: ip.sb
+  sni: nixian.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nixian.pages.dev
+    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
 - alterId: 0
   cipher: auto
   name: '9|US美国 | uu6.top #10'
@@ -38,18 +38,18 @@ proxies:
     headers:
       Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
     path: /ri9mOOVJuAimB74kgXZ
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 29 | uu6.top
-  password: e0AuSSE9kqrZnpK1RgcuPt
-  port: 50589
-  server: 78.40.116.11
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: 10,16|美国 31 | uu6.top
   password: d989ff3d46a63f63
   port: 10081
   server: 185.22.154.86
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 29 | uu6.top
+  password: e0AuSSE9kqrZnpK1RgcuPt
+  port: 50589
+  server: 78.40.116.11
   type: ss
   udp: true
 - cipher: aes-256-gcm
