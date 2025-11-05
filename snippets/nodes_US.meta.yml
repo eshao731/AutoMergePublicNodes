@@ -1,5 +1,5 @@
 proxies:
-- name: 0,4,15,38|[Vless] US_speednode | uu6.top
+- name: '0,4,15|US_speednode_0091 | uu6.top #2'
   network: ws
   port: 15614
   server: 38.102.235.136
@@ -13,6 +13,20 @@ proxies:
       Host: snippet.danfeng.site
     path: /fp=random
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,4,15,47|US_2e40b_0045 | uu6.top
+  port: 55558
+  reality-opts:
+    public-key: LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg
+    short-id: b2defcc6
+  server: 192.238.204.48
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1eb58333-3051-47c2-a2eb-44e5b64233c8
+- client-fingerprint: chrome
   name: '7|🇺🇸_US_美国 | uu6.top #2'
   network: ws
   port: 443
@@ -25,20 +39,31 @@ proxies:
     headers:
       Host: aDD-1cV.pAGeS.Dev
     path: '%2Ff2GYY0YixkpPeMtx%2FY2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw'
-- name: 7,8|🇺🇸_US_美国_3 | uu6.top
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 1743
-  server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-  skip-cert-verify: false
+- alterId: 0
+  cipher: auto
+  name: '7,8,42|🇺🇸 美国 454 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+  servername: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
   tls: false
-  type: hysteria2
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #64'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
+  ws-opts:
+    headers:
+      Host: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+    path: /e7JS5ETJeA85VyjPCYXwETL
+- name: '7,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
+  network: ws
+  password: trojan
+  port: 443
+  server: ip.sb
+  sni: nixian.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nixian.pages.dev
+    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
 - client-fingerprint: chrome
   name: 8|🇺🇸_US_美国_2 | uu6.top
   network: ws
@@ -52,30 +77,23 @@ proxies:
     headers:
       Host: aDD-1cV.pAGeS.Dev
     path: /f2GYY0YixkpPeMtx/Y2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw
-- name: 7,8,48|🇺🇸 美国 018 | uu6.top
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #64'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
-  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 7,8|🇺🇸_US_美国_3 | uu6.top
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 1743
+  server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '7,8|🇺🇸 美国 454 | uu6.top #1'
-  network: ws
-  port: 80
-  server: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
-  servername: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
-  tls: false
-  type: vmess
-  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
-  ws-opts:
-    headers:
-      Host: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
-    path: /e7JS5ETJeA85VyjPCYXwETL
-- alterId: 0
-  cipher: auto
-  name: '9,42|🇺🇸 US美国 | uu6.top #3'
+  name: '9|US美国 | uu6.top #10'
   network: ws
   port: '443'
   server: 104.21.46.90
@@ -87,6 +105,13 @@ proxies:
     headers:
       Host: fde63b24-7fe1-5a22-949e-a30c5a39eb58.freevpnatm.dpdns.org
     path: /ri9mOOVJuAimB74kgXZ
+- name: 7,8,48|🇺🇸 美国 018 | uu6.top
+  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+  port: 1743
+  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: '9|US美国 | uu6.top #50'
   network: ws
   port: 443
@@ -123,13 +148,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: '%2Ffreecodes%2F'
-- cipher: aes-256-gcm
-  name: 10,16|美国 31 | uu6.top
-  password: d989ff3d46a63f63
-  port: 10081
-  server: 185.22.154.86
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10,16,47|SE_2e40b_0029 | uu6.top
   password: e0AuSSE9kqrZnpK1RgcuPt
@@ -155,6 +173,13 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
+- cipher: aes-256-gcm
+  name: 10,16|美国 31 | uu6.top
+  password: d989ff3d46a63f63
+  port: 10081
+  server: 185.22.154.86
+  type: ss
+  udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #53'
   password: 94931862-1484-11f0-9ab7-f23c95b6f51d
   port: 1743
@@ -169,7 +194,7 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '39,49|US_speednode_0053 | uu6.top #1'
+- name: '38,39,49|US_speednode_0053 | uu6.top #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -184,7 +209,7 @@ proxies:
     headers:
       Host: cxrolvpn.freev2-edb.workers.dev
     path: /BJMz0Rpb9gejBzKP?ed=2560
-- name: '39,49|US_speednode_0060 | uu6.top #1'
+- name: '38,39,49|US_speednode_0060 | uu6.top #1'
   network: ws
   packet-encoding: xudp
   port: 80
@@ -199,6 +224,173 @@ proxies:
     headers:
       Host: cxrolvpn.freev2-edb.workers.dev
     path: /83JWdcC2XXJrBR5m?ed=2560
+- name: '38,39,49|US_speednode_0064 | uu6.top #1'
+  network: ws
+  port: 80
+  server: 172.67.176.159
+  servername: 3.azadteam.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 41398380-2073-4d85-878a-24194a6f04a3
+  ws-opts:
+    headers:
+      Host: 3.azadteam.workers.dev
+    path: /Sy0HOf5sZffep0QQ?ed=2560
+- name: '38,39,49|US_speednode_0066 | uu6.top #1'
+  network: ws
+  port: 80
+  server: 104.21.81.174
+  servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  ws-opts:
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+    path: /wP3dwCyRAVyMJFfW?ed=2560
+- name: '38,39,49|US_speednode_0067 | uu6.top #1'
+  network: ws
+  port: 2095
+  server: 172.64.146.66
+  servername: xijinpingnmsl.s4ar.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: xijinpingnmsl.s4ar.workers.dev
+    path: /ğŸ”’
+- alpn:
+  - h3%2Ch2%2Chttp/1.1
+  name: '38|[Vless] US_speednode | uu6.top #3'
+  network: ws
+  port: 443
+  server: 172.66.213.38
+  servername: pls.v50m.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 8685c59b-a192-49e7-aedc-0019c576d766
+  ws-opts:
+    headers:
+      Host: pls.v50m.eu.org
+    path: /?ed=2560fp=chrome
+- name: '38,39,49|US_speednode_0068 | uu6.top #1'
+  network: ws
+  packet-encoding: xudp
+  port: 8080
+  server: 172.67.207.26
+  servername: 201.58vtg99l.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
+  ws-opts:
+    headers:
+      Host: 201.58vtg99l.workers.dev
+    path: /
+- name: '38,39,49|US_speednode_0071 | uu6.top #1'
+  network: ws
+  port: 80
+  server: 104.21.81.174
+  servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
+  ws-opts:
+    headers:
+      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
+    path: /
+- name: '38,39,49|US_speednode_0072 | uu6.top #1'
+  network: ws
+  port: 8080
+  server: 104.25.35.114
+  servername: snowy-bush-4df8-ppal03.toxebex651.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 9f0eae34-97c1-4c07-8a55-438379981334
+  ws-opts:
+    headers:
+      Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
+    path: /
+- name: '38,39,49|US_speednode_0076 | uu6.top #1'
+  network: ws
+  port: 8080
+  server: 104.21.15.212
+  servername: 201.58vtg99l.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
+  ws-opts:
+    headers:
+      Host: 201.58vtg99l.workers.dev
+    path: /
+- name: 38,39|US_speednode_0083 | uu6.top
+  network: ws
+  port: 2096
+  server: 185.148.104.253
+  servername: vless.muzheng.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  ws-opts:
+    headers:
+      Host: vless.muzheng.top
+    path: /X@节点狂魔fp=chrome
+- name: '38|[Vless] US_speednode | uu6.top #24'
+  network: ws
+  port: 2096
+  server: 167.68.4.253
+  servername: vless.muzheng.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
+  ws-opts:
+    headers:
+      Host: vless.muzheng.top
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
+- name: 38,39|US_speednode_0079 | uu6.top
+  network: ws
+  port: 443
+  server: 104.17.185.246
+  servername: xv6.jpmj.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 897a4bec-26b8-11e8-94be-00505695472c
+  ws-opts:
+    headers:
+      Host: xv6.jpmj.dpdns.org
+    path: /bbs?ed=2048fp=chrome
+- name: '38,39,49|US_speednode_0084 | uu6.top #1'
+  network: ws
+  port: 80
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d9a4a50b-bf41-4bfb-a764-9fbfb9660147
+  ws-opts:
+    headers:
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
 - alpn:
   - h3
   - h2
@@ -216,109 +408,10 @@ proxies:
     headers:
       Host: pls.v50m.eu.org
     path: /?ed=2560fp=chrome
-- name: '39,49|US_speednode_0064 | uu6.top #1'
-  network: ws
-  port: 80
-  server: 172.67.176.159
-  servername: 3.azadteam.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 41398380-2073-4d85-878a-24194a6f04a3
-  ws-opts:
-    headers:
-      Host: 3.azadteam.workers.dev
-    path: /Sy0HOf5sZffep0QQ?ed=2560
-- name: '39,49|US_speednode_0066 | uu6.top #1'
-  network: ws
-  port: 80
-  server: 104.21.81.174
-  servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
-  ws-opts:
-    headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
-    path: /wP3dwCyRAVyMJFfW?ed=2560
-- name: '39,49|US_speednode_0067 | uu6.top #1'
-  network: ws
-  port: 2095
-  server: 172.64.146.66
-  servername: xijinpingnmsl.s4ar.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  ws-opts:
-    headers:
-      Host: xijinpingnmsl.s4ar.workers.dev
-    path: /ğŸ”’
-- name: '39,49|US_speednode_0068 | uu6.top #1'
-  network: ws
-  packet-encoding: xudp
-  port: 8080
-  server: 172.67.207.26
-  servername: 201.58vtg99l.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
-  ws-opts:
-    headers:
-      Host: 201.58vtg99l.workers.dev
-    path: /
-- name: '39,49|US_speednode_0072 | uu6.top #1'
-  network: ws
-  port: 8080
-  server: 104.25.35.114
-  servername: snowy-bush-4df8-ppal03.toxebex651.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 9f0eae34-97c1-4c07-8a55-438379981334
-  ws-opts:
-    headers:
-      Host: snowy-bush-4df8-ppal03.toxebex651.workers.dev
-    path: /
-- name: '39,49|US_speednode_0071 | uu6.top #1'
-  network: ws
-  port: 80
-  server: 104.21.81.174
-  servername: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 23b3cbba-e6ac-485a-9481-342a0415eab9
-  ws-opts:
-    headers:
-      Host: DaWn-lAKE-d5E3.WocoYA4320.wOrkERs.DeV
-    path: /
-- name: '39,49|US_speednode_0076 | uu6.top #1'
-  network: ws
-  port: 8080
-  server: 104.21.15.212
-  servername: 201.58vtg99l.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 4c9541c7-5fa1-403c-84af-175e3b25a27f
-  ws-opts:
-    headers:
-      Host: 201.58vtg99l.workers.dev
-    path: /
-- name: 39|US_speednode_0083 | uu6.top
+- name: 39|US_speednode_0087 | uu6.top
   network: ws
   port: 2096
-  server: 185.148.104.253
+  server: 167.68.4.253
   servername: vless.muzheng.top
   skip-cert-verify: false
   tls: true
@@ -327,35 +420,8 @@ proxies:
   ws-opts:
     headers:
       Host: vless.muzheng.top
-    path: /X@节点狂魔fp=chrome
-- name: 39|US_speednode_0079 | uu6.top
-  network: ws
-  port: 443
-  server: 104.17.185.246
-  servername: xv6.jpmj.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 897a4bec-26b8-11e8-94be-00505695472c
-  ws-opts:
-    headers:
-      Host: xv6.jpmj.dpdns.org
-    path: /bbs?ed=2048fp=chrome
-- name: '39,49|US_speednode_0084 | uu6.top #1'
-  network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: d9a4a50b-bf41-4bfb-a764-9fbfb9660147
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
-- name: 39|US_speednode_0081 | uu6.top
+    path: /Telegram🇨🇳+@WangCai2+/?ed=2560fp=chrome
+- name: 38,39|US_speednode_0081 | uu6.top
   network: ws
   port: 443
   server: 104.18.47.79
@@ -368,6 +434,19 @@ proxies:
     headers:
       Host: xv6.jpmj.dpdns.org
     path: /bbs?ed=2048fp=chrome
+- name: 38,39|US_speednode_0086 | uu6.top
+  network: ws
+  port: 8443
+  server: www.visa.com.sg
+  servername: azadnet-4n9.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: azadnet-4n9.pages.dev
+    path: /fp=random
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
   name: '39,49|US_speednode_0077 | uu6.top #1'
@@ -382,20 +461,7 @@ proxies:
   type: vless
   udp: true
   uuid: 9daf8f3e-089b-4989-9502-dd3d727edb6c
-- name: 39|US_speednode_0087 | uu6.top
-  network: ws
-  port: 2096
-  server: 167.68.4.253
-  servername: vless.muzheng.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7556317c-dff6-46e8-ad29-b408f2a6456e
-  ws-opts:
-    headers:
-      Host: vless.muzheng.top
-    path: /Telegram🇨🇳+@WangCai2+/?ed=2560fp=chrome
-- name: 39|US_speednode_0069 | uu6.top
+- name: 38,39|US_speednode_0069 | uu6.top
   network: ws
   port: 2096
   server: wangcai198.cloudflare.182682.xyz
@@ -408,19 +474,6 @@ proxies:
     headers:
       Host: gaosir.unfeeling.sbs
     path: /Telegram🇨🇳 @WangCai2 /?ed=2560fp=chrome
-- name: 39|US_speednode_0086 | uu6.top
-  network: ws
-  port: 8443
-  server: www.visa.com.sg
-  servername: azadnet-4n9.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: azadnet-4n9.pages.dev
-    path: /fp=random
 - client-fingerprint: random
   name: 47|US_2e40b_0091 | uu6.top
   network: ws
@@ -459,21 +512,60 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '49|US_speednode_0069 | uu6.top #1'
-  network: ws
-  port: 2096
-  server: wangcai198.cloudflare.182682.xyz
-  servername: gaosir.unfeeling.sbs
+- name: 48|🇺🇸 美国 111 | uu6.top
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 1743
+  ports: 20000-50000
+  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
   skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
-  ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 008 | uu6.top
+  password: 06c625ea-5902-11ee-9e87-f23c9313b177
+  port: 1743
+  server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 128 | uu6.top
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 014 | uu6.top
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 016 | uu6.top
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  ports: 20000-50000
+  server: ffe170b7-t4x400-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 217 | uu6.top
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 1743
+  server: 4e04a09e-t2uf40-t9lb2a-1glq.la.shifen.uk
+  skip-cert-verify: false
+  sni: 4e04a09e-t2uf40-t9lb2a-1glq.la.shifen.uk
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 097 | uu6.top
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   - h2
@@ -493,6 +585,21 @@ proxies:
     headers:
       Host: pls.v50m.eu.org
     path: /?ed=2560
+- client-fingerprint: chrome
+  name: '49|US_speednode_0069 | uu6.top #1'
+  network: ws
+  port: 2096
+  server: wangcai198.cloudflare.182682.xyz
+  servername: gaosir.unfeeling.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: /Telegram🇨🇳 @WangCai2 /?ed=2560
 - name: '49|US_speednode_0080 | uu6.top #1'
   network: ws
   port: 2096
@@ -522,6 +629,21 @@ proxies:
     headers:
       Host: vless.muzheng.top
     path: /X@节点狂魔
+- client-fingerprint: random
+  name: '49|US_speednode_0086 | uu6.top #1'
+  network: ws
+  port: 8443
+  server: www.visa.com.sg
+  servername: azadnet-4n9.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: azadnet-4n9.pages.dev
+    path: /
 - client-fingerprint: chrome
   name: '49|US_speednode_0079 | uu6.top #1'
   network: ws
@@ -530,22 +652,6 @@ proxies:
   server: 104.17.185.246
   servername: xv6.jpmj.dpdns.org
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 897a4bec-26b8-11e8-94be-00505695472c
-  ws-opts:
-    headers:
-      Host: xv6.jpmj.dpdns.org
-    path: /bbs?ed=2048
-- client-fingerprint: chrome
-  name: '49|US_speednode_0081 | uu6.top #1'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.18.47.79
-  servername: xv6.jpmj.dpdns.org
-  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -569,32 +675,25 @@ proxies:
     headers:
       Host: vless.muzheng.top
     path: /Telegram🇨🇳+@WangCai2+/?ed=2560
-- client-fingerprint: random
-  name: '49|US_speednode_0086 | uu6.top #1'
+- client-fingerprint: chrome
+  name: '49|US_speednode_0081 | uu6.top #1'
   network: ws
-  port: 8443
-  server: www.visa.com.sg
-  servername: azadnet-4n9.pages.dev
+  packet-encoding: xudp
+  port: 443
+  server: 104.18.47.79
+  servername: xv6.jpmj.dpdns.org
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: 897a4bec-26b8-11e8-94be-00505695472c
   ws-opts:
     headers:
-      Host: azadnet-4n9.pages.dev
-    path: /
-- name: -1|1|1|1|48|🇺🇸 美国 017 | uu6.top
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 57ac7353-t4x400-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+      Host: xv6.jpmj.dpdns.org
+    path: /bbs?ed=2048
 - alterId: 0
   cipher: auto
-  name: -1|1|1|33|美国 CloudFlare | uu6.top
+  name: -1|1|1|1|33|美国 CloudFla | uu6.top
   network: ws
   port: 443
   server: 172.67.204.19
@@ -605,28 +704,36 @@ proxies:
     headers:
       Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
     path: /azumase.ren
-- name: -1|1|1|1|7,8|🇺🇸_US_美国_4 | uu6.top
+- name: -1|1|1|1|1|7,8|🇺🇸_US_美国 | uu6.top
   password: 712bdc36-24be-11ee-be53-f23c9313b177
   port: 1743
   server: fe1d6996-t4v9c0-tcl9of-5fdt.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|1|1|1|7,8|🇺🇸_US_美国_6 | uu6.top
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|48|🇺🇸 美国 006 | uu6.top
+- name: -1|1|1|1|1|48|🇺🇸 美国 006 | uu6.top
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: -1|1|1|1|48|🇺🇸 美国 367 | uu6.top
+- name: -1|1|1|1|1|48|🇺🇸 美国 017 | uu6.top
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 1743
+  ports: 20000-50000
+  server: 57ac7353-t4x400-t9lxaa-1glq.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '-1|1|1|1|1|7,8|🇺🇸_US_美国 | uu6.top #1'
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  port: 1743
+  server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: -1|1|1|1|1|48|🇺🇸 美国 367 | uu6.top
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
   ports: 20000-50000

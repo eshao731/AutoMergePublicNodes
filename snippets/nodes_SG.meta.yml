@@ -30,6 +30,20 @@ proxies:
   server: 15.235.186.140
   type: ss
   udp: true
+- name: '33,38,39,49|NL_speednode_0037 | uu6.top #1'
+  network: ws
+  port: 80
+  server: 185.18.184.66
+  servername: hello.96xckkzx.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      Host: hello.96xckkzx.workers.dev
+    path: /?ed=2048
 - name: 48|🇸🇬 新加坡 082 | uu6.top
   password: cutOjL4dfK
   port: 36276
