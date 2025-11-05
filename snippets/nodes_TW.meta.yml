@@ -1,21 +1,4 @@
 proxies:
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 48|🇹🇼 台湾家宽 03 | uu6.top
-  network: tcp
-  port: 20239
-  reality-opts:
-    public-key: 9pWFdQlz8we9t4g5G4vYgYfjyPNku87vLM6Sr1_AeU8
-    short-id: 161b1f35
-  server: twm3.473221.xyz
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: cd9aec4d-3343-4808-aab0-d49cbc311a0d
-  ws-opts:
-    headers:
-      Host: www.microsoft.com
-    path: '%2F'
 - name: 49|TW_speednode_0051 | uu6.top
   network: ws
   port: 10004
@@ -38,11 +21,3 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: -1|48|🇹🇼 台湾家宽 04 | uu6.top
-  password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
-  port: 30078
-  server: tw2.jueduibupao.top
-  skip-cert-verify: true
-  sni: tw2.jueduibupao.top
-  tls: false
-  type: hysteria2
