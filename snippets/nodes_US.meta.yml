@@ -12,13 +12,20 @@ proxies:
     headers:
       Host: aDD-1cV.pAGeS.Dev
     path: '%2Ff2GYY0YixkpPeMtx%2FY2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw'
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #64'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
+- alterId: 0
+  cipher: auto
+  name: '7,8,42|🇺🇸 美国 454 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+  servername: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
+  ws-opts:
+    headers:
+      Host: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
+    path: /e7JS5ETJeA85VyjPCYXwETL
 - name: '7,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
   network: ws
   password: trojan
@@ -45,21 +52,7 @@ proxies:
     path: /f2GYY0YixkpPeMtx/Y2RuLWIxMDAueG4tLWI2Z2FjLmV1Lm9yZw
 - alterId: 0
   cipher: auto
-  name: '7,8,42|🇺🇸 美国 454 | uu6.top #2'
-  network: ws
-  port: '80'
-  server: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
-  servername: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
-  tls: false
-  type: vmess
-  uuid: 34a7da0c-a43a-49b8-a8d0-64b43100090e
-  ws-opts:
-    headers:
-      Host: a4932bbe-005c-1509-7b27-51aa7b17a6fb.999161.xyz
-    path: /e7JS5ETJeA85VyjPCYXwETL
-- alterId: 0
-  cipher: auto
-  name: '9|US美国 | uu6.top #10'
+  name: '9,42|🇺🇸 US美国 | uu6.top #3'
   network: ws
   port: '443'
   server: 104.21.46.90
@@ -125,3 +118,42 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
+- name: 49|US_speednode_0048 | uu6.top
+  network: ws
+  port: 2095
+  server: linux.do
+  servername: fangbinxingnmsl.pusytroller.cf
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
+- name: 49|US_speednode_0049 | uu6.top
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: fangbinxingnmsl.pusytroller.cf
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '49|US_speednode_0045 | uu6.top #3'
+  port: 17597
+  server: usvless.yydzx.xyz
+  servername: usvless.yydzx.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4741863d-e3ac-4b9d-8185-466f437b3fa8
