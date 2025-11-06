@@ -1,15 +1,4 @@
 proxies:
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
-  network: ws
-  password: trojan
-  port: 443
-  server: www.digitalocean.com
-  sni: azadnet-9ya.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-9ya.pages.dev
-    path: '%2F%3Fed%3D2560'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #68'
   network: ws
   password: trojan
@@ -28,13 +17,19 @@ proxies:
   server: 78.40.116.11
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 47|US_2cfe1_0009 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 13.59.110.241
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '33|美国 | uu6.top #4'
+  network: ws
+  port: 33995
+  server: 154.17.230.67
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.nbee.pp.ua
+    path: /aa
 - name: 48|🇺🇸 美国 164 | uu6.top
   password: c6fed71e-c347-424c-8fe3-77e338cec9cf
   port: 443
@@ -42,3 +37,10 @@ proxies:
   skip-cert-verify: false
   sni: python.686911.xyz
   type: trojan
+- cipher: aes-256-cfb
+  name: 47|US_2cfe1_0009 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 13.59.110.241
+  type: ss
+  udp: true
