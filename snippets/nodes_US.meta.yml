@@ -1,18 +1,5 @@
 proxies:
-- name: 0,4,38|[Vless] US_speednode | uu6.top
-  network: ws
-  port: 2095
-  server: linux.do
-  servername: fangbinxingnmsl.pusytroller.cf
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
-- name: '0,4,38|[Vless] US_speednode | uu6.top #1'
+- name: '0,4|US_speednode_0049 | uu6.top #1'
   network: ws
   port: 2095
   server: www.npmjs.com
@@ -25,39 +12,32 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
-- name: '7|🇺🇸_US_美国 | uu6.top #11'
+- name: '0,4|US_speednode_0048 | uu6.top #1'
   network: ws
-  port: 443
-  server: 104.21.9.137
-  servername: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
-  tls: true
+  port: 2095
+  server: linux.do
+  servername: fangbinxingnmsl.pusytroller.cf
+  skip-cert-verify: false
+  tls: false
   type: vless
-  uuid: e159a810-7d2c-4ce6-bc22-9727feb12fac
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
-    path: '%2F0SCvfqSaeeB74kgXZ'
-- name: 7,8|🇺🇸_US_美国_6 | uu6.top
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
-  port: 1743
-  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8|🇺🇸_US_美国_5 | uu6.top
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8|🇺🇸_US_美国_9 | uu6.top
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 1743
-  server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
+- client-fingerprint: chrome
+  name: '7|🇺🇸_US_美国 | uu6.top #2'
+  network: ws
+  port: 443
+  server: 104.18.13.51
+  servername: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 4710b85a-66e6-411b-b492-0e0f7366ad21
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
+    path: '%2Fws'
 - client-fingerprint: chrome
   encryption: none
   name: 7,8|🇺🇸_US_美国_7 | uu6.top
@@ -73,6 +53,60 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-pl-1.pArIsA.DpDnS.OrG
     path: /ws
+- name: 7,8|🇺🇸_US_美国_5 | uu6.top
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+  port: 1743
+  server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 7,8|🇺🇸_US_美国_8 | uu6.top
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 7,8|🇺🇸_US_美国_6 | uu6.top
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '7|🇺🇸_US_美国 | uu6.top #11'
+  network: ws
+  port: 443
+  server: 104.21.9.137
+  servername: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
+  tls: true
+  type: vless
+  uuid: e159a810-7d2c-4ce6-bc22-9727feb12fac
+  ws-opts:
+    headers:
+      Host: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
+    path: '%2F0SCvfqSaeeB74kgXZ'
+- client-fingerprint: chrome
+  encryption: none
+  name: 8|🇺🇸_US_美国_2 | uu6.top
+  network: ws
+  port: 443
+  server: 104.18.13.51
+  servername: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 4710b85a-66e6-411b-b492-0e0f7366ad21
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
+    path: /ws
 - name: 8|🇺🇸_US_美国_11 | uu6.top
   network: ws
   port: 443
@@ -85,13 +119,6 @@ proxies:
     headers:
       Host: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
     path: /0SCvfqSaeeB74kgXZ
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
-  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  port: 1743
-  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 20 | uu6.top
   password: e0AuSSE9kqrZnpK1RgcuPt
@@ -99,17 +126,17 @@ proxies:
   server: 78.40.116.11
   type: ss
   udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #68'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
   network: ws
   password: trojan
   port: 443
-  server: ip.sb
-  sni: nixian.pages.dev
+  server: www.digitalocean.com
+  sni: azadnet-9ya.pages.dev
   type: trojan
   ws-opts:
     headers:
-      Host: nixian.pages.dev
-    path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
+      Host: azadnet-9ya.pages.dev
+    path: '%2F%3Fed%3D2560'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #62'
   password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 1743
@@ -124,12 +151,28 @@ proxies:
   server: 3.145.46.227
   type: ss
   udp: true
+- name: 48|🇺🇸 美国 092 | uu6.top
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+  skip-cert-verify: false
+  sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+  tls: false
+  type: hysteria2
 - name: 48|🇺🇸 美国 038 | uu6.top
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 1743
   ports: 20000-50000
   server: e89e3f91-t55r40-t5h706-dnss.la.shifen.uk
   skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 137 | uu6.top
+  password: b2e7ca2a-b840-48da-96b1-cecde76adeb9
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
 - client-fingerprint: randomized
@@ -144,6 +187,29 @@ proxies:
     headers:
       Host: fuckingfangbinxing.fuckyoufangbinxing.workers.dev
     path: '%2F'
+- name: 48|🇺🇸 美国 076 | uu6.top
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 1743
+  ports: 20000-50000
+  server: f9a084a0-t4x400-t5ht86-dnss.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 023 | uu6.top
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 074 | uu6.top
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 1743
+  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: 48|🇺🇸 美国 117 | uu6.top
   password: b6661857-2c11-445a-9a74-c18077a21b04
   port: 54265
@@ -164,6 +230,14 @@ proxies:
     headers:
       Host: fuckingfangbinxing.fuckyoufangbinxing.workers.dev
     path: '%2F'
+- name: 48|🇺🇸 美国 134 | uu6.top
+  password: bd92752e-6dca-4d1a-b7a0-a42274075252
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
 - name: -1|48|🇺🇸 美国 212 | uu6.top
   network: ws
   port: 2095
