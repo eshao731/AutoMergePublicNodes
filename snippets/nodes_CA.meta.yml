@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 35|🇨🇦 加拿大 | uu6.top
+  name: 36|🇨🇦 加拿大 | uu6.top
   password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   port: '52434'
   reduce-rtt: false
@@ -15,7 +15,7 @@ proxies:
   version: '5'
 - alterId: 0
   cipher: auto
-  name: 41|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
   network: ws
   port: '80'
   server: 51.79.102.253
@@ -26,3 +26,37 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇨🇦 加拿大 25 | uu6.top
+  network: tcp
+  port: 42557
+  reality-opts:
+    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+    short-id: f430927d
+  server: 140.238.155.160
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  ws-opts:
+    headers:
+      Host: www.yahoo.com
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇨🇦 加拿大 26 | uu6.top
+  network: tcp
+  port: 47262
+  reality-opts:
+    public-key: Lf_ha7iCDZeGQGZO1a1x9e0UOL3rLpgoCNDwBcq4fBI
+    short-id: 37df66d8
+  server: 40.233.103.51
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
+  ws-opts:
+    headers:
+      Host: www.yahoo.com
+    path: '%2F'
