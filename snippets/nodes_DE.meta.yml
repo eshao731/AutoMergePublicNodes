@@ -1,10 +1,17 @@
 proxies:
-- name: 48|🇩🇪 德国 35 | uu6.top
-  network: tcp
-  port: 47387
-  server: 198.186.131.216
+- name: 47|🇩🇪 德国 41 | uu6.top
+  password: f4d7ccca-2109-4a6a-ba59-a6c119e0554b
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
   tls: false
-  type: vless
-  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
-  ws-opts:
-    path: '%2F'
+  type: hysteria2
+- name: 47|🇩🇪 德国 40 | uu6.top
+  password: c6f9fa89-907a-473f-962b-72ac0a5edcd3
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
