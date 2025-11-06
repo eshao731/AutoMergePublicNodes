@@ -30,17 +30,6 @@ proxies:
   sni: gavazn.55994421.xyz
   tls: false
   type: hysteria2
-- auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  name: '0,4,15,35,38,39|🇳🇱 - NL - #11 | uu6.top #3'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: 206.71.158.41
-  skip-cert-verify: true
-  sni: jnir.pichondan.com
-  tls: false
-  type: hysteria2
 - auth: YwuvGJk36B
   name: '0,4,15,35,38,39|🇬🇧 - GB - #1 | uu6.top #3'
   obfs: salamander
@@ -50,6 +39,17 @@ proxies:
   server: 81.168.83.89
   skip-cert-verify: true
   sni: kotlet.arshiacomplus.dpdns.org
+  tls: false
+  type: hysteria2
+- auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  name: '0,4,15,35,38,39|🇳🇱 - NL - #11 | uu6.top #3'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: jnir.pichondan.com
   tls: false
   type: hysteria2
 - auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -70,6 +70,15 @@ proxies:
   server: 193.142.59.41
   skip-cert-verify: true
   sni: hl01.mistea.top
+  tls: false
+  type: hysteria2
+- auth: dongtaiwang.com
+  name: '0,4,15,35,38,39|All----1 | uu6.top #4'
+  password: dongtaiwang.com
+  port: 5355
+  server: 51.159.111.32
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '0,1,4,11,12,15,38,39,42,44,45|香港3 | uu6.top #4'
@@ -101,108 +110,56 @@ proxies:
     headers:
       Host: us.nbee.pp.ua
     path: /aa
-- name: '7,8|🇺🇸_US_美国 | uu6.top #12'
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  port: 1743
-  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-  skip-cert-verify: false
+- name: 7|🇺🇸_US_美国 | uu6.top
+  network: ws
+  port: 2095
+  server: www.wto.org
   tls: false
-  type: hysteria2
-- name: '7,8|🇬🇧_GB_英国 | uu6.top #1'
-  password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
-  port: 48961
-  server: de1.jueduibupao.top
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: '%2F'
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: '100'
+  name: 8|🇫🇷_FR_法国 | uu6.top
+  port: 15010
+  protocol: udp
+  server: 195.154.200.40
   skip-cert-verify: true
-  sni: de1.jueduibupao.top
+  sni: apple.com
+  type: hysteria
+  up: '100'
+- name: '7,8|🇰🇷_KR_韩国 | uu6.top #1'
+  password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+  port: 10100
+  server: 6bkr1.6bnw.top
+  skip-cert-verify: true
+  sni: 6bkr1.6bnw.top
   tls: false
   type: hysteria2
-- name: '7,8,42|CN_中国 | uu6.top #8'
-  network: tcp
-  password: bca467b8c15211d189008a93c7519d3b
-  port: 443
-  server: 58.152.53.42
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '7|🇺🇸_US_美国 | uu6.top #2'
+- name: '7,8|🇷🇺_RU_俄罗斯 | uu6.top #1'
+  password: 4a6bf640-5c5e-41d3-8078-89a12174cf57
+  port: 30000
+  server: kr2.jueduibupao.top
+  skip-cert-verify: true
+  sni: kr2.jueduibupao.top
+  tls: false
+  type: hysteria2
+- name: 8|🇺🇸_US_美国_1 | uu6.top
   network: ws
-  port: 443
-  server: 104.18.13.51
-  servername: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
-  tls: true
+  port: 2095
+  server: www.wto.org
+  servername: fuckingfangbinxing.pusytroller.cf
   type: vless
-  uuid: 4710b85a-66e6-411b-b492-0e0f7366ad21
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
-    path: '%2Fws'
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8|🇺🇸_US_美国_5 | uu6.top
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8|🇺🇸_US_美国_6 | uu6.top
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
-  port: 1743
-  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8,48|🇺🇸 美国 133 | uu6.top
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
-  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  port: 1743
-  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8|🇺🇸_US_美国_9 | uu6.top
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 1743
-  server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 8|🇺🇸_US_美国_11 | uu6.top
-  network: ws
-  port: 443
-  server: 104.21.9.137
-  servername: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
-  tls: true
-  type: vless
-  uuid: e159a810-7d2c-4ce6-bc22-9727feb12fac
-  ws-opts:
-    headers:
-      Host: ec51ebe7-9b61-2397-41bf-1f00f6163852.huangshang.site
-    path: /0SCvfqSaeeB74kgXZ
-- encryption: none
-  name: 8|🇺🇸_US_美国_2 | uu6.top
-  network: ws
-  port: 443
-  server: 104.18.13.51
-  servername: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
-  tls: true
-  type: vless
-  uuid: 4710b85a-66e6-411b-b492-0e0f7366ad21
-  ws-opts:
-    headers:
-      Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
-    path: /ws
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
 - name: 9|NL荷兰 | uu6.top
   network: ws
   port: 8880
@@ -220,13 +177,13 @@ proxies:
   type: vless
   uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
 - cipher: aes-256-gcm
-  name: 10,16|美国 17 | uu6.top
+  name: '10,16|新加坡 | uu6.top #2'
   password: bd080898-b41a-48ae-b164-1baae4124627
   port: 8443
   server: 15.235.186.140
   type: ss
   udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #46'
   network: ws
   password: trojan
   port: 443
@@ -237,21 +194,21 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #44'
+  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  port: 1743
+  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 4 | uu6.top
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
+  name: 10,16|美国 9 | uu6.top
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 3 | uu6.top
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #68'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
   network: ws
   password: trojan
   port: 443
@@ -262,26 +219,20 @@ proxies:
     headers:
       Host: nixian.pages.dev
     path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #62'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #51'
   password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 1743
   server: 61f04f6d-t4v9c0-t5amrp-b4pt.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 15|US_speednode_0049 | uu6.top
-  network: ws
-  port: 2095
-  server: www.npmjs.com
-  servername: fangbinxingnmsl.pusytroller.cf
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.cf
-    path: /
 - name: 15|US_speednode_0048 | uu6.top
   network: ws
   port: 2095
@@ -295,6 +246,26 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
+- name: 15|US_speednode_0049 | uu6.top
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: fangbinxingnmsl.pusytroller.cf
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.cf
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 16|德国 2 | uu6.top
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.155
+  type: ss
+  udp: true
 - name: 15|HK_speednode_0039 | uu6.top
   password: BxceQaOe
   port: 443
@@ -302,13 +273,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me/ripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 16|美国 20 | uu6.top
-  password: e0AuSSE9kqrZnpK1RgcuPt
-  port: 50589
-  server: 78.40.116.11
-  type: ss
-  udp: true
 - auth: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   fast-open: false
   name: 32,48|🇺🇸 美国 153 | uu6.top
@@ -358,13 +322,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_3 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.9
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_4 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
@@ -372,17 +329,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_3 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.9
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_5 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.194
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_7 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.5
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -400,17 +357,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_7 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.5
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_8 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_12 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.23
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -421,10 +378,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_13 | uu6.top
+  name: 36|🇻🇳 越南_10 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.154.201
+  server: 103.186.154.161
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_12 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.23
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -432,6 +396,13 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.240
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_13 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.201
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -456,10 +427,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_10 | uu6.top
+  name: 36|🇻🇳 越南_17 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.154.161
+  server: 103.186.154.153
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -477,10 +448,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_23 | uu6.top
+  name: 36|🇻🇳 越南_20 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.155.53
+  server: 103.186.154.148
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -491,107 +462,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_17 | uu6.top
+  name: 36|🇻🇳 越南_23 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.154.153
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_25 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_24 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.224
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_26 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_27 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.243
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_20 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.148
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_28 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_29 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.37
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_30 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.30
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_33 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.66
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_31 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.117
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_32 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.144
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_34 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.78
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 36|🇳🇱 荷兰_2 | uu6.top
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  server: 51.15.17.169
-  type: ss
-- cipher: aes-256-cfb
-  name: 36|🇻🇳 越南_35 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.122
+  server: 103.186.155.53
   type: ss
   udp: true
 - alpn:
@@ -609,6 +483,96 @@ proxies:
   uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   version: '5'
 - cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_24 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.224
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_25 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.233
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_26 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.140
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇳🇱 荷兰_2 | uu6.top
+  password: f8f7aCzcPKbsF8p3
+  port: '989'
+  server: 51.15.17.169
+  type: ss
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_27 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_29 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.37
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_28 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.116
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_30 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.30
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_32 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.144
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_31 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.117
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_33 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.66
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_34 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.78
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 36|🇻🇳 越南_35 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.122
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 36|🇻🇳 越南_36 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
@@ -621,16 +585,6 @@ proxies:
   port: 989
   server: 185.153.197.5
   type: ss
-- cipher: aes-256-cfb
-  name: 42|8J-HqPCfh6YgU1NSLeWK | uu6.top
-  obfs: plain
-  obfs-param: ''
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  protocol: origin
-  protocol-param: ''
-  server: 79.127.233.170
-  type: ssr
 - alterId: 0
   cipher: auto
   name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
@@ -644,6 +598,16 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- cipher: aes-256-cfb
+  name: 42|8J-HqPCfh6YgU1NSLeWK | uu6.top
+  obfs: plain
+  obfs-param: ''
+  password: f8f7aCzcPKbsF8p3
+  port: '989'
+  protocol: origin
+  protocol-param: ''
+  server: 79.127.233.170
+  type: ssr
 - cipher: rc4-md5
   name: 42|8J-HuvCfh7ggU1NSLee- | uu6.top
   obfs: plain
@@ -654,19 +618,6 @@ proxies:
   protocol-param: ''
   server: 107.151.182.253
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 42|🇫🇷 | uu6.top
-  network: ws
-  port: '443'
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
 - alterId: 0
   cipher: auto
   name: '42|🇬🇧 | uu6.top #1'
@@ -680,14 +631,52 @@ proxies:
     headers:
       Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
     path: /azumase.ren
-- name: 48|🇺🇸 美国 120 | uu6.top
-  password: dbbf7649-439d-4d2e-9436-8b1a174d038f
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+- alterId: 0
+  cipher: auto
+  name: 42|🇨🇳 广东省汕尾市 移动 | uu6.top
+  network: ws
+  port: '12891'
+  server: gtm1.ktmwan.net
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 42|🇨🇳 广东省 移动 | uu6.top
+  network: ws
+  port: '12887'
+  server: gtm1.ktmwan.net
+  tls: false
+  type: vmess
+  uuid: 0d36b2c4-a554-4e54-bd53-1975fc960ba6
+  ws-opts:
+    headers:
+      Host: v1.pstatp.com
+    path: /
+- name: '42|CN_中国 | uu6.top #8'
+  password: bca467b8c15211d189008a93c7519d3b
+  port: 443
+  server: 58.152.53.42
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 42|🇫🇷 | uu6.top
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - cipher: aes-256-cfb
   name: 47|US_2cfe1_0009 | uu6.top
   password: amazonskr05
@@ -695,13 +684,6 @@ proxies:
   server: 13.59.110.241
   type: ss
   udp: true
-- name: 48|🇺🇸 美国 164 | uu6.top
-  password: c6fed71e-c347-424c-8fe3-77e338cec9cf
-  port: 443
-  server: tuntro005.instconn.com
-  skip-cert-verify: false
-  sni: python.686911.xyz
-  type: trojan
 - name: 47,49|TW_speednode_0008 | uu6.top
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
@@ -710,6 +692,21 @@ proxies:
   type: http
   udp: true
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: 48|🇺🇸 美国 108 | uu6.top
+  password: bd92752e-6dca-4d1a-b7a0-a42274075252
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 164 | uu6.top
+  password: c6fed71e-c347-424c-8fe3-77e338cec9cf
+  port: 443
+  server: tuntro005.instconn.com
+  skip-cert-verify: false
+  sni: python.686911.xyz
+  type: trojan
 - flow: xtls-rprx-vision
   name: 48|🇨🇦 加拿大 25 | uu6.top
   network: tcp
@@ -726,14 +723,6 @@ proxies:
     headers:
       Host: www.yahoo.com
     path: '%2F'
-- name: 48|🇺🇸 美国 152 | uu6.top
-  password: 06c625ea-5902-11ee-9e87-f23c9313b177
-  port: 1743
-  server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-  skip-cert-verify: false
-  sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-  tls: false
-  type: hysteria2
 - name: 48|🇩🇪 德国 19 | uu6.top
   password: c6fed71e-c347-424c-8fe3-77e338cec9cf
   port: 443
@@ -741,12 +730,12 @@ proxies:
   skip-cert-verify: false
   sni: frankfurtrm2.686911.xyz
   type: trojan
-- name: 48|🇺🇸 美国 055 | uu6.top
-  password: c9cbbd2e-1884-4a91-9bea-2969b1d25d13
-  port: 58338
-  server: lsus7.lansecs.top
-  skip-cert-verify: true
-  sni: lsus7.lansecs.top
+- name: 48|🇺🇸 美国 152 | uu6.top
+  password: 06c625ea-5902-11ee-9e87-f23c9313b177
+  port: 1743
+  server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
+  skip-cert-verify: false
+  sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
   tls: false
   type: hysteria2
 - name: 48|🇺🇸 美国 150 | uu6.top
@@ -772,64 +761,22 @@ proxies:
   sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
-- name: 48|🇺🇸 美国 115 | uu6.top
-  password: 066f89f6-0a88-4eb6-963d-b8e304cd0560
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  tls: false
-  type: hysteria2
-- name: 48|🇺🇸 美国 132 | uu6.top
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  ports: 20000-50000
-  server: 026b10f5-t4whs0-t5vo4i-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 48|🇺🇸 美国 131 | uu6.top
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|1|1| | uu6.top
+- flow: xtls-rprx-vision
+  name: 48|🇨🇦 加拿大 26 | uu6.top
   network: tcp
-  port: 1988
-  server: 142.171.237.17
-  tls: false
-  type: vmess
-  uuid: aed0feeb-1283-4b7d-b3a4-71ef038d59af
-- name: -1|1|1|1|1|47|🇺🇸 美国 260 | uu6.top
-  port: 3002
-  server: 5.78.129.46
-  tls: false
+  port: 47262
+  reality-opts:
+    public-key: Lf_ha7iCDZeGQGZO1a1x9e0UOL3rLpgoCNDwBcq4fBI
+    short-id: 37df66d8
+  server: 40.233.103.51
+  servername: www.yahoo.com
+  tls: true
   type: vless
-  uuid: 68d93eb3-e0ba-4c06-ba08-3e7572fa74c7
-- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #1'
-  network: ws
-  password: DiiimnpYaS
-  port: 3456
-  server: 142.171.237.17
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: trojan
+  uuid: 862e90e1-2f26-4506-b8b9-0adf20da05fc
   ws-opts:
     headers:
-      Host: www.apple.com
-    path: /abc
-- name: -1|1|1|1|1|47|🇺🇸 美国 155 | uu6.top
-  password: afd7fa5d-ad87-4770-be01-2b46a3917111
-  port: 54265
-  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  skip-cert-verify: true
-  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
-  tls: false
-  type: hysteria2
+      Host: www.yahoo.com
+    path: '%2F'
 - name: 48|🇺🇸 美国 065 | uu6.top
   network: ws
   port: 443
@@ -842,6 +789,28 @@ proxies:
     headers:
       Host: eEedFR5.7777155.Xyz
     path: '%2F6OWLjRc26b0nHYr5hYXD'
+- name: '-1|7,8|🇬🇧_GB_英国 | #1 | uu6.top'
+  password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+  port: 48961
+  server: de1.jueduibupao.top
+  skip-cert-verify: true
+  sni: de1.jueduibupao.top
+  tls: false
+  type: hysteria2
+- name: -1|1|1|1|1|1|47|🇺🇸 美国 2 | uu6.top
+  port: 3002
+  server: 5.78.129.46
+  tls: false
+  type: vless
+  uuid: 68d93eb3-e0ba-4c06-ba08-3e7572fa74c7
+- name: -1|1|1|1|1|1|47|🇺🇸 美国 1 | uu6.top
+  password: afd7fa5d-ad87-4770-be01-2b46a3917111
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
 - name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #2'
   port: 17287
   server: 79.132.136.80
@@ -856,48 +825,38 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: -1|1|1|1|1|47|🇺🇸 美国 186 | uu6.top
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 37a48ffc-t4whs0-t5a0jp-b4pt.la.shifen.uk
-  skip-cert-verify: false
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|1|1| | uu6.top
+  network: tcp
+  port: 1988
+  server: 142.171.237.17
   tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|47|🇺🇸 美国 185 | uu6.top
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|47|🇺🇸 美国 174 | uu6.top
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 1743
-  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|47|🇺🇸 美国 134 | uu6.top
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-  skip-cert-verify: false
-  sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|47|🇸🇬 新加坡 09 | uu6.top
-  password: 3d89da1f-7f9e-4c68-86bd-a6f22c5475e8
-  port: 443
-  server: tuntro009.instconn.com
-  skip-cert-verify: false
-  sni: sgam2.686911.xyz
+  type: vmess
+  uuid: aed0feeb-1283-4b7d-b3a4-71ef038d59af
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #1'
+  network: ws
+  password: DiiimnpYaS
+  port: 3456
+  server: 142.171.237.17
+  skip-cert-verify: true
+  sni: www.apple.com
   type: trojan
-- name: -1|1|1|1|1|47|🇮🇳 印度 38 | uu6.top
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /abc
+- name: -1|1|1|1|1|1|47|🇮🇳 印度 3 | uu6.top
   password: 3d89da1f-7f9e-4c68-86bd-a6f22c5475e8
   port: 443
   server: tuntro012.instconn.com
   skip-cert-verify: false
   sni: dibai.686911.xyz
+  type: trojan
+- name: -1|1|1|1|1|1|47|🇸🇬 新加坡 | uu6.top
+  password: 3d89da1f-7f9e-4c68-86bd-a6f22c5475e8
+  port: 443
+  server: tuntro009.instconn.com
+  skip-cert-verify: false
+  sni: sgam2.686911.xyz
   type: trojan
