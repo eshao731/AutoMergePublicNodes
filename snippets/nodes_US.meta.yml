@@ -27,13 +27,6 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.cf
     path: /
-- name: '7,8|🇺🇸_US_美国 | uu6.top #12'
-  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-  port: 1743
-  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   name: '7|🇺🇸_US_美国 | uu6.top #2'
   network: ws
@@ -47,6 +40,13 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
     path: '%2Fws'
+- name: '7,8|🇺🇸_US_美国 | uu6.top #12'
+  password: 7a2512b4-09ee-11f0-8d46-f23c9313b177
+  port: 1743
+  server: 67e01b04-t3dk00-tcm6ys-deip.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #66'
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -58,6 +58,13 @@ proxies:
   password: 712bdc36-24be-11ee-be53-f23c9313b177
   port: 1743
   server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 7,8|🇺🇸_US_美国_8 | uu6.top
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -95,6 +102,20 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-pl-1.pArIsA.DpDnS.OrG
     path: /ws
+- name: 7,8|🇺🇸_US_美国_9 | uu6.top
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 1743
+  server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
+  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  port: 1743
+  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: 8|🇺🇸_US_美国_11 | uu6.top
   network: ws
   port: 443
@@ -121,32 +142,18 @@ proxies:
     headers:
       Host: rAyAn-cOnFiG-fr-2.pArSa.dPdNs.oRg
     path: /ws
-- name: 7,8|🇺🇸_US_美国_8 | uu6.top
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: eb8d3417-t4teo0-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #55'
-  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  port: 1743
-  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 7,8|🇺🇸_US_美国_9 | uu6.top
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 1743
-  server: fecc1dc4-t4v9c0-t5ht86-dnss.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 20 | uu6.top
   password: e0AuSSE9kqrZnpK1RgcuPt
   port: 50589
   server: 78.40.116.11
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 3 | uu6.top
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
@@ -178,6 +185,14 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- name: 48|🇺🇸 美国 153 | uu6.top
+  password: 1c4a05b0-f6bc-4256-98a4-79a2db4056d2
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  tls: false
+  type: hysteria2
 - name: 48|🇺🇸 美国 092 | uu6.top
   password: 6286105c-fb6d-11ef-be96-f23c93136cb3
   port: 1743
@@ -192,14 +207,6 @@ proxies:
   ports: 20000-50000
   server: e89e3f91-t55r40-t5h706-dnss.la.shifen.uk
   skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: 48|🇺🇸 美国 044 | uu6.top
-  password: 3c89f4e2-7252-4708-bb4c-c3e92fc3f46b
-  port: 58338
-  server: lsus5.lansecs.top
-  skip-cert-verify: true
-  sni: lsus5.lansecs.top
   tls: false
   type: hysteria2
 - client-fingerprint: randomized
@@ -230,12 +237,12 @@ proxies:
   sni: azcus1.jueduibupao.top
   tls: false
   type: hysteria2
-- name: 48|🇺🇸 美国 228 | uu6.top
-  password: 3c89f4e2-7252-4708-bb4c-c3e92fc3f46b
-  port: 58338
-  server: lsus4.lansecs.top
-  skip-cert-verify: true
-  sni: lsus4.lansecs.top
+- name: 48|🇺🇸 美国 023 | uu6.top
+  password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
+  port: 1743
+  ports: 20000-50000
+  server: bf7b7e8c-t56dc0-t6hufs-63bp.la.shifen.uk
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: 48|🇺🇸 美国 074 | uu6.top
@@ -245,14 +252,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 48|🇺🇸 美国 051 | uu6.top
-  password: a0a41b61-15f2-4322-a0fe-796bb7108fcb
-  port: 58338
-  server: lsus5.lansecs.top
-  skip-cert-verify: true
-  sni: lsus5.lansecs.top
-  tls: false
-  type: hysteria2
 - name: 48|🇺🇸 美国 067 | uu6.top
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
@@ -260,12 +259,12 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 48|🇺🇸 美国 024 | uu6.top
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
+- name: 48|🇺🇸 美国 130 | uu6.top
+  password: 5b786016-a0dd-4613-ad2d-0a10a8f8702d
+  port: 54265
+  server: banmabanmabanmabanmabanmabanma1.wanlidag.top
+  skip-cert-verify: true
+  sni: banmabanmabanmabanmabanmabanma1.wanlidag.top
   tls: false
   type: hysteria2
 - client-fingerprint: randomized
