@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '3|美国 | uu6.top #1'
+  network: ws
+  port: 33995
+  server: 154.17.230.67
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.nbee.pp.ua
+    path: /aa
 - name: 7|🇺🇸_US_美国 | uu6.top
   network: ws
   port: 2095
@@ -10,19 +23,6 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: '3,42|🇺🇸 美国 | uu6.top #4'
-  network: ws
-  port: '33995'
-  server: 154.17.230.67
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: us.nbee.pp.ua
-    path: /aa
 - name: 8|🇺🇸_US_美国_1 | uu6.top
   network: ws
   port: 2095
@@ -34,13 +34,6 @@ proxies:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
     path: /
-- name: '9|US美国 | uu6.top #22'
-  network: tcp
-  port: 47387
-  server: 198.186.131.216
-  tls: false
-  type: vless
-  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 9 | uu6.top
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -59,13 +52,13 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #44'
-  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  port: 1743
-  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-  skip-cert-verify: false
+- name: '9|US美国 | uu6.top #22'
+  network: tcp
+  port: 47387
+  server: 198.186.131.216
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
   network: ws
   password: trojan
@@ -118,13 +111,13 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: 47|US_75a08_0009 | uu6.top
+  name: 46|US_75a08_0009 | uu6.top
   password: amazonskr05
   port: 443
   server: 13.59.110.241
   type: ss
   udp: true
-- name: -1|1|1|1|48|🇺🇸 美国 164 | uu6.top
+- name: -1|1|1|1|1|48|🇺🇸 美国 164 | uu6.top
   password: c6fed71e-c347-424c-8fe3-77e338cec9cf
   port: 443
   server: tuntro005.instconn.com
