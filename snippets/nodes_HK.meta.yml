@@ -16,13 +16,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 15|HK_speednode_0039 | uu6.top
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 33|香港 阿里云 | uu6.top
+  network: ws
+  port: 35642
+  server: 47.243.172.177
+  tls: false
+  type: vmess
+  uuid: 534f6704-e467-40da-9c77-19b5007ba594
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '33|香港 阿里云 | uu6.top #1'
+  network: ws
+  port: 14044
+  server: 47.86.85.95
+  tls: false
+  type: vmess
+  uuid: 74475bf0-0267-4a04-b431-54752e31994b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
 - client-fingerprint: chrome
   name: '44,45|香港3 | uu6.top #4'
   network: tcp
@@ -32,7 +51,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: -1|48|🇭🇰 香港 062 | uu6.top
+- name: -1|1|48|🇭🇰 香港 062 | uu6.top
   password: 9125901a-4518-4d25-adfc-c8f8c3bb5a4c
   port: 50000
   server: 103.214.22.205
