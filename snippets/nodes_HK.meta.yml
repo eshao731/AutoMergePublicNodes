@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,33,38,39,42,44,45|香港3 | uu6.top #4'
+  name: '0,1,4,11,12,33,39,42,44,45|香港3 | uu6.top #4'
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 443
@@ -9,7 +9,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,15,38,39,42,44,45|香港5 | uu6.top #4'
+  name: '0,1,4,11,12,15,33,39,42,44,45|香港5 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -26,9 +26,9 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: 33|香港 电讯盈科 | uu6.top
+  name: '33,42|🇭🇰 香港 电讯盈科 | uu6.top #1'
   network: ws
-  port: 30807
+  port: '30807'
   server: v10.heduian.link
   tls: false
   type: vmess
@@ -37,3 +37,11 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- name: 48|🇭🇰 香港 078 | uu6.top
+  password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
+  port: 50001
+  server: hk1.jueduibupao.top
+  skip-cert-verify: true
+  sni: hk1.jueduibupao.top
+  tls: false
+  type: hysteria2
