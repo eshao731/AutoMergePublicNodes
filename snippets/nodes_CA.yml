@@ -1,1 +1,40 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 51.79.102.253
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 48|🇨🇦 加拿大 01 | uu6.top
+  network: ws
+  port: '443'
+  server: xg1c7.waimaohots.com
+  tls: true
+  type: vmess
+  uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df
+  ws-opts:
+    headers:
+      Host: xg1c7.waimaohots.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 48|🇨🇦 加拿大 14 | uu6.top
+  network: ws
+  port: '443'
+  server: cg1d07.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba
+  ws-opts:
+    headers:
+      Host: cg1d07.waimaojd.com
+    path: /api/v1/graphql
