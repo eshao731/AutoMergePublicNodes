@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 33,42|🇸🇬 新加坡 DigitalOcean数 | uu6.top
+  network: ws
+  port: '443'
+  server: xg1c4.waimaohots.com
+  tls: true
+  type: vmess
+  uuid: f95da449-747a-4ecc-b4ba-9f0f715a25df
+  ws-opts:
+    headers:
+      Host: xg1c4.waimaohots.com
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
+  name: 48|🇸🇬 新加坡 02 | uu6.top
+  network: ws
+  port: '443'
+  server: cg1d04.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: d8bb518e-9e03-44bb-8a60-2b50190079ba
+  ws-opts:
+    headers:
+      Host: cg1d04.waimaojd.com
+    path: /api/v1/graphql
