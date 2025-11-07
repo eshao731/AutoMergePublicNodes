@@ -19,6 +19,17 @@ proxies:
   server: 45.87.175.174
   type: ss
   udp: true
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #46'
+  network: ws
+  password: trojan
+  port: 443
+  server: www.digitalocean.com
+  sni: azadnet-9ya.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: azadnet-9ya.pages.dev
+    path: '%2F%3Fed%3D2560'
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #57'
   network: ws
   password: trojan
