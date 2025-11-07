@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '3|美国 | uu6.top #1'
-  network: ws
-  port: 33995
-  server: 154.17.230.67
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: us.nbee.pp.ua
-    path: /aa
-- alterId: 0
-  cipher: auto
-  name: '9|US美国 | uu6.top #3'
-  network: ws
-  port: '443'
-  server: azerb.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren#TM(@AZARBAYJAB1)/TM(@AZARBAYJAB1)/?ed=2560
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #59'
   network: ws
   password: trojan
@@ -55,3 +28,16 @@ proxies:
   skip-cert-verify: false
   sni: python.686911.xyz
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|3|美国 | #1 | uu6.top'
+  network: ws
+  port: 33995
+  server: 154.17.230.67
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.nbee.pp.ua
+    path: /aa
