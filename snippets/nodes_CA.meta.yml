@@ -26,14 +26,29 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- cipher: aes-256-cfb
-  name: 47|CA_37783_0001 | uu6.top
-  password: amazonskr05
-  port: 443
-  server: 15.223.194.229
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 47,49|CA_speednode_0002 | uu6.top
+  port: 26113
+  reality-opts:
+    public-key: GUcD8LK1DFNuVun5yhsqeEego_p3PF2yIdvE2KY2Nng
+    short-id: 1fbd20fd
+  server: 40.233.71.65
+  servername: www.yahoo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-- name: 48|🇨🇦 加拿大 25 | uu6.top
+  uuid: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+- name: 48|🇨🇦 加拿大 40 | uu6.top
+  password: 32267ac5-d919-45ec-930e-62955d3c737d
+  port: 58330
+  server: mla6.maliaojc.top
+  skip-cert-verify: true
+  sni: mla6.maliaojc.top
+  tls: false
+  type: hysteria2
+- name: -1|48|🇨🇦 加拿大 25 | uu6.top
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
   server: 140.238.155.160
