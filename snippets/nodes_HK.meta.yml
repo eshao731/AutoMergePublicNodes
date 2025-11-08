@@ -1,13 +1,5 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,15|香港5 | uu6.top #2'
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- client-fingerprint: chrome
   name: '0,1,4,11,12,38,39,42,44,45|香港3 | uu6.top #4'
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
@@ -16,6 +8,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '15|Channel id: 🇭🇰 | uu6.top'
+  obfs: salamander
+  obfs-password: NDhhNmY5YTY0MGYzOTgxYQ==
+  password: d84e954e-0e96-4cd9-8b23-5b74ddc1b758
+  port: 31008
+  server: 212.192.13.86
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '15|香港3 | uu6.top #2'
   password: e4e262d453466988575c397a30562337
   port: 443
