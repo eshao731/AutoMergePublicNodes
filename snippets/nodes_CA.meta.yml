@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 35|🇨🇦 加拿大 | uu6.top
+  name: 36|🇨🇦 加拿大 | uu6.top
   password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   port: '52434'
   reduce-rtt: false
@@ -15,7 +15,7 @@ proxies:
   version: '5'
 - alterId: 0
   cipher: auto
-  name: 41|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
   network: ws
   port: '80'
   server: 51.79.102.253
@@ -26,3 +26,10 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
+- cipher: aes-256-cfb
+  name: 47|CA_e6e08_0001 | uu6.top
+  password: amazonskr05
+  port: 443
+  server: 15.223.194.229
+  type: ss
+  udp: true
