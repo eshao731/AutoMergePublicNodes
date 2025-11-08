@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,4,9,11,12,15,33,38,39,42,44,45|香港3 | uu6.top #4'
+  name: '0,1,4,7,8,9,11,12,15,38,39,42,44,45|香港3 | uu6.top #4'
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 443
@@ -43,20 +43,13 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 47|HK_5c997_0012 | uu6.top
-  port: 30651
-  server: 123.254.106.68
-  skip-cert-verify: true
+  name: 48|🇭🇰 香港 65 | uu6.top
+  network: http
+  port: '54804'
+  server: 43.247.135.64
   tls: false
   type: vmess
-  udp: true
-  uuid: 669c37c3-0e5a-4e68-a28e-ab6d5d85669a
-- name: 48|🇭🇰 香港家宽 04 | uu6.top
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
+  uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
 - alterId: 0
   cipher: auto
   name: -1|47|HK_5c997_0012 | uu6.top
@@ -66,7 +59,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 669c37c3-0e5a-4e68-a28e-ab6d5d85669a
-- name: -1|1|1|1|1|1|1|15|香港3 | | uu6.top
+- name: -1|1|1|1|1|1|1|1|15|香港3 | uu6.top
   password: e4e262d453466988575c397a30562337
   port: 443
   server: 58.152.53.42
