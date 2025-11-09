@@ -17,7 +17,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,38,39,42,44,45|香港5 | uu6.top #4'
+  name: '0,1,4,11,12,33,38,39,42,44,45|香港5 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -32,6 +32,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '38,39,47,49|HK_speednode_0023 | uu6.top #1'
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
+  sni: 203.198.122.129
+  type: trojan
+  udp: true
 - name: 48|🇭🇰 香港 009 | uu6.top
   password: ccc61fca-f692-4265-b305-ba03db48a720
   port: 58338
@@ -40,9 +48,17 @@ proxies:
   sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
+- name: 48|🇭🇰 香港 017 | uu6.top
+  password: 3b517b74-539c-4df0-a6de-fc031793f68b
+  port: 58338
+  server: lsxg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsxg1.lansecs.top
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: -1|1|1|47|HK_a19d4_0012 | uu6.top
+  name: -1|1|1|1|47|HK_a19d4_00 | uu6.top
   network: tcp
   port: 30651
   server: 123.254.106.68
