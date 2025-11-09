@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,11,12,38,39,42,44,45|美国 | uu6.top #6'
+  name: '0,1,4,11,12,38,39,42,44,45|美国 | uu6.top #8'
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1328
@@ -8,6 +8,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '3|美国 加利福尼亚州洛杉矶Mzima网络公 | uu6.top #1'
+  network: none
+  port: 11325
+  server: 68.64.176.148
+  tls: false
+  type: vmess
+  uuid: 8afb5b6d-51f6-4bf8-f4e2-0378822200b3
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #58'
   network: ws
   password: trojan
@@ -32,13 +41,40 @@ proxies:
     path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
 - alterId: 0
   cipher: auto
-  name: '33|美国 加利福尼亚州洛杉矶Mzima网络公 | uu6.top #1'
+  name: 33|美国加利福尼亚州洛杉矶 Cloudinn | uu6.top
   network: none
-  port: 11325
-  server: 68.64.176.148
+  port: 46100
+  server: 156.238.226.207
   tls: false
   type: vmess
-  uuid: 8afb5b6d-51f6-4bf8-f4e2-0378822200b3
+  uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
+- alterId: 0
+  cipher: auto
+  name: '33|美国 | uu6.top #5'
+  network: none
+  port: 43966
+  server: 209.54.104.219
+  tls: false
+  type: vmess
+  uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
+- alterId: 0
+  cipher: auto
+  name: '33|美国加利福尼亚州洛杉矶 Cloudinn | uu6.top #1'
+  network: none
+  port: 46100
+  server: www.liuye.space
+  tls: false
+  type: vmess
+  uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
+- alterId: 0
+  cipher: auto
+  name: '33|美国 | uu6.top #6'
+  network: none
+  port: 31053
+  server: 154.12.20.181
+  tls: false
+  type: vmess
+  uuid: 3a07f4e2-4772-4b7e-dd94-1a34e3165f1c
 - alterId: 0
   cipher: auto
   name: '42|🇺🇸 US美国 | uu6.top #17'
@@ -54,20 +90,7 @@ proxies:
     path: /azumase.ren#TM(@AZARBAYJAB1)/TM(@AZARBAYJAB1)/?ed=2560
 - alterId: 0
   cipher: auto
-  name: '-1|33|美国 | #4 | uu6.top'
-  network: ws
-  port: 8443
-  server: 216.173.69.250
-  tls: false
-  type: vmess
-  uuid: 91382092-2330-455b-8a1c-9c129cfe661a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '-1|1|33|美国 惠普公司 | #2 | uu6.top'
+  name: '-1|1|1|33|美国 惠普公司 | #2 | uu6.top'
   network: ws
   port: 80
   server: 15.235.41.200
@@ -80,21 +103,20 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|1|1|47|US_ | uu6.top
+  name: '-1|1|33|美国 | #4 | uu6.top'
   network: ws
-  port: 443
-  server: 1762596741.bilibiliapp.cn
-  servername: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
-  tls: true
+  port: 8443
+  server: 216.173.69.250
+  tls: false
   type: vmess
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  uuid: 91382092-2330-455b-8a1c-9c129cfe661a
   ws-opts:
     headers:
-      Host: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: '-1|1|1|1|1|1|1|1|47|US_ | uu6.top #1'
+  name: '-1|1|1|1|1|1|1|1|1|47|U | uu6.top #1'
   network: ws
   port: 443
   server: 1762596741.bilibiliapp.cn
@@ -105,4 +127,18 @@ proxies:
   ws-opts:
     headers:
       Host: 84nmwex.speed.jpsacibnb.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|47|U | uu6.top
+  network: ws
+  port: 443
+  server: 1762596741.bilibiliapp.cn
+  servername: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: 7wl26h.speed.jpsacibna.cccp.useraaca.pp.ua
     path: /
