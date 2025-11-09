@@ -1,8 +1,10 @@
 proxies:
-- name: '7,8,33,42|CN_中国 | uu6.top #7'
+- client-fingerprint: chrome
+  name: 33,38,39,42,44,45,48|🇭🇰 香港家宽 02 | uu6.top
   network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 3841
+  server: 221.128.195.12
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
