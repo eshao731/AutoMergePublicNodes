@@ -11,17 +11,29 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 48|🇩🇪 德国 08 | uu6.top
-  network: tcp
-  port: 443
+  name: 49|DE_speednode_0013 | uu6.top
+  port: 39352
   reality-opts:
-    public-key: BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs
-  server: deu406.unboundaccess.org
-  servername: www.screwfix.com
+    public-key: bqBZxwknIQGVNxvW6agjANLI6jdKG8jgIJ6cLKBbjns
+    short-id: 8f
+  server: traxex.fonixapp.org
+  servername: lowes.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 46615c49-e794-470d-9e65-2deaca461378
-  ws-opts:
-    headers:
-      Host: www.screwfix.com
-    path: '%2F'
+  udp: true
+  uuid: 84ac6559-30a8-4c3e-bbcb-894edd4de743
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 49|DE_speednode_0014 | uu6.top
+  port: 49406
+  reality-opts:
+    public-key: UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20
+    short-id: a7
+  server: beast-masters.fonixapp.org
+  servername: ilovepdf.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49d74535-837e-4132-90c7-4e06de7db303
