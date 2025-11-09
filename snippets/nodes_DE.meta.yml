@@ -10,9 +10,23 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '0,4,39,47,49|DE_speednode_0014 | uu6.top #3'
+  port: 49406
+  reality-opts:
+    public-key: UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20
+    short-id: a7
+  server: beast-masters.fonixapp.org
+  servername: ilovepdf.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49d74535-837e-4132-90c7-4e06de7db303
 - alterId: 0
   cipher: auto
-  name: -1|1|33|德国 | uu6.top
+  name: -1|1|1|33|德国 | uu6.top
   network: tcp
   port: 40878
   server: 85.195.101.122

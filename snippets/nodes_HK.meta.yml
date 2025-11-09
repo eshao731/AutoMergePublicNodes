@@ -34,9 +34,9 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: 33|香港 阿里云 | uu6.top
+  name: 42|🇭🇰 香港 阿里云 | uu6.top
   network: ws
-  port: 28653
+  port: '28653'
   server: 47.76.136.178
   tls: false
   type: vmess
@@ -45,19 +45,18 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: '-1|1|1|1|1|15|香港5 | #2 | uu6.top'
+- name: 48|🇭🇰 香港 29 | uu6.top
+  password: 710488f0-d6f3-4587-90f9-6703ef7bd57a
+  port: 58338
+  server: lsxg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsxg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: '-1|1|1|1|1|1|15|香港5 | # | uu6.top'
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|47|H | uu6.top
-  network: tcp
-  port: 30651
-  server: 123.254.106.68
-  tls: false
-  type: vmess
-  uuid: 669c37c3-0e5a-4e68-a28e-ab6d5d85669a
