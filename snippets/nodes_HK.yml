@@ -1,12 +1,21 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,4,7,8,9,11,12,15|香港3 | uu6.top #2'
+  name: '0,1,4,7,8,9,11,12,15,42|🇺🇸 US美国 | uu6.top #11'
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 443
   server: 203.198.122.194
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: '0,1,4,11,12,33,38,39,42,44,45|香港5 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.186
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   name: '0,1,4,11,12|🇭🇰 香港4 | uu6.top #2'
@@ -16,17 +25,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '0,1,4,11,12,39,42,44,45|香港5 | uu6.top #4'
-  network: tcp
+- name: '15|香港5 | uu6.top #2'
   password: BxceQaOe
   port: 443
-  server: 58.152.53.186
+  server: 203.198.122.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: 39,42,44,45,48|🇭🇰 香港家宽 02 | uu6.top
+  name: 38,39,42,44,45,48|🇭🇰 香港家宽 02 | uu6.top
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 3841
@@ -34,7 +41,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '39,47,49|HK_speednode_0023 | uu6.top #1'
+- name: '38,39,47,49|HK_speednode_0023 | uu6.top #1'
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
@@ -42,23 +49,16 @@ proxies:
   sni: 203.198.122.129
   type: trojan
   udp: true
-- name: -1|33,39,47|HK_a19d4_00 | uu6.top
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  sni: 58.152.46.98
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|47|HK_a19d4_0012 | uu6.top
+  name: -1|1|47|HK_a19d4_0012 | uu6.top
   network: tcp
   port: 30651
   server: 123.254.106.68
   tls: false
   type: vmess
   uuid: 669c37c3-0e5a-4e68-a28e-ab6d5d85669a
-- name: -1|48|🇭🇰 香港家宽 03 | uu6.top
+- name: -1|1|48|🇭🇰 香港家宽 03 | uu6.top
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
