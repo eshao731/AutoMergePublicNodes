@@ -1,7 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '0,1,4,11,12,38,39,42,44,45|美国 | uu6.top #6'
-  network: tcp
+  name: '0,1,4,11,12,38,39,42|🇺🇸 美国 | uu6.top #5'
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1328
   server: 153.121.44.99
@@ -17,31 +16,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 8afb5b6d-51f6-4bf8-f4e2-0378822200b3
-- alterId: 2
-  cipher: auto
-  name: '9,42|🇺🇸 US美国 | uu6.top #27'
-  network: tcp
-  port: '30805'
-  server: v5.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: 10|US美国 3 | uu6.top
+  name: 10,16|美国 3 | uu6.top
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 22 | uu6.top
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #58'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #56'
   network: ws
   password: trojan
   port: 443
@@ -54,7 +36,7 @@ proxies:
     path: '%2F%3Fed%3D2560'
 - alterId: 2
   cipher: auto
-  name: 10,16|美国 14 | uu6.top
+  name: 10,16|美国 71 | uu6.top
   port: 30805
   server: v5.heduian.link
   skip-cert-verify: true
@@ -62,7 +44,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #69'
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #67'
   network: ws
   password: trojan
   port: 443
@@ -109,9 +91,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 71dbcca9-1116-4bb0-c641-12f50b9ce41e
+- client-fingerprint: chrome
+  name: '44,45|美国 | uu6.top #6'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 5097
+  server: 153.121.44.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|33|美国 惠普公司 | uu6.top
+  name: -1|1|1|1|1|1|1|33|美国 惠普 | uu6.top
   network: ws
   port: 80
   server: 15.235.41.200
@@ -124,7 +115,7 @@ proxies:
     path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
-  name: '-1|1|1|1|1|33|美国 | #4 | uu6.top'
+  name: '-1|1|1|1|1|1|33|美国 | #4 | uu6.top'
   network: ws
   port: 8443
   server: 216.173.69.250

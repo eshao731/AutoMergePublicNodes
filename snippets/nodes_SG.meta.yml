@@ -6,3 +6,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 48|🇸🇬 新加坡 23 | uu6.top
+  network: ws
+  port: 24443
+  server: 178.239.123.216
+  servername: planetzh.xyz
+  tls: true
+  type: vless
+  uuid: 21e73a92-a69c-400e-b8a2-f40efc9e5a49
+  ws-opts:
+    headers:
+      Host: planetzh.xyz
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇸🇬 新加坡 29 | uu6.top
+  network: tcp
+  port: 31064
+  reality-opts:
+    public-key: zwgm4-BssFEzGy7VSQmcd3LhJZzT36XNlNVrnQqDLBM
+    short-id: d3875950
+  server: aws-linksg64.eovay.com
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
+  uuid: 6c0472bc-82df-449e-90bd-2f91c6a46402
+  ws-opts:
+    headers:
+      Host: www.lamer.com.sg
+    path: '%2F'
