@@ -1,50 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 3|日本 Gaditek数据中心 | uu6.top
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  tls: false
-  type: vmess
-  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: 32|日本3-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: aoa26fc.speed.jpsacibnc.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: aoa26fc.speed.jpsacibnc.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|日本4-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: pkhfhsaphz.speed.jpsacibnd.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: pkhfhsaphz.speed.jpsacibnd.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|日本1-CDN | 0x | uu6.top
+  name: 31|日本1-CDN | 0x | uu6.top
   network: ws
   port: 443
   server: 1762751541.bilibiliapp.cn
@@ -59,7 +16,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 32|日本2-CDN | 0x | uu6.top
+  name: 31|日本2-CDN | 0x | uu6.top
   network: ws
   port: 443
   server: 1762751541.bilibiliapp.cn
@@ -71,4 +28,34 @@ proxies:
   ws-opts:
     headers:
       Host: gfixt1i3pz.speed.jpsacibnb.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 31|日本4-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: pkhfhsaphz.speed.jpsacibnd.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: pkhfhsaphz.speed.jpsacibnd.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 31|日本3-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: aoa26fc.speed.jpsacibnc.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: aoa26fc.speed.jpsacibnc.cccp.useraaca.pp.ua
     path: /
