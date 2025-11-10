@@ -38,17 +38,77 @@ proxies:
   type: vless
   udp: true
   uuid: 49d74535-837e-4132-90c7-4e06de7db303
-- name: 48|🇩🇪 德国 22 | uu6.top
-  password: 2fb9789b-9c5e-4f09-9e46-7943998c2481
-  port: 58430
-  server: dg1.qucloud.top
+- alterId: 0
+  cipher: auto
+  name: 32|德国纽伦堡2-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: rflhapdh2.speed.nlbasdb.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: rflhapdh2.speed.nlbasdb.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|德国纽伦堡1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: pi62i2j89.speed.nlbasda.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: pi62i2j89.speed.nlbasda.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|德国纽伦堡4-高性能-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: c48ijzyiio.speed.nlbasdc.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: c48ijzyiio.speed.nlbasdc.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|西班牙马德里1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: 6mch67.speed.xbyuaswda.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: 6mch67.speed.xbyuaswda.cccp.useraaca.pp.ua
+    path: /
+- name: 48|🇩🇪 德国 13 | uu6.top
+  password: 5dcefa05-2e9d-4109-9997-7cb70eacf263
+  port: 58338
+  server: lsdg1.lansecs.top
   skip-cert-verify: true
-  sni: dg1.qucloud.top
+  sni: lsdg1.lansecs.top
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|1|1|33|德国 | uu6.top
+  name: -1|1|1|1|1|1|1|1|1|33|德 | uu6.top
   network: tcp
   port: 40878
   server: 85.195.101.122
