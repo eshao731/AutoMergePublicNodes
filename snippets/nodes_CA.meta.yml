@@ -1,4 +1,29 @@
 proxies:
+- name: 17,19,21,48|🇨🇦 加拿大 23 | uu6.top
+  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  port: 30300
+  server: 140.238.155.160
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '17,19,21|🇨🇦_CA_加拿大 | uu6.top #5'
+  network: tcp
+  port: 42557
+  reality-opts:
+    public-key: LiHpb4jWrgHBSpi1mjKH3I8m2ahpVNexeNDh-sMW3Xo
+    short-id: f430927d
+  server: 140.238.155.160
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  uuid: 2429bee3-e0c1-47dd-b420-75e6512b184b
+  ws-opts:
+    headers:
+      Host: www.yahoo.com
+    path: '%2F'
 - alterId: 0
   cipher: auto
   name: 32|加拿大1多伦多-CDN | 0x | uu6.top
@@ -41,19 +66,3 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 48|🇨🇦 加拿大 23 | uu6.top
-  password: 2429bee3-e0c1-47dd-b420-75e6512b184b
-  port: 30300
-  server: 140.238.155.160
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: 48|🇨🇦 加拿大 26 | uu6.top
-  password: 54c406da-f76f-49c1-8263-b711efe57d1e
-  port: 58330
-  server: mla6.maliaojc.top
-  skip-cert-verify: true
-  sni: mla6.maliaojc.top
-  tls: false
-  type: hysteria2
