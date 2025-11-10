@@ -1,13 +1,15 @@
 proxies:
-- name: '0,4,15|香港3 | uu6.top #2'
+- client-fingerprint: chrome
+  name: '0,11,12,38,39,42,44,45|香港3 | uu6.top #4'
+  network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 3841
-  server: 221.128.195.12
+  port: 443
+  server: 58.152.110.25
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '0,4,11,12,15,17,19,21,38,39,42,44,45|香港5 | uu6.top #4'
+  name: '0,1,4,11,12,15,17,19,21,38,39,42,44,45|香港5 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -15,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '0,4,15,38,39,47,49|HK_speednode_0023 | uu6.top #4'
+- name: '0,4,15,38,39,47,48,49|HK_speednode_0023 | uu6.top #4'
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
@@ -24,11 +26,23 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '11,12,38,39,42,44,45|香港3 | uu6.top #4'
-  network: tcp
+  name: '1,4,15|香港3 | uu6.top #2'
   password: 1b57001bd214304027025a740b6cf1ac
-  port: 443
-  server: 58.152.110.25
+  port: 3841
+  server: 221.128.195.12
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 33|香港 阿里云 | uu6.top
+  network: ws
+  port: 20292
+  server: 47.243.90.125
+  tls: false
+  type: vmess
+  uuid: 57f5c2bd-bb79-4fd8-eea1-a84d1ddf3a21
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
