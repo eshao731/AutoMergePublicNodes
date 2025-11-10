@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '9|US美国 | uu6.top #24'
+  name: '9,42|🇺🇸 US美国 | uu6.top #11'
   network: ws
   port: '443'
   server: test.yucdncdn.me
@@ -13,6 +13,20 @@ proxies:
     headers:
       Host: test.yucdncdn.me
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: '10,16|美国 | uu6.top #3'
+  password: 85qJ4wjHhPbVNxWKT1mJnE
+  port: 55818
+  server: 46.246.98.39
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 14 | uu6.top
+  password: KgcKQpFCkXnOJXceV68o12
+  port: 1580
+  server: 62.133.63.230
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 10,16|美国 15 | uu6.top
@@ -27,6 +41,20 @@ proxies:
   ws-headers:
     Host: test.yucdncdn.me
   ws-path: /
+- cipher: chacha20-ietf-poly1305
+  name: '10,16|美国 15 | uu6.top #1'
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,16|美国 16 | uu6.top #1'
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
 - name: '13|🇺🇸_US_美国 | uu6.top #17'
   network: ws
   password: trojan
@@ -39,17 +67,10 @@ proxies:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 14 | uu6.top
-  password: KgcKQpFCkXnOJXceV68o12
-  port: 1580
-  server: 62.133.63.230
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '10,16|美国 15 | uu6.top #1'
-  password: Nk9asglDzHzjktVzTkvhaA
+  name: 10,16|美国 3 | uu6.top
+  password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
 - name: '13|🇺🇸_US_美国 | uu6.top #28'
@@ -63,6 +84,16 @@ proxies:
     headers:
       Host: nixian.pages.dev
     path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
+- alterId: 2
+  cipher: auto
+  name: '16|美国 11 | uu6.top #1'
+  port: 30805
+  server: v5.heduian.link
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: 32|美国东部阿什本1-CDN | 0x | uu6.top
@@ -107,51 +138,6 @@ proxies:
   ws-opts:
     headers:
       Host: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|美国西部圣何塞1-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|美国西部圣何塞2-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|美国西部圣何塞3-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
     path: /
 - alterId: 0
   cipher: auto
@@ -212,6 +198,36 @@ proxies:
   ws-opts:
     headers:
       Host: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|美国西部圣何塞3-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|美国西部圣何塞2-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
     path: /
 - alterId: 0
   cipher: auto
@@ -290,6 +306,21 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 32|美国西部圣何塞1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
   name: 32|美国中部芝加哥9-CDN | 0x | uu6.top
   network: ws
   port: 443
@@ -302,6 +333,21 @@ proxies:
   ws-opts:
     headers:
       Host: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 32|美国南部达拉斯1-高性能-CDN | 0 | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
     path: /
 - alterId: 0
   cipher: auto
@@ -332,21 +378,6 @@ proxies:
   ws-opts:
     headers:
       Host: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 32|美国南部达拉斯1-高性能-CDN | 0 | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
     path: /
 - alterId: 0
   cipher: auto
@@ -393,7 +424,7 @@ proxies:
     path: /ray1
 - alterId: 0
   cipher: auto
-  name: -1|3|美国 加利福尼亚州洛杉矶Mzima网 | uu6.top
+  name: -1|1|3|美国 加利福尼亚州洛杉矶Mzim | uu6.top
   network: none
   port: 11325
   server: 68.64.176.148
