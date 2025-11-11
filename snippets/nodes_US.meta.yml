@@ -15,14 +15,6 @@ proxies:
   type: vless
   udp: true
   uuid: b25e3c62-f4eb-45df-adda-eb738959b845
-- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #77'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  ports: 20000-50000
-  server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  tls: false
-  type: hysteria2
 - name: '9|RU俄罗斯 | uu6.top #1'
   network: ws
   port: 443
@@ -37,6 +29,30 @@ proxies:
   network: ws
   port: 2087
   server: dogechain.info
+  servername: cm2-bpg.ggff.net
+  tls: true
+  type: vless
+  uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  ws-opts:
+    headers:
+      Host: cm2-bpg.ggff.net
+    path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
+- name: '9|US美国 | uu6.top #5'
+  network: ws
+  port: 2053
+  server: cf.090227.xyz
+  servername: cm2-bpg.ggff.net
+  tls: true
+  type: vless
+  uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  ws-opts:
+    headers:
+      Host: cm2-bpg.ggff.net
+    path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
+- name: '9|US美国 | uu6.top #12'
+  network: ws
+  port: 2083
+  server: cf.877774.xyz
   servername: cm2-bpg.ggff.net
   tls: true
   type: vless
@@ -69,22 +85,10 @@ proxies:
     headers:
       Host: cm2-bpg.ggff.net
     path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
-- name: '9|US美国 | uu6.top #12'
+- name: '9|US美国 | uu6.top #28'
   network: ws
-  port: 2083
-  server: cf.877774.xyz
-  servername: cm2-bpg.ggff.net
-  tls: true
-  type: vless
-  uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  ws-opts:
-    headers:
-      Host: cm2-bpg.ggff.net
-    path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
-- name: '9|US美国 | uu6.top #5'
-  network: ws
-  port: 2053
-  server: cf.090227.xyz
+  port: 443
+  server: mfa.gov.ua
   servername: cm2-bpg.ggff.net
   tls: true
   type: vless
@@ -107,18 +111,6 @@ proxies:
     headers:
       Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
     path: /azumase.ren#TM(@AZARBAYJAB1)/TM(@AZARBAYJAB1)/?ed=2560
-- name: '9|US美国 | uu6.top #28'
-  network: ws
-  port: 443
-  server: mfa.gov.ua
-  servername: cm2-bpg.ggff.net
-  tls: true
-  type: vless
-  uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  ws-opts:
-    headers:
-      Host: cm2-bpg.ggff.net
-    path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
 - name: '9|US美国 | uu6.top #17'
   network: ws
   port: 30503
@@ -143,6 +135,18 @@ proxies:
     headers:
       Host: frAgeU2.cpI2HIdd.eu.ORG
     path: '%2F'
+- name: '9|US美国 | uu6.top #16'
+  network: ws
+  port: 443
+  server: 172.64.144.20
+  servername: ayanamirei.11160321.xyz
+  tls: true
+  type: vless
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  ws-opts:
+    headers:
+      Host: ayanamirei.11160321.xyz
+    path: '%2Fhttp%3A%2F%2F37.187.124.25%3A8187%2F'
 - name: '9|US美国 | uu6.top #32'
   network: ws
   port: 443
@@ -155,17 +159,13 @@ proxies:
     headers:
       Host: fl-3-direct.djarbnet.ru
     path: '%2Fgetupdates'
-- name: '13|🇺🇸_US_美国 | uu6.top #17'
-  network: ws
-  password: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '10,16|美国 15 | uu6.top #1'
+  password: Nk9asglDzHzjktVzTkvhaA
   port: 443
-  server: www.digitalocean.com
-  sni: azadnet-9ya.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-9ya.pages.dev
-    path: '%2F%3Fed%3D2560'
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+  udp: true
 - name: '13|🇺🇸_US_美国 | uu6.top #28'
   network: ws
   password: trojan
@@ -177,30 +177,6 @@ proxies:
     headers:
       Host: nixian.pages.dev
     path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
-- name: 48|🇺🇸 美国 181 | uu6.top
-  password: eee402e8-1ef4-4638-bddc-671216cd0342
-  port: 58330
-  server: mla5.maliaojc.top
-  skip-cert-verify: true
-  sni: mla5.maliaojc.top
-  tls: false
-  type: hysteria2
-- name: 48|🇺🇸 美国 042 | uu6.top
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  skip-cert-verify: true
-  sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: 48|🇺🇸 美国 216 | uu6.top
-  password: 710488f0-d6f3-4587-90f9-6703ef7bd57a
-  port: 58338
-  server: lsus3.lansecs.top
-  skip-cert-verify: true
-  sni: lsus3.lansecs.top
-  tls: false
-  type: hysteria2
 - name: 48|🇺🇸 美国 021 | uu6.top
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
@@ -227,7 +203,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '-1|42|🇺🇸 美国 | #7 | uu6.top'
+  name: '-1|1|42|🇺🇸 美国 | #7 | uu6.top'
   network: none
   port: '57836'
   server: 216.238.89.53
@@ -236,24 +212,16 @@ proxies:
   uuid: 25cd6447-846c-456d-9e84-49222353b9c5
 - alterId: 0
   cipher: auto
-  name: '-1|42|🇺🇸 美国 | #4 | uu6.top'
+  name: '-1|1|42|🇺🇸 美国 | #4 | uu6.top'
   network: tcp
   port: '37313'
   server: 45.128.54.84
   tls: false
   type: vmess
   uuid: 72feb833-4196-4a70-a3f5-aeb011f7d534
-- name: -1|1|48|🇺🇸 美国 209 | uu6.top
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: -1|1|48|🇺🇸 美国 149 | uu6.top
+  name: -1|1|1|48|🇺🇸 美国 149 | uu6.top
   network: ws
   port: '443'
   server: wangcai74.000444.cn
