@@ -1,5 +1,5 @@
 proxies:
-- name: '0,1,3,4,11,12,33,39,42,44,45|香港4 | uu6.top #4'
+- name: '0,1,3,4,11,12,38,39,42,44,45|香港4 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '0,3,4,15,33,39,47,49|HK_speednode_0023 | uu6.top #4'
+- name: '0,3,4,15,38,39,47,49|HK_speednode_0023 | uu6.top #4'
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
@@ -17,7 +17,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '9|HK香港 | uu6.top #12'
+  name: '9,42|🇭🇰 HK香港 | uu6.top #9'
   network: tcp
   port: '27092'
   server: 208.76.223.218
@@ -25,6 +25,13 @@ proxies:
   tls: false
   type: vmess
   uuid: a0596ba6-72a3-4366-8992-77088da65bd8
+- cipher: chacha20-ietf-poly1305
+  name: '10,16|美国 15 | uu6.top #1'
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 10|HK香港 10 | uu6.top
@@ -35,13 +42,20 @@ proxies:
   type: vmess
   udp: true
   uuid: a0596ba6-72a3-4366-8992-77088da65bd8
-- cipher: chacha20-ietf-poly1305
-  name: '10,16|美国 15 | uu6.top #1'
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇭🇰 HK香港 | uu6.top #16'
+  network: ws
+  port: '80'
+  server: 141.101.121.26
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
 - name: '15|香港3 | uu6.top #2'
   password: 1b57001bd214304027025a740b6cf1ac
   port: 443
