@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '0,4,7,8,15,38,46,48|US_speednode_0029 | uu6.top #4'
+  name: '0,4,7,8,15,39,47,49|US_speednode_0029 | uu6.top #4'
   network: tcp
   port: 443
   reality-opts:
@@ -22,33 +22,12 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #68'
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  port: 1743
-  server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #73'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #76'
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
   server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   skip-cert-verify: false
   sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #67'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #75'
@@ -59,35 +38,10 @@ proxies:
   sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 7,8,17,19,21,47|🇺🇸 美国 137 | uu6.top
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #68'
+  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
-  ports: 20000-50000
-  server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
-  sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #81'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #71'
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-  skip-cert-verify: false
-  sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '7,8,13|🇺🇸_US_美国 | uu6.top #15'
-  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  port: 1743
-  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  server: 3d2c11f1-t52o00-tdw2ye-2gok.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
@@ -99,11 +53,12 @@ proxies:
   sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 7,8,17,19,21,47|🇺🇸 美国 016 | uu6.top
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+- name: '7,8,17,19,21|🇺🇸_US_美国 | uu6.top #71'
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
-  server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
+  server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
   skip-cert-verify: false
+  sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
   tls: false
   type: hysteria2
 - name: '9|RU俄罗斯 | uu6.top #1'
@@ -120,6 +75,18 @@ proxies:
   network: ws
   port: 2087
   server: dogechain.info
+  servername: cm2-bpg.ggff.net
+  tls: true
+  type: vless
+  uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
+  ws-opts:
+    headers:
+      Host: cm2-bpg.ggff.net
+    path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
+- name: '9|US美国 | uu6.top #14'
+  network: ws
+  port: 8443
+  server: www.shopify.com
   servername: cm2-bpg.ggff.net
   tls: true
   type: vless
@@ -164,10 +131,24 @@ proxies:
     headers:
       Host: cm2-bpg.ggff.net
     path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
-- name: '9|US美国 | uu6.top #14'
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇺🇸 US美国 | uu6.top #6'
   network: ws
-  port: 8443
-  server: www.shopify.com
+  port: '443'
+  server: azerb.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren#TM(@AZARBAYJAB1)/TM(@AZARBAYJAB1)/?ed=2560
+- name: '9|US美国 | uu6.top #28'
+  network: ws
+  port: 443
+  server: mfa.gov.ua
   servername: cm2-bpg.ggff.net
   tls: true
   type: vless
@@ -195,18 +176,6 @@ proxies:
   server: 46.246.98.39
   type: ss
   udp: true
-- name: '9|US美国 | uu6.top #28'
-  network: ws
-  port: 443
-  server: mfa.gov.ua
-  servername: cm2-bpg.ggff.net
-  tls: true
-  type: vless
-  uuid: 22367c45-f6c4-4ca8-1d52-d9787d7bbe91
-  ws-opts:
-    headers:
-      Host: cm2-bpg.ggff.net
-    path: '%2Fproxyip%3Dtw.ttzxw.cf%3A443'
 - name: '9|US美国 | uu6.top #32'
   network: ws
   port: 443
@@ -219,6 +188,30 @@ proxies:
     headers:
       Host: fl-3-direct.djarbnet.ru
     path: '%2Fgetupdates'
+- name: '9|US美国 | uu6.top #30'
+  network: ws
+  port: 2053
+  server: 104.16.53.11
+  servername: frAgeU2.cpI2HIdd.eu.ORG
+  tls: true
+  type: vless
+  uuid: 97fc44dd-c88c-4470-8d66-1752089c0183
+  ws-opts:
+    headers:
+      Host: frAgeU2.cpI2HIdd.eu.ORG
+    path: '%2F'
+- name: '9|US美国 | uu6.top #16'
+  network: ws
+  port: 443
+  server: 172.64.144.20
+  servername: ayanamirei.11160321.xyz
+  tls: true
+  type: vless
+  uuid: db2c8a95-f751-46e3-b05e-d2def66850fb
+  ws-opts:
+    headers:
+      Host: ayanamirei.11160321.xyz
+    path: '%2Fhttp%3A%2F%2F37.187.124.25%3A8187%2F'
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 14 | uu6.top
   password: KgcKQpFCkXnOJXceV68o12
@@ -226,32 +219,11 @@ proxies:
   server: 62.133.63.230
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 10,16|美国 15 | uu6.top
-  network: ws
-  port: 443
-  server: test.yucdncdn.me
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b837aca5-fc36-4180-80a8-18d405a53e5a
-  ws-headers:
-    Host: test.yucdncdn.me
-  ws-path: /
 - cipher: chacha20-ietf-poly1305
   name: '10,16|美国 15 | uu6.top #1'
   password: Nk9asglDzHzjktVzTkvhaA
   port: 443
   server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '10,16|美国 16 | uu6.top #1'
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
 - name: '13|🇺🇸_US_美国 | uu6.top #17'
@@ -265,20 +237,6 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
-- name: '13|🇺🇸_US_美国 | uu6.top #22'
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
-  port: 1743
-  server: 61f04f6d-t4v9c0-t5amrp-b4pt.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
-- name: '13|🇺🇸_US_美国 | uu6.top #26'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
 - name: '13|🇺🇸_US_美国 | uu6.top #28'
   network: ws
   password: trojan
@@ -290,366 +248,55 @@ proxies:
     headers:
       Host: nixian.pages.dev
     path: '%2F%3Fed%3D2560%2F%3FJoin-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-'
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: '16|美国 11 | uu6.top #1'
-  port: 30805
-  server: v5.heduian.link
+  name: '13,14,18,20,22,33,40,41|美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: 104.18.240.238
+  servername: ''
   skip-cert-verify: true
+  tfo: false
   tls: false
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #79'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+- alterId: 0
+  cipher: auto
+  name: 33|美国 阿里云 | uu6.top
+  network: ws
+  port: 37053
+  server: 47.238.78.223
+  tls: false
+  type: vmess
+  uuid: 848e2c77-ef8c-429f-b3cb-c2a159ee03b0
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki?ed=2048
+- name: '38,39,44,45|美国 | uu6.top #8'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 674
+  server: 160.16.138.24
   skip-cert-verify: false
-  sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #80'
-  password: 06c625ea-5902-11ee-9e87-f23c9313b177
-  port: 1743
-  server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
-  skip-cert-verify: false
-  sni: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '17,19,21|🇺🇸_US_美国 | uu6.top #83'
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+  sni: www.nintendogames.net
+  type: trojan
+- name: '38,39,44,45|美国2 | uu6.top #4'
+  network: tcp
+  password: e4e262d453466988575c397a30562337
+  port: 674
+  server: 160.16.138.24
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 31|美国西部圣何塞1-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国东部阿什本2-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: u9e1nxcqay.speed.asbafwb.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: u9e1nxcqay.speed.asbafwb.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国西部圣何塞2-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国东部阿什本3-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国东部阿什本1-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: ik2a0u06k1.speed.asbafwa.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: ik2a0u06k1.speed.asbafwa.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国西部圣何塞3-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国西部圣何塞4-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: 1sivnb.speed.sjccaschd.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: 1sivnb.speed.sjccaschd.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥1-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: i8bo21o2.speed.zjgsaduba.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: i8bo21o2.speed.zjgsaduba.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥2-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: h4y4gmifa.speed.zjgsadubb.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: h4y4gmifa.speed.zjgsadubb.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥6-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: qus3sfhuhl.speed.zjgsadubf.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: qus3sfhuhl.speed.zjgsadubf.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥4-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: m3axjndjdz.speed.zjgsadubd.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: m3axjndjdz.speed.zjgsadubd.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥3-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥5-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: dzkjt5z.speed.zjgsadube.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: dzkjt5z.speed.zjgsadube.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥7-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: h50dja.speed.zjgsadubg.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: h50dja.speed.zjgsadubg.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥8-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: ggoqc8u.speed.zjgsadubh.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: ggoqc8u.speed.zjgsadubh.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国中部芝加哥9-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国西部洛杉矶1-高性能-CDN | 0 | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国西部弗里蒙特1-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国西部洛杉矶2-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: xv8bkkyqja.speed.lssaasda.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: xv8bkkyqja.speed.lssaasda.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国南部达拉斯1-高性能-CDN | 0 | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 31|美国东部纽约1-CDN | 0x | uu6.top
-  network: ws
-  port: 443
-  server: 1762751541.bilibiliapp.cn
-  servername: 11vvjs.speed.jysada.cccp.useraaca.pp.ua
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
-  ws-opts:
-    headers:
-      Host: 11vvjs.speed.jysada.cccp.useraaca.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '32|美国 | uu6.top #7'
-  network: none
-  port: 27092
-  server: 208.76.223.218
-  tls: false
-  type: vmess
-  uuid: a0596ba6-72a3-4366-8992-77088da65bd8
-- alterId: 0
-  cipher: auto
-  name: 47|🇺🇸 美国 149 | uu6.top
+  name: 48|🇺🇸 美国 149 | uu6.top
   network: ws
   port: '443'
   server: wangcai74.000444.cn
@@ -660,7 +307,7 @@ proxies:
     headers:
       Host: rncf.xinxiwang.eu.org
     path: /ray1
-- name: 47|🇺🇸 美国 139 | uu6.top
+- name: 48|🇺🇸 美国 139 | uu6.top
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: 4e04a09e-t2uf40-t9lb2a-1glq.la.shifen.uk
@@ -668,14 +315,22 @@ proxies:
   sni: 4e04a09e-t2uf40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 018 | uu6.top
+- name: 48|🇺🇸 美国 018 | uu6.top
   password: 06c625ea-5902-11ee-9e87-f23c9313b177
   port: 1743
   server: f1d942ca-t3bpc0-t3ss2y-4mce.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 238 | uu6.top
+- name: 48|🇺🇸 美国 209 | uu6.top
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  tls: false
+  type: hysteria2
+- name: 48|🇺🇸 美国 238 | uu6.top
   password: 45ce357f-8d04-458f-820d-8d43b6dbc04c
   port: 58430
   server: xjp1.qucloud.top
@@ -683,7 +338,7 @@ proxies:
   sni: xjp1.qucloud.top
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 124 | uu6.top
+- name: 48|🇺🇸 美国 124 | uu6.top
   network: ws
   port: 2053
   server: 104.17.208.73
@@ -695,9 +350,303 @@ proxies:
     headers:
       Host: mahb.edu.bolo.fyi
     path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: i8bo21o2.speed.zjgsaduba.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: i8bo21o2.speed.zjgsaduba.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国东部阿什本3-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: ej75ujwm.speed.asbafwc.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国东部阿什本2-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: u9e1nxcqay.speed.asbafwb.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: u9e1nxcqay.speed.asbafwb.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥2-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: h4y4gmifa.speed.zjgsadubb.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: h4y4gmifa.speed.zjgsadubb.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部圣何塞2-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: hivkxpdj.speed.sjccaschb.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部圣何塞1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: nmv5xxij.speed.sjccascha.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部圣何塞3-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: lrr7kv.speed.sjccaschc.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部圣何塞4-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: 1sivnb.speed.sjccaschd.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: 1sivnb.speed.sjccaschd.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国东部阿什本1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: ik2a0u06k1.speed.asbafwa.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: ik2a0u06k1.speed.asbafwa.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥6-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: qus3sfhuhl.speed.zjgsadubf.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: qus3sfhuhl.speed.zjgsadubf.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥4-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: m3axjndjdz.speed.zjgsadubd.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: m3axjndjdz.speed.zjgsadubd.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥3-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: f2siwph3r.speed.zjgsadubc.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥5-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: dzkjt5z.speed.zjgsadube.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: dzkjt5z.speed.zjgsadube.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥8-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: ggoqc8u.speed.zjgsadubh.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: ggoqc8u.speed.zjgsadubh.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥7-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: h50dja.speed.zjgsadubg.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: h50dja.speed.zjgsadubg.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国南部达拉斯1-高性能-CDN | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: vxsxxn.speed.dlsashja.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部洛杉矶1-高性能-CDN | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: j76y11tp.speed.laxash.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部洛杉矶2-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: xv8bkkyqja.speed.lssaasda.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: xv8bkkyqja.speed.lssaasda.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国中部芝加哥9-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: e2tl72denq.speed.zjgsadubi.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国西部弗里蒙特1-CDN | 0 | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: wik19u9ey.speed.awfiulaxa.cccp.useraaca.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|31|美国东部纽约1-CDN | 0x | uu6.top
+  network: ws
+  port: 443
+  server: 1762751541.bilibiliapp.cn
+  servername: 11vvjs.speed.jysada.cccp.useraaca.pp.ua
+  tls: true
+  type: vmess
+  uuid: f744cd83-ecc4-46c5-a2ad-cf3dfa9e12a0
+  ws-opts:
+    headers:
+      Host: 11vvjs.speed.jysada.cccp.useraaca.pp.ua
+    path: /
 - alterId: 2
   cipher: auto
-  name: '-1|1|16|美国 11 | #1 | uu6.top'
+  name: '-1|16|美国 11 | #1 | uu6.top'
   network: tcp
   port: 30805
   server: v5.heduian.link
@@ -706,7 +655,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|3|美国 加利福尼亚州洛 | uu6.top
+  name: -1|1|1|1|1|1|3|美国 加利福尼亚 | uu6.top
   network: none
   port: 11325
   server: 68.64.176.148

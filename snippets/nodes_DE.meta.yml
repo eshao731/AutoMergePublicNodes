@@ -1,6 +1,6 @@
 proxies:
 - auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  name: '0,4,15,34,37,38|🇩🇪 - DE - #1 | uu6.top #3'
+  name: '0,4,15,35,38,39|🇩🇪 - DE - #1 | uu6.top #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -12,7 +12,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,15,38,46,48|DE_speednode_0013 | uu6.top #4'
+  name: '0,4,15,39,47,49|DE_speednode_0013 | uu6.top #4'
   port: 39352
   reality-opts:
     public-key: bqBZxwknIQGVNxvW6agjANLI6jdKG8jgIJ6cLKBbjns
@@ -26,7 +26,7 @@ proxies:
   uuid: 84ac6559-30a8-4c3e-bbcb-894edd4de743
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,15,38,46,48|DE_speednode_0014 | uu6.top #4'
+  name: '0,4,15,39,47,49|DE_speednode_0014 | uu6.top #4'
   port: 49406
   reality-opts:
     public-key: UsAOmf7X1yYkjF73ChFECcZb2PFNuhqqvOUxcybV-20
@@ -38,9 +38,17 @@ proxies:
   type: vless
   udp: true
   uuid: 49d74535-837e-4132-90c7-4e06de7db303
+- name: 48|🇩🇪 德国 11 | uu6.top
+  password: beef5265-e706-40d5-9b2c-525899e6adb1
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: 47|🇩🇪 德国 04 | uu6.top
+  name: 48|🇩🇪 德国 04 | uu6.top
   network: tcp
   port: 47072
   reality-opts:
