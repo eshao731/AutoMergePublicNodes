@@ -1,5 +1,12 @@
 proxies:
-- name: -1|1|1|1|1|1|13|🇺🇸_US_美 | uu6.top
+- cipher: chacha20-ietf-poly1305
+  name: '10,16|美国 16 | uu6.top #1'
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- name: -1|1|1|1|1|1|1|13|🇺🇸_US | uu6.top
   network: ws
   password: trojan
   port: 443
@@ -10,21 +17,3 @@ proxies:
     headers:
       Host: azadnet-9ya.pages.dev
     path: '%2F%3Fed%3D2560'
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|42|🇺 | uu6.top
-  network: none
-  port: '57836'
-  server: 216.238.89.53
-  tls: false
-  type: vmess
-  uuid: 25cd6447-846c-456d-9e84-49222353b9c5
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|1|1|42|🇺 | uu6.top #1'
-  network: tcp
-  port: '37313'
-  server: 45.128.54.84
-  tls: false
-  type: vmess
-  uuid: 72feb833-4196-4a70-a3f5-aeb011f7d534
