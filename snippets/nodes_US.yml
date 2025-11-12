@@ -1,19 +1,13 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '10,16|美国 16 | uu6.top #1'
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 3 | uu6.top
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: -1|1|1|1|1|1|1|1|13|🇺🇸_ | uu6.top
+- name: '42,43|美国 | uu6.top #7'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 31409
+  server: 160.16.223.205
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|1|1|1|1|13|🇺 | uu6.top
   network: ws
   password: trojan
   port: 443
