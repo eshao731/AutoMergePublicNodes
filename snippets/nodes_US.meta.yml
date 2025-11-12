@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,15,39,47,49|US_speednode_0029 | uu6.top #4'
+  name: 0,4,15,39,47,49|US_speednode_0026 | uu6.top
   port: 443
   reality-opts:
     public-key: g0EvKBte8zYrEc8oF0VNhxvIqqUvNXCp54UWYekc60k
@@ -13,6 +13,43 @@ proxies:
   type: vless
   udp: true
   uuid: b25e3c62-f4eb-45df-adda-eb738959b845
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #67'
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 1743
+  server: ad87b9c7-t3b340-t3hjqp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #76'
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 1743
+  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #71'
+  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
+  port: 1743
+  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 7,8|🇺🇸_US_美国_3 | uu6.top
+  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
+  port: 1743
+  server: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  skip-cert-verify: false
+  sni: cc65f71a-t4v9c0-t5waci-4550.la.shifen.uk
+  tls: false
+  type: hysteria2
+- name: '7,8,13,17,19,21|🇺🇸_US_美国 | uu6.top #73'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
+  port: 1743
+  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  tls: false
+  type: hysteria2
 - name: '9|US美国 | uu6.top #20'
   network: ws
   port: 2053
@@ -45,3 +82,12 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 42|🇺🇸 美国 阿里云 | uu6.top
+  network: none
+  port: '56536'
+  server: 47.245.106.193
+  tls: false
+  type: vmess
+  uuid: 42a7444d-39b0-4549-88d6-c4bbf290af18
