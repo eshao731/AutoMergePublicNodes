@@ -1,17 +1,17 @@
 proxies:
-- name: '0,11,12,38,39,42,44,45|日本3 | uu6.top #4'
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 4095
-  server: 160.16.89.176
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '0,11,12,38,39,42,44,45|日本2 | uu6.top #4'
+- name: '0,1,4,11,12,38,39,42,44,45|日本2 | uu6.top #4'
   network: tcp
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1334
   server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,1,4,11,12,38,39,42,44,45|日本3 | uu6.top #4'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 4095
+  server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

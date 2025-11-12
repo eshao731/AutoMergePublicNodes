@@ -1,21 +1,5 @@
 proxies:
-- name: '0,11,12,38,39,42,44,45|新加坡 | uu6.top #4'
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 2760
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '0,11,12,38,39,42,44,45|新加坡2 | uu6.top #4'
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 127
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '0,11,12,38,39,42,44,45|新加坡3 | uu6.top #4'
+- name: '0,1,4,11,12,38,39,42,44,45|新加坡3 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 518
@@ -23,6 +7,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '9|US美国 | uu6.top #29'
+  network: ws
+  port: 443
+  server: fl-3-direct.djarbnet.ru
+  servername: fl-3-direct.djarbnet.ru
+  tls: true
+  type: vless
+  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
+  ws-opts:
+    path: '%2Fgetupdates'
 - name: '9|SG新加坡 | uu6.top #2'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -34,12 +28,3 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|33|新 | uu6.top
-  network: none
-  port: 43158
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: 63a77789-8d8f-46f0-b00a-7ef1dbdea6f1
