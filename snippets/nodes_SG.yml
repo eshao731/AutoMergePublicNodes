@@ -1,5 +1,21 @@
 proxies:
-- name: '0,11,12,33,38,39,42,44,45|新加坡3 | uu6.top #4'
+- name: '0,11,12,38,39,42,44,45|新加坡 | uu6.top #4'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 2760
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,11,12,38,39,42,44,45|新加坡2 | uu6.top #4'
+  network: tcp
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 127
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,11,12,38,39,42,44,45|新加坡3 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 518
@@ -20,16 +36,7 @@ proxies:
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
 - alterId: 0
   cipher: auto
-  name: '-1|1|1|1|1|1|1|1|1|33|新 | uu6.top #1'
-  network: none
-  port: 41150
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: 5c503b6f-2a07-4168-84f8-839e12f24231
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|33|新加坡 | uu6.top
+  name: -1|1|1|1|1|1|1|1|1|33|新 | uu6.top
   network: none
   port: 43158
   server: 66.42.63.36
