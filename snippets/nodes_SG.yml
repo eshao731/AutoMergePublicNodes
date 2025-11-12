@@ -1,4 +1,12 @@
 proxies:
+- name: '0,11,12,33,38,39,42,44,45|新加坡3 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: '9|SG新加坡 | uu6.top #2'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -10,71 +18,9 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- name: '11,12,38,39,42,44,45|新加坡 | uu6.top #4'
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 2760
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|1|33|新加坡 C | uu6.top
-  network: none
-  port: 43158
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: 63a77789-8d8f-46f0-b00a-7ef1dbdea6f1
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|33|新加坡 C | uu6.top #1'
-  network: none
-  port: 27555
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: 852b7a0d-7817-4473-9473-546080ce951e
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|33|新加坡 C | uu6.top #4'
-  network: none
-  port: 49131
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: 2bb542f9-6e40-401f-b99d-2bb32f739714
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|33|新加坡 C | uu6.top #3'
-  network: none
-  port: 29636
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: 9a7ef6bd-2a08-4e3f-e4f7-b76a014997b7
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|33|新加坡 C | uu6.top #2'
-  network: none
-  port: 24345
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: ebda7038-f913-42d2-8e4c-5855b64f6a1a
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|33|新加坡 | uu6.top
-  network: none
-  port: 17514
-  server: 66.42.63.36
-  tls: false
-  type: vmess
-  uuid: d05fd51a-936b-42f6-892f-9c62c49728b6
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|1|33|新加坡 | uu6.top #1'
+  name: '-1|1|1|1|1|1|1|1|1|33|新 | uu6.top #1'
   network: none
   port: 41150
   server: 66.42.63.36
@@ -83,10 +29,10 @@ proxies:
   uuid: 5c503b6f-2a07-4168-84f8-839e12f24231
 - alterId: 0
   cipher: auto
-  name: '-1|1|1|1|1|1|1|1|33|新加坡 | uu6.top #2'
+  name: -1|1|1|1|1|1|1|1|33|新加坡 | uu6.top
   network: none
-  port: 54442
+  port: 43158
   server: 66.42.63.36
   tls: false
   type: vmess
-  uuid: c321f137-0325-4d5b-c304-908cf148f56c
+  uuid: 63a77789-8d8f-46f0-b00a-7ef1dbdea6f1
