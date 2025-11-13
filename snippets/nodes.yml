@@ -1,11 +1,11 @@
 proxies:
-- name: '0,1,4,7,11,12,15,38,41,43,44|香港5 | uu6.top #4'
+- name: '0,11,12,38,41,43,44|香港3 | uu6.top #4'
   network: tcp
-  password: BxceQaOe
+  password: 2274c52572e721086f8bd8f88984643c
   port: 443
-  server: 219.77.239.35
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  server: 58.152.110.9
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: '0,11,12,38,41,43,44|日本2 | uu6.top #4'
   network: tcp
@@ -15,11 +15,19 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '0,11,12,38,41,43,44|香港3 | uu6.top #4'
+- name: '0,3,4,11,12,15,38,41,43,44|香港4 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.97
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '0,11,12,38,41,43,44|日本3 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
-  port: 443
-  server: 58.152.110.9
+  port: 4095
+  server: 160.16.214.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -31,48 +39,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '0,1,3,4,11,12,15,32,38,41,43,44|香港4 | uu6.top #4'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.97
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '1,4,15|日本2 | uu6.top #2'
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 1334
-  server: 153.121.39.240
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '1,4,15|香港3 | uu6.top #2'
+- name: '4,15|香港3 | uu6.top #2'
   password: 1b57001bd214304027025a740b6cf1ac
   port: 443
   server: 219.76.135.188
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '1,4,15|日本3 | uu6.top #2'
+- name: '4,15|日本2 | uu6.top #2'
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 1334
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '4,15|日本3 | uu6.top #2'
   password: 1b57001bd214304027025a740b6cf1ac
   port: 4095
   server: 160.16.89.176
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 3|瑞典 | uu6.top
-  network: ws
-  port: 80
-  server: 185.146.173.16
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- name: '4,15|新加坡3 | uu6.top #2'
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: '7|🇺🇸_US_美国 | uu6.top #4'
   network: ws
   password: er668
@@ -81,6 +75,34 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F'
+- name: 7|🇨🇳_CN_中国 | uu6.top
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 7|🇷🇺_RU_俄罗斯 | uu6.top
+  network: ws
+  password: edeff73d-065d-4b0a-b848-aad9d3380223
+  port: 443
+  server: 77.221.141.207
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F77.221.141.207%3D443'
+- name: 8|🇺🇸_US_美国_2 | uu6.top
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
 - name: '7|🇺🇸_US_美国 | uu6.top #5'
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
@@ -92,16 +114,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
-- name: 8|🇺🇸_US_美国_2 | uu6.top
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
 - name: 8|🇺🇸_US_美国_5 | uu6.top
   network: ws
   password: er668
@@ -111,6 +123,14 @@ proxies:
   type: trojan
   ws-opts:
     path: /
+- name: 8|🇨🇳_CN_中国_3 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
 - name: 8|🇺🇸_US_美国_4 | uu6.top
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -123,6 +143,31 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
+- name: 8,46,48|NL_speednode_0015 | uu6.top
+  network: ws
+  password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+  port: 443
+  server: 86.107.197.239
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+- name: '9|GB英国 | uu6.top #8'
+  network: ws
+  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
+  port: 443
+  server: 89.28.236.243
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F89.28.236.243%3D443'
 - name: 8|🇺🇸_US_美国_7 | uu6.top
   network: ws
   password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
@@ -135,14 +180,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
-- name: 8|🇨🇳_CN_中国_3 | uu6.top
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.77.239.35
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
 - name: '9|AU澳大利亚 | uu6.top #6'
   network: ws
   password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
@@ -154,6 +191,14 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F94.131.114.50%3D81'
+- name: '8|🇨🇳_CN_中国 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
 - name: '9|SG新加坡 | uu6.top #4'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -176,6 +221,17 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F45.144.48.158%3D8443'
+- name: '9|GB英国 | uu6.top #11'
+  network: ws
+  password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
+  port: 44004
+  server: 51.89.128.93
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F51.89.128.93%3D44004'
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 20 | uu6.top
   password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
@@ -208,19 +264,25 @@ proxies:
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
   udp: true
+- cipher: chacha20-ietf
+  name: '14,18,20,22|🇨🇳_CN_中国_7 | uu6.top #3'
+  password: asd123456
+  port: 8388
+  server: 103.36.91.32
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 32|美国 加利福尼亚州洛杉矶Dedipath | uu6.top
+  name: 32|美国 Microsoft数据中心 | uu6.top
   network: ws
-  port: 20521
-  server: 45.89.107.51
-  tls: false
+  port: 443
+  server: west_a.gaogroup.bid
+  tls: true
   type: vmess
-  uuid: 3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c
+  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: west_a.gaogroup.bid
+    path: /ctzxvws
 - cipher: aes-256-cfb
   name: 35|🇻🇳 越南_1 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -285,17 +347,17 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_11 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 35|🇻🇳 越南_10 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.161
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_11 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.140
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -334,6 +396,13 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_17 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.153
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 35|🇻🇳 越南_18 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
@@ -348,13 +417,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_20 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.148
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 35|🇻🇳 越南_21 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
@@ -366,6 +428,13 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.30
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_20 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.148
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -390,24 +459,30 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_17 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.153
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_26 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.154.140
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 35|🇻🇳 越南_27 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.154.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇳🇱 荷兰_2 | uu6.top
+  password: f8f7aCzcPKbsF8p3
+  port: '989'
+  server: 51.15.17.169
+  type: ss
+- cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_28 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.116
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_30 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.30
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -418,33 +493,6 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_28 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.116
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_31 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.117
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 35|🇳🇱 荷兰_2 | uu6.top
-  password: f8f7aCzcPKbsF8p3
-  port: '989'
-  server: 51.15.17.169
-  type: ss
-- cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_30 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: '38388'
-  server: 103.186.155.30
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: 35|🇻🇳 越南_33 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
@@ -452,10 +500,10 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: 35|🇻🇳 越南_34 | uu6.top
+  name: 35|🇻🇳 越南_31 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
-  server: 103.186.155.78
+  server: 103.186.155.117
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -470,6 +518,20 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: '38388'
   server: 103.186.155.122
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_34 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.155.78
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 35|🇻🇳 越南_26 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: '38388'
+  server: 103.186.154.140
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -495,6 +557,19 @@ proxies:
   protocol-param: ''
   server: 79.127.233.170
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: '41|🇺🇸 美国 CloudFlare节点 | uu6.top #5'
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
 - cipher: rc4-md5
   name: 41|8J-HuvCfh7ggU1NSLee- | uu6.top
   obfs: plain
@@ -531,19 +606,6 @@ proxies:
     headers:
       Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
     path: /azumase.ren#TM(@AZARBAYJAB1)/TM(@AZARBAYJAB1)/?ed=2560
-- name: 46,48|IL_speednode_0008 | uu6.top
-  network: ws
-  password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
-  port: 81
-  server: 94.131.114.50
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
 - name: 46,48|BE_speednode_0001 | uu6.top
   network: ws
   password: 88701884-7690-4b79-ac5d-36d299e05e83
@@ -557,18 +619,44 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- cipher: aes-256-cfb
-  name: 46|VN_579e8_0026 | uu6.top
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.103
-  type: ss
+- name: 46,48|PL_speednode_0016 | uu6.top
+  network: ws
+  password: 55d19115-ec40-407b-a674-74e6a948347a
+  port: 2053
+  server: 45.144.48.55
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
+- name: 46,48|IL_speednode_0008 | uu6.top
+  network: ws
+  password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
+  port: 81
+  server: 94.131.114.50
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
 - cipher: aes-256-cfb
   name: 46|VN_579e8_0027 | uu6.top
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.57
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 46|VN_579e8_0026 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.103
   type: ss
   udp: true
 - name: 46,48|RU_speednode_0018 | uu6.top
@@ -604,7 +692,7 @@ proxies:
   uuid: 0e3606ae-321a-4d0b-85ec-5f4352f4bc24
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|41|🇺🇦 乌克兰 | uu6.top
+  name: -1|1|1|1|1|1|1|41|🇺🇦 乌克 | uu6.top
   network: none
   port: '19365'
   server: 2.59.62.63
@@ -613,7 +701,20 @@ proxies:
   uuid: 9583a647-b0ba-47b0-d4b0-4e12a0201d67
 - alterId: 0
   cipher: auto
-  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #5'
+  name: -1|32|美国 加利福尼亚州洛杉矶Dedip | uu6.top
+  network: ws
+  port: 20521
+  server: 45.89.107.51
+  tls: false
+  type: vmess
+  uuid: 3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #4'
   network: none
   port: 20294
   server: 45.231.132.44
@@ -640,36 +741,16 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #11'
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #10'
   network: tcp
   port: '37313'
   server: 45.128.54.84
   tls: false
   type: vmess
   uuid: 72feb833-4196-4a70-a3f5-aeb011f7d534
-- name: -1|1|1|15|HK_speednode_ | uu6.top
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: 203.198.122.129
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|47|🇯🇵 日本 05 | uu6.top
-  network: ws
-  port: '443'
-  server: n1744454503.4u9ma.icu
-  tls: true
-  type: vmess
-  uuid: 6319c3a4-d27e-423e-8a46-f63c24a99519
-  ws-opts:
-    headers:
-      Host: n1744454503.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #13'
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #12'
   network: ws
   port: '443'
   server: wangcai74.000444.cn
@@ -680,3 +761,23 @@ proxies:
     headers:
       Host: rncf.xinxiwang.eu.org
     path: /ray1
+- alterId: 0
+  cipher: auto
+  name: -1|1|47|🇯🇵 日本 05 | uu6.top
+  network: ws
+  port: '443'
+  server: n1744454503.4u9ma.icu
+  tls: true
+  type: vmess
+  uuid: 6319c3a4-d27e-423e-8a46-f63c24a99519
+  ws-opts:
+    headers:
+      Host: n1744454503.4u9ma.icu
+    path: /
+- name: -1|1|1|1|15|HK_speednod | uu6.top
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.129
+  skip-cert-verify: true
+  sni: 203.198.122.129
+  type: trojan

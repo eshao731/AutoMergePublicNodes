@@ -9,6 +9,15 @@ proxies:
   sni: 🔒 [By EbraSha]
   tls: false
   type: hysteria2
+- name: '0,34,38|🇬🇧 - GB - #3 | uu6.top #1'
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '0,4,15,34,38|🇬🇧 - GB - #5 | uu6.top #1'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
@@ -19,15 +28,17 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
-- name: '0,34,38|🇬🇧 - GB - #3 | uu6.top #1'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
+- name: '9|GB英国 | uu6.top #11'
+  network: ws
+  password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
+  port: 44004
+  server: 51.89.128.93
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F51.89.128.93%3D44004'
 - alterId: 0
   cipher: auto
   name: '41|🇬🇧 | uu6.top #1'
