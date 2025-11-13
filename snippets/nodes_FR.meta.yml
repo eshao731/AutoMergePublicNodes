@@ -7,16 +7,18 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: 41|🇫🇷 | uu6.top
+- client-fingerprint: random
+  name: 31|🇫🇷 FR | uu6.top
   network: ws
-  port: '443'
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  port: 443
+  server: ct.877774.xyz
+  servername: do-fra1.064288.xyz
+  skip-cert-verify: true
+  tfo: false
   tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  type: vless
+  uuid: 1f8365f3-5e35-414c-a57d-28742475c952
   ws-opts:
     headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
+      Host: do-fra1.064288.xyz
+    path: /announcement?ed=2048

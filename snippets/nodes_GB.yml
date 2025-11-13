@@ -1,15 +1,4 @@
 proxies:
-- name: '9|GB英国 | uu6.top #3'
-  network: ws
-  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
-  port: 443
-  server: 89.28.236.243
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F89.28.236.243%3D443'
 - name: '9|GB英国 | uu6.top #2'
   network: ws
   password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
@@ -21,6 +10,17 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.89.128.93%3D44004'
+- name: '9|GB英国 | uu6.top #3'
+  network: ws
+  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
+  port: 443
+  server: 89.28.236.243
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F89.28.236.243%3D443'
 - alterId: 0
   cipher: auto
   name: '41|🇬🇧 | uu6.top #1'
