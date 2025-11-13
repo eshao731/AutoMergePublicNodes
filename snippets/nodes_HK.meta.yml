@@ -1,5 +1,5 @@
 proxies:
-- name: '0,11,12,38,41,43,44|香港3 | uu6.top #4'
+- name: '0,1,4,11,12,38,41,43,44|香港3 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 443
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '0,3,4,11,12,15,38,41,43,44|香港4 | uu6.top #4'
+- name: '0,1,4,11,12,15,38,41,43,44|香港4 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -15,7 +15,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '4,15|香港3 | uu6.top #2'
+- name: '0,1,4,7,11,12,15,38,41,43,44|香港5 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '9|US美国 | uu6.top #36'
+  network: ws
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+  port: 443
+  server: 194.147.115.149
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F194.147.115.149%3D443'
+- name: '15|香港3 | uu6.top #2'
   password: 1b57001bd214304027025a740b6cf1ac
   port: 443
   server: 219.76.135.188
@@ -28,14 +47,6 @@ proxies:
   server: lsxg1.lansecs.top
   skip-cert-verify: true
   sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港 161 | uu6.top
-  password: 6d43c06c-93ba-4794-9698-b41f68938573
-  port: 58430
-  server: xg1.qucloud.top
-  skip-cert-verify: true
-  sni: xg1.qucloud.top
   tls: false
   type: hysteria2
 - name: 47|🇭🇰 香港 055 | uu6.top
@@ -54,14 +65,6 @@ proxies:
   sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
-- name: 47|🇭🇰 香港 047 | uu6.top
-  password: b0f615ff-baa1-42b8-a88e-0b65a033bb93
-  port: 47301
-  server: xg3.dreamlinkc.top
-  skip-cert-verify: true
-  sni: xg3.dreamlinkc.top
-  tls: false
-  type: hysteria2
 - name: 47|🇭🇰 香港 051 | uu6.top
   password: 737c41d4-0c33-4f1a-80e1-77a96f5e9ba1
   port: 58338
@@ -70,7 +73,7 @@ proxies:
   sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|47|🇭🇰 香港 069 | uu6.top
+- name: -1|1|1|47|🇭🇰 香港 069 | uu6.top
   password: 47bce8ce-9d2f-4949-bfae-bdb1755c5ebc
   port: 58338
   server: lsxg1.lansecs.top
@@ -78,7 +81,7 @@ proxies:
   sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|15|HK_speednod | uu6.top
+- name: -1|1|1|1|1|15|HK_speedn | uu6.top
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
