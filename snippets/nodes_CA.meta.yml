@@ -1,5 +1,19 @@
 proxies:
-- name: 47|🇨🇦 加拿大 22 | uu6.top
+- alpn:
+  - h3
+  disable-sni: false
+  name: 36|🇨🇦 加拿大 | uu6.top
+  password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  port: '52434'
+  reduce-rtt: false
+  request-timeout: '0'
+  server: 40.233.77.57
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: tuic
+  uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  version: '5'
+- name: 48|🇨🇦 加拿大 22 | uu6.top
   password: 4668fb96-697f-436f-a26f-63f05bb50e20
   port: 58330
   server: mla6.maliaojc.top
@@ -9,7 +23,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 47|🇨🇦 加拿大 01 | uu6.top
+  name: 48|🇨🇦 加拿大 01 | uu6.top
   network: tcp
   port: 42557
   reality-opts:
