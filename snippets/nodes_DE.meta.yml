@@ -1,5 +1,5 @@
 proxies:
-- name: '0,4,15,34,38|🇩🇪 - DE - #2 | uu6.top'
+- name: '0,4,15,34,38|🇩🇪 - DE - #2 | uu6.top #1'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -9,25 +9,97 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- name: '0,4,15,34,38|🇳🇱 - NL - #22 | uu6.top'
-  obfs: salamander
-  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  port: 35000
-  server: dir.cybsecguru.com
-  skip-cert-verify: true
-  sni: jnir.pichondan.com
-  tls: false
-  type: hysteria2
-- name: 47|🇩🇪 德国 17 | uu6.top
-  password: 5dcefa05-2e9d-4109-9997-7cb70eacf263
+- name: 47|🇩🇪 德国 13 | uu6.top
+  password: 19219d21-f9d6-4d8f-a93c-a8b0629d22fb
   port: 58338
   server: lsdg1.lansecs.top
   skip-cert-verify: true
   sni: lsdg1.lansecs.top
   tls: false
   type: hysteria2
-- name: 47|🇩🇪 德国 30 | uu6.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 47|🇩🇪 德国 06 | uu6.top
+  network: tcp
+  port: 42318
+  reality-opts:
+    public-key: SA_PJpEORUm3GW0C5tgF-RVgawYYa1Zc5RH4Ay9xnls
+    short-id: ceb34988
+  server: windrunner.fonixapp.org
+  servername: ilovepdf.com
+  tls: true
+  type: vless
+  uuid: d91f1c5d-dfa0-4300-8f0e-e6750e5a2ff6
+  ws-opts:
+    headers:
+      Host: ilovepdf.com
+    path: '%2F'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 47|🇩🇪 德国 08 | uu6.top
+  network: tcp
+  port: 13484
+  reality-opts:
+    public-key: 02I96zqdx5EkO2a1L2S3YZdk8aYkbkMAQvQs6gs0wU0
+    short-id: f3f97f79
+  server: dl.huskar.fonixapp.org
+  servername: ilovepdf.com
+  tls: true
+  type: vless
+  uuid: ae9e793d-16a0-4fe2-9db5-ed120b6a80d2
+  ws-opts:
+    headers:
+      Host: ilovepdf.com
+    path: '%2F'
+- name: 47|🇩🇪 德国 12 | uu6.top
+  password: 8d2a560e-6b9b-4a2c-9fee-94b3bc50b517
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇩🇪 德国 57 | uu6.top
+  password: e6afcef6-f290-4a8a-90ad-10cf112a72c2
+  port: 58430
+  server: dg1.qucloud.top
+  skip-cert-verify: true
+  sni: dg1.qucloud.top
+  tls: false
+  type: hysteria2
+- name: 47|🇩🇪 德国 32 | uu6.top
+  password: c914cb06-5e4b-4499-88f6-9524f6c4d9fc
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇩🇪 德国 44 | uu6.top
+  password: 82481259-c5fc-435b-b4ee-8121ab8d021c
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇩🇪 德国 11 | uu6.top
+  password: 47bce8ce-9d2f-4949-bfae-bdb1755c5ebc
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇩🇪 德国 34 | uu6.top
+  password: 8c1056ae-61e7-491a-848f-8b86656984d4
+  port: 58338
+  server: lsdg1.lansecs.top
+  skip-cert-verify: true
+  sni: lsdg1.lansecs.top
+  tls: false
+  type: hysteria2
+- name: -1|47|🇩🇪 德国 30 | uu6.top
   password: 9c687621-6608-4b1d-a1c0-35d444c456d5
   port: 58338
   server: lsdg1.lansecs.top
@@ -35,15 +107,7 @@ proxies:
   sni: lsdg1.lansecs.top
   tls: false
   type: hysteria2
-- name: 47|🇩🇪 德国 46 | uu6.top
-  password: ae7f1278-337c-46cb-a7c9-d1fae6561503
-  port: 58430
-  server: dg1.qucloud.top
-  skip-cert-verify: true
-  sni: dg1.qucloud.top
-  tls: false
-  type: hysteria2
-- name: 47|🇩🇪 德国 29 | uu6.top
+- name: -1|47|🇩🇪 德国 29 | uu6.top
   password: e1a3e455-dcb1-4d4b-b976-b680f4d29efb
   port: 58338
   server: lsdg1.lansecs.top

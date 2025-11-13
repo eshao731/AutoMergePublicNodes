@@ -18,6 +18,25 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
+- name: 8|🇺🇸_US_美国_2 | uu6.top
+  network: ws
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
+- name: 8|🇺🇸_US_美国_5 | uu6.top
+  network: ws
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
 - name: 8|🇺🇸_US_美国_4 | uu6.top
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -30,15 +49,6 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-- name: 8|🇺🇸_US_美国_5 | uu6.top
-  network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
 - name: 8|🇺🇸_US_美国_7 | uu6.top
   network: ws
   password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
@@ -81,7 +91,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10,16|俄罗斯 | uu6.top
+  name: 10,16,46|MD_579e8_0013 | uu6.top
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
@@ -94,19 +104,6 @@ proxies:
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '32,41|🇺🇸 美国 CloudFlare节点 | uu6.top #5'
-  network: ws
-  port: '443'
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
 - alterId: 0
   cipher: auto
   name: 32|美国 加利福尼亚州洛杉矶Dedipath | uu6.top
