@@ -1,4 +1,25 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '0,4,38,46,48|RU_speednode_0008 | uu6.top #3'
+  port: 10012
+  reality-opts:
+    public-key: X8bSZA_Q-ReshpPEd17oMU7YfZlHWoOEGB7HM8ZSmXk
+    short-id: abc82912
+  server: cdn.cloudconvert.top
+  servername: cdn.cloudconvert.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|俄罗斯 | uu6.top
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  port: 443
+  server: 45.14.245.2
+  type: ss
+  udp: true
 - name: 37,46,48|RU_speednode_0009 | uu6.top
   network: ws
   password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
