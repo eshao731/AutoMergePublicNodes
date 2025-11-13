@@ -1,18 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 0,4,38,46|RU_f9b35_0008 | uu6.top
-  port: 10012
-  reality-opts:
-    public-key: X8bSZA_Q-ReshpPEd17oMU7YfZlHWoOEGB7HM8ZSmXk
-    short-id: abc82912
-  server: cdn.cloudconvert.top
-  servername: cdn.cloudconvert.top
+- name: 37,46,48|RU_speednode_0018 | uu6.top
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
   skip-cert-verify: false
-  tls: true
-  type: vless
+  sni: joss.dus.biz.id
+  type: trojan
   udp: true
-  uuid: 258a5f07-d07e-4de4-90b6-69a0ca34bab7
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 48|RU_speednode_0017 | uu6.top
