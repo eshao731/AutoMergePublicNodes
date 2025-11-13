@@ -1,18 +1,4 @@
 proxies:
-- name: '0,1,4,11,12|🇸🇬 新加坡 | uu6.top #2'
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 2760
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '0,1,4,11,12|🇸🇬 新加坡2 | uu6.top #2'
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 127
-  server: 160.16.106.144
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '9|SG新加坡 | uu6.top #2'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -24,7 +10,7 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- name: '38,39,42,44,45|新加坡 | uu6.top #4'
+- name: '37,38,41,43,44|新加坡 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 2760
@@ -32,7 +18,15 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '38,39,42,44,45|新加坡3 | uu6.top #4'
+- name: '37,38,41,43,44|新加坡2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 127
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '37,38,41,43,44|新加坡3 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 2753
