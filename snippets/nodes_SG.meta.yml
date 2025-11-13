@@ -34,18 +34,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- name: '9|SG新加坡 | uu6.top #3'
-  network: ws
-  port: 443
-  server: 45.144.52.23
-  servername: fl-3-direct.djarbnet.ru
-  tls: true
-  type: vless
-  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
-  ws-opts:
-    headers:
-      Host: fl-3-direct.djarbnet.ru
-    path: '%2Fgetupdates'
 - client-fingerprint: random
   name: 32|🇸🇬 SG | uu6.top
   network: ws
@@ -85,3 +73,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: -1|32|🇸🇬 SG | uu6.top
+  network: ws
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  servername: do-sgp1.064288.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 1f8365f3-5e35-414c-a57d-28742475c952
+  ws-opts:
+    headers:
+      Host: do-sgp1.064288.xyz
+    path: /announcement?ed=2048fp=random
