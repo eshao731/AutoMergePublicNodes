@@ -6,16 +6,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '9|US美国 | uu6.top #29'
-  network: ws
-  port: 443
-  server: fl-3-direct.djarbnet.ru
-  servername: fl-3-direct.djarbnet.ru
-  tls: true
-  type: vless
-  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
-  ws-opts:
-    path: '%2Fgetupdates'
 - name: '9|SG新加坡 | uu6.top #2'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -27,7 +17,7 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- name: 9,48|🇫🇮 芬兰 03 | uu6.top
+- name: 9,47|🇫🇮 芬兰 03 | uu6.top
   network: ws
   port: 443
   server: 45.144.52.23
@@ -39,22 +29,7 @@ proxies:
     headers:
       Host: fl-3-direct.djarbnet.ru
     path: '%2Fgetupdates'
-- client-fingerprint: random
-  name: 32|🇸🇬 SG | uu6.top
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sgp1.064288.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 1f8365f3-5e35-414c-a57d-28742475c952
-  ws-opts:
-    headers:
-      Host: do-sgp1.064288.xyz
-    path: /announcement?ed=2048
-- name: '38,39,42,44,45|新加坡3 | uu6.top #4'
+- name: '37,38,41,43,44|新加坡3 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 2753
@@ -62,33 +37,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 48|🇸🇬 新加坡 14 | uu6.top
-  network: tcp
-  port: 30865
-  reality-opts:
-    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
-    short-id: a242c9aa
-  server: g72oiqhd.tun.nodeflex.cc
-  servername: www.varejaodasmaquinas.com
-  tls: true
-  type: vless
-  uuid: 9bc622bc-8b91-4216-9666-d75f563ae170
-  ws-opts:
-    headers:
-      Host: www.varejaodasmaquinas.com
-    path: '%2F'
-- name: -1|31|🇸🇬 SG | uu6.top
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sgp1.064288.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1f8365f3-5e35-414c-a57d-28742475c952
-  ws-opts:
-    headers:
-      Host: do-sgp1.064288.xyz
-    path: /announcement?ed=2048fp=random
