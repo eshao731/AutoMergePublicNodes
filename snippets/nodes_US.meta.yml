@@ -15,41 +15,33 @@ proxies:
   sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: 7,8|🇺🇸_US_美国_10 | uu6.top
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: GcOtIhZbkznrBYohK7rvjV0oVoQvC4y38VIExs6KUwA
-  server: uuk2v.tok8888.com
-  servername: businessmadesimple.com
-  tls: true
-  type: vless
-  uuid: 9132154a-95b8-4627-9363-9d078f1dbcfe
-  ws-opts:
-    headers:
-      Host: businessmadesimple.com
-    path: '%2F'
-- name: '9|US美国 | uu6.top #10'
+- client-fingerprint: chrome
+  name: 9,47|🇫🇮 芬兰 04 | uu6.top
   network: ws
-  port: 30503
-  server: 185.81.28.95
-  servername: gaosir.unfeeling.sbs
+  port: 443
+  server: fl-3-direct.djarbnet.ru
+  servername: fl-3-direct.djarbnet.ru
   tls: true
   type: vless
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
   ws-opts:
     headers:
-      Host: gaosir.unfeeling.sbs
-    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 15 | uu6.top
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-  udp: true
+      Host: fl-3-direct.djarbnet.ru
+    path: '%2Fgetupdates'
+- alterId: 0
+  cipher: auto
+  name: '9|US美国 | uu6.top #20'
+  network: ws
+  port: '443'
+  server: azerb.net
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren#TM(@AZARBAYJAB1)/TM(@AZARBAYJAB1)/?ed=2560
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #69'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
   port: 1743
@@ -78,11 +70,12 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #79'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #77'
+  password: 712bdc36-24be-11ee-be53-f23c9313b177
   port: 1743
-  server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
+  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
+  skip-cert-verify: false
+  sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
   tls: false
   type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #78'
@@ -91,6 +84,13 @@ proxies:
   server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   skip-cert-verify: false
   sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
+  tls: false
+  type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #79'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
+  sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
   tls: false
   type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #80'
@@ -137,7 +137,68 @@ proxies:
     headers:
       Host: do-sfo3.064288.xyz
     path: /announcement?ed=2048
-- name: 47|🇺🇸 美国 134 | uu6.top
+- alterId: 0
+  cipher: auto
+  name: 32,41|🇫🇷 | uu6.top
+  network: ws
+  port: '443'
+  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+  tls: true
+  type: vmess
+  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+  ws-opts:
+    headers:
+      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
+    path: /azumase.ren
+- name: 47|🇺🇸 美国 109 | uu6.top
+  password: 92a4ad06-6464-48b1-926e-dc9343d68277
+  port: 58338
+  server: lsus3.lansecs.top
+  skip-cert-verify: true
+  sni: lsus3.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇺🇸 美国 084 | uu6.top
+  password: e1a3e455-dcb1-4d4b-b976-b680f4d29efb
+  port: 58338
+  server: lsus3.lansecs.top
+  skip-cert-verify: true
+  sni: lsus3.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇺🇸 美国 104 | uu6.top
+  password: 737c41d4-0c33-4f1a-80e1-77a96f5e9ba1
+  port: 58338
+  server: lsus3.lansecs.top
+  skip-cert-verify: true
+  sni: lsus3.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇺🇸 美国 053 | uu6.top
+  password: b6d4d20c-0937-407e-8b40-ee058703ae94
+  port: 58330
+  server: mla5.maliaojc.top
+  skip-cert-verify: true
+  sni: mla5.maliaojc.top
+  tls: false
+  type: hysteria2
+- name: 47|🇺🇸 美国 086 | uu6.top
+  password: c914cb06-5e4b-4499-88f6-9524f6c4d9fc
+  port: 58338
+  server: lsus3.lansecs.top
+  skip-cert-verify: true
+  sni: lsus3.lansecs.top
+  tls: false
+  type: hysteria2
+- name: 47|🇺🇸 美国 061 | uu6.top
+  password: ca728d66-d73c-4e49-8486-ac10bfa924be
+  port: 58330
+  server: mla5.maliaojc.top
+  skip-cert-verify: true
+  sni: mla5.maliaojc.top
+  tls: false
+  type: hysteria2
+- name: -1|47|🇺🇸 美国 134 | uu6.top
   password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
   port: 1743
   server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
@@ -145,7 +206,7 @@ proxies:
   sni: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 042 | uu6.top
+- name: -1|47|🇺🇸 美国 042 | uu6.top
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
@@ -153,14 +214,22 @@ proxies:
   sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 021 | uu6.top
+- name: -1|47|🇺🇸 美国 021 | uu6.top
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
   server: 6adab57e-t53wg0-tdvgqe-2gok.la.shifen.uk
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 053 | uu6.top
+- name: -1|47|🇺🇸 美国 131 | uu6.top
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
+  port: 1743
+  server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  skip-cert-verify: false
+  sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+  tls: false
+  type: hysteria2
+- name: -1|47|🇺🇸 美国 053 | uu6.top
   password: 92b2a3d4-f353-11ef-b714-f23c93136cb3
   port: 1743
   ports: 20000-50000
@@ -169,24 +238,3 @@ proxies:
   sni: 9b91d3c4-t53wg0-t6h87s-63bp.la.shifen.uk
   tls: false
   type: hysteria2
-- name: 47|🇺🇸 美国 131 | uu6.top
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-  skip-cert-verify: false
-  sni: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: -1|32|🇺🇸 US | uu6.top
-  network: ws
-  port: 443
-  server: freev2.cloudflare.182682.xyz
-  servername: do-sfo3.064288.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 1f8365f3-5e35-414c-a57d-28742475c952
-  ws-opts:
-    headers:
-      Host: do-sfo3.064288.xyz
-    path: /announcement?ed=2048fp=random

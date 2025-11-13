@@ -1,4 +1,35 @@
 proxies:
+- name: '0,1,4,11,12|🇸🇬 新加坡3 | uu6.top #2'
+  password: BxceQaOe
+  port: 518
+  server: 116.49.237.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '0,1,4,11,12|🇸🇬 新加坡 | uu6.top #2'
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 2760
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,1,4,11,12|🇸🇬 新加坡2 | uu6.top #2'
+  password: 1b57001bd214304027025a740b6cf1ac
+  port: 127
+  server: 160.16.106.144
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '9|US美国 | uu6.top #29'
+  network: ws
+  port: 443
+  server: fl-3-direct.djarbnet.ru
+  servername: fl-3-direct.djarbnet.ru
+  tls: true
+  type: vless
+  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
+  ws-opts:
+    path: '%2Fgetupdates'
 - name: '9|SG新加坡 | uu6.top #2'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -10,7 +41,7 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- name: '9|SG新加坡 | uu6.top #3'
+- name: 9,47|🇫🇮 芬兰 03 | uu6.top
   network: ws
   port: 443
   server: 45.144.52.23
@@ -61,16 +92,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: -1|32|🇸🇬 SG | uu6.top
-  network: ws
-  port: 443
-  server: freeyx.cloudflare88.eu.org
-  servername: do-sgp1.064288.xyz
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 47|🇸🇬 新加坡 14 | uu6.top
+  network: tcp
+  port: 30865
+  reality-opts:
+    public-key: RQGgenaHaaros5JI8XOnAuv4k7t43Gug_mpHjQTRdjE
+    short-id: a242c9aa
+  server: g72oiqhd.tun.nodeflex.cc
+  servername: www.varejaodasmaquinas.com
   tls: true
   type: vless
-  uuid: 1f8365f3-5e35-414c-a57d-28742475c952
+  uuid: 9bc622bc-8b91-4216-9666-d75f563ae170
   ws-opts:
     headers:
-      Host: do-sgp1.064288.xyz
-    path: /announcement?ed=2048fp=random
+      Host: www.varejaodasmaquinas.com
+    path: '%2F'
