@@ -7,14 +7,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '0,1,4,11,12,37,38,41,43,44|香港3 | uu6.top #4'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 443
-  server: 58.152.110.9
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '0,1,4,7,11,12,15,32,37,38,41,43,44|香港5 | uu6.top #4'
   network: tcp
   password: BxceQaOe
@@ -22,6 +14,14 @@ proxies:
   server: 219.77.239.35
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '0,1,4,11,12,37,38,41,43,44|香港3 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 443
+  server: 58.152.110.9
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: '9|US美国 | uu6.top #36'
   network: ws
@@ -41,24 +41,8 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 47|🇭🇰 香港 053 | uu6.top
-  password: 9b65f89c-0590-4fca-988d-bf6a6a8a8513
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
 - name: 47|🇭🇰 香港 055 | uu6.top
   password: d1cbd161-1c80-4a70-b486-68a44fd7bc10
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
-- name: 47|🇭🇰 香港 044 | uu6.top
-  password: 6dd9ad49-7a87-4763-b0c5-49359d1e3019
   port: 58338
   server: lsxg1.lansecs.top
   skip-cert-verify: true
@@ -73,7 +57,7 @@ proxies:
   sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|47|🇭🇰 香港 069 | uu6.top
+- name: -1|1|1|1|1|1|47|🇭🇰 香港 0 | uu6.top
   password: 47bce8ce-9d2f-4949-bfae-bdb1755c5ebc
   port: 58338
   server: lsxg1.lansecs.top
@@ -81,7 +65,7 @@ proxies:
   sni: lsxg1.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|1|1|1|1|15|HK_sp | uu6.top
+- name: -1|1|1|1|1|1|1|1|15|HK_ | uu6.top
   password: BxceQaOe
   port: 443
   server: 203.198.122.129
