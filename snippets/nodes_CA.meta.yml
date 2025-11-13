@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   disable-sni: false
-  name: 36|🇨🇦 加拿大 | uu6.top
+  name: 35|🇨🇦 加拿大 | uu6.top
   password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   port: '52434'
   reduce-rtt: false
@@ -13,17 +13,9 @@ proxies:
   type: tuic
   uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   version: '5'
-- name: 48|🇨🇦 加拿大 22 | uu6.top
-  password: 4668fb96-697f-436f-a26f-63f05bb50e20
-  port: 58330
-  server: mla6.maliaojc.top
-  skip-cert-verify: true
-  sni: mla6.maliaojc.top
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 48|🇨🇦 加拿大 01 | uu6.top
+  name: 47|🇨🇦 加拿大 01 | uu6.top
   network: tcp
   port: 42557
   reality-opts:
@@ -38,3 +30,11 @@ proxies:
     headers:
       Host: www.yahoo.com
     path: '%2F'
+- name: 47|🇨🇦 加拿大 27 | uu6.top
+  password: 54c406da-f76f-49c1-8263-b711efe57d1e
+  port: 58330
+  server: mla6.maliaojc.top
+  skip-cert-verify: true
+  sni: mla6.maliaojc.top
+  tls: false
+  type: hysteria2
