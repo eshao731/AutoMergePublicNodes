@@ -1,22 +1,20 @@
 proxies:
-- name: 47|🇨🇦 加拿大 08 | uu6.top
-  password: a158af4d-ae72-4960-83f8-b583f222ac60
-  port: 58430
-  server: yg1.qucloud.top
+- alpn:
+  - h3
+  disable-sni: false
+  name: 35|🇨🇦 加拿大 | uu6.top
+  password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  port: '52434'
+  reduce-rtt: false
+  request-timeout: '0'
+  server: 40.233.77.57
   skip-cert-verify: true
-  sni: yg1.qucloud.top
-  tls: false
-  type: hysteria2
-- name: 47|🇨🇦 加拿大 21 | uu6.top
-  password: 40566136-cfa9-487b-809b-1b2e398191a1
-  port: 58330
-  server: mla6.maliaojc.top
-  skip-cert-verify: true
-  sni: mla6.maliaojc.top
-  tls: false
-  type: hysteria2
-- name: 47|🇨🇦 加拿大 07 | uu6.top
-  password: ae7f1278-337c-46cb-a7c9-d1fae6561503
+  sni: www.bing.com
+  type: tuic
+  uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+  version: '5'
+- name: 47|🇨🇦 加拿大 12 | uu6.top
+  password: e6976d0b-5e10-463d-acd6-e34d678feb88
   port: 58430
   server: yg1.qucloud.top
   skip-cert-verify: true
