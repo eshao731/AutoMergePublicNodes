@@ -7,14 +7,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '0,1,4,7,11,12,15,39,42,44,45|香港5 | uu6.top #4'
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.77.239.35
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: '39,47,49|HK_speednode_0019 | uu6.top #1'
   password: BxceQaOe
   port: 443
@@ -23,3 +15,27 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
+- name: 48|🇭🇰 香港 12 | uu6.top
+  password: b92f3595-51dd-4a44-a499-8632112375a4
+  port: 58430
+  server: xg1.qucloud.top
+  skip-cert-verify: true
+  sni: xg1.qucloud.top
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇭🇰 香港 11 | uu6.top
+  network: tcp
+  port: 28888
+  reality-opts:
+    public-key: slSuocOAiBpxoouM2bOV03TG7LRqrGyKDivA__DEric
+  server: hk01.youyacloud.me
+  servername: www.tvb.com
+  tls: true
+  type: vless
+  uuid: 8da7bd17-70ab-472d-a925-cc827857dc35
+  ws-opts:
+    headers:
+      Host: www.tvb.com
+    path: '%2F'

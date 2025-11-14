@@ -10,6 +10,13 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F77.221.141.207%3D443'
+- cipher: chacha20-ietf-poly1305
+  name: '10,16,18,20,22|🇷🇺_RU_俄罗斯 | uu6.top #8'
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  port: 443
+  server: 45.14.245.2
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   name: '39,47,49|RU_speednode_0042 | uu6.top #1'
   port: 58871
@@ -23,20 +30,6 @@ proxies:
   type: vless
   udp: true
   uuid: 74973884-76d6-4e51-a20f-c15b0acaf1d3
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '39,47,49|RU_speednode_0043 | uu6.top #1'
-  port: 4442
-  reality-opts:
-    public-key: HCkRC28M16WYrORNt2-Bga_3AuxuGnphlAwXHY9R4SI
-    short-id: fd99
-  server: 193.124.182.224
-  servername: dl.google.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9429f5ce-ed0f-48e7-afda-12f7b23441af
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '39,47,49|RU_speednode_0041 | uu6.top #1'
