@@ -1,5 +1,23 @@
 proxies:
-- name: '7|🇺🇸_US_美国 | uu6.top #4'
+- name: '14,18,20,22|🇺🇸_US_美国_1 | uu6.top #4'
+  network: ws
+  password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
+  port: 2053
+  server: 65.109.227.138
+  sni: joss.dus.biz.id
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/65.109.227.138=2053
+- cipher: chacha20-ietf-poly1305
+  name: '14,18,20,22|🇺🇸_US_美国_8 | uu6.top #3'
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- name: '-1|7|🇺🇸_US_美国 | #4 | uu6.top'
   network: ws
   password: er668
   port: 443
@@ -7,16 +25,15 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F'
-- name: 8|🇺🇸_US_美国_5 | uu6.top
+- name: -1|8|🇺🇸_US_美国_5 | uu6.top
   network: ws
   password: er668
   port: 443
   server: kfjdi.pages.dev
-  tls: true
   type: trojan
   ws-opts:
     path: /
-- name: '7|🇺🇸_US_美国 | uu6.top #5'
+- name: '-1|7|🇺🇸_US_美国 | #5 | uu6.top'
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
   port: 2053
@@ -27,56 +44,14 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
-- name: '9|GB英国 | uu6.top #8'
+- name: '-1|9|US美国 | #36 | uu6.top'
   network: ws
-  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
   port: 443
-  server: 89.28.236.243
+  server: 194.147.115.149
   sni: joss.dus.biz.id
   type: trojan
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F89.28.236.243%3D443'
-- name: '9|AU澳大利亚 | uu6.top #6'
-  network: ws
-  password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
-  port: 81
-  server: 94.131.114.50
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F94.131.114.50%3D81'
-- name: '9|SG新加坡 | uu6.top #4'
-  network: ws
-  password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
-  port: 2053
-  server: 51.38.226.4
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|俄罗斯 | uu6.top
-  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
-  port: 443
-  server: 213.159.66.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 18 | uu6.top
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '18,20,22|🇺🇸_US_美国_8 | uu6.top #2'
-  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
-  port: 443
-  server: 23.95.75.146
-  type: ss
+    path: '%2FFree-VPN-CF-Geo-Project%2F194.147.115.149%3D443'
