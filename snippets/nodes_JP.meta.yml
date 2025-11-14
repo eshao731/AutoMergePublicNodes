@@ -29,13 +29,6 @@ proxies:
   type: vless
   udp: true
   uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: '15|日本2 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 1334
-  server: 160.16.204.136
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '15|日本3 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 4095
@@ -43,7 +36,23 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: -1|1|1|1|1|1|1|15|日本2 | | uu6.top
+- name: '15|日本2 | uu6.top #2'
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 1334
+  server: 160.16.204.136
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '32|日本 | uu6.top #3'
+  network: none
+  port: 20297
+  server: 137.220.150.40
+  tls: false
+  type: vmess
+  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
+- name: -1|1|1|1|1|1|1|1|15|日本2 | uu6.top
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1334
   server: 153.121.39.240
