@@ -1,5 +1,5 @@
 proxies:
-- name: '0,1,4,11,12,15,39,42,44,45|香港4 | uu6.top #4'
+- name: '0,1,4,11,12,15,38,39,42,44,45|香港4 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -7,7 +7,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '39,47,49|HK_speednode_0019 | uu6.top #1'
+- name: '0,1,4,7,11,12,15,33,38,39,42,44,45|香港5 | uu6.top #4'
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 219.77.239.35
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '9|US美国 | uu6.top #36'
+  network: ws
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+  port: 443
+  server: 194.147.115.149
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F194.147.115.149%3D443'
+- name: '38,39,47,49|HK_speednode_0019 | uu6.top #1'
   password: BxceQaOe
   port: 443
   server: 203.198.122.97
@@ -15,27 +34,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: 48|🇭🇰 香港 12 | uu6.top
-  password: b92f3595-51dd-4a44-a499-8632112375a4
-  port: 58430
-  server: xg1.qucloud.top
-  skip-cert-verify: true
-  sni: xg1.qucloud.top
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 11 | uu6.top
-  network: tcp
-  port: 28888
-  reality-opts:
-    public-key: slSuocOAiBpxoouM2bOV03TG7LRqrGyKDivA__DEric
-  server: hk01.youyacloud.me
-  servername: www.tvb.com
-  tls: true
-  type: vless
-  uuid: 8da7bd17-70ab-472d-a925-cc827857dc35
-  ws-opts:
-    headers:
-      Host: www.tvb.com
-    path: '%2F'

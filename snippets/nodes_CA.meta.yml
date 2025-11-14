@@ -21,27 +21,16 @@ proxies:
   type: tuic
   uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
   version: '5'
-- name: 48|🇨🇦 加拿大 31 | uu6.top
-  password: 6d43c06c-93ba-4794-9698-b41f68938573
-  port: 58430
-  server: yg1.qucloud.top
-  skip-cert-verify: true
-  sni: yg1.qucloud.top
+- alterId: 0
+  cipher: auto
+  name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 51.79.102.253
   tls: false
-  type: hysteria2
-- name: 48|🇨🇦 加拿大 11 | uu6.top
-  password: e0450e7c-9d48-46fa-81d0-cf85c3fd7f8a
-  port: 58330
-  server: mla6.maliaojc.top
-  skip-cert-verify: true
-  sni: mla6.maliaojc.top
-  tls: false
-  type: hysteria2
-- name: 48|🇨🇦 加拿大 27 | uu6.top
-  password: b92f3595-51dd-4a44-a499-8632112375a4
-  port: 58430
-  server: yg1.qucloud.top
-  skip-cert-verify: true
-  sni: yg1.qucloud.top
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
