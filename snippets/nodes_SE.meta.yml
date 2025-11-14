@@ -1,4 +1,37 @@
 proxies:
+- auth: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  name: '0,4,15,34,37,38|🇸🇪 - SE - #2 | uu6.top #3'
+  obfs: salamander
+  obfs-password: U1wBrYQyFm
+  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  port: 20335
+  server: 70.34.215.221
+  skip-cert-verify: true
+  sni: drhystuichdfy.samanidempire.org
+  tls: false
+  type: hysteria2
+- auth: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  name: '0,4,15,34,37,38|🇸🇪 - SE - #4 | uu6.top #1'
+  obfs: salamander
+  obfs-password: U1wBrYQyFm
+  password: 80747420-96c4-4a2f-83e6-eea4e46beb09
+  port: 20335
+  server: drhystuichdfy.samanidempire.org
+  skip-cert-verify: true
+  sni: drhystuichdfy.samanidempire.org
+  tls: false
+  type: hysteria2
+- name: 7,9|瑞典 | uu6.top
+  network: ws
+  password: 72a9357f-8841-4229-ad79-c3fdee0aae51
+  port: 443
+  server: 193.180.211.52
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F193.180.211.52%3D443'
 - name: '13,17,19,21|🇸🇪_SE_瑞典 | uu6.top #11'
   network: ws
   password: 72a9357f-8841-4229-ad79-c3fdee0aae51
@@ -21,3 +54,16 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
+- alterId: 0
+  cipher: auto
+  name: 41|🇸🇪 瑞典 | uu6.top
+  network: ws
+  port: '80'
+  server: 185.146.173.24
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)

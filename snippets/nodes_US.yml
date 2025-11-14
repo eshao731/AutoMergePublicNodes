@@ -1,12 +1,24 @@
 proxies:
-- name: '0,11,12,13,17,19,21,37,38,41,43,44|美国3 | uu6.top #4'
-  network: tcp
-  password: BxceQaOe
-  port: 4094
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 3|美国 Microsoft数据中心 | uu6.top
+  network: ws
+  port: 443
+  server: west_a.gaogroup.bid
+  tls: true
+  type: vmess
+  uuid: ef004cfa-b463-4473-97df-4f0da4473ae0
+  ws-opts:
+    headers:
+      Host: west_a.gaogroup.bid
+    path: /ctzxvws
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 12 | uu6.top
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+  udp: true
 - name: '14,18,20,22|🇺🇸_US_美国_1 | uu6.top #4'
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
@@ -25,24 +37,7 @@ proxies:
   port: 443
   server: 23.95.75.146
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 39,40|美国 CloudFlare节点 | uu6.top
-  network: ws
-  port: '80'
-  server: 104.18.240.238
-  servername: ''
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- name: -1|1|1|8|🇺🇸_US_美国_5 | uu6.top
+- name: -1|1|1|1|8|🇺🇸_US_美国_5 | uu6.top
   network: ws
   password: er668
   port: 443
@@ -50,7 +45,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '-1|1|1|7|🇺🇸_US_美国 | #4 | uu6.top'
+- name: '-1|1|1|1|7|🇺🇸_US_美国 | # | uu6.top'
   network: ws
   password: er668
   port: 443
@@ -58,7 +53,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F'
-- name: '-1|1|1|7|🇺🇸_US_美国 | #5 | uu6.top'
+- name: '-1|1|1|1|7|🇺🇸_US_美国 | # | uu6.top #1'
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
   port: 2053
