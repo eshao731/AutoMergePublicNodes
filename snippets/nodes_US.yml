@@ -7,6 +7,15 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F'
+- name: 8|🇺🇸_US_美国_5 | uu6.top
+  network: ws
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /
 - name: '7|🇺🇸_US_美国 | uu6.top #5'
   network: ws
   password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
@@ -18,40 +27,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
-- name: 8|🇺🇸_US_美国_4 | uu6.top
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 2087
-  server: 104.25.254.4
-  sni: azadnet-bdr.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-bdr.pages.dev
-    path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-- name: 8|🇺🇸_US_美国_2 | uu6.top
-  network: ws
-  password: trojan
-  port: 8443
-  server: ip.sb
-  sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: 8|🇺🇸_US_美国_7 | uu6.top
-  network: ws
-  password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
-  port: 44004
-  server: 51.89.128.93
-  sni: joss.dus.biz.id
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
 - name: '9|GB英国 | uu6.top #8'
   network: ws
   password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
@@ -85,13 +60,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 20 | uu6.top
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
-  port: 443
-  server: 146.19.49.251
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10,16|俄罗斯 | uu6.top
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
