@@ -20,22 +20,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F'
-- name: '7|🇺🇸_US_美国 | uu6.top #5'
+- name: 8|🇺🇸_US_美国_2 | uu6.top
   network: ws
-  password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
-  port: 2053
-  server: 65.109.227.138
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
-- name: 8|🇺🇸_US_美国_5 | uu6.top
-  network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
   tls: true
   type: trojan
   ws-opts:
@@ -52,6 +42,17 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
+- name: '7|🇺🇸_US_美国 | uu6.top #5'
+  network: ws
+  password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
+  port: 2053
+  server: 65.109.227.138
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
 - name: 8|🇺🇸_US_美国_7 | uu6.top
   network: ws
   password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
@@ -64,17 +65,6 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
-- name: '9|GB英国 | uu6.top #8'
-  network: ws
-  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
-  port: 443
-  server: 89.28.236.243
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F89.28.236.243%3D443'
 - name: '9|AU澳大利亚 | uu6.top #6'
   network: ws
   password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
@@ -98,17 +88,24 @@ proxies:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
 - cipher: chacha20-ietf-poly1305
-  name: 10,16,46|MD_940ce_0013 | uu6.top
+  name: 10,16|美国 20 | uu6.top
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,16,47|MD_940ce_0013 | uu6.top
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 20 | uu6.top
-  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  name: '10,16|美国 | uu6.top #4'
+  password: 9tqhMdIrTkgQ46PvhyAtMH
   port: 443
-  server: 146.19.49.251
+  server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -125,9 +122,17 @@ proxies:
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
   udp: true
+- name: '38,39,44,45|美国 | uu6.top #6'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 4211
+  server: 160.16.107.37
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: 32|美国 加利福尼亚州洛杉矶Dedipath | uu6.top
+  name: -1|32|美国 加利福尼亚州洛杉矶Dedip | uu6.top
   network: ws
   port: 20521
   server: 45.89.107.51
@@ -138,17 +143,9 @@ proxies:
     headers:
       Host: ''
     path: ''
-- name: '38,43,44|美国 | uu6.top #6'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 4211
-  server: 160.16.107.37
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|32|美国 加利福尼 | uu6.top
+  name: -1|1|1|1|1|1|1|32|美国 加利 | uu6.top
   network: ws
   port: 20521
   server: 45.89.107.51

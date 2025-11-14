@@ -1,12 +1,4 @@
 proxies:
-- name: '0,1,4,11,12,37,38,41,43,44|新加坡3 | uu6.top #4'
-  network: tcp
-  password: BxceQaOe
-  port: 2753
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - name: 9|斯洛文尼亚 | uu6.top
   network: ws
   port: 443
@@ -19,7 +11,7 @@ proxies:
     headers:
       Host: fl-3-direct.djarbnet.ru
     path: '%2Fgetupdates'
-- name: '38,43,44|新加坡 | uu6.top #5'
+- name: '38,39,44,45|新加坡 | uu6.top #5'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 2760
@@ -27,7 +19,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '38,43,44|新加坡2 | uu6.top #4'
+- name: '38,39,44,45|新加坡2 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 5553
