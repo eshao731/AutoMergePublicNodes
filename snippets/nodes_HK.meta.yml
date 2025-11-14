@@ -15,17 +15,6 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '9|US美国 | uu6.top #36'
-  network: ws
-  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
-  port: 443
-  server: 194.147.115.149
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F194.147.115.149%3D443'
 - name: '39,47,49|HK_speednode_0019 | uu6.top #1'
   password: BxceQaOe
   port: 443
@@ -34,11 +23,3 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: -1|1|1|1|1|1|1|1|1|47|🇭 | uu6.top
-  password: d1cbd161-1c80-4a70-b486-68a44fd7bc10
-  port: 58338
-  server: lsxg1.lansecs.top
-  skip-cert-verify: true
-  sni: lsxg1.lansecs.top
-  tls: false
-  type: hysteria2
