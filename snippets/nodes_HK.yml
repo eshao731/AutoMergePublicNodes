@@ -1,11 +1,11 @@
 proxies:
-- name: '0,1,4,11,12,38,39,42,44,45|香港3 | uu6.top #4'
+- name: '0,1,4,11,12,15,39,42,44,45|香港4 | uu6.top #4'
   network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
+  password: BxceQaOe
   port: 443
-  server: 58.152.110.9
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  server: 203.198.122.97
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: '9|US美国 | uu6.top #36'
   network: ws
@@ -18,3 +18,11 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F194.147.115.149%3D443'
+- name: '39,47,49|HK_speednode_0019 | uu6.top #1'
+  password: BxceQaOe
+  port: 443
+  server: 203.198.122.97
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true

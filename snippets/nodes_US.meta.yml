@@ -12,6 +12,14 @@ proxies:
     headers:
       Host: west_a.gaogroup.bid
     path: /ctzxvws
+- name: '7|🇺🇸_US_美国 | uu6.top #4'
+  network: ws
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F'
 - name: 8|🇺🇸_US_美国_2 | uu6.top
   network: ws
   password: trojan
@@ -22,17 +30,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /
-- name: '7|🇺🇸_US_美国 | uu6.top #5'
-  network: ws
-  password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
-  port: 2053
-  server: 65.109.227.138
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
 - name: 8|🇺🇸_US_美国_4 | uu6.top
   network: ws
   password: d0298536-d670-4045-bbb1-ddd5ea68683e
@@ -45,38 +42,30 @@ proxies:
     headers:
       Host: azadnet-bdr.pages.dev
     path: /azadnet-bdr.pages.dev/?ed=2560&PROT_TYPE=trojan
-- name: 8|🇺🇸_US_美国_5 | uu6.top
+- name: '7|🇺🇸_US_美国 | uu6.top #5'
   network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: 8|🇺🇸_US_美国_7 | uu6.top
-  network: ws
-  password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
-  port: 44004
-  server: 51.89.128.93
-  sni: joss.dus.biz.id
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
-- name: '9|GB英国 | uu6.top #8'
-  network: ws
-  password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
-  port: 443
-  server: 89.28.236.243
+  password: 7d82af32-915f-4619-aa9c-7d3b612d33ff
+  port: 2053
+  server: 65.109.227.138
   sni: joss.dus.biz.id
   type: trojan
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F89.28.236.243%3D443'
+    path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
+- client-fingerprint: chrome
+  name: '7|🇺🇸_US_美国 | uu6.top #2'
+  network: ws
+  port: 8443
+  server: 172.67.185.98
+  servername: ion.api-music-fa.com
+  tls: true
+  type: vless
+  uuid: 635dfb8e-3d28-40c2-bd27-9b85e7bc6bb6
+  ws-opts:
+    headers:
+      Host: ion.api-music-fa.com
+    path: '%2FJ5aKLOY1R9ONWYCM'
 - name: '9|AU澳大利亚 | uu6.top #6'
   network: ws
   password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
@@ -88,6 +77,19 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F94.131.114.50%3D81'
+- client-fingerprint: chrome
+  name: 8|🇺🇸_US_美国_3 | uu6.top
+  network: ws
+  port: 8443
+  server: 172.67.185.98
+  servername: ion.api-music-fa.com
+  tls: true
+  type: vless
+  uuid: 635dfb8e-3d28-40c2-bd27-9b85e7bc6bb6
+  ws-opts:
+    headers:
+      Host: ion.api-music-fa.com
+    path: /J5aKLOY1R9ONWYCM
 - name: '9|SG新加坡 | uu6.top #4'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -106,13 +108,13 @@ proxies:
   server: 213.159.66.206
   type: ss
   udp: true
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #64'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
-  skip-cert-verify: false
-  tls: false
-  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 20 | uu6.top
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+  udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #65'
   password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
   port: 1743
@@ -133,6 +135,13 @@ proxies:
   server: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
   skip-cert-verify: false
   sni: 70555517-t3bpc0-t9lxaa-1glq.la.shifen.uk
+  tls: false
+  type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #64'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 1743
+  server: d48dac10-t4v9c0-tdtx5w-au6.la.shifen.uk
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #70'
@@ -157,11 +166,12 @@ proxies:
   sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
   tls: false
   type: hysteria2
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #75'
-  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #73'
+  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
-  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   skip-cert-verify: false
+  sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   tls: false
   type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #76'
@@ -172,19 +182,18 @@ proxies:
   sni: 227fd503-t4ssg0-t5vo4i-4550.la.shifen.uk
   tls: false
   type: hysteria2
+- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #75'
+  password: be8cc8f6-0c6a-11f0-a5a3-f23c93141fad
+  port: 1743
+  server: ea9466bf-t3dk00-t3i5yp-b4pt.la.shifen.uk
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #78'
   password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
   port: 1743
   server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
   sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  tls: false
-  type: hysteria2
-- name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #73'
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  server: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
-  skip-cert-verify: false
-  sni: 825eee23-t4un40-tcj7b6-d70y.la.shifen.uk
   tls: false
   type: hysteria2
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #80'
@@ -208,7 +217,7 @@ proxies:
   type: vless
   udp: true
   uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: -1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top
+- name: -1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top
   password: 5dcefa05-2e9d-4109-9997-7cb70eacf263
   port: 58338
   server: lsus3.lansecs.top
@@ -216,7 +225,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top #1'
+- name: '-1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top #1'
   password: 3b517b74-539c-4df0-a6de-fc031793f68b
   port: 58338
   server: lsus3.lansecs.top
@@ -224,7 +233,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top #2'
+- name: '-1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top #2'
   password: 033da0b8-6bb9-4d1e-b1a4-79c44d374521
   port: 58338
   server: lsus3.lansecs.top
@@ -232,7 +241,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top #3'
+- name: '-1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top #3'
   password: d1cbd161-1c80-4a70-b486-68a44fd7bc10
   port: 58338
   server: lsus3.lansecs.top
@@ -240,7 +249,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top #4'
+- name: '-1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top #4'
   password: 3a253a66-c331-44e7-b32e-aed216f93d99
   port: 58338
   server: lsus3.lansecs.top
@@ -248,7 +257,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top #5'
+- name: '-1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top #5'
   password: e5eec433-817d-4253-8ef1-05abc807b488
   port: 58338
   server: lsus3.lansecs.top
@@ -256,7 +265,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: '-1|1|1|1|1|1|1|47|🇺🇸 美国 | uu6.top #6'
+- name: '-1|1|1|1|1|1|1|1|47|🇺🇸 | uu6.top #6'
   password: 407da0be-666d-4b20-a01e-83eb1d97564e
   port: 58338
   server: lsus3.lansecs.top
@@ -266,7 +275,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|32|美国 加利福尼 | uu6.top
+  name: -1|1|1|1|1|1|1|32|美国 加利 | uu6.top
   network: ws
   port: 20521
   server: 45.89.107.51
