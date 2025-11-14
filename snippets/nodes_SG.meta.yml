@@ -1,15 +1,20 @@
 proxies:
-- name: '9|FR法国 | uu6.top #2'
-  network: ws
-  password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
-  port: 2053
-  server: 51.38.226.4
-  sni: joss.dus.biz.id
+- name: '0,1,4,11,12,37,38,41,43,44|新加坡2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 5553
+  server: 160.16.124.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
+- name: '0,1,4,11,12,37,38,41,43,44|新加坡 | uu6.top #5'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 2760
+  server: 160.16.81.84
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '9|SG新加坡 | uu6.top #5'
   network: ws
   port: 39738
@@ -22,3 +27,13 @@ proxies:
     headers:
       Host: vless3.datatestvless.click
     path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+- name: 9|斯洛文尼亚 | uu6.top
+  network: ws
+  port: 443
+  server: fl-3-direct.djarbnet.ru
+  servername: fl-3-direct.djarbnet.ru
+  tls: true
+  type: vless
+  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
+  ws-opts:
+    path: '%2Fgetupdates'
