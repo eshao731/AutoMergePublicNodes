@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '13,17,19,21,37,45,47|FR_speednode_0014 | uu6.top #1'
+  name: '13,17,19,21,39,47,49|FR_speednode_0014 | uu6.top #1'
   network: tcp
   port: 33009
   reality-opts:
@@ -14,3 +14,11 @@ proxies:
   type: vless
   udp: true
   uuid: 77a33d77-7af9-4c33-9556-d6711becca04
+- name: 48|🇫🇷 法国 02 | uu6.top
+  password: dongtaiwang.com
+  port: 5355
+  server: 163.172.21.105
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2

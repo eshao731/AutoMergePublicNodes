@@ -1,5 +1,13 @@
 proxies:
-- name: '11,12,36,37,40,42,43|日本3 | uu6.top #4'
+- name: '11,12,38,39,42,44,45|日本2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 1334
+  server: 160.16.132.158
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '11,12,38,39,42,44,45|日本3 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
@@ -7,21 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '37,45,47|JP_speednode_0032 | uu6.top #1'
-  port: 443
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: 4c02bbbfa833b3b6
-  server: usa.jykvpn.com
-  servername: cdnjs.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: '-1|15|日本2 | #2 | uu6.top'
+- name: '-1|1|15|日本2 | #2 | uu6.top'
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1334
   server: 153.121.39.240
