@@ -51,11 +51,12 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2F'
-- name: 8|🇺🇸_US_美国_5 | uu6.top
+- name: 8|🇺🇸_US_美国_2 | uu6.top
   network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
+  password: trojan
+  port: 8443
+  server: ip.sb
+  sni: fofang.pages.dev
   tls: true
   type: trojan
   ws-opts:
@@ -143,6 +144,18 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F94.131.114.50%3D81'
+- name: '9|US美国 | uu6.top #22'
+  network: ws
+  port: 30503
+  server: 185.81.28.95
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  ws-opts:
+    headers:
+      Host: gaosir.unfeeling.sbs
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
 - name: '9|SG新加坡 | uu6.top #4'
   network: ws
   password: 8bf6e7d7-23e8-4655-8f07-c3827e2d6ebf
@@ -155,17 +168,17 @@ proxies:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F51.38.226.4%3D2053'
 - cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 20 | uu6.top
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: 10,16,47|MD_940ce_0013 | uu6.top
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 18 | uu6.top
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
   udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #64'
@@ -212,6 +225,13 @@ proxies:
   sni: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|美国 18 | uu6.top
+  password: Nk9asglDzHzjktVzTkvhaA
+  port: 443
+  server: arxfw2b78fi2q9hzylhn.freesocks.work
+  type: ss
+  udp: true
 - name: '13,17,19,21|🇺🇸_US_美国 | uu6.top #73'
   password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
   port: 1743
@@ -270,7 +290,7 @@ proxies:
   type: vless
   udp: true
   uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: -1|1|1|47|🇺🇸 美国 099 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 099 | uu6.top
   password: 5dcefa05-2e9d-4109-9997-7cb70eacf263
   port: 58338
   server: lsus3.lansecs.top
@@ -278,7 +298,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|47|🇺🇸 美国 091 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 091 | uu6.top
   password: 3b517b74-539c-4df0-a6de-fc031793f68b
   port: 58338
   server: lsus3.lansecs.top
@@ -286,7 +306,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|47|🇺🇸 美国 082 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 082 | uu6.top
   password: 033da0b8-6bb9-4d1e-b1a4-79c44d374521
   port: 58338
   server: lsus3.lansecs.top
@@ -294,7 +314,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|47|🇺🇸 美国 085 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 085 | uu6.top
   password: d1cbd161-1c80-4a70-b486-68a44fd7bc10
   port: 58338
   server: lsus3.lansecs.top
@@ -302,7 +322,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|47|🇺🇸 美国 100 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 100 | uu6.top
   password: 3a253a66-c331-44e7-b32e-aed216f93d99
   port: 58338
   server: lsus3.lansecs.top
@@ -310,7 +330,7 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|47|🇺🇸 美国 089 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 089 | uu6.top
   password: e5eec433-817d-4253-8ef1-05abc807b488
   port: 58338
   server: lsus3.lansecs.top
@@ -318,16 +338,8 @@ proxies:
   sni: lsus3.lansecs.top
   tls: false
   type: hysteria2
-- name: -1|1|1|47|🇺🇸 美国 094 | uu6.top
+- name: -1|1|1|1|47|🇺🇸 美国 094 | uu6.top
   password: 407da0be-666d-4b20-a01e-83eb1d97564e
-  port: 58338
-  server: lsus3.lansecs.top
-  skip-cert-verify: true
-  sni: lsus3.lansecs.top
-  tls: false
-  type: hysteria2
-- name: -1|1|1|1|1|1|1|1|1|47|🇺 | uu6.top
-  password: e1a3e455-dcb1-4d4b-b976-b680f4d29efb
   port: 58338
   server: lsus3.lansecs.top
   skip-cert-verify: true
@@ -336,7 +348,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: -1|1|32|美国 加利福尼亚州洛杉矶Ded | uu6.top
+  name: -1|1|1|32|美国 加利福尼亚州洛杉矶D | uu6.top
   network: ws
   port: 20521
   server: 45.89.107.51
@@ -349,7 +361,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|1|1|1|1|32|美国 | uu6.top
+  name: -1|1|1|1|1|1|1|1|1|32|美 | uu6.top
   network: ws
   port: 20521
   server: 45.89.107.51
