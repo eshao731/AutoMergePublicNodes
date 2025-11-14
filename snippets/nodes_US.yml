@@ -1,19 +1,18 @@
 proxies:
+- name: '7|🇺🇸_US_美国 | uu6.top #4'
+  network: ws
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
+  type: trojan
+  ws-opts:
+    path: '%2F'
 - name: 8|🇺🇸_US_美国_2 | uu6.top
   network: ws
   password: trojan
   port: 8443
   server: ip.sb
   sni: fofang.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /
-- name: 8|🇺🇸_US_美国_5 | uu6.top
-  network: ws
-  password: er668
-  port: 443
-  server: kfjdi.pages.dev
   tls: true
   type: trojan
   ws-opts:
@@ -29,18 +28,15 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F65.109.227.138%3D2053'
-- name: 8|🇺🇸_US_美国_7 | uu6.top
+- name: 8|🇺🇸_US_美国_5 | uu6.top
   network: ws
-  password: 6b5b50ff-7798-40dc-9888-b4dd581e5435
-  port: 44004
-  server: 51.89.128.93
-  sni: joss.dus.biz.id
+  password: er668
+  port: 443
+  server: kfjdi.pages.dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/51.89.128.93=44004
+    path: /
 - name: '9|GB英国 | uu6.top #8'
   network: ws
   password: 63b8ce6d-9a30-4122-a00f-fd47f020dc27
@@ -90,7 +86,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: -1|1|1|1|32|美国 加利福尼亚州洛杉 | uu6.top
+  name: -1|1|1|1|1|32|美国 加利福尼亚州 | uu6.top
   network: ws
   port: 20521
   server: 45.89.107.51
@@ -101,16 +97,3 @@ proxies:
     headers:
       Host: ''
     path: ''
-- alterId: 0
-  cipher: auto
-  name: -1|1|1|1|1|1|1|1|1|1|32 | uu6.top
-  network: ws
-  port: 20521
-  server: 45.89.107.51
-  tls: false
-  type: vmess
-  uuid: 3dbaa5c3-f493-4ad1-9c5d-8525f4962a6c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /

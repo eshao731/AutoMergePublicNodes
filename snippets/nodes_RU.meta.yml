@@ -10,20 +10,13 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: '%2FFree-VPN-CF-Geo-Project%2F77.221.141.207%3D443'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 47,49|RU_speednode_0041 | uu6.top
+- cipher: chacha20-ietf-poly1305
+  name: 10,16|俄罗斯 3 | uu6.top
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
   port: 443
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: c2a0b2d60a7fc300
-  server: youtube.jykvpn.com
-  servername: cdnjs.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 45.14.245.2
+  type: ss
   udp: true
-  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
 - client-fingerprint: chrome
   name: 47,49|RU_speednode_0042 | uu6.top
   port: 58871
@@ -51,3 +44,17 @@ proxies:
   type: vless
   udp: true
   uuid: 9429f5ce-ed0f-48e7-afda-12f7b23441af
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 47,49|RU_speednode_0041 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: c2a0b2d60a7fc300
+  server: youtube.jykvpn.com
+  servername: cdnjs.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
