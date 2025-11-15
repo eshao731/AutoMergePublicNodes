@@ -1,7 +1,15 @@
 proxies:
+- name: '0,1,4,11,12,39,42,44,45|美国2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 4211
+  server: 160.16.57.238
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '3,33,42|🇺🇸 美国 | uu6.top #8'
+  name: '3,42|🇺🇸 美国 | uu6.top #8'
   network: tcp
   port: '45258'
   server: 216.227.168.157
@@ -10,20 +18,13 @@ proxies:
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 0
   cipher: auto
-  name: '3,33,42|🇺🇸 美国 | uu6.top #9'
+  name: '3,42|🇺🇸 美国 | uu6.top #9'
   network: tcp
   port: '45294'
   server: 216.227.168.157
   tls: false
   type: vmess
   uuid: 469e0b31-30c3-4dab-800d-711232634ce1
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 2 | uu6.top
-  password: RFK38Cg7APneSB5cWDcpbm
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 12 | uu6.top
   password: Nk9asglDzHzjktVzTkvhaA
