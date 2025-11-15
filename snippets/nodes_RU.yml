@@ -1,53 +1,9 @@
 proxies:
-- name: '9|RU俄罗斯 | uu6.top #4'
-  network: ws
-  password: edeff73d-065d-4b0a-b848-aad9d3380223
-  port: 443
-  server: 77.221.141.207
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F77.221.141.207%3D443'
-- name: '9|RU俄罗斯 | uu6.top #7'
-  network: ws
-  password: 0c7edd8f-96d8-4227-b086-1ffc3aeecc96
-  port: 8443
-  server: 193.233.115.79
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F193.233.115.79%3D8443'
-- name: '9|RU俄罗斯 | uu6.top #9'
-  network: ws
-  password: 19f8e29a-3f0b-448c-92e8-ae035ea5f9ba
-  port: 81
-  server: 45.159.251.8
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F45.159.251.8%3D81'
-- name: '9|AU澳大利亚 | uu6.top #1'
-  network: ws
-  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
-  port: 2053
-  server: 213.159.208.88
-  sni: joss.dus.biz.id
-  type: trojan
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: '%2FFree-VPN-CF-Geo-Project%2F213.159.208.88%3D2053'
 - cipher: chacha20-ietf-poly1305
-  name: '10,14,16,18,20,22|🇷🇺_RU_俄罗斯 | uu6.top #7'
-  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  name: 10,16|英国 5 | uu6.top
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
   port: 443
-  server: 45.14.245.2
+  server: 146.19.49.251
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -57,16 +13,3 @@ proxies:
   server: 213.159.66.206
   type: ss
   udp: true
-- name: 37,46,48|RU_speednode_0044 | uu6.top
-  network: ws
-  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
-  port: 2053
-  server: 213.159.208.88
-  skip-cert-verify: false
-  sni: joss.dus.biz.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053

@@ -1,14 +1,12 @@
 proxies:
-- name: '0,1,4,11,12,37,38,41,43,44|日本2 | uu6.top #4'
-  network: tcp
+- name: '0,1,4,11,12,38,39,42|🇯🇵 日本2 | uu6.top #4'
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
   server: 160.16.132.158
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '0,1,4,11,12,37,38,41,43,44|日本3 | uu6.top #4'
-  network: tcp
+- name: '0,1,4,11,12,38,39,42|🇯🇵 日本3 | uu6.top #4'
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
   server: 160.16.196.59
@@ -17,7 +15,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '0,4,38,46,48|JP_speednode_0032 | uu6.top #3'
+  name: '0,4,39,47,49|JP_speednode_0032 | uu6.top #3'
   port: 443
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
@@ -29,13 +27,6 @@ proxies:
   type: vless
   udp: true
   uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
-- name: '15|日本3 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 4095
-  server: 160.16.214.6
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '15|日本2 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
@@ -43,16 +34,62 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '32|日本 | uu6.top #3'
-  network: none
-  port: 20297
-  server: 137.220.150.40
-  tls: false
-  type: vmess
-  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
-- name: -1|1|1|1|1|1|1|1|15|日本2 | uu6.top
+- name: '15|日本3 | uu6.top #2'
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 4095
+  server: 160.16.214.6
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '44|🇯🇵 日本4 | uu6.top #18'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: e221b75:110505
+    mode: tls
+  port: 2377
+  server: 172.105.217.136
+  type: ss
+- name: '44,45|日本 | uu6.top #5'
+  network: tcp
+  password: BxceQaOe
+  port: 1924
+  server: 160.16.227.93
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '44,45|日本2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 1334
+  server: 160.16.57.238
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '44,45|日本3 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 3169
+  server: 202.181.103.235
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 48|🇯🇵 日本 05 | uu6.top
+  password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
+  port: 443
+  server: 151.242.164.25
+  skip-cert-verify: true
+  sni: origin-a.akamaihd.net
+  type: trojan
+- name: 48|🇯🇵 日本 08 | uu6.top
+  password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
+  port: 443
+  server: kuame.missionsec.us
+  skip-cert-verify: true
+  sni: kuame.missionsec.us
+  type: trojan
+- name: -1|1|1|1|1|1|1|1|1|15|日 | uu6.top
   password: 1b57001bd214304027025a740b6cf1ac
   port: 1334
   server: 153.121.39.240
