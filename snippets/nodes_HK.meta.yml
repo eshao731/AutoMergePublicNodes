@@ -1,4 +1,37 @@
 proxies:
+- name: '38,39,42,44,45|香港3 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 443
+  server: 58.152.110.216
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 48|🇭🇰 香港 13 | uu6.top
+  password: e6afcef6-f290-4a8a-90ad-10cf112a72c2
+  port: 58430
+  server: xg1.qucloud.top
+  skip-cert-verify: true
+  sni: xg1.qucloud.top
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇭🇰 香港 10 | uu6.top
+  network: tcp
+  port: 55558
+  reality-opts:
+    public-key: LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg
+    short-id: b2defcc6
+  server: 192.238.204.48
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 1eb58333-3051-47c2-a2eb-44e5b64233c8
+  ws-opts:
+    headers:
+      Host: apple.com
+    path: '%2F'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 48|🇭🇰 香港 02 | uu6.top
