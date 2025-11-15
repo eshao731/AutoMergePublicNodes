@@ -1,4 +1,11 @@
 proxies:
+- name: '0,1,4,11,12|🇯🇵 日本2 | uu6.top #2'
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 1334
+  server: 160.16.132.158
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '0,1,4,11,12|🇯🇵 日本3 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
@@ -6,23 +13,17 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '9|US美国 | uu6.top #16'
-  network: ws
-  port: 59951
-  server: 103.53.81.119
-  servername: vless3.datatestvless.click
-  tls: true
-  type: vless
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-  ws-opts:
-    headers:
-      Host: vless3.datatestvless.click
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- name: '38,39,42,44,45|日本2 | uu6.top #4'
-  network: tcp
+- name: '15|日本2 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
-  server: 160.16.57.238
+  server: 160.16.204.136
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15|日本3 | uu6.top #2'
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 4095
+  server: 160.16.214.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -34,6 +35,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '38,39,42,44,45|日本2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 1334
+  server: 160.16.57.238
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: 48|🇯🇵 日本 08 | uu6.top
   password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
   port: 443
@@ -41,16 +50,7 @@ proxies:
   skip-cert-verify: true
   sni: kuame.missionsec.us
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '-1|42|🇯🇵 日本 | #6 | uu6.top'
-  network: none
-  port: '20297'
-  server: 137.220.150.40
-  tls: false
-  type: vmess
-  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
-- name: -1|1|48|🇯🇵 日本 05 | uu6.top
+- name: -1|1|1|48|🇯🇵 日本 05 | uu6.top
   password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
   port: 443
   server: 151.242.164.25
