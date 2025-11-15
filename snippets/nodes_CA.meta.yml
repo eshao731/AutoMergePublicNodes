@@ -1,5 +1,5 @@
 proxies:
-- name: 7,8,13,17,19,21,48|🇨🇦 加拿大 10 | uu6.top
+- name: '7,8,13,17,19,21|🇨🇦_CA_加拿大 | uu6.top #5'
   password: 338ce171-d764-4610-8fd5-6688b0d321f0
   port: 30102
   server: 140.238.137.165
@@ -7,20 +7,6 @@ proxies:
   sni: du.wish.ml
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  disable-sni: false
-  name: 36|🇨🇦 加拿大 | uu6.top
-  password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-  port: '52434'
-  reduce-rtt: false
-  request-timeout: '0'
-  server: 40.233.77.57
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
-  version: '5'
 - alterId: 0
   cipher: auto
   name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
@@ -34,11 +20,28 @@ proxies:
     headers:
       Host: ''
     path: /IOebhLMhl1CTbFHbL95myfRX2
-- name: 48|🇨🇦 加拿大 05 | uu6.top
-  password: af92850b-d476-42f7-912d-508c7144c794
-  port: 58330
-  server: mla6.maliaojc.top
+- name: 48|🇨🇦 加拿大 01 | uu6.top
+  password: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+  port: 13805
+  server: 192.18.155.21
   skip-cert-verify: true
-  sni: mla6.maliaojc.top
+  sni: www.bing.com
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 48|🇨🇦 加拿大 13 | uu6.top
+  network: tcp
+  port: 40106
+  reality-opts:
+    public-key: gqmHb9i4USmQ78auzhAFJMQIrUpnq8QaykJgnjHDTBg
+    short-id: f44fd3dd
+  server: 192.18.155.21
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: dcdd09ad-4519-46f7-8107-4c4290a9b2a3
+  ws-opts:
+    headers:
+      Host: apple.com
+    path: '%2F'
