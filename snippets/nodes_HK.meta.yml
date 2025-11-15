@@ -1,12 +1,4 @@
 proxies:
-- name: '38,39,42,44,45|香港3 | uu6.top #4'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 443
-  server: 58.152.110.216
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: 48|🇭🇰 香港家宽 02 | uu6.top
   password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
   port: 443
@@ -31,23 +23,14 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 01 | uu6.top
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
-    short-id: 2afe4310
-  server: 85.208.104.42
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
-  ws-opts:
-    headers:
-      Host: www.icloud.com
-    path: '%2F'
+- name: 48|🇭🇰 香港 15 | uu6.top
+  password: ae7f1278-337c-46cb-a7c9-d1fae6561503
+  port: 58430
+  server: xg1.qucloud.top
+  skip-cert-verify: true
+  sni: xg1.qucloud.top
+  tls: false
+  type: hysteria2
 - name: 48|🇭🇰 香港家宽 04 | uu6.top
   password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
   port: 443

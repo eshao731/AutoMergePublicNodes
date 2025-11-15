@@ -10,19 +10,6 @@ proxies:
   sni: jnir.pichondan.com
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  name: '39,47,49|DE_speednode_0002 | uu6.top #1'
-  port: 9107
-  reality-opts:
-    public-key: Go_wk-NFoenM3xuCSQ84_0Lzh3Y6XrHzTz8XTbQl8lI
-    short-id: e8ef8df79e4a6343
-  server: 195.254.165.152
-  servername: refersion.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 774727ed-1e56-41bd-b55f-28549e21bcc8
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 48|🇩🇪 德国 01 | uu6.top
@@ -39,21 +26,4 @@ proxies:
   ws-opts:
     headers:
       Host: stats.vk-portal.net
-    path: '%2F'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 48|🇩🇪 德国 04 | uu6.top
-  network: tcp
-  port: 42318
-  reality-opts:
-    public-key: SA_PJpEORUm3GW0C5tgF-RVgawYYa1Zc5RH4Ay9xnls
-    short-id: ceb34988
-  server: windrunner.fonixapp.org
-  servername: ilovepdf.com
-  tls: true
-  type: vless
-  uuid: d91f1c5d-dfa0-4300-8f0e-e6750e5a2ff6
-  ws-opts:
-    headers:
-      Host: ilovepdf.com
     path: '%2F'

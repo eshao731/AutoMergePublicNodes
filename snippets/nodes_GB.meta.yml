@@ -1,4 +1,13 @@
 proxies:
+- name: '0,4,15|🇬🇧 - GB - #3 | uu6.top'
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - auth: YwuvGJk36B
   name: 0,4,15,35,38,39|🇬🇧 | uu6.top
   obfs: salamander
@@ -20,15 +29,21 @@ proxies:
   sni: 🔒 [By EbraSha]
   tls: false
   type: hysteria2
-- name: '0,4,15|🇬🇧 - GB - #3 | uu6.top'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '7,8|🇬🇧_GB_英国 | uu6.top #1'
+  network: tcp
+  port: 13718
+  reality-opts:
+    public-key: RE5pTjMWTYxFQvDtxxKOCZCnnyYbR2a25zlLnYXWOVw
+    short-id: '96'
+    spider-x: /
+  server: darkterror.fonixapp.org
+  servername: eightsleep.com
+  tls: true
+  type: vless
+  uuid: 6beb5e1f-566d-4d84-878e-9f0a49283696
 - client-fingerprint: random
   name: 32|🇬🇧 UK | uu6.top
   network: ws
