@@ -1,22 +1,15 @@
 proxies:
-- name: '0,1,4,11,12,38,42|🇯🇵 日本2 | uu6.top #4'
+- name: '0,1,4,11,12|🇯🇵 日本2 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
   server: 160.16.132.158
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '0,1,4,11,12,38,42|🇯🇵 日本3 | uu6.top #4'
+- name: '0,1,4,11,12|🇯🇵 日本3 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
   server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '15|日本3 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 4095
-  server: 160.16.214.6
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -27,16 +20,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '33|日本 | uu6.top #4'
-  network: none
-  port: 20297
-  server: 137.220.150.40
-  tls: false
-  type: vmess
-  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
-- name: '39,44,45|日本 | uu6.top #6'
+- name: '15|日本3 | uu6.top #2'
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 4095
+  server: 160.16.214.6
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '37,38,41,43,44|日本 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 1924
@@ -44,7 +35,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '39,44,45|日本2 | uu6.top #4'
+- name: '37,38,41,43,44|日本2 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 1334
@@ -52,7 +43,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '39,44,45|日本3 | uu6.top #4'
+- name: '37,38,41,43,44|日本3 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
@@ -60,24 +51,23 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '44|🇯🇵 日本4 | uu6.top #18'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: e221b75:110505
-    mode: tls
-  port: 2377
-  server: 172.105.217.136
-  type: ss
-- name: 48|🇯🇵 日本 05 | uu6.top
+- alterId: 0
+  cipher: auto
+  name: '41|🇯🇵 日本 | uu6.top #6'
+  network: none
+  port: '20297'
+  server: 137.220.150.40
+  tls: false
+  type: vmess
+  uuid: 692c1141-f196-4ac4-8af6-7a3b67304b90
+- name: 47|🇯🇵 日本 05 | uu6.top
   password: c2e3cdc0-bc72-3505-b2a9-ea5ed7bfa23f
   port: 443
   server: 151.242.164.25
   skip-cert-verify: true
   sni: origin-a.akamaihd.net
   type: trojan
-- name: 48|🇯🇵 日本 08 | uu6.top
+- name: 47|🇯🇵 日本 08 | uu6.top
   password: FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D
   port: 443
   server: kuame.missionsec.us

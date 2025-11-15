@@ -1,12 +1,12 @@
 proxies:
-- name: '0,1,4,11,12,38,42|🇸🇬 新加坡 | uu6.top #5'
+- name: '0,1,4,11,12|🇸🇬 新加坡 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 2760
   server: 160.16.81.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '0,1,4,11,12,38,42|🇸🇬 新加坡2 | uu6.top #4'
+- name: '0,1,4,11,12|🇸🇬 新加坡2 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 5553
   server: 160.16.124.55
@@ -23,19 +23,7 @@ proxies:
   uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
   ws-opts:
     path: '%2Fgetupdates'
-- name: '9|SG新加坡 | uu6.top #5'
-  network: ws
-  port: 39738
-  server: 210.87.111.61
-  servername: vless3.datatestvless.click
-  tls: true
-  type: vless
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-  ws-opts:
-    headers:
-      Host: vless3.datatestvless.click
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- name: '39,44,45|新加坡 | uu6.top #5'
+- name: '37,38,41,43,44|新加坡 | uu6.top #5'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 5552
@@ -43,7 +31,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '39,44,45|新加坡2 | uu6.top #4'
+- name: '37,38,41,43,44|新加坡2 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 127
@@ -51,7 +39,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '39,44,45|新加坡3 | uu6.top #4'
+- name: '37,38,41,43,44|新加坡3 | uu6.top #4'
   network: tcp
   password: BxceQaOe
   port: 443
