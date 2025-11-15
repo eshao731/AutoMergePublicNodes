@@ -7,36 +7,52 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: 48|🇭🇰 香港家宽 02 | uu6.top
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  port: 443
+  ports: 30000-60000
+  server: 5dacf941-t5vog0-tonrqx-1khwf.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇭🇰 香港家宽 03 | uu6.top
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  port: 443
+  ports: 30000-60000
+  server: 970d5510-t5vog0-tonrmx-8n27.hk2.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: 48|🇭🇰 香港家宽 01 | uu6.top
+  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+  port: 443
+  ports: 30000-60000
+  server: 375bb220-t5vog0-tonrqx-1khwf.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 10 | uu6.top
+  name: 48|🇭🇰 香港 01 | uu6.top
   network: tcp
-  port: 55558
+  port: 10001
   reality-opts:
-    public-key: LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg
-    short-id: b2defcc6
-  server: 192.238.204.48
-  servername: apple.com
+    public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
+    short-id: 2afe4310
+  server: 85.208.104.42
+  servername: www.icloud.com
   tls: true
   type: vless
-  uuid: 1eb58333-3051-47c2-a2eb-44e5b64233c8
+  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
   ws-opts:
     headers:
-      Host: apple.com
+      Host: www.icloud.com
     path: '%2F'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 02 | uu6.top
-  network: tcp
-  port: 28888
-  reality-opts:
-    public-key: slSuocOAiBpxoouM2bOV03TG7LRqrGyKDivA__DEric
-  server: hk01.youyacloud.me
-  servername: www.tvb.com
-  tls: true
-  type: vless
-  uuid: 8da7bd17-70ab-472d-a925-cc827857dc35
-  ws-opts:
-    headers:
-      Host: www.tvb.com
-    path: '%2F'
+- name: 48|🇭🇰 香港家宽 04 | uu6.top
+  password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  port: 443
+  ports: 30000-60000
+  server: da971c54-t5vog0-tonrmx-8n27.hk1.hyhuawei.com
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2

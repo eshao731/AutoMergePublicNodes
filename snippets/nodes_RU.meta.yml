@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,4,39,47,49|RU_speednode_0015 | uu6.top
+  name: '0,4,39,47,49|RU_speednode_0015 | uu6.top #1'
   port: 443
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
@@ -20,3 +20,24 @@ proxies:
   server: 146.19.49.251
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 10,16,47|MD_6fbda_0013 | uu6.top
+  password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
+  port: 443
+  server: 213.159.66.206
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '39,47,49|RU_speednode_0017 | uu6.top #2'
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: c2a0b2d60a7fc300
+  server: 5.129.252.60
+  servername: cdnjs.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
