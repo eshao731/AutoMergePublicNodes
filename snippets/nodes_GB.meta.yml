@@ -1,13 +1,4 @@
 proxies:
-- name: '0,4,15|🇬🇧 - GB | uu6.top #2'
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
 - auth: YwuvGJk36B
   name: 0,4,15,35,38,39|🇬🇧 | uu6.top
   obfs: salamander
@@ -17,6 +8,15 @@ proxies:
   server: 81.168.83.89
   skip-cert-verify: true
   sni: kotlet.arshiacomplus.dpdns.org
+  tls: false
+  type: hysteria2
+- name: '0,4,15|🇬🇧 - GB | uu6.top #2'
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '0,4,15|🇬🇧 - GB - #5 | uu6.top #2'
@@ -29,6 +29,13 @@ proxies:
   sni: 🔒 [By EbraSha]
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: 16|英国 5 | uu6.top
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: '42|🇬🇧 | uu6.top #1'
