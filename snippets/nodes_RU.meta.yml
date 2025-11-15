@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 0,4,38,46,48|RU_speednode_0015 | uu6.top
+  name: 0,4,39,47,49|RU_speednode_0015 | uu6.top
   port: 443
   reality-opts:
     public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
@@ -21,13 +21,27 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 10,16,46|MD_36486_0013 | uu6.top
+  name: 10,16,47|MD_36486_0013 | uu6.top
   password: pl2XtR0pzwknQOGwewbwXtPYDw1zn9Vu
   port: 443
   server: 213.159.66.206
   type: ss
   udp: true
-- name: 46,48|RU_speednode_0016 | uu6.top
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '47,49|RU_speednode_0017 | uu6.top #1'
+  port: 443
+  reality-opts:
+    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+    short-id: c2a0b2d60a7fc300
+  server: 5.129.252.60
+  servername: cdnjs.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1
+- name: 47,49|RU_speednode_0016 | uu6.top
   network: ws
   password: -4146XJHYAzJ4K8Ov6_LBQ
   port: 11000
@@ -40,17 +54,3 @@ proxies:
     headers:
       Host: f4e23c6c168f0e91.noproblemvpn.ru
     path: /tw
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '46,48|RU_speednode_0017 | uu6.top #1'
-  port: 443
-  reality-opts:
-    public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-    short-id: c2a0b2d60a7fc300
-  server: 5.129.252.60
-  servername: cdnjs.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 56718b04-3fe6-4ef3-a61f-cd9b3b5f64f1

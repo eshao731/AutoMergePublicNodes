@@ -1,6 +1,6 @@
 proxies:
 - auth: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-  name: '0,4,15,34,37,38|🇩🇪 - DE - #2 | uu6.top #3'
+  name: '0,4,15,35,38,39|🇩🇪 - DE - #2 | uu6.top #3'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -11,7 +11,7 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
-  name: 46,48|DE_speednode_0002 | uu6.top
+  name: 47,49|DE_speednode_0002 | uu6.top
   port: 9107
   reality-opts:
     public-key: Go_wk-NFoenM3xuCSQ84_0Lzh3Y6XrHzTz8XTbQl8lI
@@ -23,20 +23,16 @@ proxies:
   type: vless
   udp: true
   uuid: 774727ed-1e56-41bd-b55f-28549e21bcc8
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: 47|🇩🇪 德国 05 | uu6.top
-  network: tcp
-  port: 42318
+- client-fingerprint: chrome
+  name: 47,49|DE_speednode_0004 | uu6.top
+  port: 29973
   reality-opts:
-    public-key: SA_PJpEORUm3GW0C5tgF-RVgawYYa1Zc5RH4Ay9xnls
-    short-id: ceb34988
-  server: windrunner.fonixapp.org
-  servername: ilovepdf.com
+    public-key: QqNYhBZPJmHBGFF_4WsxNPcH8xve-4gma9--drcflHQ
+    short-id: cd6229f31e7180e6
+  server: 185.161.251.24
+  servername: yandex.ru
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: d91f1c5d-dfa0-4300-8f0e-e6750e5a2ff6
-  ws-opts:
-    headers:
-      Host: ilovepdf.com
-    path: '%2F'
+  udp: true
+  uuid: a1493ccd-d1a4-4087-9041-1b3500224003
