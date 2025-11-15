@@ -45,13 +45,6 @@ proxies:
     headers:
       Host: www.yahoo.com
     path: '%2F'
-- cipher: chacha20-ietf-poly1305
-  name: 10,16|美国 12 | uu6.top
-  password: Nk9asglDzHzjktVzTkvhaA
-  port: 443
-  server: arxfw2b78fi2q9hzylhn.freesocks.work
-  type: ss
-  udp: true
 - name: '13,15,17,19,21|🇺🇸_US_美国 | uu6.top #34'
   password: 2429bee3-e0c1-47dd-b420-75e6512b184b
   port: 30300
@@ -74,6 +67,23 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: 40,41|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '80'
+  server: 104.18.240.238
+  servername: ''
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
+    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: 47,49|US_speednode_0028 | uu6.top

@@ -1,11 +1,4 @@
 proxies:
-- name: '0,1,4,11,12|🇸🇬 新加坡 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 2760
-  server: 160.16.81.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '0,1,4,11,12|🇸🇬 新加坡2 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 5553
@@ -13,29 +6,11 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 9|斯洛文尼亚 | uu6.top
-  network: ws
-  port: 443
-  server: fl-3-direct.djarbnet.ru
-  servername: fl-3-direct.djarbnet.ru
-  tls: true
-  type: vless
-  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
-  ws-opts:
-    path: '%2Fgetupdates'
 - name: '38,39,42,44,45|新加坡 | uu6.top #5'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 5552
   server: 160.16.236.32
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '38,39,42,44,45|新加坡2 | uu6.top #4'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 127
-  server: 153.121.51.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -46,6 +21,14 @@ proxies:
   server: 38.180.191.251
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '38,39,42,44,45|新加坡2 | uu6.top #4'
+  network: tcp
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 127
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
