@@ -7,23 +7,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 48|🇭🇰 香港 12 | uu6.top
-  network: tcp
-  port: 55558
-  reality-opts:
-    public-key: LPatmFrK3hRMrtAybjzB7DBfqCaKnKQ6s95kmXrrFxg
-    short-id: b2defcc6
-  server: 192.238.204.48
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 1eb58333-3051-47c2-a2eb-44e5b64233c8
-  ws-opts:
-    headers:
-      Host: apple.com
-    path: '%2F'
+- name: 48|🇭🇰 香港 18 | uu6.top
+  password: a8e25fed-8247-4f7c-980b-01ecc6c5642b
+  port: 58430
+  server: xg1.qucloud.top
+  skip-cert-verify: true
+  sni: xg1.qucloud.top
+  tls: false
+  type: hysteria2
 - name: 48|🇭🇰 香港家宽 08 | uu6.top
   password: 32315324-cf6b-11ed-979b-f23c9164ca5d
   port: 443
