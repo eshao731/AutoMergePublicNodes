@@ -1,11 +1,4 @@
 proxies:
-- name: '0,1,4,11,12|🇸🇬 新加坡2 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 5553
-  server: 160.16.124.55
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '0,1,4,11,12|🇸🇬 新加坡 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 2760
@@ -13,6 +6,23 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '0,1,4,11,12|🇸🇬 新加坡2 | uu6.top #2'
+  password: 2274c52572e721086f8bd8f88984643c
+  port: 5553
+  server: 160.16.124.55
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 9|斯洛文尼亚 | uu6.top
+  network: ws
+  port: 443
+  server: fl-3-direct.djarbnet.ru
+  servername: fl-3-direct.djarbnet.ru
+  tls: true
+  type: vless
+  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
+  ws-opts:
+    path: '%2Fgetupdates'
 - name: '38,39,42,44,45|新加坡 | uu6.top #5'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
