@@ -1,4 +1,11 @@
 proxies:
+- name: '0,1,4,11,12|🇯🇵 日本 | uu6.top #2'
+  password: BxceQaOe
+  port: 1924
+  server: 160.16.227.93
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - name: '0,1,4,11,12|🇯🇵 日本3 | uu6.top #2'
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
@@ -6,18 +13,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '9|JP日本 | uu6.top #3'
-  network: ws
-  port: 10005
-  server: 18.180.249.33
-  servername: vless3.datatestvless.click
-  tls: true
-  type: vless
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-  ws-opts:
-    headers:
-      Host: vless3.datatestvless.click
-    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
 - name: '9|JP日本 | uu6.top #1'
   network: ws
   port: 32225
@@ -30,26 +25,11 @@ proxies:
     headers:
       Host: vless3.datatestvless.click
     path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
-- name: '15|日本3 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 3169
-  server: 160.16.196.59
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - name: '38,39,42,44,45|日本2 | uu6.top #4'
   network: tcp
   password: 2274c52572e721086f8bd8f88984643c
   port: 3169
   server: 153.121.65.107
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '38,39,42,44,45|日本3 | uu6.top #4'
-  network: tcp
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 3169
-  server: 160.16.63.16
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
