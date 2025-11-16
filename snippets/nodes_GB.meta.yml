@@ -10,6 +10,15 @@ proxies:
   sni: kotlet.arshiacomplus.dpdns.org
   tls: false
   type: hysteria2
+- name: 15|🇬🇧 - GB | uu6.top
+  obfs: salamander
+  obfs-password: khameniiko@smad@ret
+  password: YwuvGJk36B
+  port: 2083
+  server: 81.168.83.89
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '15|🇬🇧 - GB - #5 | uu6.top'
   obfs: salamander
   obfs-password: khameniiko@smad@ret
@@ -18,15 +27,6 @@ proxies:
   server: 81.168.83.89
   skip-cert-verify: true
   sni: 🔒 [By EbraSha]
-  tls: false
-  type: hysteria2
-- name: 15|🇬🇧 - GB | uu6.top
-  obfs: salamander
-  obfs-password: khameniiko@smad@ret
-  password: YwuvGJk36B
-  port: 2083
-  server: 81.168.83.89
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
@@ -49,18 +49,3 @@ proxies:
     headers:
       Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
     path: /azumase.ren
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 47,49|GB_speednode_0002 | uu6.top
-  port: 443
-  reality-opts:
-    public-key: ckRcueERkPqqjZABwxqni_J_Nbb70Q6k5fEEUAjoImw
-  server: 217.154.218.42
-  servername: azure.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0b0b98be-fdaf-40cc-a953-cc4091c838e1
