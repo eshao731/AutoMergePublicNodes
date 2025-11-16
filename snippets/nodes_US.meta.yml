@@ -1,16 +1,18 @@
 proxies:
-- name: '0,1,4,11,12|🇺🇸 美国2 | uu6.top #2'
-  password: 2274c52572e721086f8bd8f88984643c
-  port: 4211
-  server: 160.16.57.238
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '3|美国 | uu6.top #1'
   network: tcp
   port: 45258
+  server: 216.227.168.157
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
+- alterId: 0
+  cipher: auto
+  name: '3|美国 | uu6.top #2'
+  network: tcp
+  port: 45294
   server: 216.227.168.157
   tls: false
   type: vmess
@@ -28,15 +30,6 @@ proxies:
     headers:
       Host: 638987378208894304.sentra-amshr.info
     path: '%2Fcahttingws'
-- alterId: 0
-  cipher: auto
-  name: '3|美国 | uu6.top #2'
-  network: tcp
-  port: 45294
-  server: 216.227.168.157
-  tls: false
-  type: vmess
-  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - client-fingerprint: chrome
   encryption: none
   name: 7,8|🇺🇸_US_美国_1 | uu6.top
@@ -113,34 +106,18 @@ proxies:
     headers:
       Host: us8.candyfans.win
     path: '%2Fzonnws'
-- alterId: 0
-  cipher: auto
-  name: '9,42|🇺🇸 US美国 | uu6.top #17'
+- name: '9|US美国 | uu6.top #34'
   network: ws
-  port: '80'
-  server: 104.18.240.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
+  port: 19413
+  server: 121.165.101.69
+  servername: gaosir.unfeeling.sbs
+  tls: true
+  type: vless
+  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
   ws-opts:
     headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: '9,42|🇺🇸 US美国 | uu6.top #18'
-  network: ws
-  port: '80'
-  server: 185.146.173.126
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+      Host: gaosir.unfeeling.sbs
+    path: '%2Ftelegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2%2F%3Fed%3D2560'
 - cipher: chacha20-ietf-poly1305
   name: 10,16|美国 12 | uu6.top
   password: Nk9asglDzHzjktVzTkvhaA
@@ -170,7 +147,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: -1|1|1|1|48|🇺🇸 美国 07 | uu6.top
+- name: -1|1|1|1|1|48|🇺🇸 美国 07 | uu6.top
   password: 338ce171-d764-4610-8fd5-6688b0d321f0
   port: 30102
   server: 51.81.223.22
