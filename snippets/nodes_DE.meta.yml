@@ -1,11 +1,32 @@
 proxies:
-- name: 15,39|DE VLESS-99 | free-n | uu6.top
+- grpc-opts:
+    grpc-service-name: '@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast'
+  name: '0,39|DE VLESS-60 | free-n | uu6.top #1'
+  network: grpc
+  port: 2718
+  server: v2ngfast.heloisfood.ir
+  tls: false
+  type: vless
+  uuid: 71a712db-3843-4d24-b4c4-724ee0813044
+- name: '0,15,39|DE VLESS-93 | free-n | uu6.top #1'
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: kalam.mrconfigur.site
+  tls: true
+  type: vless
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  ws-opts:
+    headers:
+      Host: kalam.mrconfigur.site
+    path: '%2F'
+- name: '0,15,39|DE VLESS-99 | free-n | uu6.top #1'
   port: 37007
   server: 45.150.32.240
   tls: false
   type: vless
   uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
-- name: 15,16,38,39|DE VLESS-138 | free- | uu6.top
+- name: '0,15,16,38,39|DE VLESS-138 | free- | uu6.top #1'
   network: ws
   port: 443
   server: us1.candyfans.win
@@ -18,3 +39,14 @@ proxies:
     headers:
       Host: us1.candyfans.win
     path: /cgunws
+- name: '0,15,39|DE VLESS-105 | free- | uu6.top #1'
+  network: ws
+  port: 80
+  server: 37.120.184.180
+  tls: false
+  type: vless
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  ws-opts:
+    headers:
+      Host: cdn.ir
+    path: '%2Fnews'

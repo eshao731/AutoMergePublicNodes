@@ -1,11 +1,4 @@
 proxies:
-- name: 1,15,16,38,39|未知 TROJAN-1936 | fre | uu6.top
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.131.243
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '9|US美国 | uu6.top #5'
   network: ws
   port: 443
@@ -30,22 +23,6 @@ proxies:
     headers:
       Host: www.x-aniu-s-g.netlib.re
     path: '%2F%3Fed%3D2560'
-- name: 11,12,38,39,42,44,45|美国 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 153.121.39.240
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 11,12,38,39,42,44,45|美国2 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.116.227
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '15,16|[Vless] 🇺🇸 US VLESS- | uu6.top #1'
   network: ws
   port: 443
@@ -59,19 +36,6 @@ proxies:
     headers:
       Host: 639003276456417573.touareg-amsis.info
     path: /ldumfkws
-- name: 15,16,38,39|US VLESS-69 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: norman.ns.cloudflare.com
-  servername: 639003456258253450.mustang-amsit.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e9db60cd-83df-430a-960e-b77c56dc6ede
-  ws-opts:
-    headers:
-      Host: 639003456258253450.mustang-amsit.info
-    path: /lzummpws
 - client-fingerprint: chrome
   name: 15|US VLESS-79 | free-n | uu6.top
   network: ws
@@ -84,58 +48,11 @@ proxies:
   uuid: 60510065-6006-44df-a6e0-6c75968d739c
   ws-opts:
     path: /detailsws
-- client-fingerprint: chrome
-  name: '16|[Vless] 🇺🇸 US VLESS- | uu6.top #3'
-  network: ws
-  port: 443
-  server: us-003.shopping-1688.com
-  servername: us-003.shopping-1688.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 60510065-6006-44df-a6e0-6c75968d739c
-  ws-opts:
-    headers:
-      Host: us-003.shopping-1688.com
-    path: /detailsws
-- alterId: 0
-  cipher: auto
-  name: '42|🇺🇸 | uu6.top #1'
-  network: ws
-  port: '443'
-  server: v2ray.codefyinc.com
-  tls: false
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      Host: v2ray.codefyinc.com
-    path: /vmessws
-- alterId: 0
-  cipher: auto
-  name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
-  network: ws
-  port: '443'
-  server: 209.126.84.189
-  tls: false
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      Host: 209.126.84.189
-    path: /vmessws
 - cipher: aes-256-cfb
   name: 47|US_78587_0018 | uu6.top
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 47|US_78587_0019 | uu6.top
-  password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
-  port: 443
-  server: 107.174.114.71
   type: ss
   udp: true
 - client-fingerprint: random
@@ -151,3 +68,15 @@ proxies:
     headers:
       Host: ak.suoni.nyc.mn
     path: '%2Fproxyip%3Dsjc.o00o.ooo'
+- name: -1|48|🇺🇸 美国 09 | uu6.top
+  network: ws
+  port: 2053
+  server: 193.124.18.238
+  servername: ak.suoni.nyc.mn
+  tls: true
+  type: vless
+  uuid: 78fc9ba9-9c68-4b49-891f-ea9e38bd3b56
+  ws-opts:
+    headers:
+      Host: ak.suoni.nyc.mn
+    path: '%2Fproxyip%3Dsjc.o00o.ooofp=random'

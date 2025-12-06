@@ -1,19 +1,17 @@
 proxies:
-- name: '1,15,16,38,39|未知 TROJAN-1869 | fre | uu6.top #1'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 127
-  server: 160.16.131.243
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '1,15,16,38,39|未知 TROJAN-989 | free | uu6.top #1'
-  password: BxceQaOe
-  port: 2673
-  server: 43.198.90.142
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 11,12,38,39,42,44,45|新加坡2 | uu6.top
+- name: '0,39|SG VLESS-15 | free-n | uu6.top #1'
+  network: ws
+  port: 8443
+  server: news.zoom.us
+  servername: premium.vkehi.shop
+  tls: true
+  type: vless
+  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: '%2F'
+- name: 0,11,12,38,39,42,44,45|新加坡2 | uu6.top
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 507
@@ -21,3 +19,35 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- name: '0,15,16,38,39|未知 TROJAN-753 | free | uu6.top #2'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 1596
+  server: 160.16.150.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '9|SG新加坡 | uu6.top #3'
+  network: ws
+  port: 443
+  server: 34.92.187.216
+  servername: www.x-aniu-h-k.netlib.re
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.x-aniu-h-k.netlib.re
+    path: '%2F%3Fed%3D2560'
+- name: 38|[Vless] 🇸🇬 SG VLESS- | uu6.top
+  network: ws
+  port: 8443
+  server: news.zoom.us
+  servername: premium.vkehi.shop
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 353103ee-6f14-440b-b57a-b17b1f77155c
+  ws-opts:
+    headers:
+      Host: premium.vkehi.shop
+    path: /
