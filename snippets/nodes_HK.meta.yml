@@ -1,8 +1,24 @@
 proxies:
-- name: '15,16,38,39|未知 TROJAN-959 | free | uu6.top #1'
+- name: 1,11,12,33,38,39,42,44,45|香港4 | uu6.top
+  network: tcp
   password: BxceQaOe
   port: 443
-  server: 58.152.53.8
+  server: 219.79.186.107
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 1,11,12,38,39,42,44,45,48|🇭🇰 香港家宽 113 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.242
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '3,4,15,16,38,39|未知 TROJAN-1630 | fre | uu6.top #2'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.20
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan

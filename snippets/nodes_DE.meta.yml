@@ -1,46 +1,11 @@
 proxies:
-- name: 15,39|DE VLESS-81 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: kalam.mrconfigur.site
-  tls: true
-  type: vless
-  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-  ws-opts:
-    headers:
-      Host: kalam.mrconfigur.site
-    path: '%2F'
-- name: '15,39|DE VLESS-87 | free-n | uu6.top #1'
+- name: '4,15,39|DE VLESS-87 | free-n | uu6.top #1'
   port: 37007
   server: 45.150.32.240
   tls: false
   type: vless
   uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
-- name: 15,39|DE VLESS-92 | free-n | uu6.top
-  network: ws
-  port: 80
-  server: 37.120.184.180
-  tls: false
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  ws-opts:
-    headers:
-      Host: cdn.ir
-    path: '%2Fnews'
-- name: '15,16,38,39|DE VLESS-96 | free-n | uu6.top #1'
-  network: ws
-  port: 80
-  server: 37.120.186.241
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  ws-opts:
-    headers:
-      Host: cdn.ir
-    path: /news
-- name: '15,16,38,39|DE VLESS-126 | free- | uu6.top #1'
+- name: '4,15,16,38,39|DE VLESS-126 | free- | uu6.top #1'
   network: ws
   port: 443
   server: us1.candyfans.win
