@@ -1,52 +1,10 @@
 proxies:
-- name: '1,4,11,12,38,39|未知 TROJAN-1736 | fre | uu6.top #2'
+- name: '1,11,12,38,39|未知 TROJAN-1736 | fre | uu6.top #1'
   password: 79314e99f0a473fe86efc7827942ad00
   port: 1331
   server: 160.16.70.180
   skip-cert-verify: false
   sni: www.nintendogames.net
-  type: trojan
-- name: '1,4,11,12,38,39|未知 TROJAN-1014 | fre | uu6.top #2'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 127
-  server: 160.16.131.243
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '1,4,11,12,38,39|未知 TROJAN-1713 | fre | uu6.top #2'
-  password: BxceQaOe
-  port: 2673
-  server: 43.198.90.142
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '1,11,12,38,39|未知 TROJAN-1422 | fre | uu6.top #2'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 1596
-  server: 160.16.68.250
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '1,4,11,12,38,39|未知 TROJAN-1170 | fre | uu6.top #1'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.131.243
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: '1,12|🇻🇳 越南 | uu6.top #2'
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.174
-  type: ss
-- name: 1,11,12,33,38,39,42,44,45|香港4 | uu6.top
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 219.79.186.107
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
   type: trojan
 - name: 1,11,12,38,39,42,44,45,48|🇭🇰 香港家宽 113 | uu6.top
   network: tcp
@@ -56,382 +14,57 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '4,39|未知 VLESS-46 | free-n | uu6.top #1'
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: 639003456256484486.giulia-amsis.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
-  ws-opts:
-    headers:
-      Host: 639003456256484486.giulia-amsis.info
-    path: '%2Fccemutws'
-- name: '3,4,15,16,38,39|未知 TROJAN-1630 | fre | uu6.top #2'
+- name: '1,11,12,38,39|未知 TROJAN-1014 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 127
+  server: 160.16.131.243
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '1,11,12,38,39|未知 TROJAN-1713 | fre | uu6.top #1'
   password: BxceQaOe
-  port: 443
-  server: 58.152.25.20
+  port: 2673
+  server: 43.198.90.142
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- grpc-opts:
-    grpc-service-name: '@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet-@V2ngnet'
-  name: 4,39|DE VLESS-48 | free-n | uu6.top
-  network: grpc
-  port: 4488
-  server: v2ngnet.heloisfood.ir
-  tls: false
-  type: vless
-  uuid: 71a712db-3843-4d24-b4c4-724ee0813044
-- name: 4|未知 VLESS-14 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: brenna.ns.cloudflare.com
-  servername: 639003600953613625.insight-amsit.info
-  tls: true
-  type: vless
-  uuid: 504f4add-e233-454c-a45d-daffaeaa6081
-  ws-opts:
-    headers:
-      Host: 639003600953613625.insight-amsit.info
-    path: /fxywhnws
-- name: 4|未知 VLESS-16 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: betty.ns.cloudflare.com
-  servername: 639003456251297706.renegade-amsis.info
-  tls: true
-  type: vless
-  uuid: 2b066334-ca87-4c56-9a79-2f3636ee53d1
-  ws-opts:
-    headers:
-      Host: 639003456251297706.renegade-amsis.info
-    path: /dahdwsws
-- name: 4|未知 VLESS-15 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: delilah.ns.cloudflare.com
-  servername: 639003456253078972.defender-amsis.info
-  tls: true
-  type: vless
-  uuid: d350b8d9-e7cb-4e81-a189-73b15ee487a3
-  ws-opts:
-    headers:
-      Host: 639003456253078972.defender-amsis.info
-    path: /oypliwws
-- name: '1,4,11,12,38,39|未知 TROJAN-1486 | fre | uu6.top #2'
+- name: 1,11,12,38,39|未知 TROJAN-1170 | fre | uu6.top
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.131.243
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '1,11,12,38,39|未知 TROJAN-1486 | fre | uu6.top #1'
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2890
   server: 160.16.151.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 4|US VLESS-22 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: brenna.ns.cloudflare.com
-  servername: 639003276456417573.touareg-amsis.info
-  tls: true
-  type: vless
-  uuid: 1c3019a8-7bf1-498a-b7d4-f15677f06e88
-  ws-opts:
-    headers:
-      Host: 639003276456417573.touareg-amsis.info
-    path: /ldumfkws
-- name: 4|未知 VLESS-23 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: 639003338940169118.highlander-amsis.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: fba8aee4-abd7-42ba-a441-460019dddb0f
-  ws-opts:
-    headers:
-      Host: 639003338940169118.highlander-amsis.info
-    path: /prheflws
-- name: 4,15,39|US VLESS-62 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: delilah.ns.cloudflare.com
-  servername: 639002592262919469.sentra-amsir.info
-  tls: true
-  type: vless
-  uuid: 5b687f17-0176-495e-84a1-0835f8feec91
-  ws-opts:
-    headers:
-      Host: 639002592262919469.sentra-amsir.info
-    path: '%2Fegakxows'
-- name: 4,15|未知 VLESS-11 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: delilah.ns.cloudflare.com
-  servername: 639003456253079909.defender-amsis.info
-  tls: true
-  type: vless
-  uuid: 134563d7-f835-4110-a36b-e0db5d262ae0
-  ws-opts:
-    headers:
-      Host: 639003456253079909.defender-amsis.info
-    path: '%2Fdupbatws'
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: 4,38,39|未知 VLESS-67 | free-n | uu6.top
-  network: grpc
-  port: 33919
-  server: 141.227.162.151
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
-- grpc-opts:
-    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
-  name: '4,38,39|未知 VLESS-78 | free-n | uu6.top #1'
-  network: grpc
-  port: 25687
-  server: 141.227.136.51
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
-- name: 4,15,39|DE VLESS-81 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: kalam.mrconfigur.site
-  tls: true
-  type: vless
-  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
-  ws-opts:
-    headers:
-      Host: kalam.mrconfigur.site
-    path: '%2F'
-- name: 4,39|US VLESS-99 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: us-003.shopping-1688.com
-  servername: us-003.shopping-1688.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 60510065-6006-44df-a6e0-6c75968d739c
-  ws-opts:
-    path: /detailsws
-- name: 4,15,39|DE VLESS-92 | free-n | uu6.top
-  network: ws
-  port: 80
-  server: 37.120.184.180
-  tls: false
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  ws-opts:
-    headers:
-      Host: cdn.ir
-    path: '%2Fnews'
-- name: '4,15,39|DE VLESS-87 | free-n | uu6.top #1'
-  port: 37007
-  server: 45.150.32.240
-  tls: false
-  type: vless
-  uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
-- name: '4,15,16,38,39|DE VLESS-96 | free-n | uu6.top #1'
-  network: ws
-  port: 80
-  server: 37.120.186.241
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  ws-opts:
-    headers:
-      Host: cdn.ir
-    path: /news
-- name: '4,15,16,38,39|DE VLESS-126 | free- | uu6.top #1'
-  network: ws
-  port: 443
-  server: us1.candyfans.win
-  servername: us1.candyfans.win
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d82baa81-c138-49fc-b81e-7ef0eb7ff063
-  ws-opts:
-    headers:
-      Host: us1.candyfans.win
-    path: /cgunws
-- alpn:
-  - h2
-  - http/1.1
-  name: 4,15,16,38,39|CA VLESS-136 | free- | uu6.top
-  network: tcp
-  port: 7070
-  server: 86.107.168.100
-  servername: src.smnsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
-- name: 4,15,16,38,39,42|🇺🇸 美国 华盛顿Cogent通信公司 | uu6.top
-  network: tcp
-  password: .ie4rghJuMkcf0oF
-  port: 18509
-  server: 38.96.254.102
-  skip-cert-verify: false
-  sni: shoppingmall.electricbanana.click
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1673 | fre | uu6.top #2'
-  password: .+QAJot50sDi6mvb
-  port: 11790
-  server: 5.188.108.13
-  skip-cert-verify: false
-  sni: runningshoes.purpletornado.click
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-959 | free | uu6.top #2'
+- cipher: aes-256-cfb
+  name: '1,12|🇻🇳 越南 | uu6.top #2'
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.174
+  type: ss
+- name: '3,15,16,38,39|未知 TROJAN-1630 | fre | uu6.top #1'
   password: BxceQaOe
   port: 443
-  server: 58.152.53.8
+  server: 58.152.25.20
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-972 | free | uu6.top #1'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.63.16
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-316 | free | uu6.top #2'
-  password: 7778e684-f435-4166-bf9e-0256cb28bf10
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: false
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1663 | fre | uu6.top #2'
-  password: af4d2493-9156-4514-9f6b-ee5d1a1e4713
-  port: 443
-  server: download2hkt.windowsupdate.lol
-  skip-cert-verify: false
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1540 | fre | uu6.top #2'
-  password: d150c8c3-a667-4d3e-843c-739f8558c7d2
-  port: 443
-  server: uk-full.privateip.net
-  skip-cert-verify: false
-  type: trojan
-- name: '4,15,16|[Trojan] 未知 TROJAN-2 | uu6.top #78'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.124.55
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-700 | free | uu6.top #1'
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  port: 443
-  server: 60.72img.xyz
-  skip-cert-verify: false
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1718 | fre | uu6.top #2'
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 3093
-  server: 160.16.144.208
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1429 | fre | uu6.top #1'
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 3093
-  server: 153.121.44.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1216 | fre | uu6.top #2'
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  port: 443
-  server: 31.72img.xyz
-  skip-cert-verify: false
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-406 | free | uu6.top #2'
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 4054
-  server: 160.16.116.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1767 | fre | uu6.top #2'
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 3093
-  server: 153.121.45.139
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1474 | fre | uu6.top #1'
-  password: acfef609-b3c7-4e52-b292-8921d5fca90d
-  port: 443
-  server: ca-full.privateip.net
-  skip-cert-verify: false
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-828 | free | uu6.top #2'
-  password: 2cf6d686799e6fa95316394064f26c0a
-  port: 127
-  server: 160.16.116.227
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1773 | fre | uu6.top #2'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 3169
-  server: 153.121.65.107
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1653 | fre | uu6.top #1'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.57.238
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- grpc-opts:
-    grpc-service-name: db
-  name: '4,9,38,39|未知 TROJAN-1717 | fre | uu6.top #2'
-  network: grpc
-  password: 3c4e10af98c30972
-  port: 443
-  server: 23.247.137.64
-  skip-cert-verify: true
-  sni: n2.gladns.com
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1057 | fre | uu6.top #2'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.236.32
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1365 | fre | uu6.top #2'
+- alterId: 0
+  cipher: auto
+  name: '9,33,42|🇬🇧 GB英国 | uu6.top #4'
   network: tcp
-  password: 6pRjKQJ0CWyFtG.9
-  port: 12990
-  server: 198.57.27.27
-  skip-cert-verify: false
-  sni: diningtable.electricbanana.click
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1917 | fre | uu6.top #2'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.214.6
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: 4|未知 TROJAN-1628 | fre | uu6.top
-  password: 6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3
-  port: 443
-  server: fr-full.privateip.net
-  type: trojan
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 9|保加利亚 | uu6.top
   network: ws
   port: 24443
@@ -444,32 +77,6 @@ proxies:
     headers:
       Host: vless3.datatestvless.click
     path: '%2F'
-- alterId: 0
-  cipher: auto
-  name: '9,42|🇺🇸 US美国 | uu6.top #13'
-  network: ws
-  port: '37934'
-  server: 74.117.196.232
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- name: '9|保加利亚 | uu6.top #2'
-  network: ws
-  port: 24443
-  server: 178.239.123.216
-  servername: vless3.datatestvless.click
-  tls: true
-  type: vless
-  uuid: aa7f42cc-616f-4550-9a87-4b85bb409121
-  ws-opts:
-    headers:
-      Host: vless3.datatestvless.click
-    path: '%2F%3Fed%3D2560'
 - cipher: aes-128-gcm
   name: 10|US美国 7 | uu6.top
   password: 1z6g07dsgi2jv8s8jss4
@@ -477,6 +84,60 @@ proxies:
   server: 185.103.110.67
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 10|GB英国 5 | uu6.top
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 15|未知 VLESS-11 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: delilah.ns.cloudflare.com
+  servername: 639003456253079909.defender-amsis.info
+  tls: true
+  type: vless
+  uuid: 134563d7-f835-4110-a36b-e0db5d262ae0
+  ws-opts:
+    headers:
+      Host: 639003456253079909.defender-amsis.info
+    path: '%2Fdupbatws'
+- name: 15,39|DE VLESS-81 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: www.speedtest.net
+  servername: kalam.mrconfigur.site
+  tls: true
+  type: vless
+  uuid: 88538870-5626-4cd7-9cda-1e0b6253c9ce
+  ws-opts:
+    headers:
+      Host: kalam.mrconfigur.site
+    path: '%2F'
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: 15,16|[Vless] 未知 VLESS-82 | uu6.top
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ
+    short-id: 21181028b56c8702
+  server: 84.32.64.39
+  servername: www.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 793099c5-0712-4ea0-bbe1-455da88fc671
+- name: '15,39|DE VLESS-87 | free-n | uu6.top #1'
+  port: 37007
+  server: 45.150.32.240
+  tls: false
+  type: vless
+  uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
 - name: '15,16,38|[Vless] 🇺🇸 US VLESS- | uu6.top #11'
   network: ws
   port: 443
@@ -490,12 +151,182 @@ proxies:
     headers:
       Host: us-003.shopping-1688.com
     path: /detailsws
-- name: '15,16,38,39|未知 TROJAN-1914 | fre | uu6.top #2'
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 160.16.81.84
+- name: 15,39|DE VLESS-92 | free-n | uu6.top
+  network: ws
+  port: 80
+  server: 37.120.184.180
+  tls: false
+  type: vless
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  ws-opts:
+    headers:
+      Host: cdn.ir
+    path: '%2Fnews'
+- name: '15,16,38,39|DE VLESS-96 | free-n | uu6.top #1'
+  network: ws
+  port: 80
+  server: 37.120.186.241
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  ws-opts:
+    headers:
+      Host: cdn.ir
+    path: /news
+- alpn:
+  - h2
+  - http/1.1
+  name: 15,16,38,39|CA VLESS-136 | free- | uu6.top
+  network: tcp
+  port: 7070
+  server: 86.107.168.100
+  servername: src.smnsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
+- name: '15,16,38,39|未知 TROJAN-1216 | fre | uu6.top #1'
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  port: 443
+  server: 31.72img.xyz
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-959 | free | uu6.top #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.53.8
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-828 | free | uu6.top #1'
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 127
+  server: 160.16.116.227
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: 15,16,38,39|未知 TROJAN-700 | free | uu6.top
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  port: 443
+  server: 60.72img.xyz
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-316 | free | uu6.top #1'
+  password: 7778e684-f435-4166-bf9e-0256cb28bf10
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: false
+  type: trojan
+- name: 15,16,38,39|未知 TROJAN-1653 | fre | uu6.top
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 160.16.57.238
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1057 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 15,16,38,39|未知 TROJAN-1429 | fre | uu6.top
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 3093
+  server: 153.121.44.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1773 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 3169
+  server: 153.121.65.107
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-972 | free | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 160.16.63.16
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1626 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 3145
+  server: 160.16.144.208
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1365 | fre | uu6.top #1'
+  network: tcp
+  password: 6pRjKQJ0CWyFtG.9
+  port: 12990
+  server: 198.57.27.27
+  skip-cert-verify: false
+  sni: diningtable.electricbanana.click
+  type: trojan
+- name: 15,16,33,38,39,42|🇺🇸 美国 华盛顿Cogent通信公司 | uu6.top
+  network: tcp
+  password: .ie4rghJuMkcf0oF
+  port: 18509
+  server: 38.96.254.102
+  skip-cert-verify: false
+  sni: shoppingmall.electricbanana.click
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1474 | fre | uu6.top #1'
+  password: acfef609-b3c7-4e52-b292-8921d5fca90d
+  port: 443
+  server: ca-full.privateip.net
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1767 | fre | uu6.top #1'
+  password: 2cf6d686799e6fa95316394064f26c0a
+  port: 3093
+  server: 153.121.45.139
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1540 | fre | uu6.top #1'
+  password: d150c8c3-a667-4d3e-843c-739f8558c7d2
+  port: 443
+  server: uk-full.privateip.net
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1742 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 1331
+  server: 153.121.65.107
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,33,38,39|未知 TROJAN-1673 | fre | uu6.top #1'
+  password: .+QAJot50sDi6mvb
+  port: 11790
+  server: 5.188.108.13
+  skip-cert-verify: false
+  sni: runningshoes.purpletornado.click
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1899 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 1596
+  server: 160.16.150.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-695 | free | uu6.top #1'
+  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
+  port: 443
+  server: hinet.mjt000.com
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16,38,39|未知 TROJAN-1663 | fre | uu6.top #1'
+  password: af4d2493-9156-4514-9f6b-ee5d1a1e4713
+  port: 443
+  server: download2hkt.windowsupdate.lol
+  skip-cert-verify: false
   type: trojan
 - cipher: chacha20-ietf-poly1305
   name: 16,38|[SS] 🇩🇪 DE SS-60 | f | uu6.top
@@ -503,6 +334,18 @@ proxies:
   port: 443
   server: 87.121.162.249
   type: ss
+- cipher: aes-256-gcm
+  name: 16,38|[SS] 🇺🇸 US SS-61 | f | uu6.top
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 15.204.247.49
+  type: ss
+- name: '15,16,38,39|未知 TROJAN-1855 | fre | uu6.top #1'
+  password: 8d16a256-42d7-4431-8039-da1eb06cafbc
+  port: 443
+  server: it-full.privateip.net
+  skip-cert-verify: false
+  type: trojan
 - name: 16|[Vless] 未知 VLESS-11 | uu6.top
   network: ws
   port: 443
@@ -516,18 +359,6 @@ proxies:
     headers:
       Host: 639003456253079909.defender-amsis.info
     path: /dupbatws
-- cipher: aes-256-gcm
-  name: 16,38|[SS] 🇺🇸 US SS-61 | f | uu6.top
-  password: 8JCsPssfgS8tiRwiMlhARg==
-  port: 12000
-  server: 15.204.247.49
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 16,38|[SS] 未知 SS-90 | free | uu6.top
-  password: YQCSKoCF3QazW8YlvDBWA4
-  port: 56689
-  server: 109.71.246.210
-  type: ss
 - name: '16,38|[Vless] 🇩🇪 DE VLESS- | uu6.top #16'
   network: ws
   port: 443
@@ -541,18 +372,18 @@ proxies:
     headers:
       Host: kalam.mrconfigur.site
     path: /
-- name: '16,38|[Vless] 🇩🇪 DE VLESS- | uu6.top #19'
-  network: ws
-  port: 80
-  server: 37.120.184.180
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  ws-opts:
-    headers:
-      Host: cdn.ir
-    path: /news
+- cipher: aes-256-gcm
+  name: 16,38|[SS] 未知 SS-101 | fre | uu6.top
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 38.54.20.59
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16,38|[SS] 未知 SS-90 | free | uu6.top
+  password: YQCSKoCF3QazW8YlvDBWA4
+  port: 56689
+  server: 109.71.246.210
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '16,38|[SS] 未知 SS-110 | fre | uu6.top #1'
   password: pNqnYf3kHesOpCchRvUZxfwTafRsOj7g
@@ -564,12 +395,6 @@ proxies:
   password: ixPymFma6P7U41wk9MNP7znPnvax3mjd
   port: 443
   server: 45.89.55.173
-  type: ss
-- cipher: aes-256-gcm
-  name: 16,38|[SS] 未知 SS-101 | fre | uu6.top
-  password: kDWvXYZoTBcGkC4
-  port: 8881
-  server: 38.54.20.59
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 16,38|[SS] 🇷🇺 RU SS-114 | | uu6.top
@@ -584,12 +409,6 @@ proxies:
   server: 94.131.104.147
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 16,38|[SS] 未知 SS-111 | fre | uu6.top
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 176.123.1.175
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 16,38|[SS] 🇺🇸 US SS-115 | | uu6.top
   password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
   port: 443
@@ -601,17 +420,23 @@ proxies:
   port: 990
   server: 190.103.176.32
   type: ss
+- name: '16,38|[Vless] 🇩🇪 DE VLESS- | uu6.top #19'
+  network: ws
+  port: 80
+  server: 37.120.184.180
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
+  ws-opts:
+    headers:
+      Host: cdn.ir
+    path: /news
 - cipher: chacha20-ietf-poly1305
   name: 16,38|[SS] 未知 SS-117 | fre | uu6.top
   password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
   port: 443
   server: 89.221.225.15
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 16,38|[SS] 未知 SS-33 | free | uu6.top
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.140
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 16,38|[SS] 未知 SS-118 | fre | uu6.top
@@ -620,10 +445,16 @@ proxies:
   server: 65.21.243.22
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '16,38|[SS] 未知 SS-120 | fre | uu6.top #1'
-  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
-  port: 443
-  server: 95.111.222.113
+  name: 16,38|[SS] 未知 SS-33 | free | uu6.top
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16,38|[SS] 未知 SS-111 | fre | uu6.top
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 176.123.1.175
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 16,38|[SS] 未知 SS-93 | free | uu6.top
@@ -636,6 +467,12 @@ proxies:
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 91.148.135.31
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16,38|[SS] 未知 SS-120 | fre | uu6.top #1'
+  password: SVt6ZiWzRI1Yxeig4xBZwiJOt6ceXwGa
+  port: 443
+  server: 95.111.222.113
   type: ss
 - name: '16|[Trojan] 未知 TROJAN-1 | uu6.top #467'
   network: ws
@@ -705,48 +542,50 @@ proxies:
     headers:
       Host: fr-1-fr-1.aiopen.sbs
     path: /kbjc/fr1
-- name: 34|RU | uu6.top
-  password: 15d8d4f4-a050-4034-bb08-3a262dba2c2d
-  port: 11000
-  server: 194.87.196.112
+- name: 34,35|🇪 - SE | uu6.top
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 77238c49bd20e407f05e0c073ad08fdb
+  port: 989
+  server: dd.openaccessnode.com
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: dd.ircybersec.org
   tls: false
   type: hysteria2
-- name: '34,35|🔸💘 | uu6.top #6'
-  password: SNItest
-  port: 443
-  server: 37.18.14.169
+- name: 34|🟢14 | uu6.top
+  password: 79d73809-f5ed-4099-8588-ba77578def1d
+  port: 35789
+  server: iij.mggl.wang
   skip-cert-verify: true
-  sni: megafon.ru
+  sni: iij.mggl.wang
   tls: false
   type: hysteria2
-- name: '34,35|未命名 | uu6.top #39'
+- name: '34,35|🇳🇱 - NL | uu6.top #2'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '34,35|🇳🇱 - NL | uu6.top #7'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.40
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 34|🪝47 | uu6.top
   password: dongtaiwang.com
-  port: 5355
-  server: 51.159.111.32
+  port: 22222
+  server: 208.87.243.187
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '35|🇳🇱 - NL | uu6.top #3'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35200
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '35|🇳🇱 - NL | uu6.top #5'
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36400
-  server: 206.71.158.37
-  skip-cert-verify: true
-  sni: YAPC-1.afshin.ir
+  sni: ''
   tls: false
   type: hysteria2
 - name: '35|🇳🇱 - NL | uu6.top #10'
@@ -757,16 +596,6 @@ proxies:
   server: 206.71.158.41
   skip-cert-verify: true
   sni: jnir.pichondan.com
-  tls: false
-  type: hysteria2
-- name: 35|کانفیگ های بیشتر در | uu6.top
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 36300
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -801,33 +630,6 @@ proxies:
     headers:
       Host: azizoarjmand.info
     path: /yhowcws
-- name: 38|[Vless] 未知 VLESS-21 | uu6.top
-  network: ws
-  port: 443
-  server: betty.ns.cloudflare.com
-  servername: vangoghh.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  ws-opts:
-    headers:
-      Host: vangoghh.info
-    path: /tixvuws
-- name: 38,47,49|US_speednode_0022 | uu6.top
-  network: ws
-  port: 443
-  server: serena.ns.cloudflare.com
-  servername: freudd.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    headers:
-      Host: freudd.info
-    path: /xxvclws
 - name: 38,39,42,44,45|新加坡2 | uu6.top
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
@@ -876,6 +678,49 @@ proxies:
     headers:
       Host: hazmkardan.info
     path: /fwgisws
+- name: 38|[Vless] 未知 VLESS-46 | uu6.top
+  network: ws
+  port: 443
+  server: cosmin.ns.cloudflare.com
+  servername: 639003456256484486.giulia-amsis.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
+  ws-opts:
+    headers:
+      Host: 639003456256484486.giulia-amsis.info
+    path: /ccemutws
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 38,39|未知 VLESS-67 | free-n | uu6.top
+  network: grpc
+  port: 33919
+  server: 141.227.162.151
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 9eee43b5-6b7d-494a-a5b3-fb45b7ee4976
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 38,39|未知 VLESS-66 | free-n | uu6.top
+  network: grpc
+  port: 23990
+  server: 141.227.140.217
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 38,39|未知 VLESS-78 | free-n | uu6.top
+  network: grpc
+  port: 25687
+  server: 141.227.136.51
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: a03e540d-7fa2-4187-b0d0-5202a22cf9a0
 - cipher: chacha20-ietf-poly1305
   name: 38|[SS] 未知 SS-119 | fre | uu6.top
   password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
@@ -902,19 +747,12 @@ proxies:
   port: 443
   server: 103.75.118.125
   type: ss
-- name: 38|[Vless] 未知 VLESS-46 | uu6.top
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: 639003456256484486.giulia-amsis.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
-  ws-opts:
-    headers:
-      Host: 639003456256484486.giulia-amsis.info
-    path: /ccemutws
+- cipher: chacha20-ietf-poly1305
+  name: 38|[SS] 未知 SS-133 | fre | uu6.top
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 193.135.174.135
+  type: ss
 - name: '38,39|未知 TROJAN-1511 | fre | uu6.top #1'
   network: tcp
   password: BaeSzHdfJIR13l67
@@ -923,12 +761,6 @@ proxies:
   skip-cert-verify: false
   sni: softpillow.silentrocket.click
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 38|[SS] 未知 SS-133 | fre | uu6.top
-  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
-  port: 990
-  server: 193.135.174.135
-  type: ss
 - name: 38,39,42,44,45|美国 | uu6.top
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
@@ -953,32 +785,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '39|未知 VLESS-21 | free-n | uu6.top #1'
-  network: ws
-  port: 443
-  server: betty.ns.cloudflare.com
-  servername: vangoghh.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
-  ws-opts:
-    headers:
-      Host: vangoghh.info
-    path: '%2Ftixvuws'
-- name: '39|未知 VLESS-22 | free-n | uu6.top #1'
-  network: ws
-  port: 443
-  server: serena.ns.cloudflare.com
-  servername: freudd.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
-  ws-opts:
-    headers:
-      Host: freudd.info
-    path: '%2Fxxvclws'
 - name: 39|GB VLESS-20 | free-n | uu6.top
   network: ws
   port: 443
@@ -1005,6 +811,19 @@ proxies:
     headers:
       Host: azizoarjmand.info
     path: '%2Fyhowcws'
+- name: '39|未知 VLESS-21 | free-n | uu6.top #1'
+  network: ws
+  port: 443
+  server: betty.ns.cloudflare.com
+  servername: vangoghh.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 94daa8ad-75ed-4dbf-a6de-d05036d98df5
+  ws-opts:
+    headers:
+      Host: vangoghh.info
+    path: '%2Ftixvuws'
 - client-fingerprint: random
   name: 39|GB VLESS-44 | free-n | uu6.top
   network: ws
@@ -1044,6 +863,30 @@ proxies:
     headers:
       Host: hazmkardan.info
     path: '%2Ffwgisws'
+- name: 39|未知 VLESS-46 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: cosmin.ns.cloudflare.com
+  servername: 639003456256484486.giulia-amsis.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 4f590914-6d75-4f1d-a361-2fddb3cdf669
+  ws-opts:
+    headers:
+      Host: 639003456256484486.giulia-amsis.info
+    path: '%2Fccemutws'
+- name: 39|US VLESS-99 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: us-003.shopping-1688.com
+  servername: us-003.shopping-1688.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 60510065-6006-44df-a6e0-6c75968d739c
+  ws-opts:
+    path: /detailsws
 - client-fingerprint: random
   name: 39|CA VLESS-145 | free- | uu6.top
   network: ws
@@ -1057,19 +900,6 @@ proxies:
     headers:
       Host: ak.suoni.nyc.mn
     path: '%2Fproxyip%3Dsjc.o00o.ooo'
-- alterId: 0
-  cipher: auto
-  name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
-  network: ws
-  port: '80'
-  server: 15.235.41.200
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /IOebhLMhl1CTbFHbL95myfRX2
 - cipher: rc4-md5
   name: 42|8J-HuvCfh7ggU1NSLee- | uu6.top
   obfs: plain
@@ -1090,32 +920,6 @@ proxies:
   protocol-param: ''
   server: 79.127.233.170
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
-  network: ws
-  port: '443'
-  server: 209.126.84.189
-  tls: false
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      Host: 209.126.84.189
-    path: /vmessws
-- alterId: 0
-  cipher: auto
-  name: '42|🇺🇸 | uu6.top #1'
-  network: ws
-  port: '443'
-  server: v2ray.codefyinc.com
-  tls: false
-  type: vmess
-  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
-  ws-opts:
-    headers:
-      Host: v2ray.codefyinc.com
-    path: /vmessws
 - alterId: 0
   cipher: auto
   name: '42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
@@ -1145,13 +949,6 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 42|🇫🇷 _FR_法国 | uu6.top
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 52.47.206.247
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - cipher: aes-256-cfb
   name: '44|🇻🇳 越南 | uu6.top #5'
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -1180,17 +977,24 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-256-cfb
+  name: 47|IN_9261b_0014 | uu6.top
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.209.147.198
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
   name: 47|US_9261b_0018 | uu6.top
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 47|IN_9261b_0014 | uu6.top
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.209.147.198
+- cipher: chacha20-ietf-poly1305
+  name: 47|GB_9261b_0010 | uu6.top
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -1228,6 +1032,11 @@ proxies:
   server: 103.186.154.208
   type: ss
   udp: true
+- name: -1|4|未知 TROJAN-1628 | f | uu6.top
+  password: 6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3
+  port: 443
+  server: fr-full.privateip.net
+  type: trojan
 - name: '-1|38|[Vless] 🇬🇧 GB VLE | uu6.top #2'
   network: ws
   port: 443

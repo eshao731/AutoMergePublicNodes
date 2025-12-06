@@ -1,4 +1,17 @@
 proxies:
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 15,16,38,39|CA VLESS-136 | free- | uu6.top
+  network: tcp
+  port: 7070
+  server: 86.107.168.100
+  servername: src.smnsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
 - client-fingerprint: random
   name: '38|[Vless] 🇨🇦 CA VLESS- | uu6.top #15'
   network: ws
@@ -26,19 +39,6 @@ proxies:
     headers:
       Host: ak.suoni.nyc.mn
     path: '%2Fproxyip%3Dsjc.o00o.ooo'
-- alterId: 0
-  cipher: auto
-  name: 42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
-  network: ws
-  port: '80'
-  server: 15.235.41.200
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ''
-    path: /IOebhLMhl1CTbFHbL95myfRX2
 - alterId: 0
   cipher: auto
   name: '42|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
