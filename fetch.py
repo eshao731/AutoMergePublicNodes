@@ -28,9 +28,16 @@ import time
 import subprocess
 import tempfile
 import shutil
+from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from types import FunctionType as function
 from typing import Set, List, Dict, Tuple, Union, Callable, Any, Optional, no_type_check
+
+# 源历史记录相关常量
+SOURCE_HISTORY_FILE = "source_history.json"
+SOURCE_DELETE_FILE = "source_delete.list"
+SOURCES_FILE = "sources.list"
+INVALID_DAYS_THRESHOLD = 7  # 连续无效天数阈值
 
 try: PROXY = open("local_proxy.conf").read().strip()
 except FileNotFoundError: LOCAL = False; PROXY = None
@@ -1390,8 +1397,185 @@ def load_previous_nodes() -> List[str]:
 
     return previous_nodes
 
+# ============================================================
+# 源历史记录管理功能
+# ============================================================
+
+def load_source_history() -> Dict[str, List[Dict[str, Any]]]:
+    """
+    加载源历史记录
+    返回格式: {url: [{date: "YYYY-MM-DD", success: bool, valid_nodes: int}, ...]}
+    """
+    if os.path.exists(SOURCE_HISTORY_FILE):
+        try:
+            with open(SOURCE_HISTORY_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"加载源历史记录失败: {e}")
+    return {}
+
+def save_source_history(history: Dict[str, List[Dict[str, Any]]]) -> None:
+    """保存源历史记录"""
+    try:
+        with open(SOURCE_HISTORY_FILE, 'w', encoding='utf-8') as f:
+            json.dump(history, f, ensure_ascii=False, indent=2)
+    except IOError as e:
+        print(f"保存源历史记录失败: {e}")
+
+def update_source_history(history: Dict[str, List[Dict[str, Any]]], 
+                          url: str, success: bool, valid_nodes: int) -> None:
+    """
+    更新单个源的历史记录
+    只保留最近7天的记录
+    """
+    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    
+    if url not in history:
+        history[url] = []
+    
+    # 检查今天是否已有记录，如果有则更新
+    for record in history[url]:
+        if record['date'] == today:
+            # 更新今天的记录（取更好的结果）
+            if success and valid_nodes > record['valid_nodes']:
+                record['success'] = success
+                record['valid_nodes'] = valid_nodes
+            return
+    
+    # 添加今天的记录
+    history[url].append({
+        'date': today,
+        'success': success,
+        'valid_nodes': valid_nodes
+    })
+    
+    # 只保留最近7天的记录
+    cutoff_date = (datetime.datetime.now() - datetime.timedelta(days=INVALID_DAYS_THRESHOLD)).strftime("%Y-%m-%d")
+    history[url] = [r for r in history[url] if r['date'] >= cutoff_date]
+
+def normalize_source_url(line: str) -> Optional[str]:
+    """
+    从 sources.list 的行中提取规范化的 URL
+    返回 None 表示这是注释行或空行
+    """
+    line = line.strip()
+    if not line or line.startswith('#'):
+        return None
+    
+    # 去掉前缀标记
+    url = line
+    if url.startswith('!'):
+        url = url[1:]
+    if url.startswith('*'):
+        url = url[1:]
+    if url.startswith('+'):
+        # 动态日期URL，取最后一部分
+        parts = url.split()
+        url = parts[-1] if parts else url
+    
+    # 去掉URL参数部分（#后面的）
+    if '#' in url:
+        url = url.split('#')[0]
+    
+    return url
+
+def check_source_should_delete(history: Dict[str, List[Dict[str, Any]]], url: str) -> Tuple[bool, str]:
+    """
+    检查源是否应该被删除
+    返回: (是否应删除, 删除原因)
+    规则:
+    1. 7天内所有访问都失败
+    2. 7天内所有获取的代理都无效（valid_nodes=0）
+    """
+    if url not in history:
+        return False, ""
+    
+    records = history[url]
+    
+    # 必须有足够的记录（至少7天的数据）
+    if len(records) < INVALID_DAYS_THRESHOLD:
+        return False, ""
+    
+    # 检查最近7天的记录
+    all_failed = all(not r['success'] for r in records)
+    all_no_valid_nodes = all(r['valid_nodes'] == 0 for r in records)
+    
+    if all_failed:
+        return True, f"连续{len(records)}天访问失败"
+    if all_no_valid_nodes:
+        return True, f"连续{len(records)}天无有效代理"
+    
+    return False, ""
+
+def cleanup_invalid_sources(history: Dict[str, List[Dict[str, Any]]]) -> List[Tuple[str, str, str]]:
+    """
+    清理无效的订阅源
+    返回被删除的源列表: [(原始行, 规范化URL, 删除原因), ...]
+    """
+    deleted_sources: List[Tuple[str, str, str]] = []
+    
+    # 读取 sources.list
+    try:
+        with open(SOURCES_FILE, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+    except IOError as e:
+        print(f"读取 {SOURCES_FILE} 失败: {e}")
+        return deleted_sources
+    
+    # 检查每一行
+    new_lines: List[str] = []
+    for line in lines:
+        original_line = line.rstrip('\n')
+        url = normalize_source_url(original_line)
+        
+        if url is None:
+            # 保留注释和空行
+            new_lines.append(line)
+            continue
+        
+        should_delete, reason = check_source_should_delete(history, url)
+        if should_delete:
+            deleted_sources.append((original_line, url, reason))
+            # 不添加到 new_lines，相当于删除
+        else:
+            new_lines.append(line)
+    
+    if deleted_sources:
+        # 写回 sources.list
+        try:
+            with open(SOURCES_FILE, 'w', encoding='utf-8') as f:
+                f.writelines(new_lines)
+            print(f"已从 {SOURCES_FILE} 删除 {len(deleted_sources)} 个无效源")
+        except IOError as e:
+            print(f"写入 {SOURCES_FILE} 失败: {e}")
+            return []
+        
+        # 记录到 source_delete.list
+        try:
+            with open(SOURCE_DELETE_FILE, 'a', encoding='utf-8') as f:
+                today = datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+                for original_line, url, reason in deleted_sources:
+                    f.write(f"# [{today}] {reason}\n")
+                    f.write(f"{original_line}\n")
+            print(f"已将删除记录追加到 {SOURCE_DELETE_FILE}")
+        except IOError as e:
+            print(f"写入 {SOURCE_DELETE_FILE} 失败: {e}")
+        
+        # 从历史记录中删除这些源
+        for _, url, _ in deleted_sources:
+            if url in history:
+                del history[url]
+        save_source_history(history)
+    
+    return deleted_sources
+
 def main():
     global exc_queue, merged, FETCH_TIMEOUT, ABFURLS, AUTOURLS, AUTOFETCH
+    
+    # 加载源历史记录
+    source_history = load_source_history()
+    print(f"已加载 {len(source_history)} 个源的历史记录")
+    
     sources = open("sources.list", encoding="utf-8").read().strip().splitlines()
     if DEBUG_NO_NODES:
         # !!! JUST FOR DEBUGING !!!
@@ -1509,6 +1693,34 @@ def main():
             break
         while exc_queue:
             print(exc_queue.pop(0), file=sys.stderr, flush=True)
+
+    # 更新源历史记录
+    print("\n正在更新源历史记录...")
+    for source in sources_obj:
+        # 获取规范化的URL（去掉参数等）
+        url = source.url
+        if '#' in url:
+            url = url.split('#')[0]
+        
+        # 判断抓取是否成功
+        success = isinstance(source.content, str) and source.sub is not None
+        
+        # 统计有效节点数（在merged中的节点）
+        valid_nodes = 0
+        if source.sub:
+            for p in source.sub:
+                try:
+                    n = Node(p) if isinstance(p, str) else Node(p)
+                    if hash(n) in merged:
+                        valid_nodes += 1
+                except:
+                    pass
+        
+        update_source_history(source_history, url, success, valid_nodes)
+    
+    # 保存更新后的历史记录
+    save_source_history(source_history)
+    print(f"已更新 {len(sources_obj)} 个源的历史记录")
 
     # 合并之前的节点（直接处理，不需要通过Source对象）
     if previous_nodes:
@@ -1755,7 +1967,17 @@ def main():
     out += f"\n总计,,{len(merged)}\n"
     open("list_result.csv",'w').write(out)
 
-    print("写出完成！")
+    # 清理无效的订阅源（连续7天失败或无有效代理）
+    print("\n正在检查无效订阅源...")
+    deleted = cleanup_invalid_sources(source_history)
+    if deleted:
+        print(f"已清理 {len(deleted)} 个无效订阅源：")
+        for original_line, url, reason in deleted:
+            print(f"  - {url[:60]}... ({reason})")
+    else:
+        print("没有需要清理的无效订阅源")
+
+    print("\n写出完成！")
 
 if __name__ == '__main__':
     from dynamic import AUTOURLS, AUTOFETCH # type: ignore

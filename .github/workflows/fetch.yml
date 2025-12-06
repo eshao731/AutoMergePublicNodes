@@ -49,7 +49,11 @@ jobs:
         git pull origin master
         git add list*
         git add snippets/
-        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
+        # 添加源管理相关文件（如果存在）
+        [ -f source_history.json ] && git add source_history.json
+        [ -f source_delete.list ] && git add source_delete.list
+        git add sources.list
+        git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "没有需要提交的更改"
     - name: 推送更改
       uses: ad-m/github-push-action@master
       with:
