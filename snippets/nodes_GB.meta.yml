@@ -52,19 +52,6 @@ proxies:
     headers:
       Host: terazhedi.info
     path: '%2Fsghiyws'
-- name: 39|GB VLESS-37 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: cosmin.ns.cloudflare.com
-  servername: picassoo.info
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: 7270612b-49f6-4b04-999c-34d8263da767
-  ws-opts:
-    headers:
-      Host: picassoo.info
-    path: '%2Faymdlws'
 - client-fingerprint: random
   name: 39|GB VLESS-40 | free-n | uu6.top
   network: ws
@@ -78,6 +65,26 @@ proxies:
     headers:
       Host: ak.suoni.nyc.mn
     path: '%2Fproxyip%3Dsjc.o00o.ooo'
+- name: 39|GB VLESS-37 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: cosmin.ns.cloudflare.com
+  servername: picassoo.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 7270612b-49f6-4b04-999c-34d8263da767
+  ws-opts:
+    headers:
+      Host: picassoo.info
+    path: '%2Faymdlws'
+- cipher: chacha20-ietf-poly1305
+  name: 47|GB_0c6ae_0010 | uu6.top
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.210
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 47|GB_0c6ae_0011 | uu6.top
   password: k1dBOmOB4oqi7Ump37a1bQ

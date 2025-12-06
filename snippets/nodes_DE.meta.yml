@@ -1,4 +1,10 @@
 proxies:
+- name: '15,39|DE VLESS-80 | free-n | uu6.top #1'
+  port: 37007
+  server: 45.150.32.240
+  tls: false
+  type: vless
+  uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
 - name: 15,39|DE VLESS-75 | free-n | uu6.top
   network: ws
   port: 443
@@ -11,12 +17,6 @@ proxies:
     headers:
       Host: kalam.mrconfigur.site
     path: '%2F'
-- name: '15,39|DE VLESS-80 | free-n | uu6.top #1'
-  port: 37007
-  server: 45.150.32.240
-  tls: false
-  type: vless
-  uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
 - name: 15,39|DE VLESS-86 | free-n | uu6.top
   network: ws
   port: 80

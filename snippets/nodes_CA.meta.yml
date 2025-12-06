@@ -1,17 +1,4 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '15,16,38,39|CA VLESS-124 | free- | uu6.top #1'
-  network: tcp
-  port: 7070
-  server: 86.107.168.100
-  servername: src.smnsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: be32c9ad-92e1-485b-dc74-2a65e9dae480
 - client-fingerprint: random
   name: '38|[Vless] 🇨🇦 CA VLESS- | uu6.top #15'
   network: ws
