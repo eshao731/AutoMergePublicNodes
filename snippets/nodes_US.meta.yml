@@ -1,4 +1,28 @@
 proxies:
+- name: 1,11,12,38,39,42,44,45|美国2 | uu6.top
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.116.227
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 1,11,12,38,39,42,44,45|美国 | uu6.top
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '3,33,38,39|未知 VLESS-15 | free-n | uu6.top #1'
+  network: tcp
+  port: 23940
+  server: 65.109.215.51
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
 - name: '9|US美国 | uu6.top #5'
   network: ws
   port: 443
@@ -23,19 +47,26 @@ proxies:
     headers:
       Host: www.x-aniu-s-g.netlib.re
     path: '%2F%3Fed%3D2560'
-- name: '15,16|[Vless] 🇺🇸 US VLESS- | uu6.top #1'
+- cipher: aes-256-gcm
+  name: 10|US美国 5 | uu6.top
+  password: 6af24790-76c9-49d3-bbe0-01285239e57d
+  port: 8443
+  server: 45.83.22.118
+  type: ss
+  udp: true
+- name: '15,16,38|[Vless] 🇺🇸 US VLESS- | uu6.top #10'
   network: ws
   port: 443
-  server: brenna.ns.cloudflare.com
-  servername: 639003276456417573.touareg-amsis.info
+  server: norman.ns.cloudflare.com
+  servername: 639003456258253450.mustang-amsit.info
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 1c3019a8-7bf1-498a-b7d4-f15677f06e88
+  uuid: e9db60cd-83df-430a-960e-b77c56dc6ede
   ws-opts:
     headers:
-      Host: 639003276456417573.touareg-amsis.info
-    path: /ldumfkws
+      Host: 639003456258253450.mustang-amsit.info
+    path: /lzummpws
 - client-fingerprint: chrome
   name: 15|US VLESS-79 | free-n | uu6.top
   network: ws
@@ -48,11 +79,45 @@ proxies:
   uuid: 60510065-6006-44df-a6e0-6c75968d739c
   ws-opts:
     path: /detailsws
+- client-fingerprint: chrome
+  name: '16|[Vless] 🇺🇸 US VLESS- | uu6.top #3'
+  network: ws
+  port: 443
+  server: us-003.shopping-1688.com
+  servername: us-003.shopping-1688.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 60510065-6006-44df-a6e0-6c75968d739c
+  ws-opts:
+    headers:
+      Host: us-003.shopping-1688.com
+    path: /detailsws
+- alterId: 0
+  cipher: auto
+  name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
+  network: ws
+  port: '443'
+  server: 209.126.84.189
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
 - cipher: aes-256-cfb
   name: 47|US_78587_0018 | uu6.top
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 47|US_78587_0019 | uu6.top
+  password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
+  port: 443
+  server: 107.174.114.71
   type: ss
   udp: true
 - client-fingerprint: random
