@@ -1,18 +1,32 @@
 proxies:
-- name: '1,11,12,38,39|未知 TROJAN-1486 | fre | uu6.top #1'
+- name: '1,11,12,38,39|未知 TROJAN-1736 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.131.243
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '1,11,12,38,39|未知 TROJAN-1845 | fre | uu6.top #1'
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2890
   server: 160.16.151.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '10|US美国 | uu6.top #57'
-  password: NS8BriBL9gcPEHTXiN66aT
-  port: 5223
-  server: 45.83.22.118
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '9,42|🇺🇸 US美国 | uu6.top #13'
+  network: ws
+  port: '37934'
+  server: 74.117.196.232
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 54a0bf6d-f2b5-4b2a-942c-798fb129527e
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
 - cipher: aes-128-gcm
   name: 10|US美国 7 | uu6.top
   password: 1z6g07dsgi2jv8s8jss4
@@ -32,14 +46,6 @@ proxies:
   port: 443
   server: 95.164.116.33
   type: ss
-- name: 42,44,45|美国2 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.116.227
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 0
   cipher: auto
   name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
@@ -54,14 +60,14 @@ proxies:
       Host: 209.126.84.189
     path: /vmessws
 - cipher: aes-256-cfb
-  name: 47|US_9261b_0018 | uu6.top
+  name: 47|US_0c6ae_0018 | uu6.top
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 47|US_9261b_0019 | uu6.top
+  name: 47|US_0c6ae_0019 | uu6.top
   password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
   port: 443
   server: 107.174.114.71
