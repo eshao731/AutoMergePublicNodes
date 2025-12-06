@@ -1,5 +1,5 @@
 proxies:
-- name: 1,11,12,38,39,42,44,45|美国2 | uu6.top
+- name: 1,4,11,12,38,39,42,44,45|美国2 | uu6.top
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2890
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 1,11,12,38,39,42,44,45|美国 | uu6.top
+- name: 1,4,11,12,38,39,42,44,45|美国 | uu6.top
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 4054
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '3,33,38,39|未知 VLESS-15 | free-n | uu6.top #1'
+- name: '3,4,38,39|未知 VLESS-15 | free-n | uu6.top #1'
   network: tcp
   port: 23940
   server: 65.109.215.51
@@ -23,6 +23,53 @@ proxies:
   tls: false
   type: vless
   uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
+- client-fingerprint: chrome
+  name: 4,39|US VLESS-37 | free-n | uu6.top
+  network: ws
+  port: 8443
+  server: 104.21.3.219
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: '%2F57ba2ab1'
+- name: 4,15,16|[Vless] 🇺🇸 US VLESS- | uu6.top
+  network: ws
+  port: 443
+  server: norman.ns.cloudflare.com
+  servername: 639003456258253450.mustang-amsit.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e9db60cd-83df-430a-960e-b77c56dc6ede
+  ws-opts:
+    headers:
+      Host: 639003456258253450.mustang-amsit.info
+    path: /lzummpws
+- name: '4,15|未知 VLESS-26 | free-n | uu6.top #1'
+  network: ws
+  port: 443
+  server: delilah.ns.cloudflare.com
+  servername: 639002592262919469.sentra-amsir.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5b687f17-0176-495e-84a1-0835f8feec91
+  ws-opts:
+    headers:
+      Host: 639002592262919469.sentra-amsir.info
+    path: '%2Fegakxows'
+- name: '4,15,16,38,39|未知 TROJAN-1853 | fre | uu6.top #2'
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.151.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '9|US美国 | uu6.top #5'
   network: ws
   port: 443
@@ -47,26 +94,19 @@ proxies:
     headers:
       Host: www.x-aniu-s-g.netlib.re
     path: '%2F%3Fed%3D2560'
-- cipher: aes-256-gcm
-  name: 10|US美国 5 | uu6.top
-  password: 6af24790-76c9-49d3-bbe0-01285239e57d
-  port: 8443
-  server: 45.83.22.118
-  type: ss
-  udp: true
-- name: '15,16,38|[Vless] 🇺🇸 US VLESS- | uu6.top #10'
+- name: '15,16|[Vless] 🇺🇸 US VLESS- | uu6.top #1'
   network: ws
   port: 443
-  server: norman.ns.cloudflare.com
-  servername: 639003456258253450.mustang-amsit.info
+  server: brenna.ns.cloudflare.com
+  servername: 639003276456417573.touareg-amsis.info
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: e9db60cd-83df-430a-960e-b77c56dc6ede
+  uuid: 1c3019a8-7bf1-498a-b7d4-f15677f06e88
   ws-opts:
     headers:
-      Host: 639003456258253450.mustang-amsit.info
-    path: /lzummpws
+      Host: 639003276456417573.touareg-amsis.info
+    path: /ldumfkws
 - client-fingerprint: chrome
   name: 15|US VLESS-79 | free-n | uu6.top
   network: ws
@@ -93,6 +133,33 @@ proxies:
     headers:
       Host: us-003.shopping-1688.com
     path: /detailsws
+- alterId: 0
+  cipher: auto
+  name: '33,42|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '2083'
+  server: hgtrojan.zabc.net
+  tls: true
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
+- client-fingerprint: chrome
+  name: '38|[Vless] 🇺🇸 US VLESS- | uu6.top #6'
+  network: ws
+  port: 8443
+  server: 104.21.3.219
+  servername: ovhwuxian.pai50288.uk
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: /57ba2ab1
 - alterId: 0
   cipher: auto
   name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
