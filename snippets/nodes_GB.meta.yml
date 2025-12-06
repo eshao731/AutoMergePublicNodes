@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 33|英国 | uu6.top
+  network: ''
+  port: 180
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: '38|[Vless] 🇬🇧 GB VLESS- | uu6.top #5'
   network: ws
   port: 443
@@ -78,6 +87,15 @@ proxies:
     headers:
       Host: picassoo.info
     path: '%2Faymdlws'
+- alterId: 0
+  cipher: auto
+  name: '42|🇬🇧 GB英国 | uu6.top #4'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: chacha20-ietf-poly1305
   name: 47|GB_0c6ae_0010 | uu6.top
   password: k1dBOmOB4oqi7Ump37a1bQ
@@ -85,7 +103,14 @@ proxies:
   server: 82.38.31.210
   type: ss
   udp: true
-- name: '-1|38|[Vless] 🇬🇧 GB VLE | uu6.top #1'
+- cipher: chacha20-ietf-poly1305
+  name: 47|GB_0c6ae_0011 | uu6.top
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.218
+  type: ss
+  udp: true
+- name: '-1|38|[Vless] 🇬🇧 GB VLE | uu6.top #2'
   network: ws
   port: 443
   server: 84.8.145.58
@@ -98,7 +123,7 @@ proxies:
     headers:
       Host: ak.suoni.nyc.mn
     path: /proxyip=sjc.o00o.ooofp=random
-- name: -1|39|GB VLESS-40 | fre | uu6.top
+- name: -1|39|GB VLESS-56 | fre | uu6.top
   network: ws
   port: 443
   server: 84.8.145.58

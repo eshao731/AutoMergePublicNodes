@@ -1,7 +1,7 @@
 proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '15,16,38|[Vless] 🇷🇺 RU VLESS- | uu6.top #5'
+  name: '15,16|[Vless] 🇷🇺 RU VLESS- | uu6.top #1'
   network: tcp
   port: 6443
   reality-opts:
@@ -13,3 +13,11 @@ proxies:
   tls: true
   type: vless
   uuid: f12bdba5-7ff5-4398-b859-08cdd7347fb3
+- name: '34,35|🔸💘 | uu6.top #5'
+  password: SNItest
+  port: 443
+  server: 37.18.14.169
+  skip-cert-verify: true
+  sni: megafon.ru
+  tls: false
+  type: hysteria2

@@ -1,11 +1,68 @@
 proxies:
-- cipher: aes-128-gcm
-  name: 10,38|[SS] 未知 SS-26 | free | uu6.top
-  password: 1z6g07dsgi2jv8s8jss4
-  port: 18282
-  server: 185.103.110.67
-  type: ss
-  udp: true
+- name: '1,15,16,38,39|未知 TROJAN-1728 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.151.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 1,15,16,38,39|未知 TROJAN-1936 | fre | uu6.top
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.131.243
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '9|US美国 | uu6.top #5'
+  network: ws
+  port: 443
+  server: 38.59.241.155
+  servername: act12.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69310d96-7045-c206-a2d0-f8ae6e49b726
+  ws-opts:
+    headers:
+      Host: act12.sni565.netlib.re
+    path: '%2Fproxyip%3Dtw.sni2025.netlib.re'
+- grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: '9,15,16,38,39|未知 VLESS-78 | free-n | uu6.top #1'
+  network: grpc
+  port: 23990
+  server: 141.227.140.217
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 5afe0624-a873-4cb8-b4eb-cea6c41a9e52
+- name: '9|US美国 | uu6.top #16'
+  network: ws
+  port: 8443
+  server: www.udacity.com
+  servername: www.x-aniu-s-g.netlib.re
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.x-aniu-s-g.netlib.re
+    path: '%2F%3Fed%3D2560'
+- name: 11,12,38,39,42,44,45|美国2 | uu6.top
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.116.227
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 11,12,38,39,42,44,45|美国 | uu6.top
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 4054
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '15,16|[Vless] 🇺🇸 US VLESS- | uu6.top #1'
   network: ws
   port: 443
@@ -19,19 +76,6 @@ proxies:
     headers:
       Host: 639003276456417573.touareg-amsis.info
     path: /ldumfkws
-- name: 15,16,39|US VLESS-69 | free-n | uu6.top
-  network: ws
-  port: 443
-  server: norman.ns.cloudflare.com
-  servername: 639003456258253450.mustang-amsit.info
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e9db60cd-83df-430a-960e-b77c56dc6ede
-  ws-opts:
-    headers:
-      Host: 639003456258253450.mustang-amsit.info
-    path: /lzummpws
 - client-fingerprint: chrome
   name: 15|US VLESS-79 | free-n | uu6.top
   network: ws
@@ -45,7 +89,7 @@ proxies:
   ws-opts:
     path: /detailsws
 - client-fingerprint: chrome
-  name: '16,38|[Vless] 🇺🇸 US VLESS- | uu6.top #12'
+  name: '16|[Vless] 🇺🇸 US VLESS- | uu6.top #3'
   network: ws
   port: 443
   server: us-003.shopping-1688.com
@@ -76,12 +120,5 @@ proxies:
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 104.192.226.106
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 47|US_0c6ae_0019 | uu6.top
-  password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
-  port: 443
-  server: 107.174.114.71
   type: ss
   udp: true
