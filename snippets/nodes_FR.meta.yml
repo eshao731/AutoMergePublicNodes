@@ -1,9 +1,13 @@
 proxies:
-- name: 15,38,39|FR VLESS-122 | free- | uu6.top
-  network: tcp
-  port: 35789
-  server: fr.nextseesion.ir
-  skip-cert-verify: false
-  tls: false
+- name: 39|FR VLESS-14 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: fr-1-fr-1.aiopen.sbs
+  tls: true
   type: vless
-  uuid: be72cd92-92d2-4543-9bef-1673fcd03b45
+  uuid: 04f3ed37-bfd4-46d3-b4eb-e62d1f32b6f9
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: '%2Fkbjc%2Ffr1'

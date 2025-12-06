@@ -1,7 +1,15 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 16,38|[SS] 🇷🇺 RU SS-104 | | uu6.top
-  password: qFAJdBEqsI71jaSML67nHoPBCGhX94uk
-  port: 443
-  server: 45.138.157.162
-  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '15,16,38|[Vless] 🇷🇺 RU VLESS- | uu6.top #5'
+  network: tcp
+  port: 6443
+  reality-opts:
+    public-key: DsiKWpNmI1TkNyvhHmQzRwkvJ0aaZeShzYCZa559Hn0
+    short-id: 30271931b36a50b5
+  server: rontgen.fasssst.ru
+  servername: rontgen.fasssst.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: f12bdba5-7ff5-4398-b859-08cdd7347fb3
