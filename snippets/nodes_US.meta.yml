@@ -1,102 +1,92 @@
 proxies:
-- name: '10|Channel id: @vpnserverrr🇺🇸'
-  password: 78c2bad7-f5f3-41f2-88cc-81de9d05040b
-  port: 2056
-  server: mg1.mangshe.xyz
+- name: 1,11,12,38,39|未知 TROJAN-1170 | fre | uu6.top
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.131.243
   skip-cert-verify: true
-  sni: mg1.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: 10| @AblNet7 🇺🇸 机场推荐
-  password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
-  port: 63979
-  server: 113.192.61.19
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '10| @AblNet7 🇺🇸 机场推荐 #1'
-  password: c232f411-96b5-4b07-b2f7-66a434725ffb
-  port: 23891
-  server: 108.165.213.197
-  skip-cert-verify: true
-  sni: fus01.mistea.top
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: 12,13|美国|@ripaojiedian
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 6752
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
+  sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  name: 12,13|美国2|@ripaojiedian
-  network: tcp
-  password: c53647f3153f784b3c695ffbe5fb43c0
-  port: 2381
-  server: 36.156.102.84
-  skip-cert-verify: true
-  sni: fe2.update.microsoft.com
+- name: '1,11,12,38,39|未知 TROJAN-1486 | fre | uu6.top #1'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.151.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - h3
-  client-fingerprint: random
-  name: 14|US_speednode_0024
+- grpc-opts:
+    grpc-service-name: db
+  name: '9,38,39|未知 TROJAN-1717 | fre | uu6.top #1'
+  network: grpc
+  password: 3c4e10af98c30972
+  port: 443
+  server: 23.247.137.64
+  skip-cert-verify: true
+  sni: n2.gladns.com
+  type: trojan
+- cipher: aes-128-gcm
+  name: 10|US美国 7 | uu6.top
+  password: 1z6g07dsgi2jv8s8jss4
+  port: 18282
+  server: 185.103.110.67
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '15,16,38|[Vless] 🇺🇸 US VLESS- | uu6.top #11'
   network: ws
-  port: 2083
-  server: 162.159.142.252
-  servername: fei.634676.xyz
+  port: 443
+  server: us-003.shopping-1688.com
+  servername: us-003.shopping-1688.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: d2965257-0536-4811-a0d5-cdce54e90326
+  uuid: 60510065-6006-44df-a6e0-6c75968d739c
   ws-opts:
     headers:
-      Host: fei.634676.xyz
-    path: /?ed=2560
-- name: 14|US_speednode_0026
+      Host: us-003.shopping-1688.com
+    path: /detailsws
+- cipher: aes-256-gcm
+  name: 16,38|[SS] 🇺🇸 US SS-61 | f | uu6.top
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 15.204.247.49
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16,38|[SS] 🇺🇸 US SS-115 | | uu6.top
+  password: pQmnC03JObbPhdh5FBJHgD6jnTLchsRA
+  port: 443
+  server: 95.164.116.33
+  type: ss
+- client-fingerprint: chrome
+  name: 39|US VLESS-99 | free-n | uu6.top
   network: ws
-  port: 2096
-  server: 72.167.25.253
-  servername: gaosir.unfeeling.sbs
+  port: 443
+  server: us-003.shopping-1688.com
+  servername: us-003.shopping-1688.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+  uuid: 60510065-6006-44df-a6e0-6c75968d739c
   ws-opts:
-    headers:
-      Host: gaosir.unfeeling.sbs
-    path: /Telegram
-- name: 14|US_speednode_0027
-  network: ws
-  port: 2082
-  server: www.speedtest.net
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-  skip-cert-verify: false
-  tls: false
-  type: vless
+    path: /detailsws
+- name: 42,44,45|美国2 | uu6.top
+  network: tcp
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 2890
+  server: 160.16.116.227
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-cfb
+  name: 47|US_9261b_0018 | uu6.top
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 104.192.226.106
+  type: ss
   udp: true
-  uuid: e6ac850f-c81a-482d-ab54-c3fa3b327e4e
-  ws-opts:
-    headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: 14|US_speednode_0028
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
-  skip-cert-verify: false
-  tls: false
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: 47|US_9261b_0019 | uu6.top
+  password: 595HLF3fHUuw0McM51tpvPygSIB1uf4D
+  port: 443
+  server: 107.174.114.71
+  type: ss
   udp: true
-  uuid: 375e6eaa-d849-40e4-b4f7-102e6ee0fe87
-  ws-opts:
-    headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.vegaskala.com.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
