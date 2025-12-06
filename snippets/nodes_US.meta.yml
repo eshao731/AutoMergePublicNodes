@@ -1,42 +1,13 @@
 proxies:
-- name: 1,4,11,12,38,39,42,44,45|美国2 | uu6.top
+- name: '0,15,16,38,39|未知 TROJAN-1853 | fre | uu6.top #2'
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2890
-  server: 160.16.116.227
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 1,4,11,12,38,39,42,44,45|美国 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 153.121.39.240
+  server: 160.16.151.196
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '3,4,38,39|未知 VLESS-15 | free-n | uu6.top #1'
-  network: tcp
-  port: 23940
-  server: 65.109.215.51
-  skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: 0e45f133-b4e8-4fc6-bc53-6330a7b145b2
-- client-fingerprint: chrome
-  name: 4,39|US VLESS-37 | free-n | uu6.top
-  network: ws
-  port: 8443
-  server: 104.21.3.219
-  servername: ovhwuxian.pai50288.uk
-  tls: true
-  type: vless
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-    path: '%2F57ba2ab1'
-- name: 4,15,16|[Vless] 🇺🇸 US VLESS- | uu6.top
+- name: 0,15,16|[Vless] 🇺🇸 US VLESS- | uu6.top
   network: ws
   port: 443
   server: norman.ns.cloudflare.com
@@ -49,7 +20,7 @@ proxies:
     headers:
       Host: 639003456258253450.mustang-amsit.info
     path: /lzummpws
-- name: '4,15|未知 VLESS-26 | free-n | uu6.top #1'
+- name: '0,15|未知 VLESS-26 | free-n | uu6.top #1'
   network: ws
   port: 443
   server: delilah.ns.cloudflare.com
@@ -62,14 +33,18 @@ proxies:
     headers:
       Host: 639002592262919469.sentra-amsir.info
     path: '%2Fegakxows'
-- name: '4,15,16,38,39|未知 TROJAN-1853 | fre | uu6.top #2'
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.151.196
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
+- name: 9|US美国 | uu6.top
+  network: ws
+  port: 10210
+  server: 154.21.85.156
+  servername: act12.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69310d96-7045-c206-a2d0-f8ae6e49b726
+  ws-opts:
+    headers:
+      Host: act12.sni565.netlib.re
+    path: '%2Fproxyip%3Dtw.sni2025.netlib.re'
 - name: '9|US美国 | uu6.top #5'
   network: ws
   port: 443
@@ -135,31 +110,17 @@ proxies:
     path: /detailsws
 - alterId: 0
   cipher: auto
-  name: '33,42|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  name: '42|🇺🇸 | uu6.top #1'
   network: ws
-  port: '2083'
-  server: hgtrojan.zabc.net
-  tls: true
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
   type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
   ws-opts:
     headers:
-      Host: hgtrojan.zabc.net
-    path: /e6395c20
-- client-fingerprint: chrome
-  name: '38|[Vless] 🇺🇸 US VLESS- | uu6.top #6'
-  network: ws
-  port: 8443
-  server: 104.21.3.219
-  servername: ovhwuxian.pai50288.uk
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
-  ws-opts:
-    headers:
-      Host: ovhwuxian.pai50288.uk
-    path: /57ba2ab1
+      Host: v2ray.codefyinc.com
+    path: /vmessws
 - alterId: 0
   cipher: auto
   name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'

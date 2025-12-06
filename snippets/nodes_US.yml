@@ -1,21 +1,5 @@
 proxies:
-- name: 1,4,11,12,38,39,42,44,45|美国2 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 2890
-  server: 160.16.116.227
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 1,4,11,12,38,39,42,44,45|美国 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 4054
-  server: 153.121.39.240
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1853 | fre | uu6.top #2'
+- name: '0,15,16,38,39|未知 TROJAN-1853 | fre | uu6.top #2'
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 2890
@@ -25,17 +9,17 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '33,42|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  name: '42|🇺🇸 | uu6.top #1'
   network: ws
-  port: '2083'
-  server: hgtrojan.zabc.net
-  tls: true
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
   type: vmess
-  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
   ws-opts:
     headers:
-      Host: hgtrojan.zabc.net
-    path: /e6395c20
+      Host: v2ray.codefyinc.com
+    path: /vmessws
 - alterId: 0
   cipher: auto
   name: '42|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'

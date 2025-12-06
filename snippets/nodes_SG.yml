@@ -1,5 +1,5 @@
 proxies:
-- name: 1,4,11,12,38,39,42,44,45|新加坡2 | uu6.top
+- name: 0,1,11,12,38,39,42,44,45|新加坡2 | uu6.top
   network: tcp
   password: 79314e99f0a473fe86efc7827942ad00
   port: 507
@@ -7,18 +7,17 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: 1,4,11,12,38,39,42,44,45|新加坡 | uu6.top
-  network: tcp
-  password: 79314e99f0a473fe86efc7827942ad00
-  port: 507
-  server: 153.121.44.99
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '4,15,16,38,39|未知 TROJAN-1714 | fre | uu6.top #2'
+- name: '0,15,16,38,39|未知 TROJAN-1714 | fre | uu6.top #2'
   password: 79314e99f0a473fe86efc7827942ad00
   port: 1596
   server: 160.16.150.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,15,16,38,39|未知 TROJAN-1450 | fre | uu6.top #2'
+  password: 79314e99f0a473fe86efc7827942ad00
+  port: 3145
+  server: 160.16.144.208
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan

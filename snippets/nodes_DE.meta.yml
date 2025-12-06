@@ -1,14 +1,14 @@
 proxies:
 - grpc-opts:
     grpc-service-name: '@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast-@V2ngFast'
-  name: 4|DE VLESS-60 | free-n | uu6.top
+  name: 0|DE VLESS-60 | free-n | uu6.top
   network: grpc
   port: 2718
   server: v2ngfast.heloisfood.ir
   tls: false
   type: vless
   uuid: 71a712db-3843-4d24-b4c4-724ee0813044
-- name: 4,15,39|DE VLESS-102 | free- | uu6.top
+- name: 0,15,39|DE VLESS-102 | free- | uu6.top
   network: ws
   port: 443
   server: www.speedtest.net
@@ -20,26 +20,18 @@ proxies:
     headers:
       Host: kalam.mrconfigur.site
     path: '%2F'
-- http-opts:
-    headers:
-      Host:
-      - varzesh3.ir
-    method: GET
-    path:
-    - /
-  name: 4,15,16|[Vless] 未知 VLESS-104 | uu6.top
-  network: http
-  port: 33801
-  server: m39a.vip784.com
-  skip-cert-verify: false
+- name: 0,15|未知 VLESS-70 | free-n | uu6.top
+  network: ws
+  port: 80
+  server: 37.120.184.180
   tls: false
   type: vless
-  uuid: c99262ae-ee77-4dac-8437-2d7f68fd3938
+  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
   ws-opts:
     headers:
-      Host: varzesh3.ir
-    path: '%2F'
-- name: 4,15,16|[Vless] 未知 VLESS-74 | uu6.top
+      Host: cdn.ir
+    path: '%2Fnews'
+- name: 0,15,16|[Vless] 未知 VLESS-74 | uu6.top
   network: ws
   port: 80
   server: 37.120.186.241
@@ -51,13 +43,46 @@ proxies:
     headers:
       Host: cdn.ir
     path: /news
-- name: '4,15,39|DE VLESS-108 | free- | uu6.top #1'
+- http-opts:
+    headers:
+      Host:
+      - varzesh3.ir
+    method: GET
+    path:
+    - /
+  name: 0,15,16|[Vless] 未知 VLESS-104 | uu6.top
+  network: http
+  port: 33801
+  server: m39a.vip784.com
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: c99262ae-ee77-4dac-8437-2d7f68fd3938
+  ws-opts:
+    headers:
+      Host: varzesh3.ir
+    path: '%2F'
+- name: '0,15,39|DE VLESS-108 | free- | uu6.top #1'
   port: 37007
   server: 45.150.32.240
   tls: false
   type: vless
   uuid: 8cde876d-7628-4587-bbb7-0535a7d177ce
-- name: '4,15,16|[Vless] 🇩🇪 DE VLESS- | uu6.top #4'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 0,15,16|[Vless] 未知 VLESS-115 | uu6.top
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: esHsu3-Fj0aZ0xuNBV6qW1zu1hLbas8YDn7AO0QGsBw
+    short-id: 0ff58d687a4c6c
+  server: 179.61.251.78
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fabc8a38-76c5-48fe-ada7-a9e52dd16225
+- name: '0,15,16|[Vless] 🇩🇪 DE VLESS- | uu6.top #4'
   network: ws
   port: 443
   server: us1.candyfans.win
@@ -70,14 +95,3 @@ proxies:
     headers:
       Host: us1.candyfans.win
     path: /cgunws
-- name: 4,15|未知 VLESS-70 | free-n | uu6.top
-  network: ws
-  port: 80
-  server: 37.120.184.180
-  tls: false
-  type: vless
-  uuid: 53fff6cc-b4ec-43e8-ade5-e0c42972fc33
-  ws-opts:
-    headers:
-      Host: cdn.ir
-    path: '%2Fnews'
