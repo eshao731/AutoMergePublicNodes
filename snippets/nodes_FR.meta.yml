@@ -1,0 +1,21 @@
+proxies:
+- name: 0|FR TROJAN-67 | free- | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- name: 0|FR VLESS-75 | free-n | uu6.top
+  network: ws
+  port: 80
+  server: ov-france1.09vpn.com
+  tls: false
+  type: vless
+  uuid: 25f86cb1-2140-4085-abcb-c3a0ea7a4be0
+  ws-opts:
+    path: '%2Fvless%2F'

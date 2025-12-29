@@ -1,0 +1,534 @@
+proxies:
+- name: 0,15|US TROJAN-23 | free- | uu6.top
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 3057
+  server: 160.16.106.99
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|US TROJAN-64 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4019
+  server: 153.121.65.107
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|US VLESS-89 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 34.82.76.253
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 0|US VLESS-115 | free- | uu6.top
+  network: ws
+  port: 80
+  server: partner.zoom.us
+  tls: false
+  type: vless
+  uuid: fac62eac-1eec-4260-a991-0cac2f8745a3
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.ggff.net
+    path: '%2F%40Tech_Sonic'
+- name: '7|美國 | uu6.top #13'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: '%2Ftro8sFW1S91B6sZrM1%3Fed%3D2560'
+- name: 8,35,37|RU_speednode_0033 | uu6.top
+  network: ws
+  port: 443
+  server: 193.9.49.65
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 8|美國_20 | uu6.top
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  tls: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    headers:
+      Host: 639073677243557970.camry-perma.info
+    path: /yaeungws?ed=2560
+- name: '9|US美国 | uu6.top #14'
+  network: ws
+  port: 2096
+  server: 45.131.209.191
+  servername: sni.my111000.tech
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2%2F%3Fed%3D2560
+- alpn:
+  - http/1.1
+  name: '9,15,25|US美国 | uu6.top #134'
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    headers:
+      Host: 639073677243557970.camry-perma.info
+    path: '%2Fyaeungws'
+- name: '9,25|尼日利亚 | uu6.top #4'
+  network: ws
+  port: 8443
+  server: 83.229.121.78
+  servername: ylnhh.cc.cd
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+- name: '9|US美国 | uu6.top #52'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F'
+- name: '9|US美国 | uu6.top #39'
+  network: ws
+  port: 8443
+  server: ovhwuxian.pai50288.uk
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    path: '%2F57ba2ab1'
+- name: 9,15,32,35,37|PL_speednode_0032 | uu6.top
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: outgoing-ladybird.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|US美国 13 | uu6.top #1'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|乌克兰 | uu6.top #1'
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|US美国 14 | uu6.top #1'
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|US美国 15 | uu6.top #1'
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 13,14,15,35,37|US_speednode_0067 | uu6.top
+  network: tcp
+  port: 18959
+  reality-opts:
+    public-key: -hwVEdgFkvjku8ESuDoAA7id5yGGv_zXBvBW_RdhmHA
+    short-id: d557c6895d014075
+  server: 157.254.223.44
+  servername: itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d0b3e27d-bbfc-4a3b-8e60-6973de8fcefa
+  ws-opts:
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 14,35,37|US_speednode_0057 | uu6.top
+  network: ws
+  port: 443
+  server: vip1.kaixincloud.top
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 14|🇺🇸_US_美国_1 | uu6.top
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243557970.camry-perma.info
+  tls: true
+  type: vless
+  uuid: ee248e40-9468-4ef6-81b7-707a1e47c54a
+  ws-opts:
+    headers:
+      Host: 639073677243557970.camry-perma.info
+    path: /yaeungws
+- name: 15|US TROJAN-37 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4019
+  server: 160.16.130.21
+  sni: www.nintendogames.net
+  type: trojan
+- client-fingerprint: chrome
+  name: 15|US VLESS-68 | free-n | uu6.top
+  network: ws
+  port: 2053
+  server: 72.18.132.149
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 15|US VLESS-106 | free- | uu6.top
+  network: ws
+  port: 2052
+  server: 107.174.155.79
+  tls: false
+  type: vless
+  uuid: c6690e9f-95e2-42ff-dae2-39616aedf451
+  ws-opts:
+    path: '%2Fvideo'
+- name: '25|US美国 | uu6.top #114'
+  network: tcp
+  port: 443
+  server: 144.31.130.37
+  servername: secdn12.melodramaonline.net
+  tls: true
+  type: vless
+  uuid: 7e0a9f75-b424-493b-b7e6-cebd7ea8642d
+- grpc-opts:
+    grpc-service-name: violet
+  name: '25|US美国 | uu6.top #117'
+  network: grpc
+  port: 15055
+  server: usrna.osaip.net
+  tls: true
+  type: vless
+  uuid: aefb6439-3397-4921-bad6-9b6f48c125c0
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '8443'
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: v2ray.codefyinc.com
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
+  network: ws
+  port: '443'
+  server: 209.126.84.189
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '8443'
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: c7.620720.xyz
+    path: /
+- name: 32,33,34|美国2 | uu6.top
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 3057
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 35,37|US_speednode_0040 | uu6.top
+  network: ws
+  port: 443
+  server: 172.64.229.85
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 35,37|US_speednode_0044 | uu6.top
+  network: ws
+  port: 443
+  server: 162.159.24.111
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 35,37|US_speednode_0046 | uu6.top
+  network: ws
+  port: 443
+  server: 162.159.7.2
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 35,37|US_speednode_0048 | uu6.top
+  network: ws
+  port: 443
+  server: www.visa.cn
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 35,37|US_speednode_0043 | uu6.top
+  network: ws
+  port: 443
+  server: 162.159.38.78
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 35,37|US_speednode_0047 | uu6.top
+  network: ws
+  port: 443
+  server: 172.64.229.165
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 35,37|US_speednode_0056 | uu6.top
+  network: ws
+  port: 443
+  server: 172.64.156.0
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- client-fingerprint: chrome
+  name: 35,37|US_speednode_0059 | uu6.top
+  network: ws
+  port: 443
+  server: 162.159.44.142
+  servername: r.icy.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9e4f36da-8f61-44f8-a9a7-0fd3a8d81234
+  ws-opts:
+    headers:
+      Host: r.icy.de5.net
+    path: /?ed=2560
+- name: 35,37|US_speednode_0065 | uu6.top
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 77.247.126.137
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 35,37|US_speednode_0039 | uu6.top
+  network: ws
+  password: trojan
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 35,37|US_speednode_0066 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: I69t4VQEvCY-NlQuMVHGggvJ2aNo18gWstkmA-uQWxE
+  server: node-nl-main.amnesia.pw
+  servername: ozon.ru
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d8e5386f-5b56-4a5a-87e2-26fecd735356
+- client-fingerprint: chrome
+  name: '36|🇺🇸 美国 | USA | uu6.top #15'
+  network: ws
+  port: 2096
+  server: 80.93.202.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 35,37|US_speednode_0070 | uu6.top
+  network: ws
+  port: 443
+  server: 192.200.160.20
+  servername: 639073677243791121.camry-perma.info
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 92b82d0f-d2f8-4f6f-b177-08f681a337e6
+  ws-opts:
+    headers:
+      Host: 639073677243791121.camry-perma.info
+    path: /njvqoews?ed=2560
+- name: -1|1|1|1|1|1|1|1|1|36|🇺 | uu6.top
+  network: ws
+  port: 80
+  server: 104.17.156.229
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: -1|1|27|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '443'
+  server: cdfr.ae1autumn.dpdns.org
+  servername: cdfr.ae1autumn.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cdfr.ae1autumn.dpdns.org
+    path: /YsmRouA9ZbxgW4
+- alterId: 0
+  cipher: auto
+  name: '-1|1|27|美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: 8443
+  server: zdqbk.cmvvb.online
+  servername: zdqbk.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: a2852e93-7255-4aae-9412-38273fdacd31
+  ws-opts:
+    headers:
+      Host: zdqbk.cmvvb.online
+    path: /

@@ -1,0 +1,49 @@
+proxies:
+- name: 0|GB VLESS-86 | free-n | uu6.top
+  network: ws
+  port: 8443
+  server: 158.220.88.180
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /techbod?ed=2560
+- name: 15|GB VLESS-66 | free-n | uu6.top
+  network: ws
+  port: 8443
+  server: 158.220.88.180
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 32,35,37|US_speednode_0068 | uu6.top
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 194.33.45.157
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: 36|🇬🇧 英国 | GBR | uu6.top
+  network: ws
+  port: 2087
+  server: 188.114.98.0
+  servername: all-tm1.netsnap.ir.
+  tls: true
+  type: vless
+  uuid: fa35cfa7-e61b-4752-b4d3-394f53f0a108
+  ws-opts:
+    headers:
+      Host: all-tm1.netsnap.ir.
+    path: '%2F'

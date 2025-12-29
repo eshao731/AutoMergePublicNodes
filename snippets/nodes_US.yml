@@ -1,0 +1,186 @@
+proxies:
+- name: 0,15|US TROJAN-23 | free- | uu6.top
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 3057
+  server: 160.16.106.99
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|US TROJAN-64 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4019
+  server: 153.121.65.107
+  sni: www.nintendogames.net
+  type: trojan
+- name: '7|美國 | uu6.top #13'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: '%2Ftro8sFW1S91B6sZrM1%3Fed%3D2560'
+- name: '9|US美国 | uu6.top #52'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F'
+- name: 9,15,32,35,37|PL_speednode_0032 | uu6.top
+  network: tcp
+  password: IL37892054
+  port: 443
+  server: outgoing-ladybird.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|US美国 13 | uu6.top #1'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|乌克兰 | uu6.top #1'
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|US美国 14 | uu6.top #1'
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '10,26|US美国 15 | uu6.top #1'
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- name: 15|US TROJAN-37 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4019
+  server: 160.16.130.21
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '8443'
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: v2ray.codefyinc.com
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
+  network: ws
+  port: '443'
+  server: 209.126.84.189
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '8443'
+  server: c7.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: c7.620720.xyz
+    path: /
+- name: 32,33,34|美国2 | uu6.top
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 3057
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 35,37|US_speednode_0065 | uu6.top
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 77.247.126.137
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 35,37|US_speednode_0039 | uu6.top
+  network: ws
+  password: trojan
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|1|27|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '443'
+  server: cdfr.ae1autumn.dpdns.org
+  servername: cdfr.ae1autumn.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: cdfr.ae1autumn.dpdns.org
+    path: /YsmRouA9ZbxgW4
+- alterId: 0
+  cipher: auto
+  name: '-1|1|27|美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: 8443
+  server: zdqbk.cmvvb.online
+  servername: zdqbk.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: a2852e93-7255-4aae-9412-38273fdacd31
+  ws-opts:
+    headers:
+      Host: zdqbk.cmvvb.online
+    path: /

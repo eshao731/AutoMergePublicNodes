@@ -1,0 +1,190 @@
+proxies:
+- name: 0,35,37|SG_speednode_0034 | uu6.top
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.40
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 0|SG TROJAN-43 | free- | uu6.top
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 153.121.45.139
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|SG TROJAN-39 | free- | uu6.top
+  network: ws
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  port: 443
+  server: ubu.okaoclax.me
+  sni: ubu.okaoclax.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ubu.okaoclax.me
+    path: /trojan-ws
+- name: 0,15|SG TROJAN-35 | free- | uu6.top
+  password: ZY07256934
+  port: 443
+  server: free-duckling.rooster465.autos
+  type: trojan
+- name: 0,15|SG TROJAN-34 | free- | uu6.top
+  password: ZY07256934
+  port: 443
+  server: delicate-buck.rooster465.autos
+  type: trojan
+- name: 0|SG VLESS-77 | free-n | uu6.top
+  network: ws
+  port: 80
+  server: 104.17.152.254
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: '%2F'
+- name: 0|SG VLESS-88 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 194.59.5.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: '%2F%3Ftelegram%25F0%259F%2587%25A8%25F0%259F%2587%25B3%2B%2540wangcai2%3D'
+- name: '9|SG新加坡 | uu6.top #4'
+  network: tcp
+  port: 443
+  server: darknet-free.alexid.org
+  tls: true
+  type: vless
+  uuid: 653d9e84-3d3d-4613-9b3b-2297f7a1512b
+- name: 15|SG TROJAN-25 | free- | uu6.top
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 160.16.72.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: 15|SG VLESS-52 | free-n | uu6.top
+  network: ws
+  port: 80
+  server: 172.66.47.45
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: '%2F'
+- name: 15|SG VLESS-67 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 190.93.244.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+- name: 15|SG VLESS-116 | free- | uu6.top
+  network: ws
+  port: 2053
+  server: 104.19.174.68
+  servername: hio-awx.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  ws-opts:
+    headers:
+      Host: hio-awx.pages.dev
+    path: '%2Ffast'
+- name: 15|SG VLESS-107 | free- | uu6.top
+  network: ws
+  port: 80
+  server: vps.zakir.web.id
+  tls: false
+  type: vless
+  uuid: ca73d911-29f4-42d8-ada5-81dee679e96a
+  ws-opts:
+    headers:
+      Host: vps.zakir.web.id
+    path: vless
+- name: 32,33,34|新加坡2 | uu6.top
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: rc4-md5
+  name: 35|SG_dfeec_0035 | uu6.top
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #7'
+  network: ws
+  port: 2053
+  server: 104.26.12.27
+  servername: xco8dx9j5252.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xco8dx9j5252.danfeng.gv.uy
+    path: '%2Fdanfeng%3Fed%3D2560'
+- client-fingerprint: chrome
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #6'
+  network: ws
+  port: 2053
+  server: notability.com
+  servername: xco8dx9j5252.danfeng.gv.uy
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: xco8dx9j5252.danfeng.gv.uy
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #4'
+  network: ws
+  port: 3306
+  server: 193.122.109.52
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: '%2Fdanfeng'
+- alpn:
+  - http/1.1
+  name: '-1|36|🇸🇬 新加坡 | SGP | #4 | uu6.top'
+  network: ws
+  port: 3306
+  server: 193.122.109.52
+  servername: snippet.danfeng.rr.kg
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.rr.kg
+    path: '%2Fdanfengfp=random'

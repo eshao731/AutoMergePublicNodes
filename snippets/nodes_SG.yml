@@ -1,0 +1,56 @@
+proxies:
+- name: 0,35,37|SG_speednode_0034 | uu6.top
+  password: 3ac6a6ca99f74941b1eaf892818e2ddb
+  port: 443
+  server: 185.151.146.40
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 0|SG TROJAN-43 | free- | uu6.top
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 153.121.45.139
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|SG TROJAN-39 | free- | uu6.top
+  network: ws
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  port: 443
+  server: ubu.okaoclax.me
+  sni: ubu.okaoclax.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ubu.okaoclax.me
+    path: /trojan-ws
+- name: 0,15|SG TROJAN-35 | free- | uu6.top
+  password: ZY07256934
+  port: 443
+  server: free-duckling.rooster465.autos
+  type: trojan
+- name: 0,15|SG TROJAN-34 | free- | uu6.top
+  password: ZY07256934
+  port: 443
+  server: delicate-buck.rooster465.autos
+  type: trojan
+- name: 15|SG TROJAN-25 | free- | uu6.top
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 160.16.72.33
+  sni: www.nintendogames.net
+  type: trojan
+- name: 32,33,34|新加坡2 | uu6.top
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4674
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: rc4-md5
+  name: 35|SG_dfeec_0035 | uu6.top
+  password: 14fFPrbezE3HDZzsMOr6
+  port: 8080
+  server: 68.183.227.4
+  type: ss
+  udp: true
