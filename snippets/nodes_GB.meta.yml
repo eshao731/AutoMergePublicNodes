@@ -1,0 +1,362 @@
+proxies:
+- name: '0,15|GB VLESS-92 | free-n | uu6.top #1'
+  network: tcp
+  port: 8443
+  server: uk1.fromblancwithlove.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- alpn:
+  - http/1.1
+  name: '0,15|GB VLESS-98 | free-n | uu6.top #1'
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: 639075478000711639.civic-perma.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 53f0bca8-f170-4ef7-8031-c7d441189dbf
+  ws-opts:
+    headers:
+      Host: 639075478000711639.civic-perma.info
+    path: /cahttingws
+- name: '0,15|GB VLESS-102 | free- | uu6.top #1'
+  network: ws
+  port: 8443
+  server: 158.220.88.180
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 3,7,9,29|🇬🇧 英国 | uu6.top
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 3|英国+伦敦Virgin+Media | uu6.top
+  network: tcp
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.121
+  sni: fra33.chasem2026sud.com
+  type: trojan
+- name: '9|US美国 | uu6.top #60'
+  network: ws
+  port: 80
+  server: 104.17.152.254
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: '%2F'
+- name: '9|US美国 | uu6.top #75'
+  network: ws
+  port: 2053
+  server: 45.43.76.184
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%40wangcai2'
+- name: '9|GB英国 | uu6.top #2'
+  network: ws
+  port: 443
+  server: 213.210.4.131
+  servername: 3-abf.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-abf.pages.dev
+    path: '%2Fproxyip%3DProxyIP.DE.owg.dpdns.org'
+- name: '9|GB英国 | uu6.top #4'
+  network: ws
+  port: 443
+  server: 43.165.174.229
+  servername: dongjing1.zqjsqapi.com
+  tls: true
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  ws-opts:
+    headers:
+      Host: dongjing1.zqjsqapi.com
+    path: '%2Fproxy'
+- name: '9|GB英国 | uu6.top #25'
+  network: ws
+  port: 443
+  server: 178.62.67.149
+  servername: 3-9sp.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-9sp.pages.dev
+    path: '%2Fproxyip%3DProxyIP.DE.owg.dpdns.org'
+- name: '9|GB英国 | uu6.top #28'
+  network: ws
+  port: 443
+  server: 185.75.243.102
+  servername: 1-2cd.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-2cd.pages.dev
+    path: '%2Fproxyip%3DProxyIP.DE.owg.dpdns.org'
+- name: '9|GB英国 | uu6.top #27'
+  network: ws
+  port: 443
+  server: 212.192.214.215
+  servername: 3-deu.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-deu.pages.dev
+    path: '%2Fproxyip%3DProxyIP.DE.owg.dpdns.org'
+- name: '9|GB英国 | uu6.top #26'
+  network: ws
+  port: 443
+  server: 212.192.214.215
+  servername: 2-7fc.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-7fc.pages.dev
+    path: '%2Fproxyip%3DProxyIP.DE.owg.dpdns.org'
+- name: '9|GB英国 | uu6.top #30'
+  network: ws
+  port: 443
+  server: 185.75.243.102
+  servername: 2-ayr.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-ayr.pages.dev
+    path: '%2Fproxyip%3DProxyIP.DE.owg.dpdns.org'
+- name: 10|US美国_60 | uu6.top
+  network: ws
+  port: 80
+  server: 104.17.152.254
+  tls: false
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: /
+- name: 10|GB英国_2 | uu6.top
+  network: ws
+  port: 443
+  server: 213.210.4.131
+  servername: 3-abf.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-abf.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_4 | uu6.top
+  network: ws
+  port: 443
+  server: 43.165.174.229
+  servername: dongjing1.zqjsqapi.com
+  tls: true
+  type: vless
+  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
+  ws-opts:
+    headers:
+      Host: dongjing1.zqjsqapi.com
+    path: /proxy
+- name: 10|GB英国_18 | uu6.top
+  network: ws
+  port: 443
+  server: 91.132.132.233
+  servername: 1-cw6.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-cw6.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_25 | uu6.top
+  network: ws
+  port: 443
+  server: 178.62.67.149
+  servername: 3-9sp.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-9sp.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_28 | uu6.top
+  network: ws
+  port: 443
+  server: 185.75.243.102
+  servername: 1-2cd.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-2cd.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_27 | uu6.top
+  network: ws
+  port: 443
+  server: 212.192.214.215
+  servername: 3-deu.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-deu.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_26 | uu6.top
+  network: ws
+  port: 443
+  server: 212.192.214.215
+  servername: 2-7fc.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-7fc.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_30 | uu6.top
+  network: ws
+  port: 443
+  server: 185.75.243.102
+  servername: 2-ayr.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-ayr.pages.dev
+    path: /proxyip=ProxyIP.DE.owg.dpdns.org
+- name: 10|GB英国_36 | uu6.top
+  network: ws
+  port: 18081
+  server: 60.248.139.106
+  servername: 2026.hhhhh.eu.org
+  tls: true
+  type: vless
+  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  ws-opts:
+    headers:
+      Host: 2026.hhhhh.eu.org
+    path: /60.248.139.106:18081
+- name: '25|英国+伦敦Virgin+Media | uu6.top #1'
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.3
+  sni: fra34.chasem2026sud.com
+  type: trojan
+- name: 29|🇬🇧 英国 伦敦Virgin Media | uu6.top
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.199
+  skip-cert-verify: false
+  sni: fra4.chasem2026sud.com
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32,34|GB_speednode_0010 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M
+    short-id: aabbccdd
+  server: 79.141.171.133
+  servername: apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c3fe585-ac09-41df-b284-888818888188
+- name: 32,34|GB_speednode_0009 | uu6.top
+  network: ws
+  port: 8443
+  server: 91.84.101.164
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560
+- name: 32,34|GB_speednode_0011 | uu6.top
+  network: ws
+  port: 2053
+  server: 45.43.76.184
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 32,34|GB_speednode_0012 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: xzCEjrybgdtiyOYNKgEAEWzHjvsE2Pkj198_Ch1gZ2U
+    short-id: 41427aa565e28984
+  server: 86.54.82.239
+  servername: store.steampowered.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+- name: -1|1|1|25|英国+伦敦Virgin+M | uu6.top
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.105
+  sni: fra32.chasem2026sud.com
+  type: trojan
+- name: -1|1|1|1|29|🇬🇧 英国 伦敦Vir | uu6.top
+  password: n5ix4FcMQYENMQPL+YKbvyJ8nZ84+bNTsj
+  port: 10369
+  server: 82.26.155.237
+  skip-cert-verify: false
+  sni: fra5.chasem2026sud.com
+  type: trojan
