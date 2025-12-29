@@ -1,0 +1,94 @@
+proxies:
+- name: '0,15,16|TR TROJAN-50 | free- | uu6.top #1'
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 443
+  server: 58.152.53.227
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0,15|HK TROJAN-49 | free- | uu6.top
+  network: ws
+  password: 0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c
+  port: 2083
+  server: 188.116.22.217
+  skip-cert-verify: false
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: '%2Ftrojan-ws'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #58'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- name: 16|🇭🇰 HK TROJAN-49 | fr | uu6.top
+  network: ws
+  password: 0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c
+  port: 2083
+  server: 188.116.22.217
+  skip-cert-verify: false
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- alterId: 0
+  cipher: auto
+  name: '36|🇭🇰 香港 | HKG | uu6.top #3'
+  network: ws
+  port: '443'
+  server: n1761296880.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  ws-opts:
+    headers:
+      Host: n1761296880.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇭🇰 香港 | HKG | uu6.top #9'
+  network: ws
+  port: '443'
+  server: n1753101272.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  ws-opts:
+    headers:
+      Host: n1753101272.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇭🇰 香港 | | uu6.top
+  network: http
+  port: '32975'
+  server: 47.242.225.0
+  tls: false
+  type: vmess
+  uuid: ebaad525-e2cf-4c18-8ae9-41af29ac4b9c
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|28|香港 阿里云 | uu6.top
+  network: ws
+  port: '443'
+  server: n1761214908.wpg27.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
+    path: /

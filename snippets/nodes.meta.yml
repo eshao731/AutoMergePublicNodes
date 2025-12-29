@@ -1,0 +1,3288 @@
+proxies:
+- name: 0|GB VLESS-35 | free-n | uu6.top
+  network: tcp
+  port: 2345
+  server: go.adslimit.info
+  tls: false
+  type: vless
+  uuid: 0331b690-79fc-49d5-85f0-54faa4eff89f
+- name: '0,15,16|TR TROJAN-50 | free- | uu6.top #1'
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 443
+  server: 58.152.53.227
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|TR TROJAN-31 | free- | uu6.top
+  password: Tn2Bf0iRwJkJQgDk6gX6x81RB
+  port: 443
+  server: hl-freedom-2.undef.network
+  type: trojan
+- alpn:
+  - h2
+  name: 0|GB VLESS-42 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: uk.1323.world
+  servername: 1323.world
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+- alpn:
+  - h2
+  name: 0,15|FR VLESS-55 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: fr.1323.world
+  servername: b12a6eea4807ca4e.1323.world
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+- name: 0|GB VLESS-45 | free-n | uu6.top
+  network: tcp
+  port: 2345
+  server: simurgh.adslimit.info
+  tls: false
+  type: vless
+  uuid: 20adc847-4159-4f39-b79f-d563b660945f
+- name: 0,15|DE VLESS-57 | free-n | uu6.top
+  network: tcp
+  port: 1083
+  server: 188.40.210.8
+  tls: false
+  type: vless
+  uuid: 179ddf63-c263-40ff-98a1-f53708573059
+- name: 0,15|HK TROJAN-49 | free- | uu6.top
+  network: ws
+  password: 0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c
+  port: 2083
+  server: 188.116.22.217
+  skip-cert-verify: false
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: '%2Ftrojan-ws'
+- name: 0|CA VLESS-54 | free-n | uu6.top
+  port: 30238
+  server: 144.217.133.97
+  tls: false
+  type: vless
+  uuid: 27b6068a-e1e6-4675-ab14-87143c690390
+- name: 0,15|DE VLESS-60 | free-n | uu6.top
+  network: tcp
+  port: 33133
+  server: 91.107.253.99
+  tls: false
+  type: vless
+  uuid: 22470ee7-74b2-4b23-b164-bc87930d7e96
+- name: 0|US VLESS-70 | free-n | uu6.top
+  network: ws
+  port: 8443
+  server: 155.138.227.121
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 0|US VLESS-69 | free-n | uu6.top
+  network: ws
+  port: 8443
+  server: 155.138.227.121
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26telegram%F0%9F%87%A8%F0%9F%87%B3%2B@wangcai2'
+- name: 0,15|GB VLESS-79 | free-n | uu6.top
+  network: tcp
+  port: 2345
+  server: wolf2.adslimit.info
+  tls: false
+  type: vless
+  uuid: 7007111a-c28b-4ab1-8d28-bc7b42681028
+- name: 0|DE VLESS-71 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 172.66.47.45
+  servername: ca.adobe-connect.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  ws-opts:
+    headers:
+      Host: ca.adobe-connect.top
+    path: /
+- name: '0,15|未知 VLESS-77 | free-n | uu6.top #1'
+  port: 26480
+  server: s5.daneshvardost.com
+  tls: false
+  type: vless
+  uuid: 6919e588-cff3-4c1b-b7a3-3ca0ada5fb69
+- name: 0|未知 VLESS-80 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: 144.31.128.68
+  servername: nlcdn13.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+- name: 0,15|未知 VLESS-84 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: 144.31.128.67
+  servername: nlcdn12.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+- name: 0|未知 VLESS-81 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: 144.31.128.69
+  servername: nlcdn14.suio.me
+  tls: true
+  type: vless
+  uuid: 8664a37d-40c9-47f0-8619-d9199651be2c
+- name: 0|未知 VLESS-83 | free-n | uu6.top
+  network: ws
+  port: 59036
+  server: 85.133.204.179
+  tls: false
+  type: vless
+  uuid: 8c26c19d-123d-454d-9529-ff737d0450f6
+  ws-opts:
+    path: /
+- name: '0,9,25|US美国 | uu6.top #345'
+  network: tcp
+  port: 443
+  server: 144.31.4.36
+  servername: plcdn13.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: '0,9,15,25|US美国 | uu6.top #349'
+  network: tcp
+  port: 443
+  server: 144.31.4.67
+  servername: plcdn14.suio.me
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: 0|DE VLESS-90 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: 62.133.60.50
+  servername: decdn12.suio.me
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: 0,15|未知 VLESS-95 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: lvcdn4.suio.me
+  servername: lvcdn4.suio.me
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: 0,15|GB VLESS-115 | free- | uu6.top
+  network: tcp
+  port: 2345
+  server: zyro.adslimit.info
+  tls: false
+  type: vless
+  uuid: d3b5fdf3-bdcb-4dec-b46b-c06b5d828f73
+- name: 0,15|SG VLESS-114 | free- | uu6.top
+  port: 51164
+  server: 47.82.6.36
+  tls: false
+  type: vless
+  uuid: d29a7cee-acd1-4821-adbf-517f8681040e
+- name: 1,12,32,33,34|日本2 | uu6.top
+  network: tcp
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 3423
+  server: 160.16.144.208
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 1,12,32,33,34|日本3 | uu6.top
+  network: tcp
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 193
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|DE VLESS-118 | free- | uu6.top
+  network: ws
+  port: 2053
+  server: glob.thisiswe.uno
+  servername: cd11.thisiswe.uno
+  tls: true
+  type: vless
+  uuid: ee9b0614-50ec-41b6-951b-e1d5d755fa4b
+  ws-opts:
+    headers:
+      Host: cd11.thisiswe.uno
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '3,7,28,32|🇬🇧 英国 | uu6.top #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 3|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '443'
+  server: nhj.1jj.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nhj.1jj.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '3|美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: nmju.1jj.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmju.1jj.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 7|美國 | uu6.top
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: '%2Ftro8sFW1S91B6sZrM1%3Fed%3D2560'
+- name: 3|未命名 | uu6.top
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- flow: xtls-rprx-vision
+  name: '7,8|芬兰 01 | uu6.top #1'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: pekfYPV5U8EjfQ4_zS5c6I2NnOZ2jUlyMGAWa4FWPF4
+    short-id: 58c512b4422e2517
+  server: 78.153.139.68
+  servername: images.apple.com
+  tls: true
+  type: vless
+  uuid: fd8972d7-cf5e-11f0-9970-45e1d80c4039
+- flow: xtls-rprx-vision
+  name: '7,8|🇬🇷_GR_希腊 | uu6.top #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Yu1_Agl1_bJb298G9ukjGuvfksVTUs1X7laYJ3VqwwQ
+    short-id: b5e0cd9ca194c0a5
+  server: 185.234.57.207
+  servername: teamdocs.su
+  tls: true
+  type: vless
+  uuid: dd92c4f8-be88-4c61-84eb-d261f798071e
+- name: 7|🇺🇸US | uu6.top
+  network: ws
+  port: 443
+  server: 141.98.168.233
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 7|🇫🇮FI | uu6.top
+  network: ws
+  port: 443
+  server: 2.56.173.117
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 7|🇩🇪DE | uu6.top
+  network: ws
+  port: 8443
+  server: 57.129.16.168
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 7|🇳🇱NL | uu6.top
+  network: ws
+  port: 443
+  server: 89.110.118.200
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 7|🇫🇷FR | uu6.top
+  network: ws
+  port: 443
+  server: 217.60.36.131
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #2'
+  network: ws
+  port: 15624
+  server: 47.90.140.40
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇮FI | uu6.top #1'
+  network: ws
+  port: 443
+  server: 46.8.238.89
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #2'
+  network: ws
+  port: 443
+  server: 185.243.113.138
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #1'
+  network: ws
+  port: 443
+  server: 185.36.143.40
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #3'
+  network: ws
+  port: 443
+  server: 138.124.3.201
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #3'
+  network: ws
+  port: 443
+  server: 77.91.126.58
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #5'
+  network: ws
+  port: 443
+  server: 135.84.64.52
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #1'
+  network: ws
+  port: 8443
+  server: 57.129.16.168
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #4'
+  network: ws
+  port: 443
+  server: 146.190.65.232
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #2'
+  network: ws
+  port: 443
+  server: 159.100.19.144
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #3'
+  network: ws
+  port: 2053
+  server: 91.132.160.107
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: 7|🇷🇺RU | uu6.top
+  network: ws
+  port: 443
+  server: 185.128.106.8
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #7'
+  network: ws
+  port: 2053
+  server: 138.124.183.112
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #6'
+  network: ws
+  port: 443
+  server: 95.164.7.144
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #9'
+  network: ws
+  port: 443
+  server: 104.168.204.49
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #7'
+  network: ws
+  port: 2053
+  server: 93.183.91.184
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #8'
+  network: ws
+  port: 443
+  server: 166.88.182.17
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇷FR | uu6.top #3'
+  network: ws
+  port: 8443
+  server: 94.23.168.201
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #10'
+  network: ws
+  port: 443
+  server: 184.169.181.217
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇺🇸US | uu6.top #11'
+  network: ws
+  port: 443
+  server: 24.199.112.232
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇷FR | uu6.top #4'
+  network: ws
+  port: 8443
+  server: 162.19.79.57
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #8'
+  network: ws
+  port: 443
+  server: 138.124.30.8
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #4'
+  network: ws
+  port: 443
+  server: 213.21.253.63
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇷FR | uu6.top #6'
+  network: ws
+  port: 2053
+  server: 188.130.207.158
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇷FR | uu6.top #5'
+  network: ws
+  port: 2053
+  server: 217.60.37.144
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇳🇱NL | uu6.top #9'
+  network: ws
+  port: 443
+  server: 202.133.89.8
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇷FR | uu6.top #8'
+  network: ws
+  port: 8443
+  server: 152.228.134.153
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #6'
+  network: ws
+  port: 8443
+  server: 143.20.213.116
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '8|US美国 | uu6.top #1'
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 33e1a095-1e25-4198-bfe7-ec312e4f98ee
+  ws-opts:
+    headers:
+      Host: CREDibLe-pLaNt7ddV4jJ7et.OnEeaT.CO.
+    path: /?ed
+- name: '7|🇫🇷FR | uu6.top #10'
+  network: ws
+  port: 2053
+  server: 217.60.37.144
+  servername: sni.111000.v6.navy
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇫🇷FR | uu6.top #9'
+  network: ws
+  port: 443
+  server: 51.210.148.173
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #5'
+  network: ws
+  port: 443
+  server: 18.192.93.64
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- name: '7|🇩🇪DE | uu6.top #7'
+  network: ws
+  port: 443
+  server: 85.121.52.245
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
+- name: '8|AU澳大利亚 | uu6.top #1'
+  network: ws
+  port: 2052
+  server: 172.66.128.70
+  tls: false
+  type: vless
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  ws-opts:
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+    path: /?ed
+- name: 8|美国节点_19 | uu6.top
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 2a2a8023-3b4b-407d-a00a-7beb5a158148
+  ws-opts:
+    headers:
+      Host: SHAggy-AGREEMeNTSpUfz4utdI.SpOrTland.COMPANy.
+    path: /?ed
+- alterId: 0
+  cipher: auto
+  name: 8|美国节点_20 | uu6.top
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '8|🇺🇸US | uu6.top #12'
+  network: ws
+  port: 443
+  server: 141.98.168.233
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '8|未知 VLESS-119 | uu6.top #1'
+  network: ws
+  port: 2052
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: f8ae018b-b84d-4c9b-b03b-4642c3a25977
+  ws-opts:
+    headers:
+      Host: ExEMplAry-MILkytsxQiQYso.sPortlaNd.CoMPANy.
+    path: /?ed
+- name: '8|未知 VLESS-71 | uu6.top #1'
+  network: ws
+  port: 80
+  server: nodejs.org
+  tls: false
+  type: vless
+  uuid: 7d4a519b-d270-434e-a42d-d39624577a92
+  ws-opts:
+    headers:
+      Host: BrIgHt-orGaNizaTioNAuhudDhESZ.spoRTlAnd.CoMpANY.
+    path: /?ed
+- name: '8|🇫🇮FI | uu6.top #2'
+  network: ws
+  port: 443
+  server: 2.56.173.117
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '8|🇫🇷FR | uu6.top #12'
+  network: ws
+  port: 443
+  server: 217.60.36.131
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '8|🇳🇱NL | uu6.top #11'
+  network: ws
+  port: 443
+  server: 89.110.118.200
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '8|🇩🇪DE | uu6.top #8'
+  network: ws
+  port: 8443
+  server: 57.129.16.168
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_2 | uu6.top
+  network: ws
+  port: 443
+  server: 185.243.113.138
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_1 | uu6.top
+  network: ws
+  port: 443
+  server: 185.36.143.40
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇮FI_1 | uu6.top
+  network: ws
+  port: 443
+  server: 46.8.238.89
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- name: 8|🇺🇸US_2 | uu6.top
+  network: ws
+  port: 15624
+  server: 47.90.140.40
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_3 | uu6.top
+  network: ws
+  port: 443
+  server: 138.124.3.201
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_3 | uu6.top
+  network: ws
+  port: 443
+  server: 77.91.126.58
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_4 | uu6.top
+  network: ws
+  port: 443
+  server: 146.190.65.232
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇩🇪DE_2 | uu6.top
+  network: ws
+  port: 443
+  server: 159.100.19.144
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- name: 8|🇩🇪DE_1 | uu6.top
+  network: ws
+  port: 8443
+  server: 57.129.16.168
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_5 | uu6.top
+  network: ws
+  port: 443
+  server: 135.84.64.52
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '8|🇷🇺RU | uu6.top #1'
+  network: ws
+  port: 443
+  server: 185.128.106.8
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇩🇪DE_3 | uu6.top
+  network: ws
+  port: 2053
+  server: 91.132.160.107
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_6 | uu6.top
+  network: ws
+  port: 443
+  server: 95.164.7.144
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_7 | uu6.top
+  network: ws
+  port: 2053
+  server: 138.124.183.112
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_7 | uu6.top
+  network: ws
+  port: 2053
+  server: 93.183.91.184
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_3 | uu6.top
+  network: ws
+  port: 8443
+  server: 94.23.168.201
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_4 | uu6.top
+  network: ws
+  port: 8443
+  server: 162.19.79.57
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇩🇪DE_4 | uu6.top
+  network: ws
+  port: 443
+  server: 213.21.253.63
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_9 | uu6.top
+  network: ws
+  port: 443
+  server: 104.168.204.49
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_8 | uu6.top
+  network: ws
+  port: 443
+  server: 138.124.30.8
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_10 | uu6.top
+  network: ws
+  port: 443
+  server: 184.169.181.217
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_6 | uu6.top
+  network: ws
+  port: 2053
+  server: 188.130.207.158
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_8 | uu6.top
+  network: ws
+  port: 443
+  server: 166.88.182.17
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇺🇸US_11 | uu6.top
+  network: ws
+  port: 443
+  server: 24.199.112.232
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_5 | uu6.top
+  network: ws
+  port: 2053
+  server: 217.60.37.144
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇳🇱NL_9 | uu6.top
+  network: ws
+  port: 443
+  server: 202.133.89.8
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_8 | uu6.top
+  network: ws
+  port: 8443
+  server: 152.228.134.153
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇩🇪DE_6 | uu6.top
+  network: ws
+  port: 8443
+  server: 143.20.213.116
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_9 | uu6.top
+  network: ws
+  port: 443
+  server: 51.210.148.173
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇫🇷FR_10 | uu6.top
+  network: ws
+  port: 2053
+  server: 217.60.37.144
+  servername: sni.111000.v6.navy
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.navy
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: 8|🇩🇪DE_7 | uu6.top
+  network: ws
+  port: 443
+  server: 85.121.52.245
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- name: 8|🇩🇪DE_5 | uu6.top
+  network: ws
+  port: 443
+  server: 18.192.93.64
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- name: '9,25|US美国 | uu6.top #192'
+  network: tcp
+  port: 443
+  server: fr.1323.world
+  servername: b12a6eea4807ca4e.1323.world
+  tls: true
+  type: vless
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #212'
+  network: ws
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  port: 443
+  server: nju.taipei104.indevs.in
+  sni: nju.taipei104.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nju.taipei104.indevs.in
+    path: '%2FmRjWgF9aMWcpQ8L96b'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #354'
+  network: ws
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  port: 443
+  server: mhju.h2e.indevs.in
+  sni: mhju.h2e.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mhju.h2e.indevs.in
+    path: '%2FmRjWgF9aMWcpQ8L96b'
+- name: '9,25|US美国 | uu6.top #280'
+  network: ws
+  port: 443
+  server: ui.huangshang.indevs.in
+  servername: ui.huangshang.indevs.in
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: ui.huangshang.indevs.in
+    path: '%2F9NojP751adPiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #37'
+  network: ws
+  port: '443'
+  server: hjk.freevpn2027.dpdns.org
+  servername: hjk.freevpn2027.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hjk.freevpn2027.dpdns.org
+    path: /LDTpW8UIEnTAiN9LMya
+- name: '9,25|US美国 | uu6.top #239'
+  network: ws
+  port: 80
+  server: ggbnh.1x5.indevs.in
+  servername: ggbnh.1x5.indevs.in
+  tls: false
+  type: vless
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: ggbnh.1x5.indevs.in
+    path: '%2FhBasD7EdpBQ0zGAzsYHmsMrnO'
+- name: '9,25|US美国 | uu6.top #253'
+  network: ws
+  port: 80
+  server: nmkio.1x7.indevs.in
+  servername: nmkio.1x7.indevs.in
+  tls: false
+  type: vless
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmkio.1x7.indevs.in
+    path: '%2FhBasD7EdpBQ0zGAzsYHmsMrnO'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #48'
+  network: ws
+  port: '443'
+  server: gh.iran2028.indevs.in
+  servername: gh.iran2028.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: gh.iran2028.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- name: '9,25|US美国 | uu6.top #296'
+  network: ws
+  port: 443
+  server: hhjk.huangzi.cfd
+  servername: hhjk.huangzi.cfd
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hhjk.huangzi.cfd
+    path: '%2F9NojP751adPiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #58'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- name: '9,25|US美国 | uu6.top #254'
+  network: ws
+  port: 443
+  server: mmkj.dddc.de5.net
+  servername: mmkj.dddc.de5.net
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: mmkj.dddc.de5.net
+    path: '%2F9NojP751adPiN9LMya'
+- name: '9,25|US美国 | uu6.top #252'
+  network: tcp
+  port: 443
+  server: kzcdn1.suio.me
+  servername: kzcdn1.suio.me
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #264'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: rt.freevpn.qzz.io
+  sni: rt.freevpn.qzz.io
+  type: trojan
+  ws-opts:
+    headers:
+      Host: rt.freevpn.qzz.io
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #66'
+  network: ws
+  port: '443'
+  server: tgh.iran2029.indevs.in
+  servername: tgh.iran2029.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: tgh.iran2029.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #67'
+  network: ws
+  port: '443'
+  server: hj.huangshang.qzz.io
+  servername: hj.huangshang.qzz.io
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hj.huangshang.qzz.io
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #268'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: mmkj.dddc.de5.net
+  sni: mmkj.dddc.de5.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mmkj.dddc.de5.net
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #68'
+  network: ws
+  port: '443'
+  server: jki.huangdi.indevs.in
+  servername: jki.huangdi.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: jki.huangdi.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- name: '9,25|US美国 | uu6.top #270'
+  network: ws
+  port: 443
+  server: yhj.iran2026.indevs.in
+  servername: yhj.iran2026.indevs.in
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: yhj.iran2026.indevs.in
+    path: '%2F9NojP751adPiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #272'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: hjk.freevpn2027.dpdns.org
+  sni: hjk.freevpn2027.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hjk.freevpn2027.dpdns.org
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- name: '9,25|US美国 | uu6.top #271'
+  network: ws
+  port: 443
+  server: kklio.dddc.us.ci
+  servername: kklio.dddc.us.ci
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: kklio.dddc.us.ci
+    path: '%2F9NojP751adPiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #277'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: hj.huangshang.qzz.io
+  sni: hj.huangshang.qzz.io
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hj.huangshang.qzz.io
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- name: '9,25|US美国 | uu6.top #302'
+  network: ws
+  port: 443
+  server: bbbnhj.288288.shop
+  servername: bBBNhj.288288.sHop
+  tls: true
+  type: vless
+  uuid: 5cccb4da-8aee-4b01-be84-2056265e52dc
+  ws-opts:
+    headers:
+      Host: BbbNHj.288288.SHop
+    path: '%2Fs2VHv9VUVzg35A6ueyyZnWd'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #285'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: ggnju.iran2027.indevs.in
+  sni: ggnju.iran2027.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ggnju.iran2027.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #84'
+  network: ws
+  port: '443'
+  server: ggnju.iran2027.indevs.in
+  servername: ggnju.iran2027.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: ggnju.iran2027.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- name: '9,25|US美国 | uu6.top #289'
+  network: ws
+  port: 443
+  server: rt.freevpn.qzz.io
+  servername: rt.freevpn.qzz.io
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: rt.freevpn.qzz.io
+    path: '%2F9NojP751adPiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #290'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: ghj.husngahng.click
+  sni: ghj.husngahng.click
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ghj.husngahng.click
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #274'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  port: 443
+  server: aq.voa.ccwu.cc
+  sni: aQ.voA.cCWu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aQ.VOa.cCWU.cc
+    path: '%2Fr862SIwqItkD5XgXAL'
+- name: '9,25|US美国 | uu6.top #309'
+  network: ws
+  port: 443
+  server: mmko.852224.dpdns.org
+  servername: mmko.852224.dpdns.org
+  tls: true
+  type: vless
+  uuid: b020865b-7404-4894-ba65-a7414b10cda3
+  ws-opts:
+    headers:
+      Host: mmko.852224.dpdns.org
+    path: '%2F15ZYK3adOPjqSc7fzeJr'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #319'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  port: 443
+  server: tyu.bb1.ccwu.cc
+  sni: tYu.BB1.Ccwu.cC
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Tyu.Bb1.cCwu.cC
+    path: '%2Fr862SIwqItkD5XgXAL'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #86'
+  network: ws
+  port: '443'
+  server: yhj.huangshang2026.indevs.in
+  servername: yhj.huangshang2026.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: yhj.huangshang2026.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #316'
+  network: ws
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  port: 443
+  server: nhju.h2e.indevs.in
+  sni: nhju.h2e.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nhju.h2e.indevs.in
+    path: '%2FmRjWgF9aMWcpQ8L96b'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #300'
+  network: ws
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: nmki.1qq.ccwu.cc
+  sni: nmki.1qq.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nmki.1qq.ccwu.cc
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #293'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: tgh.iran2029.indevs.in
+  sni: tgh.iran2029.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tgh.iran2029.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- name: '9,25|US美国 | uu6.top #295'
+  network: ws
+  port: 443
+  server: gh.iran2028.indevs.in
+  servername: gh.iran2028.indevs.in
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: gh.iran2028.indevs.in
+    path: '%2F9NojP751adPiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #297'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: yhj.huangshang2026.indevs.in
+  sni: yhj.huangshang2026.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yhj.huangshang2026.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #89'
+  network: ws
+  port: '443'
+  server: mmkj.dddc.de5.net
+  servername: mmkj.dddc.de5.net
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: mmkj.dddc.de5.net
+    path: /LDTpW8UIEnTAiN9LMya
+- name: '9,25|US美国 | uu6.top #299'
+  network: ws
+  port: 443
+  server: ggnju.iran2027.indevs.in
+  servername: ggnju.iran2027.indevs.in
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: ggnju.iran2027.indevs.in
+    path: '%2F9NojP751adPiN9LMya'
+- name: '9,25|US美国 | uu6.top #294'
+  network: ws
+  port: 443
+  server: mki.dddc.ccwu.cc
+  servername: mki.dddc.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: mki.dddc.ccwu.cc
+    path: '%2F9NojP751adPiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #91'
+  network: ws
+  port: '443'
+  server: rt.freevpn.qzz.io
+  servername: rt.freevpn.qzz.io
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: rt.freevpn.qzz.io
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #308'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: hhjk.huangzi.cfd
+  sni: hhjk.huangzi.cfd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhjk.huangzi.cfd
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|瑞典 | uu6.top #2'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: gh.iran2028.indevs.in
+  sni: gh.iran2028.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gh.iran2028.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #94'
+  network: ws
+  port: '443'
+  server: mki.dddc.ccwu.cc
+  servername: mki.dddc.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: mki.dddc.ccwu.cc
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #102'
+  network: ws
+  port: '443'
+  server: jjjki.dddct.us.ci
+  servername: jjjki.dddct.us.ci
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: jjjki.dddct.us.ci
+    path: /LDTpW8UIEnTAiN9LMya
+- name: '9,25|US美国 | uu6.top #317'
+  network: ws
+  port: 443
+  server: hjk.freevpn2027.dpdns.org
+  servername: hjk.freevpn2027.dpdns.org
+  tls: true
+  type: vless
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hjk.freevpn2027.dpdns.org
+    path: '%2F9NojP751adPiN9LMya'
+- name: '9,25|US美国 | uu6.top #346'
+  network: ws
+  port: 443
+  server: nmj.1x0.indevs.in
+  servername: nmj.1x0.indevs.in
+  tls: true
+  type: vless
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmj.1x0.indevs.in
+    path: '%2FhBasD7EdpBQ0zGAzsYHmsMrnO'
+- name: '9,25|US美国 | uu6.top #343'
+  network: tcp
+  port: 443
+  server: 144.31.2.126
+  servername: plcdn19.suio.me
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: '9,25|DE德国 | uu6.top #1'
+  network: tcp
+  port: 443
+  server: 144.31.2.20
+  servername: plcdn18.suio.me
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #129'
+  network: ws
+  port: '443'
+  server: dffgg.2no.ccwu.cc
+  servername: dffgg.2no.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
+  ws-opts:
+    headers:
+      Host: dffgg.2no.ccwu.cc
+    path: /PGsqb2SHJfbCLo
+- cipher: chacha20-ietf-poly1305
+  name: '10,16,26|US美国 110 | uu6.top #1'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 14|未知 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14,16|🇬🇧 GB SS-21 | free-n | uu6.top
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+- name: 15|GB VLESS-53 | free-n | uu6.top
+  network: tcp
+  port: 2345
+  server: 54.38.214.29
+  tls: false
+  type: vless
+  uuid: 0331b690-79fc-49d5-85f0-54faa4eff89f
+- name: 15|DE VLESS-64 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 108.162.193.217
+  servername: hetz.x-smm.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 3f0f36f5-f091-45c5-88c9-4bcc545b922c
+  ws-opts:
+    headers:
+      Host: hetz.x-smm.com
+    path: /45.76.183.217=49292
+- alpn:
+  - http/1.1
+  name: 15|DE VLESS-76 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: chatgpt.com
+  servername: ca.adobe-connect.top
+  tls: true
+  type: vless
+  uuid: 686c62d9-17a7-43c9-a40a-f6747df60a9f
+  ws-opts:
+    headers:
+      Host: ca.adobe-connect.top
+    path: '%2F'
+- name: 15|DE VLESS-94 | free-n | uu6.top
+  network: tcp
+  port: 443
+  server: decdn12.suio.me
+  servername: decdn12.suio.me
+  tls: true
+  type: vless
+  uuid: 94a03e9a-74d5-4036-95e9-563cc19355de
+- name: 15|未知 VLESS-74 | free-n | uu6.top
+  network: ws
+  port: 2052
+  server: v3.dabache.top
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 5e62ddcf-78c9-4b15-803a-436c8c839ddc
+  ws-opts:
+    headers:
+      Host: oBEDiENt-noiseqJf5ja18yF.wIndLer.CO.UK
+    path: /?ed=2048
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇨🇦 CA SS-05 | free-n | uu6.top
+  password: 7a106afc33eaa261
+  port: 46534
+  server: 148.113.139.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺🇸 US SS-11 | free-n | uu6.top
+  password: 351q6zQEEgP2hVB8WOAYmOZzzXqMq5AEVuDDOMjpnAgJMJKG
+  port: 31348
+  server: 92.38.149.110
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-06 | free-node | uu6.top #1'
+  password: 7c31a67b41b18c26
+  port: 11201
+  server: 89.223.88.33
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇩🇪 DE SS-03 | free-n | uu6.top
+  password: 6675cbf62d6a3a4f
+  port: 11201
+  server: 57.129.95.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬🇧 GB SS-04 | free-n | uu6.top
+  password: 6c815bb84c781da5
+  port: 13030
+  server: 51.75.168.50
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-13 | free-node | uu6.top #2'
+  password: Kbm3xoK04p4OhoqVpEzdlj
+  port: 53829
+  server: 95.164.113.198
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷🇺 RU SS-14 | free-n | uu6.top
+  password: Ow8iSExQNaobZPY9bJ4EPI
+  port: 24441
+  server: 212.192.14.234
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|TR SS-12 | free-node | uu6.top #1'
+  password: E12yZBPC7y8SnmkSYjf0Wl
+  port: 61377
+  server: 62.133.63.167
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬🇧 GB SS-17 | free-n | uu6.top
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a2.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬🇧 GB SS-16 | free-n | uu6.top
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-15 | free-node | uu6.top #1'
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-18 | free-node | uu6.top #1'
+  password: ZweuXavjovuhzt1AF0d6qx
+  port: 53908
+  server: 46.246.97.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺🇸 US SS-19 | free-n | uu6.top
+  password: d933225e6e380dad
+  port: 20591
+  server: 62.146.224.145
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-31 | free-n | uu6.top
+  password: 8rb580EBG4l7tO8K
+  port: 80
+  server: 154.53.60.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-22 | free-node | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-23 | free-node | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-24 | free-node | uu6.top #1'
+  password: qS3skwmolrQ70q842irQD0
+  port: 5790
+  server: 178.17.61.67
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-35 | free-n | uu6.top
+  password: LYXiIUJ0FutnTzBG
+  port: 80
+  server: 62.146.172.130
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇸🇬 SG SS-32 | free-n | uu6.top
+  password: 8t2xeemUtyui4zAv
+  port: 80
+  server: 194.233.94.119
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇩🇪 DE SS-33 | free-n | uu6.top
+  password: 9dQS3geeylyrRth9
+  port: 80
+  server: 2.58.81.221
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-34 | free-n | uu6.top
+  password: BedufgztHO3B5Kqe
+  port: 443
+  server: 46.250.254.170
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-28 | free-node | uu6.top #1'
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 15.204.247.49
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-41 | free-node | uu6.top #1'
+  password: jJHq807bQ7TM0yOh
+  port: 80
+  server: 94.72.127.58
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-42 | free-n | uu6.top
+  password: k6ruJuwgAUxIrkHb
+  port: 443
+  server: 154.53.63.32
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-37 | free-n | uu6.top
+  password: Tqd9GppXpXB8rpc8
+  port: 443
+  server: 46.250.254.174
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-38 | free-n | uu6.top
+  password: ZTiO11KwZG3S7aET
+  port: 443
+  server: 149.102.132.180
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-40 | free-n | uu6.top
+  password: kEVKj1xvgzeEn8AV
+  port: 80
+  server: 209.126.5.209
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-36 | free-node | uu6.top #1'
+  password: SL4vzcvhBHhTWivD
+  port: 443
+  server: 154.26.155.172
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-46 | free-node | uu6.top #1'
+  password: wlJSF0fC8uqB5Gm5
+  port: 443
+  server: 94.72.127.55
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-48 | free-n | uu6.top
+  password: uwmRUOVM5ljNAtPj
+  port: 80
+  server: 154.53.57.143
+  type: ss
+- auth: ''
+  fast-open: false
+  mport: 35000-39000
+  name: '27|未命名 | uu6.top #2'
+  password: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+  port: 35000
+  ports: 35000-39000
+  server: 208.87.242.77
+  servername: www.apple.com
+  skip-cert-verify: true
+  sni: www.apple.com
+  type: hysteria2
+  udp: true
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-26 | free-n | uu6.top
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
+  type: ss
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: 27|新年6折优惠码：克拉云 | uu6.top
+  network: ws
+  port: 443
+  server: 104.19.58.118
+  servername: us1-us1.aiopen.sbs
+  skip-cert-verify: null
+  sni: us1-us1.aiopen.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+  ws-opts:
+    headers:
+      Host: us1-us1.aiopen.sbs
+    path: /kbjc/us1
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-44 | free-n | uu6.top
+  password: nKeE2ZFWVaE4DyjR
+  port: 80
+  server: 154.38.176.7
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-43 | free-n | uu6.top
+  password: ldjmwoNqgQqqc43j
+  port: 443
+  server: 149.102.132.184
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-47 | free-n | uu6.top
+  password: umWwoQJEJGf74SLe
+  port: 80
+  server: 149.102.149.207
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇸🇬 SG SS-45 | free-n | uu6.top
+  password: qKvfX7yQnT99OMu3
+  port: 80
+  server: 194.233.75.190
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #3'
+  network: ws
+  port: 80
+  server: bgn.1dd.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bgn.1dd.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: 27|新疆西藏福建可用 | uu6.top
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  servername: jp1-jp1.aiopen.sbs
+  skip-cert-verify: null
+  sni: jp1-jp1.aiopen.sbs
+  tls: true
+  type: vless
+  udp: true
+  uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+  ws-opts:
+    headers:
+      Host: jp1-jp1.aiopen.sbs
+    path: /kbjc/jp1
+- flow: ''
+  name: '28|未命名 | uu6.top #4'
+  network: tcp
+  port: 41457
+  server: 46.224.13.54
+  tls: false
+  type: vless
+  uuid: b370ee6c-986b-4a59-b4ef-7974c6c20f6f
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: 27|解锁Gemini和ChatGPT | uu6.top
+  network: ws
+  port: 443
+  server: 69.84.182.13
+  skip-cert-verify: null
+  tls: true
+  type: vless
+  udp: true
+  uuid: da8a47cb-3cc6-425b-a4da-24abe9b2c332
+  ws-opts:
+    headers:
+      Host: fr-1-fr-1.aiopen.sbs
+    path: /kbjc/fr1
+- name: 28,32|🇮🇷 伊朗 | uu6.top
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #4'
+  network: ws
+  port: 8080
+  server: 172.67.73.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #5'
+  network: ws
+  port: '8080'
+  server: digitalocean.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- name: 16|🇭🇰 HK TROJAN-49 | fr | uu6.top
+  network: ws
+  password: 0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c
+  port: 2083
+  server: 188.116.22.217
+  skip-cert-verify: false
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- name: 29|44 | uu6.top
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 129.151.251.122
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- name: 29|📤57 | uu6.top
+  password: 545fb4e9-5794-4e20-be0c-e6d8689f91ac
+  port: 35000
+  server: 143.47.32.143
+  skip-cert-verify: true
+  sni: www.lamer.com.hk
+  tls: false
+  type: hysteria2
+- cipher: aes-256-gcm
+  name: '16|未知 SS-25 | free-node | uu6.top #2'
+  password: 8801339e-8ed3-4389-9d1d-2f211ccf07be
+  port: 442
+  server: 194.165.59.93
+  type: ss
+- name: '29,30|未命名 | uu6.top #17'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36400
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '29|未命名 | uu6.top #11'
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: 206.71.158.23
+  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
+- name: 29|HP71 (5) | uu6.top
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.40
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: '29,30|未命名 | uu6.top #21'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 30|All_7 | uu6.top
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35000
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: 30|none | uu6.top
+  obfs: salamander
+  obfs-password: Telegram-->@Ln2Ray
+  password: Telegram-->@Ln2Ray
+  port: 45000
+  server: gavazn.lnmarketplace.net
+  skip-cert-verify: true
+  sni: gavazn.55994421.xyz
+  tls: false
+  type: hysteria2
+- name: '30|未命名 | uu6.top #15'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 36300
+  server: 206.71.158.37
+  skip-cert-verify: false
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- name: '30|Telegram: | uu6.top'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 206.71.158.41
+  skip-cert-verify: true
+  sni: jnir.pichondan.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 15.235.41.200
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- name: 30|کانفیگ ایان = | uu6.top
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 35000
+  server: 5.175.249.174
+  skip-cert-verify: false
+  sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: 51.79.102.253
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 32|🇯🇵 | uu6.top
+  network: ws
+  port: '8443'
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
+  network: ws
+  port: '443'
+  server: 209.126.84.189
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸 美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '2083'
+  server: hgtrojan.zabc.net
+  tls: true
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: bfbg.2nn.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bfbg.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺 | uu6.top
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- name: 32|🇪🇸 西班牙 | uu6.top
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: false
+  sni: www.semanticstaplegun.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: 104.26.15.137
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: v2ray.codefyinc.com
+    path: /vmessws
+- flow: xtls-rprx-vision
+  name: 35,37|DE_speednode_0001 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
+    short-id: 4daa022e84f8edf2
+  server: de.cdn.stun.su
+  servername: de.cdn.stun.su
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eb071647-72a6-46be-8e89-ff3d228d52f6
+- name: 36|🇫🇷 法国 | FRA | uu6.top
+  network: tcp
+  port: 443
+  server: 109.172.55.122
+  servername: b12a6eea4807ca4e.1323.world
+  tls: true
+  type: vless
+  uuid: 0e90f352-e9bc-4834-8ff6-49ba887eded4
+  ws-opts:
+    headers:
+      Host: b12a6eea4807ca4e.1323.world
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '36|🇭🇰 香港 | HKG | uu6.top #3'
+  network: ws
+  port: '443'
+  server: n1761296880.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  ws-opts:
+    headers:
+      Host: n1761296880.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇭🇰 香港 | HKG | uu6.top #9'
+  network: ws
+  port: '443'
+  server: n1753101272.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  ws-opts:
+    headers:
+      Host: n1753101272.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇯🇵 日本 | JPN | uu6.top #3'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72
+  ws-opts:
+    headers:
+      Host: jpdfabuio.japansb3.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇯🇵 日本 | JPN | uu6.top #1'
+  network: ws
+  port: '443'
+  server: n1751468092.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 7ace1873-9822-46af-9920-bd64f725212c
+  ws-opts:
+    headers:
+      Host: n1751468092.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #1'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: c988a468-7970-4388-a44a-909b5c66df91
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #3'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: f105ea9d-7f28-4c39-a827-d86058ca3204
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #6'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: af546574-0d6c-49f7-8b9b-c7463315ad6c
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alpn:
+  - h3
+  name: '36|🇺🇸 美国 | USA | uu6.top #5'
+  network: ws
+  port: 443
+  server: 104.16.98.23
+  servername: sa.anjue39.qzz.io
+  tls: true
+  type: vless
+  uuid: a8ea783c-dc54-4b17-96e4-144d1af2cb75
+  ws-opts:
+    headers:
+      Host: sa.anjue39.qzz.io
+    path: '%2F'
+- name: '36|🇺🇸 美国 | USA | uu6.top #7'
+  network: ws
+  port: 443
+  server: 135.84.73.230
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #10'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: 768d4f16-ae54-4655-aca7-92809b043ed7
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇺🇸 美国 | USA | uu6.top #8'
+  network: ws
+  port: '80'
+  server: t6.ae1.indevs.in
+  tls: false
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: t6.AE1.indeVs.IN
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- name: '36|🇺🇸 美国 | USA | uu6.top #4'
+  network: ws
+  port: 443
+  server: t.huangdi2025.dpdns.org
+  servername: t.huangdi2025.dpdns.org
+  tls: true
+  type: vless
+  uuid: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
+  ws-opts:
+    headers:
+      Host: t.huangdi2025.dpdns.org
+    path: '%2FUzlFfVDyqJL3rI4BWzwNzcYz'
+- alterId: 0
+  cipher: auto
+  name: '36|🇺🇸 美国 | USA | uu6.top #6'
+  network: ws
+  port: '443'
+  server: thj.huangzi.cfd
+  tls: true
+  type: vmess
+  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
+  ws-opts:
+    headers:
+      Host: thj.huangzi.cfd
+    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
+- alterId: 0
+  cipher: auto
+  name: '36|🇺🇸 美国 | USA | uu6.top #9'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: 681d0e53-ca10-4840-87b1-fadd43e71a77
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- name: '36|🇺🇸 美国 | USA | uu6.top #10'
+  network: ws
+  port: 443
+  server: hnm.huangdi2025.dpdns.org
+  servername: hnm.huangdi2025.dpdns.org
+  tls: true
+  type: vless
+  uuid: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
+  ws-opts:
+    headers:
+      Host: hnm.huangdi2025.dpdns.org
+    path: '%2FUzlFfVDyqJL3rI4BWzwNzcYz'
+- alterId: 0
+  cipher: auto
+  name: -1|28|美国 CloudFlare节点 | | uu6.top
+  network: ws
+  port: '80'
+  server: nmki.1yy.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmki.1yy.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '-1|28|美国 CloudFlare节点 | | uu6.top #1'
+  network: ws
+  port: '80'
+  server: bnhhy.1ll.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bnhhy.1ll.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|28|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: 80
+  server: 104.21.16.211
+  servername: null
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nnmkl.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|3|美国 CloudFlar | uu6.top
+  network: ws
+  port: 80
+  server: yyynm.2nn.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: yyynm.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #2'
+  network: ws
+  port: '80'
+  server: t67.zem.indevs.in
+  tls: false
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: T67.zeM.INdevs.IN
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #3'
+  network: ws
+  port: '80'
+  server: 2.ae1.indevs.in
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: 2.ae1.INdEvS.In
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|32|🇺🇸 美国 CloudFl | uu6.top
+  network: ws
+  port: '443'
+  server: bnj.0nn.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bnj.0nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|1|1| | uu6.top
+  network: tcp
+  port: '45653'
+  server: 94.232.247.165
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e91d19a-c73f-4276-adbc-b337c374259c
+- name: -1|1|1|1|1|🇯🇵 日本2 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 400
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #1'
+  network: ws
+  port: 443
+  server: mkjhu.2nn.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: mkjhu.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #1'
+  network: tcp
+  port: '13852'
+  server: 45.207.157.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #2'
+  network: ws
+  port: 443
+  server: nmjk.1hh.ccwu.cc
+  servername: nmjk.1hh.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmjk.1hh.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇭🇰 香港 | | uu6.top
+  network: http
+  port: '32975'
+  server: 47.242.225.0
+  tls: false
+  type: vmess
+  uuid: ebaad525-e2cf-4c18-8ae9-41af29ac4b9c
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇫🇷 法国 | | uu6.top
+  network: http
+  port: '2085'
+  server: 82.152.98.88
+  tls: false
+  type: vmess
+  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #4'
+  network: http
+  port: 25351
+  server: 8.218.1.23
+  tls: false
+  type: vmess
+  uuid: a6dbf509-5293-4005-b86c-c0fca609a1af
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #5'
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 3423
+  server: 160.16.124.17
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|🇯🇵 日本3 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 193
+  server: 160.16.105.192
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|28|美国 CloudFlare | uu6.top
+  network: ws
+  port: 8080
+  server: 104.26.14.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    path: /nasnet/cdn
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #6'
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 443
+  server: 38.180.137.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|28|伊朗 | #20 | uu6.top'
+  network: tcp
+  port: 17356
+  server: 193.151.146.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #7'
+  port: 443
+  server: decdn9.suio.me
+  servername: decdn9.suio.me
+  tls: true
+  type: vless
+  uuid: da11d62c-1996-4d2c-b2e6-e89c7a1265e9
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|28|美国 CloudF | uu6.top
+  network: ws
+  port: 443
+  server: 104.21.32.229
+  servername: ki9i.dddct.us.ci
+  tls: true
+  type: vmess
+  uuid: 795ef99b-3260-4d18-ac98-5130bba9f168
+  ws-opts:
+    headers:
+      Host: ki9i.dddct.us.ci
+    path: /LtgDLBVt1BfWnGWI7hLRpJ1
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #8'
+  network: ws
+  port: 443
+  server: 172.67.190.94
+  servername: mmki9.kk1.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 9d24b07c-71f4-4aa5-95ac-3307c6995619
+  ws-opts:
+    headers:
+      Host: mmki9.kk1.ccwu.cc
+    path: /FlydU79Rnu0lNhu1YZc7zZ
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #9'
+  password: 249454d267254a52ab3c8b7906bc12ab
+  port: 9443
+  server: 176.125.240.167
+  sni: apple.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇩🇪 德国 | | uu6.top
+  network: http
+  port: '2085'
+  server: cpannel.iranucshop.ir
+  tls: false
+  type: vmess
+  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #10'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: 58.152.25.208
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #11'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #12'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|28|美国 CloudFlare | uu6.top #1'
+  network: ws
+  port: '443'
+  server: jkiop.dddc.de5.net
+  tls: true
+  type: vmess
+  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
+  ws-opts:
+    headers:
+      Host: jkiop.dddc.de5.net
+    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
+- name: -1|1|1|1|1|🇺🇸 美国2 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.72.205
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|🇺🇸 美国 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #6'
+  network: ws
+  port: 443
+  server: yyhju.1x6.indevs.in
+  servername: yyhju.1x6.indevs.in
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: yyhju.1x6.indevs.in
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #13'
+  port: 14201
+  server: 185.242.234.252
+  tls: false
+  type: vless
+  uuid: f1fc0a00-c9cc-45ef-97c3-7014d9f94b8a
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #15'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #21'
+  network: ws
+  port: 443
+  server: 104.21.70.50
+  servername: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  tls: true
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #16'
+  password: cd7e0971-4b98-41fc-9ecb-1267a2b0e4f4
+  port: 8443
+  server: hkbgp.jjxcloud.xyz
+  sni: hkbgp.jjxcloud.xyz
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|26|美 | uu6.top
+  network: ws
+  port: 443
+  server: hhnm.7777128.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639
+  ws-opts:
+    headers:
+      Host: hhnm.7777128.xyz
+    path: /vitRvGVofV7ia41dH
+- alpn:
+  - http/1.1
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #14'
+  network: ws
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  port: 443
+  server: bgty6.852224.xyz
+  sni: bgty6.852224.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bgty6.852224.xyz
+    path: '%2FPDbJ6Qn4xImwtg6PusRbe'
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #5'
+  network: ws
+  port: 80
+  server: t65.o1o.indevs.in
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: t65.O1o.InDEVS.in
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|28|美国 CloudF | uu6.top #1'
+  network: ws
+  port: 443
+  server: 104.21.23.210
+  servername: bbbnmju.932.pp.ua
+  tls: true
+  type: vmess
+  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+  ws-opts:
+    headers:
+      Host: bbbnmju.932.pp.ua
+    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #19'
+  obfs: salamander
+  obfs-password: Yet-Another-Public-Config-1
+  password: Yet-Another-Public-Config-1
+  port: 35200
+  server: 206.71.158.37
+  skip-cert-verify: true
+  sni: YAPC-1.afshin.ir
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|28|美国 Cl | uu6.top
+  network: ws
+  port: '8080'
+  server: 172.64.149.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #17'
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #18'
+  network: ws
+  password: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
+  port: 443
+  server: bnhy7.986986.shop
+  sni: bnhy7.986986.shop
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bnhy7.986986.shop
+    path: '%2F4e633j8uZI4BWzwNzcYz'
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|26|美 | uu6.top #1'
+  network: ws
+  port: 443
+  server: 172.67.209.231
+  servername: nji.kk0.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
+  ws-opts:
+    headers:
+      Host: nji.kk0.ccwu.cc
+    path: /PGsqb2SHJfbCLo
+- name: -1|1|1|1|1|1|36|🇺🇸 美国 | | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #20'
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.116.227
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|28|香港 阿里云 | uu6.top
+  network: ws
+  port: '443'
+  server: n1761214908.wpg27.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
+    path: /

@@ -1,0 +1,1532 @@
+proxies:
+- name: '0,15,16|TR TROJAN-50 | free- | uu6.top #1'
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 443
+  server: 58.152.53.227
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|TR TROJAN-31 | free- | uu6.top
+  password: Tn2Bf0iRwJkJQgDk6gX6x81RB
+  port: 443
+  server: hl-freedom-2.undef.network
+  type: trojan
+- name: 0,15|HK TROJAN-49 | free- | uu6.top
+  network: ws
+  password: 0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c
+  port: 2083
+  server: 188.116.22.217
+  skip-cert-verify: false
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: '%2Ftrojan-ws'
+- name: 1,12,32,33,34|日本2 | uu6.top
+  network: tcp
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 3423
+  server: 160.16.144.208
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 1,12,32,33,34|日本3 | uu6.top
+  network: tcp
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 193
+  server: 153.121.39.240
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '3,7,28,32|🇬🇧 英国 | uu6.top #1'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 3|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '443'
+  server: nhj.1jj.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nhj.1jj.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '3|美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: nmju.1jj.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmju.1jj.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 7|美國 | uu6.top
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: '%2Ftro8sFW1S91B6sZrM1%3Fed%3D2560'
+- name: 3|未命名 | uu6.top
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 8|美国节点_20 | uu6.top
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #212'
+  network: ws
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  port: 443
+  server: nju.taipei104.indevs.in
+  sni: nju.taipei104.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nju.taipei104.indevs.in
+    path: '%2FmRjWgF9aMWcpQ8L96b'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #354'
+  network: ws
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  port: 443
+  server: mhju.h2e.indevs.in
+  sni: mhju.h2e.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mhju.h2e.indevs.in
+    path: '%2FmRjWgF9aMWcpQ8L96b'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #37'
+  network: ws
+  port: '443'
+  server: hjk.freevpn2027.dpdns.org
+  servername: hjk.freevpn2027.dpdns.org
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hjk.freevpn2027.dpdns.org
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #48'
+  network: ws
+  port: '443'
+  server: gh.iran2028.indevs.in
+  servername: gh.iran2028.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: gh.iran2028.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #58'
+  network: ws
+  port: '80'
+  server: turk1.net.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #264'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: rt.freevpn.qzz.io
+  sni: rt.freevpn.qzz.io
+  type: trojan
+  ws-opts:
+    headers:
+      Host: rt.freevpn.qzz.io
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #66'
+  network: ws
+  port: '443'
+  server: tgh.iran2029.indevs.in
+  servername: tgh.iran2029.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: tgh.iran2029.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #67'
+  network: ws
+  port: '443'
+  server: hj.huangshang.qzz.io
+  servername: hj.huangshang.qzz.io
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: hj.huangshang.qzz.io
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #268'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: mmkj.dddc.de5.net
+  sni: mmkj.dddc.de5.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mmkj.dddc.de5.net
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #68'
+  network: ws
+  port: '443'
+  server: jki.huangdi.indevs.in
+  servername: jki.huangdi.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: jki.huangdi.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #272'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: hjk.freevpn2027.dpdns.org
+  sni: hjk.freevpn2027.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hjk.freevpn2027.dpdns.org
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #277'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: hj.huangshang.qzz.io
+  sni: hj.huangshang.qzz.io
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hj.huangshang.qzz.io
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #285'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: ggnju.iran2027.indevs.in
+  sni: ggnju.iran2027.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ggnju.iran2027.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #84'
+  network: ws
+  port: '443'
+  server: ggnju.iran2027.indevs.in
+  servername: ggnju.iran2027.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: ggnju.iran2027.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #290'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: ghj.husngahng.click
+  sni: ghj.husngahng.click
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ghj.husngahng.click
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #274'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  port: 443
+  server: aq.voa.ccwu.cc
+  sni: aQ.voA.cCWu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aQ.VOa.cCWU.cc
+    path: '%2Fr862SIwqItkD5XgXAL'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #319'
+  network: ws
+  password: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  port: 443
+  server: tyu.bb1.ccwu.cc
+  sni: tYu.BB1.Ccwu.cC
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Tyu.Bb1.cCwu.cC
+    path: '%2Fr862SIwqItkD5XgXAL'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #86'
+  network: ws
+  port: '443'
+  server: yhj.huangshang2026.indevs.in
+  servername: yhj.huangshang2026.indevs.in
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: yhj.huangshang2026.indevs.in
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #316'
+  network: ws
+  password: d5604db8-1f31-403d-a315-d8bafc70f7d2
+  port: 443
+  server: nhju.h2e.indevs.in
+  sni: nhju.h2e.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nhju.h2e.indevs.in
+    path: '%2FmRjWgF9aMWcpQ8L96b'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #300'
+  network: ws
+  password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  port: 443
+  server: nmki.1qq.ccwu.cc
+  sni: nmki.1qq.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nmki.1qq.ccwu.cc
+    path: '%2Fy1moM5CyNvYMZlzsYHmsMrnO'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #293'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: tgh.iran2029.indevs.in
+  sni: tgh.iran2029.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tgh.iran2029.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #297'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: yhj.huangshang2026.indevs.in
+  sni: yhj.huangshang2026.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: yhj.huangshang2026.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #89'
+  network: ws
+  port: '443'
+  server: mmkj.dddc.de5.net
+  servername: mmkj.dddc.de5.net
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: mmkj.dddc.de5.net
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #91'
+  network: ws
+  port: '443'
+  server: rt.freevpn.qzz.io
+  servername: rt.freevpn.qzz.io
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: rt.freevpn.qzz.io
+    path: /LDTpW8UIEnTAiN9LMya
+- alpn:
+  - http/1.1
+  name: '9,25|US美国 | uu6.top #308'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: hhjk.huangzi.cfd
+  sni: hhjk.huangzi.cfd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhjk.huangzi.cfd
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alpn:
+  - http/1.1
+  name: '9,25|瑞典 | uu6.top #2'
+  network: ws
+  password: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  port: 443
+  server: gh.iran2028.indevs.in
+  sni: gh.iran2028.indevs.in
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gh.iran2028.indevs.in
+    path: '%2FElrtQ8CAz6RgfMaiN9LMya'
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #94'
+  network: ws
+  port: '443'
+  server: mki.dddc.ccwu.cc
+  servername: mki.dddc.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: mki.dddc.ccwu.cc
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #102'
+  network: ws
+  port: '443'
+  server: jjjki.dddct.us.ci
+  servername: jjjki.dddct.us.ci
+  tls: true
+  type: vmess
+  uuid: 721d3fd0-e9f1-40c3-92cd-d4405a4319d6
+  ws-opts:
+    headers:
+      Host: jjjki.dddct.us.ci
+    path: /LDTpW8UIEnTAiN9LMya
+- alterId: 0
+  cipher: auto
+  name: '9,25,32|🇺🇸 US美国 | uu6.top #129'
+  network: ws
+  port: '443'
+  server: dffgg.2no.ccwu.cc
+  servername: dffgg.2no.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
+  ws-opts:
+    headers:
+      Host: dffgg.2no.ccwu.cc
+    path: /PGsqb2SHJfbCLo
+- cipher: chacha20-ietf-poly1305
+  name: '10,16,26|US美国 110 | uu6.top #1'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 14|未知 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14,16|🇬🇧 GB SS-21 | free-n | uu6.top
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇨🇦 CA SS-05 | free-n | uu6.top
+  password: 7a106afc33eaa261
+  port: 46534
+  server: 148.113.139.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺🇸 US SS-11 | free-n | uu6.top
+  password: 351q6zQEEgP2hVB8WOAYmOZzzXqMq5AEVuDDOMjpnAgJMJKG
+  port: 31348
+  server: 92.38.149.110
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-06 | free-node | uu6.top #1'
+  password: 7c31a67b41b18c26
+  port: 11201
+  server: 89.223.88.33
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇩🇪 DE SS-03 | free-n | uu6.top
+  password: 6675cbf62d6a3a4f
+  port: 11201
+  server: 57.129.95.45
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬🇧 GB SS-04 | free-n | uu6.top
+  password: 6c815bb84c781da5
+  port: 13030
+  server: 51.75.168.50
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-13 | free-node | uu6.top #2'
+  password: Kbm3xoK04p4OhoqVpEzdlj
+  port: 53829
+  server: 95.164.113.198
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇷🇺 RU SS-14 | free-n | uu6.top
+  password: Ow8iSExQNaobZPY9bJ4EPI
+  port: 24441
+  server: 212.192.14.234
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|TR SS-12 | free-node | uu6.top #1'
+  password: E12yZBPC7y8SnmkSYjf0Wl
+  port: 61377
+  server: 62.133.63.167
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬🇧 GB SS-17 | free-n | uu6.top
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a2.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇬🇧 GB SS-16 | free-n | uu6.top
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-15 | free-node | uu6.top #1'
+  password: QFWzCw2uX9B9i6qAYeFBIE
+  port: 443
+  server: bogging-eyeteeth-fly.freesocks.work
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-18 | free-node | uu6.top #1'
+  password: ZweuXavjovuhzt1AF0d6qx
+  port: 53908
+  server: 46.246.97.140
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇺🇸 US SS-19 | free-n | uu6.top
+  password: d933225e6e380dad
+  port: 20591
+  server: 62.146.224.145
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-31 | free-n | uu6.top
+  password: 8rb580EBG4l7tO8K
+  port: 80
+  server: 154.53.60.197
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-22 | free-node | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.35
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-23 | free-node | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.62
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-24 | free-node | uu6.top #1'
+  password: qS3skwmolrQ70q842irQD0
+  port: 5790
+  server: 178.17.61.67
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-35 | free-n | uu6.top
+  password: LYXiIUJ0FutnTzBG
+  port: 80
+  server: 62.146.172.130
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇸🇬 SG SS-32 | free-n | uu6.top
+  password: 8t2xeemUtyui4zAv
+  port: 80
+  server: 194.233.94.119
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇩🇪 DE SS-33 | free-n | uu6.top
+  password: 9dQS3geeylyrRth9
+  port: 80
+  server: 2.58.81.221
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-34 | free-n | uu6.top
+  password: BedufgztHO3B5Kqe
+  port: 443
+  server: 46.250.254.170
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-28 | free-node | uu6.top #1'
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 15.204.247.49
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-41 | free-node | uu6.top #1'
+  password: jJHq807bQ7TM0yOh
+  port: 80
+  server: 94.72.127.58
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-42 | free-n | uu6.top
+  password: k6ruJuwgAUxIrkHb
+  port: 443
+  server: 154.53.63.32
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-37 | free-n | uu6.top
+  password: Tqd9GppXpXB8rpc8
+  port: 443
+  server: 46.250.254.174
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-38 | free-n | uu6.top
+  password: ZTiO11KwZG3S7aET
+  port: 443
+  server: 149.102.132.180
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-40 | free-n | uu6.top
+  password: kEVKj1xvgzeEn8AV
+  port: 80
+  server: 209.126.5.209
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-36 | free-node | uu6.top #1'
+  password: SL4vzcvhBHhTWivD
+  port: 443
+  server: 154.26.155.172
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-46 | free-node | uu6.top #1'
+  password: wlJSF0fC8uqB5Gm5
+  port: 443
+  server: 94.72.127.55
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-48 | free-n | uu6.top
+  password: uwmRUOVM5ljNAtPj
+  port: 80
+  server: 154.53.57.143
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-26 | free-n | uu6.top
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇺🇸 US SS-44 | free-n | uu6.top
+  password: nKeE2ZFWVaE4DyjR
+  port: 80
+  server: 154.38.176.7
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-43 | free-n | uu6.top
+  password: ldjmwoNqgQqqc43j
+  port: 443
+  server: 149.102.132.184
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-47 | free-n | uu6.top
+  password: umWwoQJEJGf74SLe
+  port: 80
+  server: 149.102.149.207
+  type: ss
+- cipher: aes-256-gcm
+  name: 16|🇸🇬 SG SS-45 | free-n | uu6.top
+  password: qKvfX7yQnT99OMu3
+  port: 80
+  server: 194.233.75.190
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #3'
+  network: ws
+  port: 80
+  server: bgn.1dd.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bgn.1dd.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: 28,32|🇮🇷 伊朗 | uu6.top
+  password: pYIoKUPGpWeTYXEx3HjR7s97B
+  port: 443
+  server: free-de-2.undef.network
+  skip-cert-verify: true
+  sni: free-de-2.undef.network
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #4'
+  network: ws
+  port: 8080
+  server: 172.67.73.163
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-162191099.sharghdaily.co
+    path: /nasnet/cdn
+- alterId: 0
+  cipher: auto
+  name: '28|美国 CloudFlare节点 | uu6.top #5'
+  network: ws
+  port: '8080'
+  server: digitalocean.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571299667.rahavard365.co
+    path: /NASNET/cdn
+- name: 16|🇭🇰 HK TROJAN-49 | fr | uu6.top
+  network: ws
+  password: 0zmdDXd0Qt5ff_7Qg67R-Rtq4Tmt4c
+  port: 2083
+  server: 188.116.22.217
+  skip-cert-verify: false
+  sni: xo.e0f.cx
+  type: trojan
+  ws-opts:
+    headers:
+      Host: xo.e0f.cx
+    path: /trojan-ws
+- cipher: aes-256-gcm
+  name: '16|未知 SS-25 | free-node | uu6.top #2'
+  password: 8801339e-8ed3-4389-9d1d-2f211ccf07be
+  port: 442
+  server: 194.165.59.93
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 15.235.41.200
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: '32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: 51.79.102.253
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: 32|🇯🇵 | uu6.top
+  network: ws
+  port: '8443'
+  server: t1.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: t1.620720.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
+  network: ws
+  port: '443'
+  server: 209.126.84.189
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸 美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '2083'
+  server: hgtrojan.zabc.net
+  tls: true
+  type: vmess
+  uuid: e6395c20-4571-4b34-d6b1-55a5d36e49ea
+  ws-opts:
+    headers:
+      Host: hgtrojan.zabc.net
+    path: /e6395c20
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: bfbg.2nn.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bfbg.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: 32|🇦🇺 | uu6.top
+  network: ws
+  port: '443'
+  server: sy4.620720.xyz
+  tls: true
+  type: vmess
+  uuid: 516d8a7a-3f0b-41d3-bad0-246116381516
+  ws-opts:
+    headers:
+      Host: sy4.620720.xyz
+    path: /
+- name: 32|🇪🇸 西班牙 | uu6.top
+  password: wp9IsiY82uQhcmgNC1eoBM
+  port: 12420
+  server: 80.173.231.254
+  skip-cert-verify: false
+  sni: www.semanticstaplegun.click
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #2'
+  network: ws
+  port: '80'
+  server: 104.26.15.137
+  tls: false
+  type: vmess
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  ws-opts:
+    headers:
+      Host: tr1-smart.adelping.com.
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: v2ray.codefyinc.com
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: '36|🇭🇰 香港 | HKG | uu6.top #3'
+  network: ws
+  port: '443'
+  server: n1761296880.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 1effac4a-cdb8-4717-a10c-da97263c802c
+  ws-opts:
+    headers:
+      Host: n1761296880.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇭🇰 香港 | HKG | uu6.top #9'
+  network: ws
+  port: '443'
+  server: n1753101272.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 568a3e7a-c13e-4205-af30-e75ec3e5c778
+  ws-opts:
+    headers:
+      Host: n1753101272.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇯🇵 日本 | JPN | uu6.top #3'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: 7473f95b-5a12-4972-b882-9fcd41ceff72
+  ws-opts:
+    headers:
+      Host: jpdfabuio.japansb3.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇯🇵 日本 | JPN | uu6.top #1'
+  network: ws
+  port: '443'
+  server: n1751468092.lie5d.cyou
+  tls: true
+  type: vmess
+  uuid: 7ace1873-9822-46af-9920-bd64f725212c
+  ws-opts:
+    headers:
+      Host: n1751468092.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #1'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: c988a468-7970-4388-a44a-909b5c66df91
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #3'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: f105ea9d-7f28-4c39-a827-d86058ca3204
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #6'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: af546574-0d6c-49f7-8b9b-c7463315ad6c
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇸🇬 新加坡 | SGP | uu6.top #10'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: 768d4f16-ae54-4655-aca7-92809b043ed7
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '36|🇺🇸 美国 | USA | uu6.top #8'
+  network: ws
+  port: '80'
+  server: t6.ae1.indevs.in
+  tls: false
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: t6.AE1.indeVs.IN
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: '36|🇺🇸 美国 | USA | uu6.top #6'
+  network: ws
+  port: '443'
+  server: thj.huangzi.cfd
+  tls: true
+  type: vmess
+  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
+  ws-opts:
+    headers:
+      Host: thj.huangzi.cfd
+    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
+- alterId: 0
+  cipher: auto
+  name: '36|🇺🇸 美国 | USA | uu6.top #9'
+  network: ws
+  port: '443'
+  server: sg.ok12345.ggff.net
+  tls: true
+  type: vmess
+  uuid: 681d0e53-ca10-4840-87b1-fadd43e71a77
+  ws-opts:
+    headers:
+      Host: sgdaobk.1buigujj.ggff.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|28|美国 CloudFlare节点 | | uu6.top
+  network: ws
+  port: '80'
+  server: nmki.1yy.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmki.1yy.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '-1|28|美国 CloudFlare节点 | | uu6.top #1'
+  network: ws
+  port: '80'
+  server: bnhhy.1ll.ccwu.cc
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bnhhy.1ll.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|28|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: 80
+  server: 104.21.16.211
+  servername: null
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nnmkl.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|3|美国 CloudFlar | uu6.top
+  network: ws
+  port: 80
+  server: yyynm.2nn.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: yyynm.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #2'
+  network: ws
+  port: '80'
+  server: t67.zem.indevs.in
+  tls: false
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: T67.zeM.INdevs.IN
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #3'
+  network: ws
+  port: '80'
+  server: 2.ae1.indevs.in
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: 2.ae1.INdEvS.In
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|32|🇺🇸 美国 CloudFl | uu6.top
+  network: ws
+  port: '443'
+  server: bnj.0nn.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: bnj.0nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|1|1| | uu6.top
+  network: tcp
+  port: '45653'
+  server: 94.232.247.165
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9e91d19a-c73f-4276-adbc-b337c374259c
+- name: -1|1|1|1|1|🇯🇵 日本2 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 400
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #1'
+  network: ws
+  port: 443
+  server: mkjhu.2nn.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: mkjhu.2nn.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #1'
+  network: tcp
+  port: '13852'
+  server: 45.207.157.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 845764df-ecb3-4b13-bed2-bf1551b68e9a
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #2'
+  network: ws
+  port: 443
+  server: nmjk.1hh.ccwu.cc
+  servername: nmjk.1hh.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: nmjk.1hh.ccwu.cc
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇭🇰 香港 | | uu6.top
+  network: http
+  port: '32975'
+  server: 47.242.225.0
+  tls: false
+  type: vmess
+  uuid: ebaad525-e2cf-4c18-8ae9-41af29ac4b9c
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇫🇷 法国 | | uu6.top
+  network: http
+  port: '2085'
+  server: 82.152.98.88
+  tls: false
+  type: vmess
+  uuid: 8aa8d990-dea8-431f-b62d-cc70f3ba4de8
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #4'
+  network: http
+  port: 25351
+  server: 8.218.1.23
+  tls: false
+  type: vmess
+  uuid: a6dbf509-5293-4005-b86c-c0fca609a1af
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #5'
+  password: 9372cb81c7b0ad903f91f2f8a4d3f02b
+  port: 3423
+  server: 160.16.124.17
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|🇯🇵 日本3 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 193
+  server: 160.16.105.192
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|28|美国 CloudFlare | uu6.top
+  network: ws
+  port: 8080
+  server: 104.26.14.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-571296497.iranpress.co
+    path: /nasnet/cdn
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #6'
+  password: c1d83c0c7d57cead4379ba14a82df69b
+  port: 443
+  server: 38.180.137.196
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|28|伊朗 | #20 | uu6.top'
+  network: tcp
+  port: 17356
+  server: 193.151.146.232
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f95cb5ae-1b06-4a57-aba0-30afe12d23ed
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|28|美国 CloudF | uu6.top
+  network: ws
+  port: 443
+  server: 104.21.32.229
+  servername: ki9i.dddct.us.ci
+  tls: true
+  type: vmess
+  uuid: 795ef99b-3260-4d18-ac98-5130bba9f168
+  ws-opts:
+    headers:
+      Host: ki9i.dddct.us.ci
+    path: /LtgDLBVt1BfWnGWI7hLRpJ1
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #8'
+  network: ws
+  port: 443
+  server: 172.67.190.94
+  servername: mmki9.kk1.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 9d24b07c-71f4-4aa5-95ac-3307c6995619
+  ws-opts:
+    headers:
+      Host: mmki9.kk1.ccwu.cc
+    path: /FlydU79Rnu0lNhu1YZc7zZ
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #9'
+  password: 249454d267254a52ab3c8b7906bc12ab
+  port: 9443
+  server: 176.125.240.167
+  sni: apple.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|36|🇩🇪 德国 | | uu6.top
+  network: http
+  port: '2085'
+  server: cpannel.iranucshop.ir
+  tls: false
+  type: vmess
+  uuid: 2c72c667-093c-47a5-a108-493c93282b57
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #10'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: 58.152.25.208
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #11'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #12'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.208
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|28|美国 CloudFlare | uu6.top #1'
+  network: ws
+  port: '443'
+  server: jkiop.dddc.de5.net
+  tls: true
+  type: vmess
+  uuid: 34778794-72e8-4862-b1e7-6e6c3ba894be
+  ws-opts:
+    headers:
+      Host: jkiop.dddc.de5.net
+    path: /qlWiWOdPkCVqBXYWmzP5D1vsO
+- name: -1|1|1|1|1|🇺🇸 美国2 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.72.205
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|🇺🇸 美国 | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.106.99
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #6'
+  network: ws
+  port: 443
+  server: yyhju.1x6.indevs.in
+  servername: yyhju.1x6.indevs.in
+  tls: true
+  type: vmess
+  uuid: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
+  ws-opts:
+    headers:
+      Host: yyhju.1x6.indevs.in
+    path: /iSRWSKUJKNuXvVzsYHmsMrnO
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #15'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.18.130
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #21'
+  network: ws
+  port: 443
+  server: 104.21.70.50
+  servername: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+  tls: true
+  type: vmess
+  uuid: 0c6b96bc-5e3a-4500-8497-6dead1965609
+  ws-opts:
+    headers:
+      Host: 6c00bf1f-a569-4d54-9f71-a13611801867.661.qzz.io
+    path: /KHtPvNZl371C8NsbbZ1wwDhJ3
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|1|26|美 | uu6.top
+  network: ws
+  port: 443
+  server: hhnm.7777128.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: dd39bb7d-2bea-41b5-be20-fa228a45f639
+  ws-opts:
+    headers:
+      Host: hhnm.7777128.xyz
+    path: /vitRvGVofV7ia41dH
+- alpn:
+  - http/1.1
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #14'
+  network: ws
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  port: 443
+  server: bgty6.852224.xyz
+  sni: bgty6.852224.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bgty6.852224.xyz
+    path: '%2FPDbJ6Qn4xImwtg6PusRbe'
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|3|美国 CloudFlar | uu6.top #5'
+  network: ws
+  port: 80
+  server: t65.o1o.indevs.in
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4115f84d-3b03-4b03-babf-21b36b2f9c03
+  ws-opts:
+    headers:
+      Host: t65.O1o.InDEVS.in
+    path: /GgigazFGDLgFWDItkD5XgXAL
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|28|美国 CloudF | uu6.top #1'
+  network: ws
+  port: 443
+  server: 104.21.23.210
+  servername: bbbnmju.932.pp.ua
+  tls: true
+  type: vmess
+  uuid: 2bfe58f7-da1d-45df-ab43-7c665b20ee29
+  ws-opts:
+    headers:
+      Host: bbbnmju.932.pp.ua
+    path: /t1UV4HSrzbWGmJtbBhmKb8nOkg
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|28|美国 Cl | uu6.top
+  network: ws
+  port: '8080'
+  server: 172.64.149.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767
+  ws-opts:
+    headers:
+      Host: nasnet-5712964102.sharghdaily.co
+    path: /nasnet/cdn
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #17'
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #18'
+  network: ws
+  password: 4ed4ac41-4b56-42c4-b31c-4d7bc36f74ce
+  port: 443
+  server: bnhy7.986986.shop
+  sni: bnhy7.986986.shop
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bnhy7.986986.shop
+    path: '%2F4e633j8uZI4BWzwNzcYz'
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|26|美 | uu6.top #1'
+  network: ws
+  port: 443
+  server: 172.67.209.231
+  servername: nji.kk0.ccwu.cc
+  tls: true
+  type: vmess
+  uuid: 2215657e-2af4-405f-b770-4e61b298d5b8
+  ws-opts:
+    headers:
+      Host: nji.kk0.ccwu.cc
+    path: /PGsqb2SHJfbCLo
+- name: -1|1|1|1|1|1|36|🇺🇸 美国 | | uu6.top
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.236.32
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #20'
+  password: 64a59181551b5773e390bd717a7b7c06
+  port: 1281
+  server: 160.16.116.227
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|28|香港 阿里云 | uu6.top
+  network: ws
+  port: '443'
+  server: n1761214908.wpg27.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3514a93f-bb26-4442-8f99-971b2ff3388a
+  ws-opts:
+    headers:
+      Host: n1761214908.wpg27.xyz
+    path: /
