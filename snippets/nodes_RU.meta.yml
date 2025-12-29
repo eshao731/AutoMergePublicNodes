@@ -1,0 +1,24 @@
+proxies:
+- name: -1|1|1|1|1|0,15|RU VLES | uu6.top
+  network: ws
+  port: 8443
+  server: 45.12.114.73
+  servername: rus21.unboundworld.org
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: f1e74548-4c0b-463b-b68d-0d1ec48c965d
+  ws-opts:
+    headers:
+      Host: rus21.unboundworld.org
+    path: '%2Fws-vless%2Fsecurity=tls'
+- grpc-opts:
+    grpc-service-name: xyzsecurity=tls
+  name: -1|1|1|1|1|13,14|🇷🇺_RU_ | uu6.top
+  network: grpc
+  port: 47407
+  server: 5.101.85.4
+  servername: www.google.com
+  tls: false
+  type: vless
+  uuid: cc69278f-b497-4518-a346-5c0e11f1e9ae

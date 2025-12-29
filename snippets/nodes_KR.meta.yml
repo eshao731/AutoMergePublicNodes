@@ -1,0 +1,38 @@
+proxies:
+- name: '-1|1|1|1|1|9|KR韩国 | #1 | uu6.top'
+  network: ws
+  port: 12312
+  server: 211.48.77.114
+  servername: sni.111000.dynv6.net
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2security=tls'
+- name: '-1|1|1|1|1|9|KR韩国 | #4 | uu6.top'
+  network: ws
+  port: 12126
+  server: 116.44.53.251
+  servername: sni.111000.dynv6.net
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2security=tls'
+- name: -1|1|1|1|1|35|KR_922f4_ | uu6.top
+  network: ws
+  port: 12126
+  server: 116.44.53.251
+  servername: sni.111000.dynv6.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?ed=2560security=tls
