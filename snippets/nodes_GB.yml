@@ -1,0 +1,60 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 7,9,25,28,34|🇬🇧 英国 | uu6.top
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 8,10,26|US美国 67 | uu6.top
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: '8,10,16,26|GB英国 7 | uu6.top #1'
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: '25|GB英国 | uu6.top #30'
+  network: ws
+  password: c52d2de2-fc6d-490c-8421-132f87615736
+  port: 443
+  server: bgty6.852224.xyz
+  sni: bgty6.852224.xyz
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bgty6.852224.xyz
+    path: '%2FPDbJ6Qn4xImwtg6PusRbe'
+- name: '26|GB英国 2 | uu6.top #1'
+  password: 1338f666-2fcc-4538-bc29-1ebf89624383
+  port: 443
+  server: ilop.uk2033.ccwu.cc
+  skip-cert-verify: true
+  sni: ilop.uk2033.ccwu.cc
+  type: trojan
+  udp: true
+- name: -1|1|1|1|1|1|1|1|15,16| | uu6.top
+  network: ws
+  password: 76yTlnTIsjCTlmqnUJ5Tzc1rM
+  port: 443
+  server: hl-freedom-0.undef.network
+  sni: hl-freedom-0.undef.network
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hl-freedom-0.undef.network
+    path: /f2fc2a1f
