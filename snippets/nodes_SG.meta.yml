@@ -1,0 +1,190 @@
+proxies:
+- name: 0|SG TROJAN-31 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 153.121.45.139
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0,15|SG TROJAN-21 | free- | uu6.top
+  network: ws
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  port: 443
+  server: ubu.okaoclax.me
+  sni: ubu.okaoclax.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ubu.okaoclax.me
+    path: /trojan-ws
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ''
+  name: 0|SG VLESS-56 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
+  servername: SAnYuuu.pAGeS.Dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 2a667767-995c-4892-9719-f52c3db2b0f2
+  ws-opts:
+    headers:
+      Host: SAnYuuu.pAGeS.Dev
+    path: /eyJqdW5rIjoiVFo3Y0VvcXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119?ed=2560
+- client-fingerprint: chrome
+  name: 0|SG VLESS-77 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: v2.dabache.top
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 0|SG VLESS-99 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 192.0.54.223
+  servername: snippet.fgfw.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ccwu.cc
+    path: '%2Fdanfeng'
+- name: '1,11,12,32|🇸🇬 新加坡2 | uu6.top #4'
+  password: f389ed926e512e15f382dc3804029474
+  port: 3419
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '1,11,12,32|🇸🇬 新加坡 | uu6.top #4'
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 4674
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 15|SG TROJAN-27 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 160.16.214.104
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|新加坡2 | uu6.top
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 3.112.213.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|新加坡 | uu6.top
+  network: tcp
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 3419
+  server: 3.112.213.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|新加坡3 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 25343
+  server: 54.238.89.170
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 37|SG_speednode_0039 | uu6.top
+  network: ws
+  port: 19457
+  server: 43.165.191.25
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳@WangCai2
+- alpn:
+  - http/1.1
+  name: -1|0|SG VLESS-99 | free | uu6.top
+  network: ws
+  port: 443
+  server: 192.0.54.223
+  servername: snippet.fgfw.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ccwu.cc
+    path: '%2Fdanfengfp=random'
+- name: 37|SG_speednode_0036 | uu6.top
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- alpn:
+  - http/1.1
+  name: '-1|36|🇸🇬 新加坡 | SGP | #1 | uu6.top'
+  network: ws
+  port: 30488
+  server: 129.159.37.19
+  servername: snippet.fgfw.ye.gs
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.ye.gs
+    path: '%2Fdanfengfp=random'
+- alpn:
+  - http/1.1
+  name: -1|36|🇸🇬 新加坡 | SGP | uu6.top
+  network: ws
+  port: 20475
+  server: 64.49.44.104
+  servername: snippet.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: '%2Fdanfengfp=random'
+- name: -1|1|1|1|1|1|🇸🇬 新加坡2 | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|1|🇸🇬 新加坡 | uu6.top
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 3419
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan

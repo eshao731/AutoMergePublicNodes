@@ -1,0 +1,1369 @@
+proxies:
+- name: 0|US TROJAN-27 | free- | uu6.top
+  network: tcp
+  password: ZY07256934
+  port: 443
+  server: closing-crow.rooster465.autos
+  skip-cert-verify: true
+  sni: closing-crow.rooster465.autos
+  type: trojan
+- name: '0,3,15,28|未命名 | uu6.top #9'
+  password: MeaDiUmPlkWbZJ2BON8tz
+  port: 28259
+  server: 78.159.131.12
+  skip-cert-verify: true
+  sni: ads.x5.ru
+  type: trojan
+- name: '0,1,11,12,32|🇯🇵 日本3 | uu6.top #4'
+  password: f389ed926e512e15f382dc3804029474
+  port: 4937
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|KR TROJAN-28 | free- | uu6.top
+  network: tcp
+  password: ZY07256934
+  port: 443
+  server: glowing-deer.rooster465.autos
+  skip-cert-verify: true
+  sni: glowing-deer.rooster465.autos
+  type: trojan
+- name: 0|SG TROJAN-31 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 153.121.45.139
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0|US TROJAN-29 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 3057
+  server: 153.121.45.139
+  sni: www.nintendogames.net
+  type: trojan
+- name: 0,15|SG TROJAN-21 | free- | uu6.top
+  network: ws
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  port: 443
+  server: ubu.okaoclax.me
+  sni: ubu.okaoclax.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ubu.okaoclax.me
+    path: /trojan-ws
+- name: 0,15|TR TROJAN-29 | free- | uu6.top
+  network: tcp
+  password: q2GRUM1-odJBWq_KV6xv2fuNvu8ed-
+  port: 443
+  server: 8443.golden-cards.me
+  skip-cert-verify: true
+  type: trojan
+- name: '1,11,12,32|🇸🇬 新加坡2 | uu6.top #4'
+  password: f389ed926e512e15f382dc3804029474
+  port: 3419
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '1,11,12,32|🇸🇬 新加坡 | uu6.top #4'
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 4674
+  server: 160.16.132.38
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '3,7,9,25,32|🇬🇧 GB英国 | uu6.top #29'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 3|美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: 443
+  server: udtzy.cmvvb.online
+  servername: udtzy.cmvvb.online
+  tls: true
+  type: vmess
+  uuid: 847e9159-9716-4213-97a9-50d5db3fd74a
+  ws-opts:
+    headers:
+      Host: udtzy.cmvvb.online
+    path: /
+- name: '3,28|未命名 | uu6.top #8'
+  network: tcp
+  password: qmBSKnAl6LYi9=z23Rs.Z
+  port: 28099
+  server: 37.235.49.209
+  skip-cert-verify: true
+  sni: celestialcorset.crystalhamster.click
+  type: trojan
+- name: 7|美國 | uu6.top
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.66.44.230
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: '%2Ftro8sFW1S91B6sZrM1%3Fed%3D2560'
+- name: '7,9,25|US美国 | uu6.top #198'
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'
+- name: '7,9,25|NL荷兰 | uu6.top #5'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  skip-cert-verify: false
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: '8,10,26|GB英国 11 | uu6.top #1'
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: '8,10,26|US美国 38 | uu6.top #1'
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '8,10,26|JP日本 | uu6.top #18'
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '8,10,26|US美国 56 | uu6.top #1'
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '8,10,26|FR法国 4 | uu6.top #1'
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- name: '8|香港 | uu6.top #1'
+  password: BxceQaOe
+  port: 443
+  server: 58.152.25.253
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '9,32|🇺🇸 US美国 | uu6.top #25'
+  network: ws
+  port: '80'
+  server: sfgt76.0z0.ccwu.cc
+  servername: sfgt76.0z0.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
+  ws-opts:
+    headers:
+      Host: sfgt76.0z0.ccwu.cc
+    path: /y3ME81hpTJWwd4RJBAQ5Ah
+- name: '9,25|US美国 | uu6.top #177'
+  network: ws
+  password: trojan
+  port: 8443
+  server: 109.234.211.66
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F'
+- name: '9,32|🇺🇸 US美国 | uu6.top #35'
+  network: tcp
+  password: ZY07256934
+  port: 443
+  server: delicate-buck.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: '9,25|西班牙 | uu6.top #3'
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  sni: store.timimi.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: '%2F%3FBIA_TELEGRAM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29TM%28%40AZARBAYJAB1%29'
+- name: '9,32|🇭🇰 HK香港 | uu6.top #6'
+  network: tcp
+  password: ZY07256934
+  port: 443
+  server: free-duckling.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- cipher: aes-128-gcm
+  name: 10|KR韩国 3 | uu6.top
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+  udp: true
+- name: 10|US美国 32 | uu6.top
+  password: ZY07256934
+  port: 443
+  server: delicate-buck.rooster465.autos
+  skip-cert-verify: true
+  sni: delicate-buck.rooster465.autos
+  type: trojan
+  udp: true
+- name: 10|HK香港 7 | uu6.top
+  password: ZY07256934
+  port: 443
+  server: free-duckling.rooster465.autos
+  skip-cert-verify: true
+  sni: free-duckling.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸_US_美国_1 | uu6.top
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: admin.c1.webramz.co
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|未知_2 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.64
+  type: ss
+- cipher: aes-256-cfb
+  name: 14|未知_1 | uu6.top
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.23
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 14|🇺🇸_US_美国_3 | uu6.top
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: series-a1.samanehha.co
+  type: ss
+- name: 15|JP TROJAN-28 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4937
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 15|US TROJAN-26 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 3057
+  server: 160.16.214.104
+  sni: www.nintendogames.net
+  type: trojan
+- name: 15|SG TROJAN-27 | free- | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 160.16.214.104
+  sni: www.nintendogames.net
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 25|AU澳大利亚 | uu6.top
+  network: tcp
+  port: '6005'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #1'
+  network: tcp
+  port: '6052'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #3'
+  network: tcp
+  port: '6021'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #4'
+  network: tcp
+  port: '6028'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #5'
+  network: tcp
+  port: '6039'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #6'
+  network: tcp
+  port: '6007'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #8'
+  network: tcp
+  port: '6017'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #10'
+  network: tcp
+  port: '6040'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25,32|🇨🇳 广东省 移动 | uu6.top #1'
+  network: tcp
+  port: '6029'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #7'
+  network: tcp
+  port: '6050'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #11'
+  network: tcp
+  port: '6018'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #12'
+  network: tcp
+  port: '6045'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #13'
+  network: tcp
+  port: '6041'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #14'
+  network: tcp
+  port: '6031'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #18'
+  network: tcp
+  port: '6027'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #16'
+  network: tcp
+  port: '6036'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #15'
+  network: tcp
+  port: '6046'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #19'
+  network: tcp
+  port: '6001'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #17'
+  network: tcp
+  port: '6012'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #20'
+  network: tcp
+  port: '6034'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #21'
+  network: tcp
+  port: '6032'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #24'
+  network: tcp
+  port: '6026'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #23'
+  network: tcp
+  port: '6033'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #22'
+  network: tcp
+  port: '6044'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #25'
+  network: tcp
+  port: '6030'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 25,28|广东省东莞市 联通 | uu6.top
+  network: tcp
+  port: 6004
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #30'
+  network: tcp
+  port: '6016'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #28'
+  network: tcp
+  port: '6035'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #29'
+  network: tcp
+  port: '6014'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #27'
+  network: tcp
+  port: '6049'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #31'
+  network: tcp
+  port: '6047'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #33'
+  network: tcp
+  port: '6042'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #34'
+  network: tcp
+  port: '6024'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|CA加拿大 | uu6.top #6'
+  network: ws
+  port: '443'
+  server: another.py.kawaii520.icu
+  servername: another-de.kawaii520.icu
+  tls: true
+  type: vmess
+  uuid: d150ba57-67b9-4eae-b18f-0e956ee9c075
+  ws-opts:
+    headers:
+      Host: another-de.kawaii520.icu
+    path: /another
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #35'
+  network: tcp
+  port: '6010'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '26|AU澳大利亚 | uu6.top #39'
+  port: 6005
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #36'
+  network: tcp
+  port: '6009'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #32'
+  network: tcp
+  port: '6037'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #37'
+  network: tcp
+  port: '6020'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 2 | uu6.top
+  port: 6052
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 4 | uu6.top
+  port: 6021
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 7 | uu6.top
+  port: 6007
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 8 | uu6.top
+  port: 6050
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 9 | uu6.top
+  port: 6017
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 5 | uu6.top
+  port: 6028
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 6 | uu6.top
+  port: 6039
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 11 | uu6.top
+  port: 6040
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 12 | uu6.top
+  port: 6018
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 10 | uu6.top
+  port: 6029
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 14 | uu6.top
+  port: 6041
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 15 | uu6.top
+  port: 6031
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 13 | uu6.top
+  port: 6045
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 19 | uu6.top
+  port: 6027
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 17 | uu6.top
+  port: 6036
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 20 | uu6.top
+  port: 6001
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 16 | uu6.top
+  port: 6046
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 21 | uu6.top
+  port: 6034
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 18 | uu6.top
+  port: 6012
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 22 | uu6.top
+  port: 6032
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 25 | uu6.top
+  port: 6026
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 31 | uu6.top
+  port: 6016
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 24 | uu6.top
+  port: 6033
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '25|AU澳大利亚 | uu6.top #38'
+  network: tcp
+  port: '6022'
+  server: cn02.365cloud5878.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 23 | uu6.top
+  port: 6044
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 27 | uu6.top
+  port: 6004
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 26 | uu6.top
+  port: 6030
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 29 | uu6.top
+  port: 6035
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 30 | uu6.top
+  port: 6014
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 28 | uu6.top
+  port: 6049
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 32 | uu6.top
+  port: 6047
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 35 | uu6.top
+  port: 6024
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 34 | uu6.top
+  port: 6042
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 36 | uu6.top
+  port: 6010
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 37 | uu6.top
+  port: 6009
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 38 | uu6.top
+  port: 6020
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '28|广东省东莞市 联通 | uu6.top #1'
+  network: tcp
+  port: 6002
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 33 | uu6.top
+  port: 6037
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 26|AU澳大利亚 39 | uu6.top
+  port: 6022
+  server: cn02.365cloud5878.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 15.235.41.200
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: '32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: 51.79.102.253
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- cipher: aes-256-cfb
+  name: 32|8J-HqPCfh6YgU1NSLeiL | uu6.top
+  obfs: plain
+  obfs-param: ''
+  password: f8f7aCzcPKbsF8p3
+  port: '989'
+  protocol: origin
+  protocol-param: ''
+  server: 79.127.233.170
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 VMESS-美国-NF解锁自制剧- | uu6.top #2'
+  network: ws
+  port: '443'
+  server: 209.126.84.189
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: 209.126.84.189
+    path: /vmessws
+- alterId: 0
+  cipher: auto
+  name: 32|🇺🇸 美国 CloudFlare节点 | uu6.top
+  network: ws
+  port: '80'
+  server: fbnhu.0wu.ccwu.cc
+  tls: false
+  type: vmess
+  uuid: 8ea1b89f-21d5-49b9-9bcd-1ad9ac39b4ba
+  ws-opts:
+    headers:
+      Host: fbnhu.0wu.ccwu.cc
+    path: /y3ME81hpTJWwd4RJBAQ5Ah
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: tg.apocalypse.cc.cd
+  tls: false
+  type: vmess
+  uuid: 13ad36e6-c091-43f2-8505-47d868dd544c
+  ws-opts:
+    headers:
+      Host: tg.apocalypse.cc.cd
+    path: /YsmRouA9ZbxgW4
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇳 广东省 移动 | uu6.top
+  network: tcp
+  port: '6003'
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alterId: 0
+  cipher: auto
+  name: '32|🇺🇸 | uu6.top #1'
+  network: ws
+  port: '443'
+  server: v2ray.codefyinc.com
+  tls: false
+  type: vmess
+  uuid: 2c981164-9b93-4bca-94ff-b78d3f8498d7
+  ws-opts:
+    headers:
+      Host: v2ray.codefyinc.com
+    path: /vmessws
+- name: 33,34|香港3 | uu6.top
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 6196
+  server: 54.238.7.116
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|香港4 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 50495
+  server: 18.163.114.142
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|香港5 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 50495
+  server: 18.162.133.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: 33,34|新加坡2 | uu6.top
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 3.112.213.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|新加坡 | uu6.top
+  network: tcp
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 3419
+  server: 3.112.213.118
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 33,34|新加坡3 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 25343
+  server: 54.238.89.170
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 33,34|美国2 | uu6.top
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 4019
+  server: 160.16.130.21
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '33,34|美国 | uu6.top #7'
+  network: tcp
+  password: f389ed926e512e15f382dc3804029474
+  port: 4019
+  server: 153.121.65.107
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: 37|AT_speednode_0002 | uu6.top
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.167
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: 37|US_speednode_0042 | uu6.top
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: nodes.830901.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: -1|28|广东省 移动 | uu6.top
+  network: tcp
+  port: 6043
+  server: cn02.365cloud5878.com
+  tls: false
+  type: vmess
+  uuid: 9f1ecfca-13a9-488d-ac84-aaeb73a8d574
+- alpn:
+  - h3%2Ch2%2Chttp%2F1.1
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #1'
+  network: ws
+  password: 823cbccd-3a71-4248-ac3c-3c460de1552d
+  port: 443
+  server: 172.64.52.251
+  skip-cert-verify: false
+  sni: sg680.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: sg680.pages.dev
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #4'
+  network: tcp
+  port: 443
+  server: 165.140.216.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #7'
+  password: 249454d267254a52ab3c8b7906bc12ab
+  port: 9443
+  server: 176.125.240.167
+  sni: apple.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #10'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #11'
+  password: 63b21d86-a49c-4936-a634-0b5af3e30433
+  port: 443
+  server: tuntro010.instconn.com
+  sni: frankfurtrm2.686911.xyz
+  type: trojan
+- name: -1|1|1|1|1|1|🇸🇬 新加坡2 | uu6.top
+  password: f389ed926e512e15f382dc3804029474
+  port: 4674
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #14'
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 443
+  server: 58.152.18.189
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #15'
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 3419
+  server: 160.16.70.180
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: -1|1|1|1|1|1|🇸🇬 新加坡 | uu6.top
+  password: f7dbed8b1ca85124e793ba6c0bcfd0db
+  port: 3419
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #16'
+  network: ws
+  password: trojan
+  port: 11434
+  server: 114.207.99.233
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /

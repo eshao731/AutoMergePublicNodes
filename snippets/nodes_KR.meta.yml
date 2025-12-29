@@ -1,0 +1,115 @@
+proxies:
+- name: 0|KR TROJAN-28 | free- | uu6.top
+  network: tcp
+  password: ZY07256934
+  port: 443
+  server: glowing-deer.rooster465.autos
+  skip-cert-verify: true
+  sni: glowing-deer.rooster465.autos
+  type: trojan
+- cipher: aes-128-gcm
+  name: 10|KR韩国 3 | uu6.top
+  password: shadowsocks
+  port: 443
+  server: 141.98.101.182
+  type: ss
+  udp: true
+- name: '25|KR韩国 | uu6.top #35'
+  network: ws
+  port: 11754
+  server: 203.170.125.48
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- name: '25|KR韩国 | uu6.top #34'
+  network: ws
+  port: 18789
+  server: 112.165.29.47
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng'
+- name: '25|KR韩国 | uu6.top #36'
+  network: ws
+  port: 26074
+  server: 203.170.125.48
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- name: '25|KR韩国 | uu6.top #50'
+  network: ws
+  port: 38884
+  server: 203.170.125.48
+  servername: snippet.danfeng.theworkpc.com
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.danfeng.theworkpc.com
+    path: '%2Fdanfeng%3Fed%3D2560'
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 35|KR_b8c6a_0011 | uu6.top
+  network: ws
+  port: 50001
+  server: 220.73.70.34
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfeng
+- name: 35,37|KR_speednode_0024 | uu6.top
+  network: ws
+  port: 8443
+  server: 59.3.3.161
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: /Telegram🇨🇳+@WangCai2
+- name: 37|KR_speednode_0022 | uu6.top
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+- alpn:
+  - http/1.1
+  name: -1|35,37|KR_speednode_0 | uu6.top
+  network: ws
+  port: 50001
+  server: 220.73.70.34
+  servername: snippet.fgfw.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.de5.net
+    path: /danfengfp=random

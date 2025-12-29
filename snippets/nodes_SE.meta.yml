@@ -1,0 +1,13 @@
+proxies:
+- name: 36|🇸🇪 瑞典 | SWE | uu6.top
+  network: ws
+  port: 8444
+  server: 217.60.60.194
+  servername: sub.mot.ip-ddns.com
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: sub.mot.ip-ddns.com
+    path: '%2F'

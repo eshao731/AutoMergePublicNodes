@@ -1,0 +1,184 @@
+proxies:
+- name: '0,9,25|CA加拿大 | uu6.top #9'
+  network: ws
+  port: 443
+  server: 172.98.207.58
+  servername: snippet.fgfw.indevs.in
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.fgfw.indevs.in
+    path: '%2Fdanfeng'
+- name: 15|CA VLESS-65 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 14.102.228.238
+  servername: sni.jpmj.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /
+- alpn:
+  - networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-channel@.networld_vpn-
+  name: 15|CA VLESS-68 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 162.159.12.151
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+- name: 15|CA VLESS-69 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 162.159.153.231
+  servername: sni.111000.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560
+- name: 15|CA VLESS-70 | free-n | uu6.top
+  network: ws
+  port: 2096
+  server: 185.162.231.138
+  servername: sni.111000.indevs.in
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: random
+  name: 15|CA VLESS-86 | free-n | uu6.top
+  network: ws
+  port: 39738
+  server: 66.63.168.172
+  servername: snippet.gfw.nn.kg
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: '%2Fdanfeng'
+- name: '25|CA加拿大 | uu6.top #3'
+  network: ws
+  port: 443
+  server: 104.21.41.72
+  servername: s-t-y-u-i-o.956.pp.ua
+  tls: true
+  type: vless
+  uuid: b0491d8b-be53-4e6c-96ea-67aa5c7ff83b
+  ws-opts:
+    headers:
+      Host: s-t-y-u-i-o.956.pp.ua
+    path: '%2FeWavAKwTbFBQfXxcM5Layut'
+- name: '25|CA加拿大 | uu6.top #4'
+  network: ws
+  port: 443
+  server: 104.21.58.143
+  servername: w-3.0yo.ccwu.cc
+  tls: true
+  type: vless
+  uuid: b0491d8b-be53-4e6c-96ea-67aa5c7ff83b
+  ws-opts:
+    headers:
+      Host: w-3.0yo.ccwu.cc
+    path: '%2FeWavAKwTbFBQfXxcM5Layut'
+- name: '25|CA加拿大 | uu6.top #7'
+  network: ws
+  port: 443
+  server: 185.110.189.174
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: '%2F%3Fed%3D2560%26Telegram%F0%9F%87%A8%F0%9F%87%B3%40WangCai2'
+- alterId: 0
+  cipher: auto
+  name: '25|CA加拿大 | uu6.top #6'
+  network: ws
+  port: '443'
+  server: another.py.kawaii520.icu
+  servername: another-de.kawaii520.icu
+  tls: true
+  type: vmess
+  uuid: d150ba57-67b9-4eae-b18f-0e956ee9c075
+  ws-opts:
+    headers:
+      Host: another-de.kawaii520.icu
+    path: /another
+- name: '25|CA加拿大 | uu6.top #8'
+  network: ws
+  port: 443
+  server: 104.21.58.143
+  servername: w-r-r-t-y-u.0yo.ccwu.cc
+  tls: true
+  type: vless
+  uuid: b0491d8b-be53-4e6c-96ea-67aa5c7ff83b
+  ws-opts:
+    headers:
+      Host: w-r-r-t-y-u.0yo.ccwu.cc
+    path: '%2FeWavAKwTbFBQfXxcM5Layut'
+- alterId: 0
+  cipher: auto
+  name: 32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 15.235.41.200
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: '32|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: 51.79.102.253
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alpn:
+  - http/1.1
+  name: -1|15|CA VLESS-86 | fre | uu6.top
+  network: ws
+  port: 39738
+  server: 66.63.168.172
+  servername: snippet.gfw.nn.kg
+  tls: true
+  type: vless
+  uuid: 948fac3c-42bf-41a6-a5f9-704d36ff0d8d
+  ws-opts:
+    headers:
+      Host: snippet.gfw.nn.kg
+    path: '%2Fdanfengfp=random'

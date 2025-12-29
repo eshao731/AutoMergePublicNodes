@@ -1,0 +1,12 @@
+proxies:
+- name: 0,15|FR VLESS-37 | free-n | uu6.top
+  network: ws
+  port: 80
+  server: fsdns.ectunnelvpn.me
+  tls: false
+  type: vless
+  uuid: 15cbab96-197e-46a5-9042-073b3980c798
+  ws-opts:
+    headers:
+      Host: fsdns.ectunnelvpn.me
+    path: '%2Fvless'

@@ -1,0 +1,50 @@
+proxies:
+- name: 0,15|GB VLESS-63 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 198.62.62.124
+  servername: war.connecticut-haloo.info
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 5a4abb78-ecd7-4d68-ab2a-c11a3842f261
+  ws-opts:
+    headers:
+      Host: war.connecticut-haloo.info
+    path: '%2Flove'
+- alterId: 0
+  cipher: auto
+  name: '3,7,9,25,32|🇬🇧 GB英国 | uu6.top #29'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '7,9,25|KR韩国 | uu6.top #48'
+  network: ws
+  port: 22410
+  server: 211.48.77.114
+  servername: ylnhh.cc.cd
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 14b02e2a-8930-4afb-8412-ea4a4954ca5b
+  ws-opts:
+    headers:
+      Host: ylnhh.cc.cd
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 35|GB_b8c6a_0006 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: qrnqrRbyJ3KLRDdvO0Ed2ewMvTn1i5XWyF07q_4eunk
+    short-id: 8cb5caf3547681c1
+  server: 185.191.118.144
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7a37a4a1-0750-4311-a355-ff7d499c6797
