@@ -1,0 +1,75 @@
+proxies:
+- name: 0,15,16|🇸🇬 SG TROJAN-21 | fr | uu6.top
+  password: 4843e94d205f3893f588255a591abe94
+  port: 544
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,1,11,12,34|🇸🇬 新加坡 | uu6.top #4'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 3076
+  server: 160.16.87.174
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: '1,12|🇸🇬 新加坡4 | uu6.top #2'
+  password: d2umVadPT1m/FwIn
+  port: 8388
+  server: 194.87.10.161
+  type: ss
+- name: '1,11,12,34|🇸🇬 新加坡2 | uu6.top #4'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 3901
+  server: 160.16.72.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 SG SS-44 | free-n | uu6.top
+  password: 42d2b47181a32de7
+  port: 16922
+  server: 154.26.132.38
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 SG SS-60 | free-n | uu6.top
+  password: ce1dfbefd0addc9c
+  port: 11201
+  server: 45.135.228.135
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇸🇬 SG SS-80 | free-n | uu6.top
+  password: 7afa39016d5a409c
+  port: 48803
+  server: 194.233.73.51
+  type: ss
+- name: 35,36|新加坡2 | uu6.top
+  network: tcp
+  password: 4843e94d205f3893f588255a591abe94
+  port: 544
+  server: 160.16.150.76
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '35,36|新加坡 | uu6.top #2'
+  network: tcp
+  password: 4843e94d205f3893f588255a591abe94
+  port: 3901
+  server: 160.16.150.76
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1,11,12| | uu6.top #2'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 544
+  server: 160.16.130.21
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1,11,12| | uu6.top #1'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 3901
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan

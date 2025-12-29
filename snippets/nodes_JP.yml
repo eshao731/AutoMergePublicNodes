@@ -1,0 +1,42 @@
+proxies:
+- name: '1,11,12,34|🇯🇵 日本2 | uu6.top #4'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 1933
+  server: 160.16.87.174
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '1,11,12,34|🇯🇵 日本3 | uu6.top #4'
+  password: 4843e94d205f3893f588255a591abe94
+  port: 4006
+  server: 160.16.87.174
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇯🇵 JP SS-70 | free-n | uu6.top
+  password: 303ac65e30f28b0b
+  port: 11202
+  server: 154.205.139.9
+  type: ss
+- name: 35,36|日本3 | uu6.top
+  network: tcp
+  password: 4843e94d205f3893f588255a591abe94
+  port: 4006
+  server: 153.121.51.29
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- cipher: aes-256-gcm
+  name: 35|🇯🇵 日本4 | uu6.top
+  password: 0690659746980c46
+  port: 20291
+  server: 167.17.179.197
+  type: ss
+- name: -1|1|1|1|1|1|1|1,11,12| | uu6.top
+  password: 4843e94d205f3893f588255a591abe94
+  port: 4006
+  server: 160.16.105.192
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan

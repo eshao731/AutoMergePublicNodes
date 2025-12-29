@@ -1,0 +1,39 @@
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇨🇦 CA SS-86 | free-n | uu6.top
+  password: 8d90009fa5023cfa
+  port: 11201
+  server: 148.113.143.102
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇨🇦 CA SS-126 | free- | uu6.top
+  password: 9f99180fc9211c40
+  port: 27797
+  server: 51.161.80.138
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 34|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top
+  network: ws
+  port: '80'
+  server: 15.235.41.200
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
+- alterId: 0
+  cipher: auto
+  name: '34|🇨🇦 VMESS-加拿大-NF解锁加拿大 | uu6.top #1'
+  network: ws
+  port: '80'
+  server: 51.79.102.253
+  tls: false
+  type: vmess
+  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /IOebhLMhl1CTbFHbL95myfRX2
