@@ -1,0 +1,91 @@
+name: Fetch
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 表达式生成 https://crontab.guru/
+    - cron: '30 */1 * * *'
+  push:
+    paths:
+      - 'sources.list'
+      - 'config.yml'
+      - 'abpwhite.txt'
+      - '.github/workflows/**'
+      - '**.py'
+      - 'snippets/_*'
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+    - name: 迁出代码
+      uses: actions/checkout@v4
+    - name: 设置时区
+      run: sudo timedatectl set-timezone 'Asia/Shanghai'
+    - name: 安装 Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+        cache: 'pip'
+    - name: 安装依赖
+      run: pip install -r requirements.txt
+    - name: 下载 Mihomo (Clash Meta)
+      run: |
+        echo "下载 Mihomo 用于节点延迟测试..."
+        MIHOMO_VERSION="v1.19.18"
+        MIHOMO_URL="https://github.com/MetaCubeX/mihomo/releases/download/${MIHOMO_VERSION}/mihomo-linux-amd64-${MIHOMO_VERSION}.gz"
+        wget -q "${MIHOMO_URL}" -O mihomo.gz
+        gunzip mihomo.gz
+        chmod +x mihomo
+        ./mihomo -v
+        echo "CLASH_BINARY=$(pwd)/mihomo" >> $GITHUB_ENV
+    - name: 执行任务
+      run: python ./fetch.py
+      
+    - name: 提交更改
+      run: |                 
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull origin master
+        git add list*
+        git add snippets/
+        # 添加源管理相关文件（如果存在）
+        [ -f source_history.json ] && git add source_history.json
+        [ -f source_delete.list ] && git add source_delete.list
+        git add sources.list
+        
+        # 检查上一次提交是否是 Action 自动生成的
+        LAST_AUTHOR=$(git log -1 --format='%ae' 2>/dev/null || echo "")
+        LAST_MSG=$(git log -1 --format='%s' 2>/dev/null || echo "")
+        
+        if [[ "$LAST_AUTHOR" == "actions@github.com" && "$LAST_MSG" == *"抓取节点"* ]]; then
+          # 上次是 Action 提交，使用 amend 覆盖
+          git commit --amend -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "没有需要提交的更改"
+        else
+          # 上次不是 Action 提交，新建 commit
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点" || echo "没有需要提交的更改"
+        fi
+    - name: 推送更改
+      uses: ad-m/github-push-action@master
+      with:
+        branch: master
+        force: true
+
+    - name: 计算要清除缓存的文件
+      id: purge_urls
+      run: |
+        sleep 5
+        baseUrl="https://cdn.jsdelivr.net/gh/${{ github.repository }}@master"
+        urls=""
+        for f in `find snippets -name "*.yml" -type f`; do
+          urls+="${baseUrl}/${f},"
+        done
+        for f in `find . -name "list*" -type f -maxdepth 1`; do
+          urls+="${baseUrl}/${f},"
+        done
+        echo "urls=${urls%,*}" >> $GITHUB_OUTPUT
+    - name: 清除 JsDelivr CDN 缓存
+      uses: egad13/purge-jsdelivr-cache@v1
+      with:
+        url: ${{ steps.purge_urls.outputs.urls }}
+      continue-on-error: true
