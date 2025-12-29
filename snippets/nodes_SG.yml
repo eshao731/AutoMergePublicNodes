@@ -1,0 +1,25 @@
+proxies:
+- name: '0,15|SG TROJAN-73 | free- | uu6.top #1'
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4674
+  server: 160.16.124.17
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,15|SG TROJAN-72 | free- | uu6.top #1'
+  network: ws
+  password: 13c169be-8592-4eaa-94cb-69c859e7d987
+  port: 443
+  server: ubu.okaoclax.me
+  sni: ubu.okaoclax.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ubu.okaoclax.me
+    path: /trojan-ws
+- name: '1,11,12|🇸🇬 新加坡 | uu6.top #2'
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4674
+  server: 160.16.72.205
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
