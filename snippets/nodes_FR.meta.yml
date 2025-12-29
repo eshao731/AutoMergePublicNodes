@@ -1,0 +1,24 @@
+proxies:
+- name: 0|FR TROJAN-17 | free- | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: www.calmlunch.com
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  down: 55 Mbps
+  name: '14,18,20,22|🇫🇷_FR_法国 | uu6.top #3'
+  port: 26691
+  protocol: udp
+  server: 62.210.196.68
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps

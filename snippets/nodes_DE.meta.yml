@@ -1,0 +1,57 @@
+proxies:
+- name: 0|DE VLESS-28 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 192.248.180.48
+  tls: false
+  type: vless
+  uuid: fe6d8684-a8f4-4ce1-b1b8-6a6a96ecd55e
+  ws-opts:
+    path: '%2F'
+- name: 0|DE VLESS-40 | free-n | uu6.top
+  network: ws
+  port: 443
+  server: 5.75.198.40
+  tls: false
+  type: vless
+  uuid: e0932bda-352e-4c39-92e0-d59925c2c4d1
+  ws-opts:
+    headers:
+      Host: telewebion.com
+    path: '%2FTelegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---Telegram---armanstore2---'
+- cipher: chacha20-ietf-poly1305
+  name: '14,18,20,22|🇩🇪_DE_德国 | uu6.top #8'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 45.87.175.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16|🇩🇪 DE SS-43 | free-n | uu6.top
+  password: 6a85b249286a74a9
+  port: 57456
+  server: 196.240.57.74
+  type: ss
+- name: '30|🇩🇪 - DE | uu6.top #1'
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
+  password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
+  port: 33500
+  server: 181.214.231.121
+  skip-cert-verify: false
+  sni: updates.kermanshahi.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 38,40|DE_speednode_0003 | uu6.top
+  port: 46942
+  reality-opts:
+    public-key: omg0dIfTHQbMADo5g6COKn73nEFoSYC1X5lV-goPBEg
+    short-id: 1709fe47a82c202e
+  server: ooooooof.ir.fizikade.ir
+  servername: refersion.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5c403d3e-81fb-29af-a76e-5a5ab279824b

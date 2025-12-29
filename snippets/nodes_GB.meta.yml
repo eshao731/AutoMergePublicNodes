@@ -1,0 +1,87 @@
+proxies:
+- client-fingerprint: chrome
+  name: 0|GB VLESS-08 | free-n | uu6.top
+  network: ws
+  port: 2039
+  server: 152.114.193.158
+  servername: de9.mediakit-ozon.ru
+  tls: true
+  type: vless
+  uuid: 1b07b61e-7c71-75fa-f97d-f4a82c66cfb5
+  ws-opts:
+    path: '%2F'
+- client-fingerprint: chrome
+  name: 0,15|GB VLESS-94 | free-n | uu6.top
+  network: ws
+  port: 8443
+  server: ovhwuxian.pai50288.uk
+  servername: ovhwuxian.pai50288.uk
+  tls: true
+  type: vless
+  uuid: 57ba2ab1-a283-42eb-82ee-dc3561a805b8
+  ws-opts:
+    headers:
+      Host: ovhwuxian.pai50288.uk
+    path: '%2F57ba2ab1'
+- name: 0|GB VLESS-119 | free- | uu6.top
+  network: ws
+  port: 443
+  server: norman.ns.cloudflare.com
+  servername: 639029621350078622.fit-amsjn.info
+  tls: true
+  type: vless
+  uuid: f0b261f2-132d-48f9-a896-f2b7d879182b
+  ws-opts:
+    headers:
+      Host: 639029621350078622.fit-amsjn.info
+    path: '%2Faxcegbws'
+- alterId: 0
+  cipher: auto
+  name: '3,7,8,9,25,28,34|17 | uu6.top #2'
+  network: tcp
+  port: '180'
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '9,25|GB英国 | uu6.top #14'
+  network: ws
+  port: 443
+  server: 188.164.248.147
+  servername: www.allxniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.allxniu.qzz.io
+    path: '%2F%3Fed%3D2560'
+- name: '9,25|GB英国 | uu6.top #24'
+  network: ws
+  port: 2096
+  server: x.cf.090227.xyz
+  servername: hk2.xaniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: hk2.xaniusnippets.qzz.io
+    path: '%2F%3Fed%3D2560'
+- alterId: 0
+  cipher: auto
+  name: '10,26|US美国 21 | uu6.top #1'
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: aes-256-gcm
+  name: 16|🇬🇧 GB SS-18 | free-n | uu6.top
+  password: 8JCsPssfgS8tiRwiMlhARg==
+  port: 12000
+  server: 144.217.164.29
+  type: ss

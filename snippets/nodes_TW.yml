@@ -1,0 +1,41 @@
+proxies:
+- name: 8|台湾_2 | uu6.top
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 8|台湾_4 | uu6.top
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.205
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 8|台湾_3 | uu6.top
+  network: tcp
+  password: f9f59b4f-67b5-4ffa-a832-c9e38da35ac4
+  port: 31102
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  tls: true
+  type: trojan
+- name: 8|台湾_5 | uu6.top
+  network: tcp
+  password: 5278ceaf-43ad-4c83-bc12-b3d82cc0a523
+  port: 31102
+  server: green2.cdntencentmusic.com
+  sni: green2.cdntencentmusic.com
+  tls: true
+  type: trojan
