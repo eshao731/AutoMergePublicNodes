@@ -1,0 +1,44 @@
+proxies:
+- name: '0,15|JP TROJAN-75 | free- | uu6.top #1'
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4937
+  server: 160.16.132.38
+  sni: www.nintendogames.net
+  type: trojan
+- name: '0,15|JP TROJAN-76 | free- | uu6.top #1'
+  password: 9f7d5cb76d1645101994d9b25891e3b7
+  port: 4380
+  server: 160.16.85.33
+  sni: www.nintendogames.net
+  type: trojan
+- mport: 50000-53000
+  name: 24|🇯🇵日本 | uu6.top
+  password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  port: 50000
+  ports: 50000-53000
+  server: 131.186.42.162
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
+  udp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: 24|🇯🇵日本3号 三网高速 | uu6.top
+  port: 443
+  reality-opts:
+    public-key: DGzXhLIUE3NQXX-IVo5YCSeANn1vECVBdnw7dtC0sTQ
+    short-id: 92388f50ce26394f
+  server: c8217-b2a.h2.49d2.dje11.1.b297.djjsvip.cfd
+  servername: iosapps.itunes.apple.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8e8f0173-6426-4fed-94f6-580847c744f1
+- name: -1|1|1|1|1|🇯🇵 日本2 | uu6.top
+  password: 868ecdaf6aed618ec98cf78585672b2b
+  port: 4937
+  server: 160.16.85.33
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan

@@ -1,0 +1,41 @@
+proxies:
+- name: '7,9|US美国 | uu6.top #68'
+  network: ws
+  password: trojan
+  port: 8444
+  server: 152.53.200.98
+  skip-cert-verify: false
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: '%2F'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 32,34|KR_speednode_0010 | uu6.top
+  port: 50911
+  reality-opts:
+    public-key: RGQRcZVfFRt6ioLDvH7HOicOXJcwonHFVqOgbix2w3w
+  server: 144.24.74.102
+  servername: www.iij.ad.jp
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 820409af-997a-41c4-9e51-46f373951a39
+- name: 32,34|KR_speednode_0007 | uu6.top
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- name: 32,34|KR_speednode_0008 | uu6.top
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  udp: true
+  username: T2clM0QlM0Q6

@@ -1,0 +1,100 @@
+proxies:
+- name: '9|HK香港 | uu6.top #14'
+  network: ws
+  port: 443
+  server: 140.238.51.35
+  servername: edtunnel-eiz.pages.dev
+  tls: true
+  type: vless
+  uuid: 42add63b-deda-4e71-aa48-ddd288181858
+  ws-opts:
+    headers:
+      Host: edtunnel-eiz.pages.dev
+    path: '%2F%3Fed%3D2560%26https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: 10|KR韩国_2 | uu6.top
+  network: ws
+  port: 443
+  server: 130.162.132.38
+  servername: edtunnel-eiz.pages.dev
+  tls: true
+  type: vless
+  uuid: 42add63b-deda-4e71-aa48-ddd288181858
+  ws-opts:
+    headers:
+      Host: edtunnel-eiz.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- cipher: chacha20-ietf-poly1305
+  name: 10|HK香港_15 | uu6.top
+  password: elTuo73FsQwO90EbLo96Ve
+  port: 49726
+  server: 45.55.40.127
+  type: ss
+- name: 10|HK香港_14 | uu6.top
+  network: ws
+  port: 443
+  server: 140.238.51.35
+  servername: edtunnel-eiz.pages.dev
+  tls: true
+  type: vless
+  uuid: 42add63b-deda-4e71-aa48-ddd288181858
+  ws-opts:
+    headers:
+      Host: edtunnel-eiz.pages.dev
+    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+- mport: 50000-53000
+  name: 24|🇭🇰香港1号 | uu6.top
+  password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  port: 50000
+  ports: 50000-53000
+  server: 103.197.71.97
+  skip-cert-verify: true
+  sni: www.hoyoverse.com
+  type: hysteria2
+  udp: true
+- mport: 50000-53000
+  name: 24|🇭🇰香港2号 | uu6.top
+  password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  port: 50000
+  ports: 50000-53000
+  server: 103.197.71.98
+  skip-cert-verify: true
+  sni: www.hoyoverse.com
+  type: hysteria2
+  udp: true
+- mport: 50000-53000
+  name: 24|🇭🇰香港3号 | uu6.top
+  password: 8e8f0173-6426-4fed-94f6-580847c744f1
+  port: 50000
+  ports: 50000-53000
+  server: 103.197.71.119
+  skip-cert-verify: true
+  sni: www.hoyoverse.com
+  type: hysteria2
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: -1|24|香港 电讯盈科有限公司 | uu6.top
+  network: tcp
+  port: '7754'
+  server: efan.dnsefan04881.com
+  tls: false
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|33|🇭🇰 香港 | | uu6.top
+  network: tcp
+  port: '7754'
+  server: vm51544542.dns8656815.com
+  tls: false
+  type: vmess
+  uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|1|1|1|1|1|25|香港 | uu6.top
+  network: tcp
+  port: '7754'
+  server: vm51544542.dns8656815.com
+  tls: false
+  type: vmess
+  uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
