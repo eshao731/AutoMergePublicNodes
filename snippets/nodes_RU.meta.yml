@@ -1,0 +1,61 @@
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '0,7,8|未命名 | uu6.top #115'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0
+    short-id: 86b80f1e713a33ad
+  server: de.pink-perfect.ru
+  servername: yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db
+- alpn:
+  - h3
+  name: 0,4|RU HY2-196 | free-no | uu6.top
+  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
+  port: 443
+  server: 188.119.64.120
+  sni: u723828us429.csgfw.top
+  tls: false
+  type: hysteria2
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '7,8,13,14|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 | uu6.top #3'
+  network: tcp
+  port: 22231
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '7,8,13,14,27|🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚 | uu6.top #6'
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '7,8,13,14,15|未知 VLESS-106 | free- | uu6.top #2'
+  network: tcp
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8

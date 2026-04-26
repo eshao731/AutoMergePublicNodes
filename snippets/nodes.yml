@@ -1,0 +1,1150 @@
+proxies:
+- name: '0,4|未知 TROJAN-28 | free- | uu6.top #1'
+  network: ws
+  password: hF7uSJfeBPtSNXKtuYvTRNaBdGkkXHpKJfLRfbpaDWovomSL
+  port: 443
+  server: 3.8.238.251
+  skip-cert-verify: false
+  sni: uk1.bw8848.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: uk1.bw8848.org
+    path: '%2Fuk1-uk1-gcjtze'
+- name: '0,15|未知 TROJAN-26 | free- | uu6.top #2'
+  network: ws
+  password: 5JKj82yC2BNxy8LAZha8Gsj2BAexJJU7ttTfeFcuHzmLjAiZ
+  port: 443
+  server: 46.137.202.140
+  skip-cert-verify: false
+  sni: node1.bw8848.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: node1.bw8848.org
+    path: /node1-node1-5sczzi
+- name: '0,13,14,15,27,28|🇨🇦_CA_加拿大->🇦🇿_AZ_阿塞拜 | uu6.top #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 0|未知 VMESS-121 | free- | uu6.top
+  network: ws
+  port: '44855'
+  server: 45.63.75.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5164f226-f833-4e5b-8903-094a3460cd41
+  ws-opts:
+    path: /5164f226
+- alterId: 0
+  cipher: auto
+  name: 0,4,15|未知 VMESS-137 | free- | uu6.top
+  network: ws
+  port: 80
+  server: 51.254.133.152
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
+  ws-opts:
+    headers:
+      Host: fr5.niekotin.de
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '1,8,14,27,29|🇺🇸 美国4 | uu6.top #2'
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: '4,11,12,15,28|🇩🇪 德国 | uu6.top #2'
+  network: tcp
+  password: I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz
+  port: 443
+  server: 91.233.8.25
+  skip-cert-verify: false
+  sni: fra34.tracker-ws.click
+  type: trojan
+- name: 4,9,10|🇺🇸 US美国 34 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 4,15,31,33|DE_speednode_0001 | uu6.top
+  network: tcp
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true
+- name: '4,15|未知 TROJAN-33 | free- | uu6.top #1'
+  password: qDVh0NalwefxyZlHh3Ni2JSlhErcuC3Wiq
+  port: 443
+  server: 91.233.8.138
+  skip-cert-verify: false
+  sni: www.homelywebs.click
+  type: trojan
+- name: '3,11,12,15,25|未命名 | uu6.top #213'
+  password: BSs5IAVMQdYuykvDsOYZoa6gNPSGBjAbLL
+  port: 443
+  server: 185.126.236.44
+  skip-cert-verify: false
+  sni: www.mesaly.click
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '7|未命名 | uu6.top #10'
+  network: ws
+  password: mitivpn
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+  type: trojan
+  ws-opts:
+    headers:
+      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+    path: https%3A%2F%2Fchatgpt.com
+- alterId: 0
+  cipher: auto
+  name: '7,28|🇺🇸_US_美国 | uu6.top #6'
+  network: tcp
+  port: 180
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '7,13,28|🇺🇸_US_美国 | uu6.top #7'
+  network: tcp
+  port: 180
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 7,13,28,30|美国4 | uu6.top
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '7,28|美國節點 | uu6.top #47'
+  network: tcp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  name: '8|未命名 | uu6.top #109'
+  password: mitivpn
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+    path: https://chatgpt.com
+- name: '7|未命名 | uu6.top #96'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  port: 443
+  server: blackshadow.dpdns.org
+  skip-cert-verify: false
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blackshadow.dpdns.org
+    path: '%2F195.123.218.174-443'
+- cipher: chacha20-ietf-poly1305
+  name: 8,10|🇺🇸 US美国 31 | uu6.top
+  password: hbGrpfvNrJsUmKmPbR3iY2
+  port: 443
+  server: tinkered-pennies-puppies.freesocks.work
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '8,27|🇺🇸_US_美国 | uu6.top #5'
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '8,14,27|🇺🇸_US_美国_1 | uu6.top #1'
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 8|美國節點_19 | uu6.top
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: 8,27|🇹🇼_TW_中国台湾 | uu6.top
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '8|未命名 | uu6.top #195'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.7
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: '9|NL荷兰 | uu6.top #10'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 154.17.4.159
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: '%2F'
+- alterId: 0
+  cipher: auto
+  name: 9,10|🇺🇸 US美国 3 | uu6.top
+  network: ws
+  port: 2082
+  server: 165.227.60.163
+  servername: ''
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52b09f69-a832-4070-b9c3-6f10aeb24c6a
+  ws-opts:
+    path: 52b09f69-a832-4070-b9c3-6f10aeb24c6a-vm
+- name: 9|PL波兰 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.101
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: '9|NL荷兰 | uu6.top #6'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.77.129.86
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: 9|NL荷兰 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 207.148.125.245
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: '9|NL荷兰 | uu6.top #2'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 139.180.222.3
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: '9|NL荷兰 | uu6.top #9'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.136.14.61
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: '9|US美国 | uu6.top #7'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #6'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.27
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #2'
+  network: tcp
+  password: TrojanPass2026!
+  port: 8448
+  server: 2.26.54.174
+  skip-cert-verify: false
+  sni: foolsland.ru
+  type: trojan
+- name: '9|US美国 | uu6.top #14'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2096
+  server: 140.245.62.90
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: 9,10|🇺🇸 US美国 15 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 14 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 16 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 17 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 18 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇬🇧 GB英国 2 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9|GB英国 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #35'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 9,10|🇺🇸 US美国 33 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 38 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 9,10|🇺🇸 US美国 35 | uu6.top
+  network: ws
+  port: 443
+  server: 104.16.0.0
+  servername: gongyilm.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 95d2c461-61f5-4dae-bc74-4d10ce1f6236
+  ws-opts:
+    headers:
+      Host: gongyilm.dpdns.org
+    path: /ws-gongyi
+- name: 9,10|🇺🇸 US美国 36 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 37 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 103.177.136.42
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: 9,10|🇺🇸 US美国 32 | uu6.top
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: '9|US美国 | uu6.top #37'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #18'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.38.42.198
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: '%2F'
+- name: 10|🇳🇱 NL荷兰 6 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 154.17.4.159
+  skip-cert-verify: true
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: 10|🇵🇱 PL波兰 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 208.103.161.101
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US美国 | uu6.top
+  password: 9f3d1a6d31468599
+  port: 8033
+  server: 195.133.23.28
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US美国 2 | uu6.top
+  password: fbaf33bcffe53cf9
+  port: 20991
+  server: 176.32.39.96
+  type: ss
+  udp: true
+- name: 10|🇳🇱 NL荷兰 4 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.77.129.86
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US美国 7 | uu6.top
+  password: 444ec1bb5b77df8c
+  port: 50128
+  server: 166.88.130.112
+  type: ss
+  udp: true
+- name: 10|🇳🇱 NL荷兰 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 207.148.125.245
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 10|🇺🇸 US美国 5 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.27
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- name: 10|🇳🇱 NL荷兰 2 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 139.180.222.3
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 10|🇺🇸 US美国 6 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.144
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US美国 10 | uu6.top
+  password: b24a80e79cee1d1f
+  port: 50129
+  server: 46.29.163.195
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 10|🇺🇸 US美国 11 | uu6.top
+  password: 1a87017d0bf57f34
+  port: 50801
+  server: 195.58.48.56
+  type: ss
+  udp: true
+- name: 10|🇳🇱 NL荷兰 5 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.136.14.61
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 10|🇬🇧 GB英国 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 10|🇺🇸 US美国 8 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2096
+  server: 140.245.62.90
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 10|🇺🇸 US美国 28 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 10|🇺🇸 US美国 29 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  skip-cert-verify: true
+  sni: www.creationlong.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- alpn:
+  - http%2F1.1
+  name: '12|🇺🇸 美国 CloudFlare节点 | uu6.top #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 13,14|🇭🇰_HK_中国香港_1 | uu6.top
+  network: http
+  port: 56972
+  server: 154.37.223.19
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+- alpn:
+  - http%2F1.1
+  name: '12|🇺🇸 美国 CloudFlare节点 2 | uu6.top #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: 13,14|🇺🇸_US_美国_3 | uu6.top
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- name: 10|🇺🇸 US美国 9 | uu6.top
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 2053
+  server: 45.38.42.198
+  skip-cert-verify: true
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: '15|未知 TROJAN-32 | free- | uu6.top #1'
+  network: tcp
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  skip-cert-verify: false
+  sni: www.directorypipeline.click
+  type: trojan
+  ws-opts:
+    headers:
+      Host: v2rayNplus-v2rayNplus-v2rayNplus
+- alterId: 0
+  cipher: auto
+  name: 15|未知 VMESS-138 | free- | uu6.top
+  network: tcp
+  port: 10086
+  server: 57.151.100.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 550e8400-e29b-41d4-a716-446655440000
+- alterId: 0
+  cipher: auto
+  name: 15|未知 VMESS-139 | free- | uu6.top
+  network: ws
+  port: 80
+  server: myvpshosting.name.ng
+  servername: myvpshosting.name.ng
+  tls: false
+  type: vmess
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  ws-opts:
+    headers:
+      Host: myvpshosting.name.ng
+    path: /vmess
+- alpn:
+  - http/1.1
+  name: '25|美国+CloudFlare节点 | uu6.top #1'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '27,28|🇺🇸_US_美国->🇩🇪_DE_德国 | uu6.top #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- name: '27,28|🇺🇸_US_美国->🇮🇸_IS_冰岛 | uu6.top #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 27|🇭🇰_HK_中国香港_3 | uu6.top
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    path: /arki?ed=2048
+- name: '27,28|🇺🇸_US_美国->🇨🇭_CH_瑞士 | uu6.top #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: false
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '28|🇭🇰_HK_中国香港 | uu6.top #7'
+  network: ws
+  port: 36703
+  server: 47.244.120.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45b83519-9c4f-4052-a11b-02e017b636d4
+  ws-opts:
+    headers:
+      Host: 47.244.120.197
+    path: /arki?ed=2048
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|4|未知 VMESS-141 | | uu6.top
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+- alterId: 0
+  cipher: auto
+  name: -1|1|1|4|未知 VMESS-144 | | uu6.top
+  network: tcp
+  port: '2053'
+  server: node-de.connectsuite.org
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: fd169a0a-5c32-4f3e-9b6c-28dd35f2a5e5
+- name: -1|1|1|1|1|1|1|1|1|1|1| | uu6.top
+  password: 497dae1f-6db8-4c35-957f-ceb8c1500909
+  port: 443
+  server: 11u8k6n04q3y4ajoai.lovebaipiao.net
+  skip-cert-verify: false
+  sni: 11u8k6n04q3y4ajoai.lovebaipiao.net
+  type: trojan
+- name: -1|1|1|24|美国+CloudFlare | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: true
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: -1|1|1|1|1|9,10,28|🇺🇸 U | uu6.top
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|9,10,28|🇺🇸 U | uu6.top #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|9,10,28|🇺🇸 U | uu6.top #2'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|9,10,28|🇺🇸 U | uu6.top #3'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 155.117.198.85
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #1'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.89
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #2'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.89
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: -1|1|1|1|1|10|🇦🇺 AU澳大利亚 | uu6.top
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #3'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.84
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #4'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #5'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.92
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #9'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.84
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #10'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #6'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #8'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.93
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #7'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #11'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.98
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #12'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #13'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #15'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #14'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.99
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #17'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #16'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.94
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #18'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #19'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #21'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #20'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 103.177.136.43
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #23'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #25'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #24'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 188.253.12.96
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #26'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 188.253.12.90
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #22'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 103.177.136.44
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan

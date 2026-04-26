@@ -1,0 +1,14 @@
+proxies:
+- name: '9|US美国 | uu6.top #46'
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: speedtest.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 52c0dab9-2187-49a4-8e31-f1db94bd7a9e
+  ws-opts:
+    headers:
+      Host: alesis724.global.ssl.fastly.net
+    path: '%2F'
