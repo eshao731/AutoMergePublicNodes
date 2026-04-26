@@ -1,0 +1,155 @@
+proxies:
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '7,12,26|美國節點 | uu6.top #5'
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: '7|未命名 | uu6.top #224'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: '8|美國節點 | uu6.top #4'
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  name: '8|未命名 | uu6.top #461'
+  password: Mitivpn
+  port: 443
+  server: 167.82.101.251
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /de
+- name: '9|US美国 | uu6.top #96'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fin-pdr'
+- name: '9|US美国 | uu6.top #25'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #76'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #77'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- client-fingerprint: chrome
+  name: '11,12,15,16|未知 TROJAN-159 | free | uu6.top #1'
+  network: tcp
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: 49361
+  server: 163.245.196.68
+  skip-cert-verify: false
+  sni: 163.245.196.68.sslip.io
+  sub_tag: F003-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '11,12,15,16|未知 TROJAN-217 | free | uu6.top #1'
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: tidy-gopher.rooster465.autos
+  skip-cert-verify: false
+  sni: tidy-gopher.rooster465.autos
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-39 | free-node | uu6.top #1'
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 68.168.222.210
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12,15|未知 VMESS-922 | free- | uu6.top
+  network: tcp
+  packet-encoding: xudp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '25|🇺🇸_US_美国_1 | uu6.top #1'
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a

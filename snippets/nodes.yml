@@ -1,0 +1,1782 @@
+proxies:
+- name: '7,9|KR韩国 | uu6.top #4'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    path: '%2Fin-pdr'
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '7,12,26|英國 | uu6.top #2'
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.37
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '7,12,26|美國節點 | uu6.top #5'
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.97
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '7,12,26|英國節點 | uu6.top #2'
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: '7|未命名 | uu6.top #224'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: '8|英國 | uu6.top #1'
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '8|美國節點 | uu6.top #4'
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '8|英國節點 | uu6.top #1'
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  name: '8|未命名 | uu6.top #361'
+  password: mitivpn
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: 2.1.mitivpn.dee.srfsl.gleobal.fastl3y.n3et.mitivpn.site
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: mitivpn.de.ssl.global.fastly.net.mitivpn.site
+    path: https://chatgpt.com
+- cipher: chacha20-ietf-poly1305
+  name: '8,16|未知 SS-17 | free-node | uu6.top #1'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  name: '8|未命名 | uu6.top #461'
+  password: Mitivpn
+  port: 443
+  server: 167.82.101.251
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /de
+- name: '9|US美国 | uu6.top #96'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: '%2Fin-pdr'
+- name: '9|US美国 | uu6.top #25'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.71
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 9,10,11,12,26|🇫🇷 FR法国 | uu6.top
+  network: tcp
+  password: UZ15382649
+  port: 443
+  server: moral-dolphin.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-dolphin.rooster465.autos
+  sub_tag: S001-260618
+  tls: true
+  type: trojan
+  udp: true
+- name: '9|US美国 | uu6.top #76'
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
+- name: '9|US美国 | uu6.top #77'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: 11,12|🇭🇰 香港 02 | uu6.top
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: amused-peacock.rooster465.autos
+  skip-cert-verify: false
+  sni: amused-peacock.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 03 | uu6.top
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: electric-gibbon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-gibbon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 06 | uu6.top
+  network: tcp
+  password: JA96378052
+  port: 443
+  server: 91.199.84.185
+  skip-cert-verify: true
+  sni: WangCai.rooster465.autos
+  type: trojan
+  udp: true
+- country: 🇱🇹LT
+  delay: 1200
+  name: 11,12|🇭🇰 香港 37 | uu6.top
+  network: tcp
+  password: JA96378052
+  port: 443
+  server: saved-mudfish.rooster465.autos
+  skip-cert-verify: true
+  sni: saved-mudfish.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 05 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: just-alpaca.rooster465.autos
+  skip-cert-verify: false
+  sni: just-alpaca.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 07 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  skip-cert-verify: false
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 04 | uu6.top
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: heroic-cow.rooster465.autos
+  skip-cert-verify: false
+  sni: heroic-cow.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 08 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: natural-swan.rooster465.autos
+  skip-cert-verify: false
+  sni: natural-swan.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 31 | uu6.top
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: growing-oyster.rooster465.autos
+  skip-cert-verify: false
+  sni: growing-oyster.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 42 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: growing-oyster.rooster465.autos
+  skip-cert-verify: false
+  sni: growing-oyster.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 70 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: just-alpaca.rooster465.autos
+  skip-cert-verify: false
+  sni: just-alpaca.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 49 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: relaxed-gull.rooster465.autos
+  skip-cert-verify: false
+  sni: relaxed-gull.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 74 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: wealthy-loon.rooster465.autos
+  skip-cert-verify: false
+  sni: wealthy-loon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 47 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: well-marmot.rooster465.autos
+  skip-cert-verify: false
+  sni: well-marmot.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 54 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: engaging-llama.rooster465.autos
+  skip-cert-verify: false
+  sni: engaging-llama.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 51 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: true-coral.rooster465.autos
+  skip-cert-verify: false
+  sni: true-coral.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 16 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 18 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: full-ox.rooster465.autos
+  skip-cert-verify: false
+  sni: full-ox.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 39 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: liberal-salmon.rooster465.autos
+  skip-cert-verify: false
+  sni: liberal-salmon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 41 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: modern-bedbug.rooster465.autos
+  skip-cert-verify: false
+  sni: modern-bedbug.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 61 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: natural-swan.rooster465.autos
+  skip-cert-verify: false
+  sni: natural-swan.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 58 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: novel-mouse.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-mouse.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 22 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: choice-worm.rooster465.autos
+  skip-cert-verify: false
+  sni: choice-worm.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 30 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: electric-gibbon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-gibbon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 34 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: ace-starling.rooster465.autos
+  skip-cert-verify: false
+  sni: ace-starling.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 25 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  skip-cert-verify: false
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 29 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: humorous-parakeet.rooster465.autos
+  skip-cert-verify: false
+  sni: humorous-parakeet.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 28 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: genuine-grackle.rooster465.autos
+  skip-cert-verify: false
+  sni: genuine-grackle.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 75 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: desired-tahr.rooster465.autos
+  skip-cert-verify: false
+  sni: desired-tahr.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 32 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: genuine-grackle.rooster465.autos
+  skip-cert-verify: false
+  sni: genuine-grackle.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 35 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: top-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: top-goshawk.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 36 | uu6.top
+  network: tcp
+  password: XG59623478
+  port: 443
+  server: 194.99.79.214
+  skip-cert-verify: false
+  sni: growing-oyster.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 38 | uu6.top
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: desired-tahr.rooster465.autos
+  skip-cert-verify: false
+  sni: desired-tahr.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 40 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: novel-mouse.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-mouse.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 44 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: striking-cheetah.rooster465.autos
+  skip-cert-verify: false
+  sni: striking-cheetah.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 57 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 48 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: free-tahr.rooster465.autos
+  skip-cert-verify: false
+  sni: free-tahr.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 52 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 46 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: leading-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: leading-ram.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 50 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: renewing-ewe.rooster465.autos
+  skip-cert-verify: false
+  sni: renewing-ewe.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 56 | uu6.top
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: wealthy-loon.rooster465.autos
+  skip-cert-verify: false
+  sni: wealthy-loon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 59 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: choice-worm.rooster465.autos
+  skip-cert-verify: false
+  sni: choice-worm.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 55 | uu6.top
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: striking-cheetah.rooster465.autos
+  skip-cert-verify: false
+  sni: striking-cheetah.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 60 | uu6.top
+  network: tcp
+  password: ON38567014
+  port: 443
+  server: novel-mouse.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-mouse.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- country: 🇭🇰HK
+  delay: 993
+  name: '11,12,15,16|未知 TROJAN-165 | free | uu6.top #1'
+  network: tcp
+  password: HW85960347
+  port: 443
+  server: eminent-lamb.rooster465.autos
+  skip-cert-verify: true
+  sni: eminent-lamb.rooster465.autos
+  sub_tag: G001-260618
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 33 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: liberal-salmon.rooster465.autos
+  skip-cert-verify: false
+  sni: liberal-salmon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 64 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- country: 🇷🇺RU
+  delay: 2228
+  name: 11,12|🇭🇰 香港 67 | uu6.top
+  network: tcp
+  password: KV63147582
+  port: 443
+  server: pretty-vervet.rooster465.autos
+  skip-cert-verify: true
+  sni: pretty-vervet.rooster465.autos
+  sub_tag: G001-260618
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 77 | uu6.top
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 119.246.1.143
+  skip-cert-verify: true
+  sni: 119.246.1.143
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 78 | uu6.top
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: magical-kodiak.rooster465.autos
+  skip-cert-verify: false
+  sni: magical-kodiak.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 71 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: ace-starling.rooster465.autos
+  skip-cert-verify: false
+  sni: ace-starling.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 76 | uu6.top
+  network: raw
+  password: KV63147582
+  port: 443
+  server: electric-sturgeon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-sturgeon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 68 | uu6.top
+  network: tcp
+  password: HW85960347
+  port: 443
+  server: 185.14.47.195
+  skip-cert-verify: false
+  sni: eminent-lamb.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 73 | uu6.top
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: magical-kodiak.rooster465.autos
+  skip-cert-verify: false
+  sni: magical-kodiak.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 72 | uu6.top
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: well-marmot.rooster465.autos
+  skip-cert-verify: false
+  sni: well-marmot.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 43 | uu6.top
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: glad-roughy.rooster465.autos
+  skip-cert-verify: false
+  sni: glad-roughy.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-209 | free | uu6.top #1'
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 45 | uu6.top
+  network: tcp
+  password: OD90375861
+  port: 443
+  server: desired-tahr.rooster465.autos
+  skip-cert-verify: false
+  sni: desired-tahr.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 101 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: growing-oyster.rooster465.autos
+  skip-cert-verify: false
+  sni: growing-oyster.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 82 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: enabling-snipe.rooster465.autos
+  skip-cert-verify: false
+  sni: enabling-snipe.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 83 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: well-marmot.rooster465.autos
+  skip-cert-verify: false
+  sni: well-marmot.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 113 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: relaxed-gull.rooster465.autos
+  skip-cert-verify: false
+  sni: relaxed-gull.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 98 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: humorous-parakeet.rooster465.autos
+  skip-cert-verify: false
+  sni: humorous-parakeet.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 114 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: choice-worm.rooster465.autos
+  skip-cert-verify: false
+  sni: choice-worm.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 88 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: pretty-mollusk.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-mollusk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 107 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: saved-mudfish.rooster465.autos
+  skip-cert-verify: false
+  sni: saved-mudfish.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 99 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: renewing-ewe.rooster465.autos
+  skip-cert-verify: false
+  sni: renewing-ewe.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 87 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  skip-cert-verify: false
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 108 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: upright-bedbug.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-bedbug.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 102 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: electric-gibbon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-gibbon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 95 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: natural-swan.rooster465.autos
+  skip-cert-verify: false
+  sni: natural-swan.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 103 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: heroic-cow.rooster465.autos
+  skip-cert-verify: false
+  sni: heroic-cow.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 105 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: discrete-basilisk.rooster465.autos
+  skip-cert-verify: false
+  sni: discrete-basilisk.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 111 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: pretty-vervet.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-vervet.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 110 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: normal-elk.rooster465.autos
+  skip-cert-verify: false
+  sni: normal-elk.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 112 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: full-ox.rooster465.autos
+  skip-cert-verify: false
+  sni: full-ox.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 118 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: relaxed-gull.rooster465.autos
+  skip-cert-verify: false
+  sni: relaxed-gull.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 119 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: electric-sturgeon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-sturgeon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 121 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: pretty-vervet.rooster465.autos
+  skip-cert-verify: false
+  sni: pretty-vervet.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 120 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: enabling-snipe.rooster465.autos
+  skip-cert-verify: false
+  sni: enabling-snipe.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 122 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: humorous-parakeet.rooster465.autos
+  skip-cert-verify: false
+  sni: humorous-parakeet.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 123 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: striking-cheetah.rooster465.autos
+  skip-cert-verify: false
+  sni: striking-cheetah.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 100 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: liberal-salmon.rooster465.autos
+  skip-cert-verify: false
+  sni: liberal-salmon.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 125 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: modern-bedbug.rooster465.autos
+  skip-cert-verify: false
+  sni: modern-bedbug.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 124 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: saved-mudfish.rooster465.autos
+  skip-cert-verify: false
+  sni: saved-mudfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 126 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: natural-swan.rooster465.autos
+  skip-cert-verify: false
+  sni: natural-swan.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 127 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: normal-elk.rooster465.autos
+  skip-cert-verify: false
+  sni: normal-elk.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 128 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: electric-gibbon.rooster465.autos
+  skip-cert-verify: false
+  sni: electric-gibbon.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 129 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: modest-foal.rooster465.autos
+  skip-cert-verify: false
+  sni: modest-foal.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 97 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: novel-mouse.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-mouse.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 130 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: upright-bedbug.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-bedbug.rooster465.autos
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 131 | uu6.top
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: dynamic-grubworm.rooster465.autos
+  skip-cert-verify: false
+  sni: dynamic-grubworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-175 | free | uu6.top #1'
+  network: raw
+  password: IQ68037294
+  port: 443
+  server: definite-giraffe.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-giraffe.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: 11,12|🇭🇰 香港 115 | uu6.top
+  network: tcp
+  password: WG39087154
+  port: 443
+  server: desired-tahr.rooster465.autos
+  skip-cert-verify: false
+  sni: desired-tahr.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-172 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: casual-bullfrog.rooster465.autos
+  skip-cert-verify: false
+  sni: casual-bullfrog.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-198 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: whole-perch.rooster465.autos
+  skip-cert-verify: false
+  sni: whole-perch.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-168 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: adjusted-labrador.rooster465.autos
+  skip-cert-verify: false
+  sni: adjusted-labrador.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-192 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: prepared-turkey.rooster465.autos
+  skip-cert-verify: false
+  sni: prepared-turkey.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-160 | free | uu6.top #1'
+  network: tcp
+  password: 2eutknankxtbgkwcajzt
+  port: 52794
+  server: 193.148.19.213
+  skip-cert-verify: true
+  sni: 193.148.19.213
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-193 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: robust-toucan.rooster465.autos
+  skip-cert-verify: false
+  sni: robust-toucan.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-219 | free | uu6.top #1'
+  network: tcp
+  password: PI36027154
+  port: 443
+  server: upright-hamster.rooster465.autos
+  skip-cert-verify: false
+  sni: upright-hamster.rooster465.autos
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-159 | free | uu6.top #1'
+  network: tcp
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: 49361
+  server: 163.245.196.68
+  skip-cert-verify: false
+  sni: 163.245.196.68.sslip.io
+  sub_tag: F003-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-208 | free | uu6.top #1'
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
+  skip-cert-verify: false
+  sni: kind-unicorn.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-211 | free | uu6.top #1'
+  network: tcp
+  password: NQ26071394
+  port: 443
+  server: renewed-phoenix.rooster465.autos
+  skip-cert-verify: false
+  sni: renewed-phoenix.rooster465.autos
+  sub_tag: T001-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-178 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: flexible-pony.rooster465.autos
+  skip-cert-verify: false
+  sni: flexible-pony.rooster465.autos
+  sub_tag: F003-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-174 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: correct-pony.rooster465.autos
+  skip-cert-verify: false
+  sni: correct-pony.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-180 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: giving-bird.rooster465.autos
+  skip-cert-verify: false
+  sni: giving-bird.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-217 | free | uu6.top #1'
+  network: tcp
+  password: PD07395842
+  port: 443
+  server: tidy-gopher.rooster465.autos
+  skip-cert-verify: false
+  sni: tidy-gopher.rooster465.autos
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-190 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: pet-albacore.rooster465.autos
+  skip-cert-verify: true
+  sni: pet-albacore.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-196 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: square-anchovy.rooster465.autos
+  skip-cert-verify: false
+  sni: square-anchovy.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-170 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: artistic-pigeon.rooster465.autos
+  skip-cert-verify: true
+  sni: artistic-pigeon.rooster465.autos
+  sub_tag: P002-260618
+  type: trojan
+  udp: true
+- name: '11,12,15,16|未知 TROJAN-212 | free | uu6.top #1'
+  network: tcp
+  password: OD90375861
+  port: 443
+  server: ideal-robin.rooster465.autos
+  skip-cert-verify: false
+  sni: ideal-robin.rooster465.autos
+  sub_tag: B007-260618
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-138 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.48
+  type: ss
+  udp: true
+- name: '11,12,25,26|🇸🇬_SG_新加坡 | uu6.top #1'
+  network: tcp
+  password: FC60532879
+  port: 443
+  server: resolved-gelding.rooster465.autos
+  skip-cert-verify: true
+  sni: resolved-gelding.rooster465.autos
+  tls: false
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-119 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.208
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-112 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.192
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-51 | free-node | uu6.top #1'
+  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  port: 15675
+  server: 45.77.232.213
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-133 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.2
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-91 | free-node | uu6.top #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.80
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-134 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.32
+  type: ss
+  udp: true
+- alterId: '0'
+  cipher: auto
+  name: 12|🇭🇰 香港 65 | uu6.top
+  network: none
+  packet-encoding: xudp
+  port: 25532
+  server: 103.172.134.162
+  skip-cert-verify: false
+  sub_tag: C002-260622
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b26f68b-9f7f-41e5-b35f-ed1aded831d5
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: 12|🇭🇰 香港 117 | uu6.top
+  network: tcp
+  packet-encoding: xudp
+  port: 25532
+  server: 103.172.134.162
+  skip-cert-verify: false
+  sub_tag: A003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 5b26f68b-9f7f-41e5-b35f-ed1aded831d5
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-53 | free-node | uu6.top #1'
+  password: UZQY9hNjVNWwamajrXAf1vt8u63nj0fF
+  port: 8388
+  server: 31.76.80.205
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-39 | free-node | uu6.top #1'
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 68.168.222.210
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-92 | free-node | uu6.top #1'
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.82
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-106 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.179
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-108 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.181
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-132 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.29
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-137 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.47
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-139 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.57
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-136 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.46
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '12,15,16|未知 VMESS-803 | free- | uu6.top #1'
+  network: ws
+  packet-encoding: xudp
+  port: 4010
+  server: 45.76.202.45
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: A003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  ws-opts:
+    path: /liksuzcp
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-117 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.206
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-110 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.190
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-114 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.203
+  sub_tag: A003-260618
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 12,15|未知 VMESS-922 | free- | uu6.top
+  network: tcp
+  packet-encoding: xudp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  xudp: true
+- cipher: chacha20-ietf
+  name: '14|🇭🇰_HK_中国香港 | uu6.top #1'
+  password: asd123456
+  port: 8388
+  server: 103.149.182.105
+  type: ss
+  udp: true
+- name: '15,16|未知 TROJAN-158 | free | uu6.top #1'
+  network: tcp
+  password: 0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m
+  port: 450
+  server: 167.150.100.133
+  sni: grape-power-sg.roxa.org
+  type: trojan
+  ws-opts:
+    path: /
+- name: '15,16|未知 TROJAN-162 | free | uu6.top #1'
+  password: CF68213490
+  port: 443
+  server: emerging-weevil.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-176 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: desired-pony.rooster465.autos
+  sni: desired-pony.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-173 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: casual-stallion.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-177 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: endless-kiwi.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-179 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: full-mackerel.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-183 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: humane-bird.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-187 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: major-duckling.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16|未知 TROJAN-189 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: novel-bat.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16|未知 TROJAN-181 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: glowing-deer.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-197 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: sweeping-parakeet.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+- name: '15,16|未知 TROJAN-194 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: select-marmoset.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-199 | free | uu6.top #1'
+  password: IQ68037294
+  port: 443
+  server: whole-woodcock.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-215 | free | uu6.top #1'
+  password: PD07395842
+  port: 443
+  server: pro-crane.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-218 | free | uu6.top #1'
+  password: PD07395842
+  port: 443
+  server: true-pony.rooster465.autos
+  type: trojan
+- name: '15,16|未知 TROJAN-210 | free | uu6.top #1'
+  password: NQ26071394
+  port: 443
+  server: ready-lion.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-13 | free-node | uu6.top #1'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-18 | free-node | uu6.top #1'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg00129437x.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-38 | free-node | uu6.top #1'
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 194.164.92.198
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-74 | free-node | uu6.top #1'
+  password: Vr06rU_v1vFPYeXq9zbsAA
+  port: 1080
+  server: 194.187.251.2
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-94 | free-node | uu6.top #1'
+  password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E
+  port: 27116
+  server: 104.156.233.234
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-93 | free-node | uu6.top #1'
+  password: a9a0d092-6f0e-4701-81ee-454643d6d506
+  port: 50099
+  server: namrcg001640lrm.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-99 | free-node | uu6.top #1'
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-107 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.180
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-111 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.191
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-113 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.193
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-105 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.176
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-115 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-116 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.205
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-130 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-122 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.215
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-135 | free-nod | uu6.top #1'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.3
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-142 | free-nod | uu6.top #1'
+  password: r_NRe-+WRq2zVqMpCnJtTESlT8WyffHyFy
+  port: 16292
+  server: 38.54.80.160
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '16|未知 SS-121 | free-nod | uu6.top #1'
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.214
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-151 | free-nod | uu6.top #1'
+  password: a172cf0d-ae89-42f3-8505-0c51dae293a1
+  port: 443
+  server: 8.210.171.48
+  type: ss
+- cipher: aes-256-gcm
+  name: '16|未知 SS-150 | free-nod | uu6.top #1'
+  password: EMIruFl6nN37LDQxCIwstG09haCBkyjvZVjWIMOQ0Jk=
+  port: 82
+  server: 94.183.124.95
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '16|未知 VMESS-922 | free- | uu6.top #1'
+  port: 443
+  server: 165.140.216.142
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '25|🇺🇸_US_美国_1 | uu6.top #1'
+  port: 443
+  server: guanwang.awsno.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+- alpn:
+  - http/1.1
+  name: -1|1|1|1|1|1|1|1|1|1|1| | uu6.top
+  password: humanity
+  port: 443
+  server: 104.18.152.246
+  skip-cert-verify: true
+  sni: www.calmloud.com
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: -1|1|30|🇸🇬 新加坡 | SGP | | uu6.top
+  network: http
+  port: '59121'
+  server: 129.226.157.220
+  tls: false
+  type: vmess
+  uuid: d9865d63-d95c-454b-ba07-8e88b838a801
+- alterId: 0
+  cipher: auto
+  name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #3'
+  network: ws
+  port: 58905
+  server: 161.33.139.138
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1610f8dc-0661-4032-ac6a-a7250603f608
+  ws-opts:
+    headers:
+      Host: 161.33.139.138
+    path: /1610f8dc-0661-4032-ac6a-a7250603f608-vm
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #5'
+  password: NQ26071394
+  port: 443
+  server: kind-unicorn.rooster465.autos
+  type: trojan
+- name: '-1|1|1|1|1|1|1|1|1|1|1| | uu6.top #6'
+  password: ON38567014
+  port: 443
+  server: genuine-grackle.rooster465.autos
+  skip-cert-verify: true
+  type: trojan

@@ -1,0 +1,40 @@
+proxies:
+- client-fingerprint: chrome
+  name: '11,12,15,16|未知 TROJAN-178 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: flexible-pony.rooster465.autos
+  skip-cert-verify: false
+  sni: flexible-pony.rooster465.autos
+  sub_tag: F003-260618
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '11,12,15,16|未知 TROJAN-196 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: square-anchovy.rooster465.autos
+  skip-cert-verify: false
+  sni: square-anchovy.rooster465.autos
+  sub_tag: A001-260618
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '12,15,16|未知 VMESS-803 | free- | uu6.top #1'
+  network: ws
+  packet-encoding: xudp
+  port: 4010
+  server: 45.76.202.45
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: A003-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  ws-opts:
+    path: /liksuzcp
+  xudp: true

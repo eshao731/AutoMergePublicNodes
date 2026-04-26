@@ -1,0 +1,61 @@
+proxies:
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '7,12,26|英國 | uu6.top #2'
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.37
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '7,12,26|英國節點 | uu6.top #2'
+  network: tcp
+  packet-encoding: xudp
+  port: 180
+  server: 82.198.246.250
+  servername: ''
+  skip-cert-verify: false
+  sub_tag: M002-260618
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '8|英國 | uu6.top #1'
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '8|英國節點 | uu6.top #1'
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- cipher: chacha20-ietf-poly1305
+  name: '12,16|未知 SS-53 | free-node | uu6.top #1'
+  password: UZQY9hNjVNWwamajrXAf1vt8u63nj0fF
+  port: 8388
+  server: 31.76.80.205
+  sub_tag: A003-260618
+  type: ss
+  udp: true

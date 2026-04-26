@@ -1,0 +1,58 @@
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: '11,12,23|未命名 | uu6.top #506'
+  network: ws
+  packet-encoding: xudp
+  port: 444
+  server: 95.181.162.170
+  servername: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7094cade-110a-4be0-b657-15d606dcea6d
+  ws-opts:
+    headers:
+      Host: bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev
+    path: /@Marisa_kristi
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: Ts7kIzm7a8mYEa7OOaBF
+  name: 11,12,15|未知 VLESS-469 | free- | uu6.top
+  network: grpc
+  packet-encoding: xudp
+  port: 443
+  server: ger.wafer.fun
+  servername: ger.wafer.fun
+  sub_tag: A003-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5a4ea216-9597-4df7-a119-02949a3b6b82
+  xudp: true
+- name: 11,24|📪42 | uu6.top
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8433
+  server: de1-hy2.veilvpn.life
+  sni: de1-hy2.veilvpn.life
+  tls: false
+  type: hysteria2
+- name: '30|🇩🇪 德国 | DEU | uu6.top #10'
+  network: tcp
+  port: 2090
+  server: 31.57.106.87
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  ws-opts:
+    path: '%2F'
+- name: '-1|1|30|🇩🇪 德国 | DEU | # | uu6.top'
+  port: 2090
+  server: 31.57.106.242
+  tls: false
+  type: vless
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055

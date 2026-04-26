@@ -1,0 +1,35 @@
+proxies:
+- client-fingerprint: chrome
+  name: 9,10,11,12,26|🇫🇷 FR法国 | uu6.top
+  network: tcp
+  password: UZ15382649
+  port: 443
+  server: moral-dolphin.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-dolphin.rooster465.autos
+  sub_tag: S001-260618
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '11,12,15,16|未知 TROJAN-175 | free | uu6.top #1'
+  network: raw
+  password: IQ68037294
+  port: 443
+  server: definite-giraffe.rooster465.autos
+  skip-cert-verify: false
+  sni: definite-giraffe.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '11,12,15,16|未知 TROJAN-174 | free | uu6.top #1'
+  network: tcp
+  password: IQ68037294
+  port: 443
+  server: correct-pony.rooster465.autos
+  skip-cert-verify: false
+  sni: correct-pony.rooster465.autos
+  sub_tag: C002-260622
+  type: trojan
+  udp: true
