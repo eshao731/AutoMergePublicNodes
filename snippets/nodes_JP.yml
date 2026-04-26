@@ -1,0 +1,33 @@
+proxies:
+- name: '1,26,27,28|日本2 | uu6.top #1'
+  network: tcp
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: 44184
+  server: v2jp.k1.ssnss.live
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: 12,26|🇯🇵 ss-JP-1291... | uu6.top
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.240
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 12,26|🇯🇵 ss-JP-9223... | uu6.top
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.241
+  sub_tag: A001-260618
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 12,26|🇯🇵 ss-JP-5141... | uu6.top
+  password: shadowsocks
+  port: 443
+  server: 149.22.87.204
+  sub_tag: A001-260618
+  type: ss
+  udp: true

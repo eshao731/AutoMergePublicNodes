@@ -1,0 +1,56 @@
+proxies:
+- client-fingerprint: chrome
+  name: '11,12,26|🇨🇦 trojan-CA-... #5 | uu6.top'
+  network: tcp
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.93
+  skip-cert-verify: false
+  sni: connectingpeoplewithgreatjobs.com
+  sub_tag: A004-260618
+  type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: 12,26|🇨🇦 ss-CA-1538... | uu6.top
+  password: zDNVedRFPQexG9v
+  port: 445
+  server: 51.222.12.127
+  sub_tag: A004-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 12,26|🇨🇦 ss-CA-1545... | uu6.top
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.79.49.116
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 12,26|🏳 ss | uu6.top
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 51.222.200.165
+  sub_tag: V001-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '12,26|🏳 ss- #1 | uu6.top'
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 51.222.136.236
+  sub_tag: B007-260618
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: '26|🇨🇦 ss-CA-1559... #1 | uu6.top'
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 51.79.85.185
+  type: ss
+- cipher: aes-256-gcm
+  name: '26|🇨🇦 ss-CA-1546... #1 | uu6.top'
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 51.222.155.32
+  type: ss

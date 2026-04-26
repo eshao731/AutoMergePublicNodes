@@ -1,0 +1,63 @@
+proxies:
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: 138-124-86-230-sslip-io
+  name: '11,12,26|🏳 vless- #13 | uu6.top'
+  network: grpc
+  packet-encoding: xudp
+  port: 48115
+  server: 138.124.86.230
+  servername: 138-124-86-230.sslip.io
+  sub_tag: A001-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
+  xudp: true
+- name: '12,26|🇸🇪 vless-SE-1... #2 | uu6.top'
+  network: ws
+  packet-encoding: xudp
+  port: 14430
+  server: 5.178.109.174
+  servername: 5.178.109.174
+  sub_tag: P002-260618
+  tls: false
+  type: vless
+  udp: true
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  ws-opts:
+    headers:
+      Host: 5.178.109.174
+    path: /vless
+  xudp: true
+- cipher: aes-256-gcm
+  name: 12,26|🇸🇪 ss-SE-1615... | uu6.top
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 138.199.55.243
+  sub_tag: M003-260806
+  type: ss
+  udp: true
+- http-opts:
+    headers:
+      Host:
+      - ajax.googleapis.com
+    method: GET
+    path:
+    - /
+  name: '26|🇸🇪 瑞典 | SWE #1 | uu6.top'
+  network: http
+  port: 2222
+  server: swe4.mlbaz.ir
+  tls: false
+  type: vless
+  udp: true
+  uuid: f4e7fdb5-9b1b-44e7-990a-40ee7da9cdc5
+- auth: 917f4b0a-8b3b-404c-aa60-b47e83a33e8f
+  name: 26|🇸🇪 瑞典 | SWE | uu6.top
+  password: 917f4b0a-8b3b-404c-aa60-b47e83a33e8f
+  port: 30443
+  server: 150.241.74.160
+  skip-cert-verify: true
+  sni: tll.nikomy.uk
+  type: hysteria2

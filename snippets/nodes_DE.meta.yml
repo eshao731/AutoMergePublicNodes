@@ -1,0 +1,127 @@
+proxies:
+- name: 11,25,26|#10 | uu6.top
+  password: fa937345-6d3e-4ff4-8127-1a836987a0db
+  port: 5443
+  server: 195.63.128.21
+  sni: germany.cloudhouse1.ru
+  tls: false
+  type: hysteria2
+- name: 11,26|🔹69 | uu6.top
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.194.242.173
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '12,26,30|DK_speednode_0006 | uu6.top #1'
+  port: 9002
+  server: 158.173.154.1
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '12,26,30|DK_speednode_0005 | uu6.top #1'
+  port: 9002
+  server: 158.173.154.5
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '12,26,30|DE_speednode_0004 | uu6.top #1'
+  port: 443
+  server: 213.109.163.119
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: edge
+  name: '26|🇩🇪 vless-DE-1... #1 | uu6.top'
+  network: ws
+  port: 2096
+  server: 144.31.215.233
+  servername: st46d76.rumedia-cdn.com
+  tls: true
+  type: vless
+  uuid: fbe22815-0718-4eae-816f-e91c67d15b54
+  ws-opts:
+    headers:
+      Host: st46d76.rumedia-cdn.com
+    path: /cdn/v3/live
+- cipher: chacha20-ietf-poly1305
+  name: '26|🇩🇪 德国 | DEU #1 | uu6.top'
+  password: C8ZJ7R4p_HHJ32cst7ilT-0Zi2F22hAc
+  port: 25565
+  server: static.28.210.29.2.clients.your-server.de
+  type: ss
+  udp: true
+- auth: 5s7qa8f78hznlw8g
+  name: 26|🇩🇪 德国 | DEU 8 | uu6.top
+  obfs: salamander
+  obfs-password: v0qq015d7c8zgzu7
+  password: 5s7qa8f78hznlw8g
+  port: 41018
+  server: 3.120.145.15
+  skip-cert-verify: true
+  sni: quotes.ali-khamenei.world
+  type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '26,29|🇩🇪 德国 | DEU | uu6.top #14'
+  network: tcp
+  port: 443
+  server: 176.98.176.60
+  servername: mosaic.topp-con.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  ws-opts:
+    path: '%2F'
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de2.v1
+  name: 26|🇩🇪 德国 | DEU 13 | uu6.top
+  network: grpc
+  port: 443
+  server: ledger.filnex.baby
+  servername: copperdell.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de2.v1
+  name: 26|🇩🇪 德国 | DEU 10 | uu6.top
+  network: grpc
+  port: 443
+  server: 129.101.109.129
+  servername: copperdell.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: glush.de1.v1
+  name: 26|🇩🇪 德国 | DEU 18 | uu6.top
+  network: grpc
+  port: 443
+  server: 5.42.102.162
+  servername: morningfen.merlano.monster
+  tls: true
+  type: vless
+  udp: true
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
